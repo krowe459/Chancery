@@ -131,9 +131,27 @@
       "name": "Greenfield One III GMBH & CO. KG, et al. v. Chris Chaney, et al.",
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
+    },
+    "de-402070": {
+      "docket": "2026-0686-LWW",
+      "name": "Forian Holdings LLC, et al. v. Symphony Health Solutions Corporation, et al.",
+      "processed_at": "2026-10-14T15:13:29-04:00",
+      "status": "ok"
+    },
+    "de-402090": {
+      "docket": "2024-0097-LWW",
+      "name": "US INFRA SVCS Buyer, LLC, et al. v. JDB Capital Partners, LLC, et al.",
+      "processed_at": "2026-10-14T15:13:29-04:00",
+      "status": "ok"
+    },
+    "de-402100": {
+      "docket": "C.A. No. 2025-1455-DG",
+      "name": "Jenisha S. Likansis v. Walmart Inc., et al.",
+      "processed_at": "2026-10-14T15:13:29-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-14T15:02:11-04:00",
-  "page_hash": null
+  "last_checked_ny": "2026-10-14T15:13:29-04:00",
+  "page_hash": "fd875a1bb7266c722b201a9bb2e6212c415db6241e945616882910b15374c6be"
 }
