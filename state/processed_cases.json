@@ -133,23 +133,7 @@
       "status": "seeded"
     }
   },
-  "failures": {
-    "de-402070": {
-      "at": "2026-10-14T15:02:11-04:00",
-      "count": 2,
-      "error": "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cg2eW4tNacuiH4rUjhktW'}"
-    },
-    "de-402090": {
-      "at": "2026-10-14T15:02:11-04:00",
-      "count": 2,
-      "error": "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cg2eW8nnAhWUjSTYRHCt2'}"
-    },
-    "de-402100": {
-      "at": "2026-10-14T15:02:11-04:00",
-      "count": 2,
-      "error": "AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cg2eW18f24zzPyw6w3dyJ'}"
-    }
-  },
+  "failures": {},
   "last_checked_ny": "2026-10-14T15:02:11-04:00",
   "page_hash": null
 }

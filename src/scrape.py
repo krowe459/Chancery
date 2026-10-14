@@ -20,6 +20,7 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import os
 import re
 import sys
 import time
@@ -286,7 +287,17 @@ def main() -> int:
         new_rows = rows[:backfill]
         print(f"Seeded {len(seed)} existing rows; backfilling {len(new_rows)}.")
 
-    from summarize import summarize_opinion  # imported lazily: fast path needs no SDK
+    import anthropic  # imported lazily: fast path needs no SDK
+    from summarize import summarize_opinion
+
+    # Account-level problems (bad/missing key, no credit, no model access) are
+    # not the opinion's fault: stop the run red without spending any retries.
+    fatal = (anthropic.AuthenticationError, anthropic.PermissionDeniedError)
+    if new_rows and not os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        save_json(PROCESSED_PATH, state)
+        set_github_output("changed", "true")
+        print("ERROR: ANTHROPIC_API_KEY is not set; nothing summarized.", file=sys.stderr)
+        return 3
 
     tokens_used = 0
     processed_now = 0
@@ -310,6 +321,11 @@ def main() -> int:
             tokens_used += result.pop("_input_tokens", 0)
             entry["summary"] = result
             status = "ok"
+        except fatal as exc:
+            save_json(PROCESSED_PATH, state)
+            set_github_output("changed", "true")
+            print(f"ERROR: Anthropic rejected the credentials: {exc}", file=sys.stderr)
+            return 3
         except Exception as exc:  # noqa: BLE001 - one bad opinion must not sink the batch
             prev = state["failures"].get(row.case_id, 0)
             fails = (prev["count"] if isinstance(prev, dict) else prev) + 1
