@@ -216,9 +216,13 @@ def extract_text(session: requests.Session, url: str) -> str:
     if data[:5] == b"%PDF-" or "pdf" in ctype:
         from pypdf import PdfReader
 
+        from pdftext import pdf_to_text
+
         reader = PdfReader(io.BytesIO(data))
         pages = [(p.extract_text() or "") for p in reader.pages]
         text = "\n\n".join(pages)
+        # Footnote-aware text when the layout allows it; plain text otherwise.
+        text = pdf_to_text(data, text) or text
     elif "html" in ctype or data.lstrip()[:1] == b"<":
         text = BeautifulSoup(data, "html.parser").get_text("\n")
     else:

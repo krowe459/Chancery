@@ -81,8 +81,10 @@ assert facts, reasons or circumstances the opinion does not state.
 Reading rules:
 - Treat footnotes as part of the analysis. Rulings, concessions, waiver \
 findings and evidentiary determinations in footnotes count as much as the body. \
-In extracted PDF text, footnotes are often interleaved mid-sentence with the \
-body; reassemble them by footnote number.
+Footnote references usually appear as markers like "[^12]", with the footnote's \
+text on a line starting "[^12]:" after the paragraph that cites it. If the text \
+has no such markers, footnotes may be interleaved mid-sentence with the body; \
+reassemble them by footnote number.
 - Use entity and party names exactly as the opinion defines them, and keep \
 related entities distinct (e.g., a parent corporation, its division, and its \
 subsidiary LLC).
