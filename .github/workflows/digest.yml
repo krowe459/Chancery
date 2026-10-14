@@ -1,0 +1,61 @@
+name: chancery-digest
+
+on:
+  schedule:
+    # GitHub cron is UTC-only. Three slots so one lands at/after 6pm New York
+    # in both EDT and EST, with a backup; send_digest.py's NY-hour gate plus the
+    # sent_digests.json ledger ensure exactly one email per NY day.
+    #   22:07 UTC = 6:07pm EDT | 5:07pm EST (gate: too early, exits)
+    #   23:07 UTC = 7:07pm EDT (already sent) | 6:07pm EST (sends)
+    #   00:07 UTC Tue-Sat = prior NY weekday evening (backup if both above failed)
+    - cron: "7 22,23 * * 1-5"
+    - cron: "7 0 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Send now, ignoring the 6pm New York gate"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chancery-state
+  cancel-in-progress: false
+
+env:
+  TZ: America/New_York
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -q "requests>=2.32"
+
+      - name: Compile and send digest
+        id: digest
+        working-directory: src
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_TO: ${{ secrets.DIGEST_TO }}
+          DIGEST_FROM: ${{ vars.DIGEST_FROM }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ]; then python send_digest.py --force; else python send_digest.py; fi
+
+      - name: Commit state
+        if: steps.digest.outputs.sent == 'true'
+        run: "scripts/commit_state.sh 'chore(state): digest sent'"
+

@@ -1,0 +1,4 @@
+anthropic>=1.0,<2
+requests>=2.32
+beautifulsoup4>=4.12
+pypdf>=5.0

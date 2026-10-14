@@ -1,0 +1,59 @@
+name: chancery-scrape
+
+on:
+  schedule:
+    # Every 2 hours, Mon-Fri, 11:17-23:17 UTC
+    #   = 7:17am-7:17pm EDT (summer) / 6:17am-6:17pm EST (winter).
+    # Minute :17 avoids the top-of-hour queue where GitHub delays scheduled runs.
+    - cron: "17 11-23/2 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      backfill:
+        description: "First run only: summarize this many existing opinions instead of seeding them"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+# Shared with the digest workflow: state/*.json is never written by two jobs at once.
+concurrency:
+  group: chancery-state
+  cancel-in-progress: false
+
+env:
+  TZ: America/New_York
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # hard cap: a hung request can't burn the free-tier minutes
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -q -r requirements.txt
+
+      - name: Detect changes and summarize new opinions
+        id: scrape
+        working-directory: src
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          MAX_CASES_PER_RUN: ${{ vars.MAX_CASES_PER_RUN || '8' }}
+          RUN_TOKEN_BUDGET: ${{ vars.RUN_TOKEN_BUDGET || '400000' }}
+          BACKFILL: ${{ github.event.inputs.backfill || '0' }}
+        run: python scrape.py
+
+      - name: Commit state
+        if: steps.scrape.outputs.changed == 'true'
+        run: "scripts/commit_state.sh 'chore(state): scrape'"
