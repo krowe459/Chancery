@@ -1,1 +1,143 @@
-{"page_hash": null, "cases": {}}
+{
+  "cases": {
+    "de-401160": {
+      "docket": "2026-0138-LWW",
+      "name": "Eric Winton v. The North Highland Company LLC",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401280": {
+      "docket": "C.A. No. 2025-0475-PAF",
+      "name": "Joel D. Tillman et al. v. Warner B. Tillman et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401340": {
+      "docket": "2025-1497-LWW",
+      "name": "Castle Tire Disposal, LLC v. Liberty Tire Services of Ohio, LLC",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401360": {
+      "docket": "C.A. No. 2019-1003-BWD",
+      "name": "Curonix LLC v. Laura Tyler Perryman, StimGuard Medical Corporation, LTP Limited, LLC, et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401380": {
+      "docket": "C.A. No. 2025-1286-NAC",
+      "name": "In re Care One, LLC Advancement Litigation",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401400": {
+      "docket": "2024-1085-CCB",
+      "name": "William F. Skotta, Jr., Trustee, et al. v. Arthur L. Mears, Sr.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401440": {
+      "docket": "C.A. No. 2026-0824-TJF",
+      "name": "Melissa Brandao v. HerdDogg, Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401460": {
+      "docket": "2022-1045-LWW",
+      "name": "In Re Saama Technologies Litigation",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401490": {
+      "docket": "2022-0378-LWW",
+      "name": "Cleveland-Cliffs Burns Harbor LLC, et al. v. Boomerang Tube, LLC, et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401500": {
+      "docket": "2024-0713-LWW",
+      "name": "Viasat, Inc. v. L3Harris Technologies, Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401510": {
+      "docket": "2025-1264-LWW",
+      "name": "Patrick Fetras v. Jeffrey Richards, Levi Massey, Joseph Gardner and Lasso Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401530": {
+      "docket": "C.A. No. 2025-0974-PAF",
+      "name": "Vera Bradley Holdings, LLC v. Project Aster Acquisition, LLC",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401590": {
+      "docket": "2024-1009-CDW (KSJM)",
+      "name": "Elias Guerra, in his capacity as Securityholder Representative, and Popwallet, Inc. v. Snap Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401600": {
+      "docket": "2022-1057-LWW",
+      "name": "ACON Igloo Holdings, LLC v. Dometic Corporation",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401680": {
+      "docket": "C.A. No. 2025-1011-DH",
+      "name": "Lawrence E. Pinczower (aka Eliyahu (Larry) Pinczower v. Hava Nation Corp.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401700": {
+      "docket": "C.A. No. 2026-0262-DG",
+      "name": "Zheng Liu v. Lynk Global, Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401730": {
+      "docket": "2020-0985-KSJM",
+      "name": "Mitchell Partners, L.P. v. AMFI, et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401770": {
+      "docket": "C.A. No. 2026-0579-DG",
+      "name": "Stephen M. Esposito, et al. v. Drivers History Information Sales, LLC Transunion, et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401800": {
+      "docket": "C.A. No. 2024-0063-CDW",
+      "name": "Gwendolyn Colston v. The Greens at Wyoming Homeowner Association, Inc., Sean Marcus, The Greens at Wyoming, LLC, Albert Salame III, and Kamil Salame",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401810": {
+      "docket": "C.A. No. 2026-0580-CDW",
+      "name": "Alejandro Mendoza v. Distributed Creation, Inc.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401880": {
+      "docket": "C.A. No. 2025-0194-DG",
+      "name": "In the Matter of George, Jr., Elton",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-402050": {
+      "docket": "2024-0663-LWW",
+      "name": "Greenfield One III GMBH & CO. KG, et al. v. Chris Chaney, et al.",
+      "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    }
+  },
+  "failures": {
+    "de-402070": 1,
+    "de-402090": 1,
+    "de-402100": 1
+  },
+  "last_checked_ny": "2026-10-14T14:56:16-04:00",
+  "page_hash": null
+}
