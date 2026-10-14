@@ -34,4 +34,13 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
   GitHub emails you. The parser finds columns by header text, so reordered columns still work.
 - GitHub disables scheduled workflows in public repos after 60 days with no repository
   activity. The daily state commits count as activity.
+- PDFs are read with `src/pdftext.py`, which separates footnotes from body text by font size
+  and places each footnote, as `[^n]: ...`, after the paragraph that cites it. If an opinion's
+  layout doesn't fit (or text would be lost), it falls back to plain pypdf extraction.
+- The final summary call includes one worked example (`src/prompt_example.json`) to set the
+  standard. Edit that file to change it, and keep it accurate to its opinion. It is skipped
+  when summarizing that same opinion. System prompts are cached across a run's calls.
+- Every cited authority is checked against the opinion text (reporter cite, first party
+  name, section or rule number). Misses are flagged in the digest. A miss is a reason to
+  look, not proof the citation was invented. Tests: `python -m unittest discover -s tests`.
 - Summaries are AI-generated triage aids. Verify them against the opinion before relying on them.
