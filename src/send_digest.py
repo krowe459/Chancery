@@ -63,11 +63,21 @@ def render_entry(entry: dict) -> str:
       </td></tr>"""
         return head + body + _divider()
 
-    auths = "".join(
-        f"<li style='margin:0 0 4px 0;'><strong>{_e(a.get('authority'))}</strong> &mdash; "
-        f"{_e(a.get('proposition'))}</li>"
-        for a in s.get("authorities_cited", [])
-    ) or "<li>None identified.</li>"
+    # Entries summarized before the schema gained "role" have none; show them all.
+    authorities = s.get("authorities_cited", [])
+    main_auths = [a for a in authorities if a.get("role", "relied_on") != "background"]
+    background = [a for a in authorities if a.get("role") == "background"]
+
+    def auth_item(a: dict) -> str:
+        tag = " <em>(distinguished)</em>" if a.get("role") == "distinguished" else ""
+        return (f"<li style='margin:0 0 4px 0;'><strong>{_e(a.get('authority'))}</strong>{tag} "
+                f"&mdash; {_e(a.get('proposition'))}</li>")
+
+    auths = "".join(auth_item(a) for a in main_auths) or "<li>None identified.</li>"
+    if background:
+        names = "; ".join(_e(a.get("authority")) for a in background)
+        auths += (f"<li style='margin:0 0 4px 0;color:#5c6b7a;list-style:none;margin-left:-18px;'>"
+                  f"Also cited: {names}</li>")
     note = (f"<div style='font-size:12px;color:#8a6d1c;margin-top:8px;'>&#9888; "
             f"{_e(s['coverage_note'])}</div>") if s.get("coverage_note") else ""
 
@@ -77,13 +87,34 @@ def render_entry(entry: dict) -> str:
                 f"<div style='font-size:14px;color:#1d2731;line-height:1.5;margin-top:3px;'>"
                 f"{content}</div></div>")
 
+    def optional_list(label: str, key: str) -> str:
+        items = s.get(key) or []
+        if not items:
+            return ""
+        lis = "".join(f"<li style='margin:0 0 4px 0;'>{_e(i)}</li>" for i in items)
+        return section(label, f"<ul style='margin:4px 0 0 18px;padding:0;'>{lis}</ul>")
+
+    def optional_text(label: str, key: str) -> str:
+        return section(label, _e(s[key])) if s.get(key) else ""
+
+    disposition = " &middot; ".join(
+        f"{label}: {_e(s[key])}" for label, key in
+        (("Disposition", "disposition"), ("Standard", "standard_of_review")) if s.get(key)
+    )
+    disposition_html = (f"<div style='font-size:13px;color:#1d2731;margin-top:12px;'>"
+                        f"{disposition}</div>") if disposition else ""
+
     body = f"""
       <tr><td style="padding:0 24px 20px 24px;">
         {section("Core Legal Issue", _e(s.get("core_legal_issue")))}
-        {section("DGCL / Common-Law Authorities",
+        {disposition_html}
+        {optional_list("Key Facts &amp; Concessions", "key_facts_and_concessions")}
+        {optional_list("Arguments Rejected or Waived", "arguments_rejected_or_waived")}
+        {section("Authorities Cited",
                  f"<ul style='margin:4px 0 0 18px;padding:0;'>{auths}</ul>")}
         {section("Holding", _e(s.get("holding")))}
         {section("Brief Summary", _e(s.get("brief_summary")))}
+        {optional_text("Practical Takeaway (inference, not holding)", "practical_takeaway")}
         {note}
       </td></tr>"""
     return head + body + _divider()
