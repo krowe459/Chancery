@@ -30,11 +30,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15   # hard cap: a hung request can't burn the free-tier minutes
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
+          # Always start from the branch tip. Without this, a re-run checks out
+          # the run's original commit, missing state committed since then.
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip

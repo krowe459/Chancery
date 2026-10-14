@@ -311,8 +311,14 @@ def main() -> int:
             entry["summary"] = result
             status = "ok"
         except Exception as exc:  # noqa: BLE001 - one bad opinion must not sink the batch
-            fails = state["failures"].get(row.case_id, 0) + 1
-            state["failures"][row.case_id] = fails
+            prev = state["failures"].get(row.case_id, 0)
+            fails = (prev["count"] if isinstance(prev, dict) else prev) + 1
+            # Persist the reason so failures are diagnosable from the repo alone.
+            state["failures"][row.case_id] = {
+                "count": fails,
+                "error": f"{type(exc).__name__}: {exc}"[:500],
+                "at": stamp,
+            }
             print(f"  failed ({fails}/{MAX_FAILURES_PER_CASE}): {exc}", file=sys.stderr)
             if fails < MAX_FAILURES_PER_CASE:
                 save_json(PROCESSED_PATH, state)
