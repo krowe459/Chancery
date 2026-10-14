@@ -34,4 +34,7 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
   GitHub emails you. The parser finds columns by header text, so reordered columns still work.
 - GitHub disables scheduled workflows in public repos after 60 days with no repository
   activity. The daily state commits count as activity.
+- Every cited authority is checked against the opinion text (reporter cite, first party
+  name, section or rule number). Misses are flagged in the digest. A miss is a reason to
+  look, not proof the citation was invented. Tests: `python -m unittest discover -s tests`.
 - Summaries are AI-generated triage aids. Verify them against the opinion before relying on them.

@@ -20,6 +20,8 @@ from typing import Any
 
 import anthropic
 
+from citecheck import check_citations
+
 MODEL = os.environ.get("CLAUDE_MODEL", "").strip() or "claude-opus-5-5"
 TOKEN_CEILING = 30_000          # max input tokens of opinion text in any one request
 TARGET_CHUNK_TOKENS = 24_000    # headroom under the ceiling for prompt + metadata
@@ -251,8 +253,8 @@ def _reduce(notes: list[str], meta: str, depth: int, usage: list[int]) -> str:
 # ------------------------------------------------------------------ public API
 
 def summarize_opinion(text: str, row: Any) -> dict[str, Any]:
-    """Return the SUMMARY_SCHEMA fields plus coverage_note, model and
-    _input_tokens."""
+    """Return the SUMMARY_SCHEMA fields plus citation_check, coverage_note,
+    model and _input_tokens."""
     meta = _meta(row)
     usage: list[int] = []
     tokens = count_tokens(text)
@@ -286,6 +288,8 @@ def summarize_opinion(text: str, row: Any) -> dict[str, Any]:
     usage.append(used)
 
     result = json.loads(raw)
+    # Checked against the full opinion text, not the map/reduce notes.
+    result["citation_check"] = check_citations(result, text)
     result["coverage_note"] = coverage_note
     result["model"] = MODEL
     result["_input_tokens"] = sum(usage)

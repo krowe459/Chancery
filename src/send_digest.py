@@ -68,18 +68,29 @@ def render_entry(entry: dict) -> str:
     main_auths = [a for a in authorities if a.get("role", "relied_on") != "background"]
     background = [a for a in authorities if a.get("role") == "background"]
 
+    def unverified(a: dict) -> str:
+        if a.get("check") != "not_found":
+            return ""
+        return (f" <span style='color:#8a1c1c;font-size:12px;'>&#9888; not found in opinion "
+                f"text ({_e(a.get('check_detail'))})</span>")
+
     def auth_item(a: dict) -> str:
         tag = " <em>(distinguished)</em>" if a.get("role") == "distinguished" else ""
         return (f"<li style='margin:0 0 4px 0;'><strong>{_e(a.get('authority'))}</strong>{tag} "
-                f"&mdash; {_e(a.get('proposition'))}</li>")
+                f"&mdash; {_e(a.get('proposition'))}{unverified(a)}</li>")
 
     auths = "".join(auth_item(a) for a in main_auths) or "<li>None identified.</li>"
     if background:
-        names = "; ".join(_e(a.get("authority")) for a in background)
+        names = "; ".join(_e(a.get("authority")) + unverified(a) for a in background)
         auths += (f"<li style='margin:0 0 4px 0;color:#5c6b7a;list-style:none;margin-left:-18px;'>"
                   f"Also cited: {names}</li>")
     note = (f"<div style='font-size:12px;color:#8a6d1c;margin-top:8px;'>&#9888; "
             f"{_e(s['coverage_note'])}</div>") if s.get("coverage_note") else ""
+    misses = (s.get("citation_check") or {}).get("not_found", 0)
+    if misses:
+        note += (f"<div style='font-size:12px;color:#8a1c1c;margin-top:8px;'>&#9888; "
+                 f"{misses} cited authorit{'y was' if misses == 1 else 'ies were'} not found "
+                 f"in the opinion text. Check them before relying on this summary.</div>")
 
     def section(label: str, content: str) -> str:
         return (f"<div style='margin-top:12px;'><div style='font-size:11px;letter-spacing:.06em;"
