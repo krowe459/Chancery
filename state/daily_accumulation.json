@@ -294,6 +294,129 @@
         "standard_of_review": "Post-trial (phase one of a bifurcated case). The parties' claims and defenses were decided on a preponderance of the evidence (Revolution Retail), with the burden on Spartan Forge for its affirmative defenses of waiver and acquiescence (Medek). Contracts were construed under Delaware's objective, plain-meaning rules; although the Term Sheet is Quebec-governed, the parties stipulated to Delaware law (fns. 127, 141)."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402160"
+    },
+    {
+      "case_id": "de-402190",
+      "date": "2026-10-15",
+      "docket": "C.A. No. 2020-1069-MTZ",
+      "judge": "Zurn M.",
+      "name": "Shareholder Representative Services, LLC v. Alexion Pharmaceuticals Inc.",
+      "ny_date": "2026-10-15",
+      "ny_processed_at": "2026-10-15T15:44:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "SRS's request to dismiss the Milestone 1 CRE claim as moot: rejected. The IV-formulation theory failed on the merits, and SRS waived any claim that the 2020 suspension or 2021 termination affected Milestone 1 by limiting its briefing to Milestones 2 through 8, so judgment is entered for Alexion.",
+          "SRS's characterization that the Court \"did not adjudicate SRS's Milestone 1 CRE claim\": rejected (fn. 7). SRS never presented that claim, having identified no Milestone 1 harm from the CRE breach.",
+          "SRS's milestone-specific postjudgment interest calculation (rates fixed at historical or predicted milestone due dates): rejected. Postjudgment interest accrues only after judgment and is calculated as of the judgment date.",
+          "SRS's request for the floating legal rate on Milestones 4 through 8: rejected. The parties' lawful contract rate governs postjudgment interest, and the Court's prior expectation-damages ruling supports applying the contract rate even to milestones that do not meet the contractual terms, to avoid a windfall.",
+          "The damages opinion's earlier general observation favoring a floating legal rate compounded quarterly is effectively superseded. The Court describes the interest issue as addressed iteratively."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Merger Agreement § 3.8(f)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Alexion covenanted, for seven years after Closing, to use and cause its affiliates (including Syntimmune) to use Commercially Reasonable Efforts to achieve each Milestone Event; this is the basis of Count I.",
+            "role": "background"
+          },
+          {
+            "authority": "S'holder Rep. Serv's LLC v. Alexion Pharms., Inc., 2024 WL 4052343 (Del. Ch. Sept. 5, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Liability opinion: Milestone 1 was achieved and Alexion breached its payment obligation; the IV-formulation pivot theory failed to show a CRE breach; SRS had to prove harm to prove a CRE breach and identified harm only as to Milestones 2-8.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Emerald P'rs v. Berlin, 726 A.2d 1215, 1224 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Issues not briefed are deemed waived; applied to hold SRS waived any claim that the suspension or termination affected Milestone 1.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "S'holder Rep. Serv's LLC v. Alexion Pharms., Inc., 341 A.3d 513, 551 (Del. Ch. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Damages opinion's general observation that quarterly compounding at a floating legal rate was appropriate for postjudgment interest.",
+            "role": "background"
+          },
+          {
+            "authority": "S'holder Rep. Serv's LLC v. Alexion Pharms., Inc., 2025 WL 2993473 (Del. Ch. Oct. 23, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The contract rate governs prejudgment interest on Milestone 1; expectation-damages principles support applying the contract rate to Milestones 2 and 3 to avoid a windfall; the remaining milestones accrue no prejudgment interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Noranda Aluminum Hldg. Corp. v. XL Ins. Am., Inc., 269 A.3d 974, 979 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Postjudgment interest is owed only after the date of judgment and is calculated as of that date.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 2031(a) (as cited in fn. 12; fn. 13 cites 6 Del. C. § 2301)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The statute applied in Noranda governing the calculation of postjudgment interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sequoia Presidential Yacht Grp. LLC v. FE P'rs, LLC, 2014 WL 2610577 (Del. Ch. June 12, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware uses the parties' specified lawful contract rate to set the postjudgment interest rate (cited \"see generally\").",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 2301",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The legal-rate statute applied in Sequoia; a lawful contract rate governs postjudgment interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fortis Advisors LLC v. Johnson & Johnson, 2024 WL 4048060, at *54-55 (Del. Ch. Sept. 4, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through the Court's October 2025 ruling for applying the contract rate to milestones not meeting contractual terms to avoid a windfall.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. Const. art. IV, § 13(2)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Authority for the Vice Chancellor sitting by designation (see D.I. 467).",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After liability and damages opinions in SRS's earn-out suit against Alexion over ALXN1830, the parties disputed two terms of the final order and judgment, which Vice Chancellor Zurn, sitting by designation, resolved by letter. The Court entered judgment for Alexion on the Milestone 1 CRE claim rather than dismissing it as moot: SRS's one theory that reached all milestones failed on the merits, and its post-trial briefing confined CRE harm from its other two theories to Milestones 2-8, so it waived any Milestone 1 harm. On postjudgment interest, the Court rejected SRS's milestone-specific, due-date-anchored calculation and applied the contract rate as of the judgment date to all damages and prejudgment interest, relying on Noranda, the governing contract rate, and its prior expectation-damages ruling.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 9
+        },
+        "core_legal_issue": "In fixing the terms of the final order and judgment after liability and damages rulings on SRS's earn-out claims: (1) whether Count I's claim that Alexion breached its commercially reasonable efforts (\"CRE\") covenant (Merger Agreement § 3.8(f)) as to Milestone 1 should be resolved by judgment for Alexion or dismissed as moot, where SRS tied all CRE harm to Milestones 2 through 8; and (2) whether postjudgment interest runs at the contract rate on the full judgment as of the judgment date, or on SRS's milestone-specific basis (Milestone 1 rate fixed at its due date, Milestones 2-3 at record-predicted due dates, Milestones 4-8 at the floating legal rate).",
+        "coverage_note": "",
+        "disposition": "other",
+        "holding": "(1) Judgment on Count I as to Milestone 1 will be entered in Alexion's favor, not dismissed as moot. The IV-formulation theory failed to show any CRE breach, and SRS waived any Milestone 1 harm from the 2020 suspension and 2021 termination theories by tying CRE damages exclusively to Milestones 2 through 8. (2) Postjudgment interest runs at the Merger Agreement's contract rate, calculated as of the judgment date, on each damages amount (all milestones) and on prejudgment interest, because postjudgment interest accrues only after judgment, a lawful contract rate governs, and expectation-damages principles support the contract rate even for milestones not meeting contractual terms. The Court expects this to resolve the bond dispute for a stay pending appeal. The parties must alert chambers when ready to file a stipulated final order and judgment with numbers filled in, so it can be entered the same day.",
+        "key_facts_and_concessions": [
+          "The liability opinion found Alexion's fall 2021 HV-108 study satisfied Milestone 1 and that Alexion breached its obligation to pay, then addressed only whether Alexion failed to use CRE to achieve Milestones 2 through 8.",
+          "SRS advanced three CRE theories. The theory based on Alexion's pivot away from the IV formulation for the WAIHA indication failed outright to show a CRE breach, which the Court held dooms any Milestone 1 CRE claim on that theory.",
+          "For the other two theories (the 2020 suspension of ALXN1830 clinical development and the December 2021 termination of the program after Milestone 1 was reached), SRS's post-trial briefing expressly limited consequences and damages to Milestones 2 through 8 (D.I. 364 at 70, 72, 77, 80). Its reply (D.I. 370) addressed Milestone 1 only as to whether it was achieved (fn. 6).",
+          "Per fn. 7, SRS had to prove harm to prove a CRE breach, and the only harm it identified was the failure to achieve Milestones 2 through 8. SRS therefore never presented a Milestone 1 CRE claim for adjudication; it is not that the Court simply failed to adjudicate one.",
+          "Count I as pleaded sought at least $370 million, the total of unpaid Earn-Out Payments for Milestone Events (i) through (iii) (fn. 2).",
+          "Procedural history on interest: the damages opinion generally observed that quarterly compounding at a floating legal rate (the \"modern approach\") was appropriate for postjudgment interest. A later ruling, on the contract rate first raised in supplemental briefing, applied the contract rate to prejudgment interest on Milestone 1 and, on expectation-damages principles, on Milestones 2 and 3 (due before the expected judgment date), and awarded no prejudgment interest on the remaining milestones.",
+          "Alexion sought the contract rate on the entire judgment as of the judgment date. SRS sought a milestone-specific postjudgment calculation.",
+          "The parties dispute the amount of the bond securing a stay pending appeal, which the Court expects this ruling to resolve.",
+          "Vice Chancellor Zurn is sitting by designation under Del. Const. art. IV, § 13(2) (fn. 15)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A plaintiff that briefs CRE damages only as to later milestones risks an adverse judgment, not a mootness dismissal, on the unbriefed milestone, so post-trial briefs should expressly tie each breach theory to every milestone it is meant to reach. Parties seeking a different postjudgment rate should expect a contractual rate to govern as of the judgment date regardless of when individual payments were or would have been due.",
+        "standard_of_review": "Not stated. The letter decision resolves disputed terms of the final order and judgment, applying the rule that issues not briefed are waived to the Milestone 1 CRE claim."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402190"
     }
   ],
   "ny_date": "2026-10-15"

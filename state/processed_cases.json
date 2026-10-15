@@ -155,9 +155,15 @@
       "name": "Techno-X USA Inc. v. Spartan Forge LLC et al.",
       "processed_at": "2026-10-15T11:50:32-04:00",
       "status": "ok"
+    },
+    "de-402190": {
+      "docket": "C.A. No. 2020-1069-MTZ",
+      "name": "Shareholder Representative Services, LLC v. Alexion Pharmaceuticals Inc.",
+      "processed_at": "2026-10-15T15:44:36-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-15T11:50:32-04:00",
-  "page_hash": "88a0fdcfd6cc9ced77e56b7b90ff8f16c90f34c7abc1b77c036ea1a07fb4f13e"
+  "last_checked_ny": "2026-10-15T15:44:36-04:00",
+  "page_hash": "0cbdce5d94a1489ca02fea55cbb4b007d8111dbace67c8298d0664189a2d657d"
 }
