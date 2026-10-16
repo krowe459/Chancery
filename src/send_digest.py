@@ -96,9 +96,11 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
         marks: dict = {}
         for f in flags:
             if f.get("field") == field:
+                said = (f" &ldquo;{_e(f['assertion'])}&rdquo; &mdash; opinion: "
+                        f"{_e(f.get('opinion_says'))}." if f.get("assertion") else "")
                 marks[f.get("index")] = (
                     f"<div style='color:#8a1c1c;font-size:12px;margin-top:2px;'>&#9888; "
-                    f"Fact check ({_e(f.get('verdict'))}): {_e(f.get('problem'))}</div>")
+                    f"Fact check ({_e(f.get('verdict'))}):{said} {_e(f.get('problem'))}</div>")
         return marks
 
     def more_line(n: int) -> str:

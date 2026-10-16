@@ -18,6 +18,11 @@ SUMMARY = {
 }
 
 
+CLAIM_TEXT = {1: SUMMARY["key_facts_and_concessions"][0], 2: SUMMARY["key_facts_and_concessions"][1],
+              3: SUMMARY["arguments_rejected_or_waived"][0], 4: SUMMARY["holding"],
+              5: SUMMARY["brief_summary"]}
+
+
 def fake_call(verdicts):
     """Stand-in for summarize._call that returns canned verdicts by claim id,
     one dict per call (cycled), and records what it was sent."""
@@ -26,8 +31,14 @@ def fake_call(verdicts):
     def call(messages, **kw):
         sent.append({"prompt": messages[0]["content"], **kw})
         table = verdicts[(len(sent) - 1) % len(verdicts)]
-        results = [{"id": cid, "verdict": v, "problem": f"problem {cid}" if v != "supported" else "",
-                    "evidence": ""} for cid, v in table.items()]
+        results = []
+        for cid, v in table.items():
+            bad = v not in ("supported", "not_in_excerpt")
+            claim = CLAIM_TEXT.get(cid, "")
+            results.append({"id": cid, "verdict": v, "problem": f"problem {cid}" if bad else "",
+                            "assertion": claim.split()[0] + " " + claim.split()[1] if bad and claim else "",
+                            "opinion_says": "something else" if bad else "", "evidence": "",
+                            "confirmed": bad})
         return json.dumps({"results": results}), 1000
     return call, sent
 
@@ -87,6 +98,50 @@ class FactCheckTest(unittest.TestCase):
         self.assertEqual((fc["checked"], sent), (0, []))
 
 
+class VagueFlagTest(unittest.TestCase):
+    def test_flags_need_a_quoted_assertion_and_a_counter_statement(self):
+        from verify import specific
+        claim = "Thompson signed the letter of intent on Oct. 29."
+        good = {"assertion": "Thompson signed", "opinion_says": "PRADCO sent it"}
+        self.assertTrue(specific(good, claim))
+        self.assertFalse(specific({**good, "assertion": ""}, claim))
+        self.assertFalse(specific({**good, "assertion": "Thompson agreed"}, claim))  # not in claim
+        self.assertFalse(specific({**good, "opinion_says": " "}, claim))
+        self.assertTrue(specific({**good, "assertion": "thompson  SIGNED"}, claim))  # case/space
+
+    def test_vague_flag_is_dropped_and_counted(self):
+        def call(messages, **kw):
+            return json.dumps({"results": [
+                {"id": 1, "verdict": "unsupported", "assertion": "", "opinion_says": "",
+                 "problem": "...is fine... the problem is none substantive...", "evidence": ""},
+                {"id": 2, "verdict": "unsupported", "assertion": "Thompson signed",
+                 "opinion_says": "PRADCO sent the LOI", "problem": "Wrong act.", "evidence": "",
+                 "confirmed": True},
+            ]}), 10
+        fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
+        self.assertEqual(fc["dropped_vague"], 1)
+        self.assertEqual([(f["index"], f["assertion"]) for f in fc["flags"]], [(1, "Thompson signed")])
+
+
+class UnconfirmedFlagTest(unittest.TestCase):
+    def test_flag_whose_own_check_finds_support_is_dropped(self):
+        # The Oct. 16 preview's bond flag: verdict first, then "Actually ...
+        # the assertion is supported". With confirmed=False it is dropped.
+        claim = SUMMARY["brief_summary"]
+        def call(messages, **kw):
+            return json.dumps({"results": [
+                {"id": 5, "evidence": "Techno-X sued", "opinion_says": "Techno-X sued Spartan Forge",
+                 "assertion": claim, "problem": "Actually the claim is supported.",
+                 "verdict": "unsupported", "confirmed": False}]}), 10
+        fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
+        self.assertEqual((fc["flags"], fc["dropped_unconfirmed"], fc["dropped_vague"]), ([], 1, 0))
+
+    def test_schema_puts_evidence_before_verdict_and_check_last(self):
+        order = list(RESULT_SCHEMA["properties"]["results"]["items"]["properties"])
+        self.assertLess(order.index("evidence"), order.index("verdict"))
+        self.assertEqual(order[-1], "confirmed")
+
+
 class DigestRenderingTest(unittest.TestCase):
     def setUp(self):
         import send_digest
@@ -109,11 +164,13 @@ class DigestRenderingTest(unittest.TestCase):
     def test_flagged_item_beyond_cap_stays_visible(self):
         late = self.caps[0] + 1
         flag = {"field": "key_facts_and_concessions", "index": late, "verdict": "unsupported",
+                "assertion": "signed", "opinion_says": "PRADCO sent it",
                 "problem": "Says signed; opinion says sent."}
         html = self.render(self.entry(self.caps[0] + 3, [flag]), "2026-10-15")
         self.assertIn(f"fact {late}<", html)
         self.assertIn("+2 more in the full summary", html)
-        self.assertIn("Fact check (unsupported): Says signed; opinion says sent.", html)
+        self.assertIn("Fact check (unsupported): &ldquo;signed&rdquo; &mdash; opinion: "
+                      "PRADCO sent it. Says signed; opinion says sent.", html)
         self.assertIn("1 statement in this summary was flagged", html)
 
     def test_flag_on_text_field_and_old_entries_without_fact_check(self):
