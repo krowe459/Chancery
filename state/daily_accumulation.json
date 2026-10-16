@@ -937,6 +937,235 @@
         "standard_of_review": "Post-trial findings of fact; the Court did not expressly state a burden or standard of proof. Count II required a showing of bad faith under Caremark/Stone v. Ritter. Authenticity of the duplicate stock certificate was assessed under D.R.E. 901 and 1002-03. No permanent-injunction standard was applied because Plaintiff did not state or apply one."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402220"
+    },
+    {
+      "case_id": "de-402270",
+      "date": "2026-10-16",
+      "docket": "C.A. No. 2023-0011-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Kevin Kulak v. Itshak (\"Itzik\") On, et al.",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T17:45:24-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Recusal: rejected. The Court was subjectively satisfied it could proceed free of bias, and no circumstances created an appearance of bias. Defendants argued only that the Court relied on inaccurate facts, which it did not, because the transcript errors had been corrected before the decision issued.",
+          "Random reassignment: denied as a matter of the Court's discretion; the Court saw no basis for it.",
+          "Reargument: denied because Defendants identified no law or fact the Court misapprehended.",
+          "Rule 60(b)(3): denied because Defendants identified no fraud, misrepresentation or misconduct by Plaintiff.",
+          "Rule 60(b)(6): denied. The motion rehashed the recusal argument about corrected transcript errors. Defendants made a \"deliberate choice\" not to contact chambers about further inaccuracies before the decision issued, so they could not use the rule to relitigate an adverse result, and no extraordinary circumstances were shown.",
+          "Leave to submit the Supplemental Declaration of Patrick Devlyn: denied in the Court's discretion because denying it and granting Plaintiff's dismissal motion gives both parties finality.",
+          "Plaintiff's first sanctions motion (spoliation, seeking an adverse inference): denied because the voluntary dismissal of the only remaining claim leaves no reason or opportunity to develop a fuller record.",
+          "Plaintiff's second sanctions motion: denied on the same ground; it had been held in abeyance pending a fuller record that will now never develop."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Los v. Los, 595 A.2d 381 (Del. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Due process entitles a litigant to a neutral judge, and the disqualification standard also requires the appearance of impartiality; recusal is assessed under a two-part test of subjective bias and objective appearance of bias.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Carlyle Inv. Mgmt. LLC v. Nat'l Indus. Gp. (Hldg.), 2012 WL 4847089 (Del. Ch. Oct. 11, 2012), aff'd, 67 A.3d 373 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 60(b)(6) requires extraordinary circumstances and does not apply when a party deliberately chose to handle a case a certain way, suffered an adverse result, and now seeks to adopt a new strategy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 60(b)(3), (6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A party may be relieved from judgment for fraud, misrepresentation or misconduct of an adverse party, or for any other reason justifying relief.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Franklin v. Glenhill Advisors LLC, 2023 WL 569192 (Del. Ch. Jan. 27, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Rule 60(b)(3) application will be denied if it merely attempts to relitigate the case or if fraud or misrepresentation is not established.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nguyen v. View, Inc., 2017 WL 3169051 (Del. Ch. July 26, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reargument is denied unless the Court overlooked controlling law or misapprehended the law or facts in a way that would affect the outcome.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Paragon Techs., Inc. v. Ocean Power Techs., Inc., 2024 WL 4235638 (Del. Ch. Sep. 19, 2024) (quoting Draper v. Paul N. Gardner Defined Plan Tr., 625 A.2d 859 (Del. 1993))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 41(a)(2) dismissal is discretionary and turns on plain legal prejudice to defendants, weighing their effort and expense, the plaintiff's delay, the adequacy of the plaintiff's explanation, and any pending defense summary judgment motion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23.1(d)(3)(A)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A derivative claim may be dismissed without notice if the dismissal is without prejudice.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 54(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Judgment may be entered on fewer than all claims only on an express determination that there is no just reason for delay.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Montgomery Cellular Hldg. Co. v. Dobler, 880 A.2d 206 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court may shift fees for vexatious litigation conduct to deter abuse and protect the integrity of the judicial process, and there is no single definition of bad faith.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RBC Cap. Mkts., LLC v. Jervis, 129 A.3d 816 (Del. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fee-shifting under the bad-faith exception is evaluated under the glaring egregiousness standard.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "McGowan v. Empress Ent., Inc., 791 A.2d 1 (Del. Ch. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees may be shifted based on litigation conduct without a fact-intensive inquiry into state of mind, and subjective bad faith may be found without a record of the defendant's state of mind.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Whittington v. Dragon Gp., LLC, 2012 WL 3089861 (Del. Ch. July 20, 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Leave to make a supplemental submission is granted in the interests of fairness and substantial justice and is ultimately discretionary.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 59(f) (now Rule 59(c))",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Governing rule for reargument; amended effective June 1 to move reargument to Rule 59(c).",
+            "role": "background"
+          },
+          {
+            "authority": "State v. Desmond, 2011 WL 91984 (Del. Super. Jan. 5, 2011), aff'd, 29 A.3d 245 (Del. 2011) (TABLE)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Judges have a duty not to burden colleagues by recusing in response to weak disqualification arguments.",
+            "role": "background"
+          },
+          {
+            "authority": "Sunrise Ventures, LLC v. Rehoboth Canal Ventures, LLC, 2010 WL 975581 (Del. Ch. Mar. 4, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reargument is not a vehicle to relitigate claims or to raise untimely new arguments.",
+            "role": "background"
+          },
+          {
+            "authority": "Wong v. USES Hldg. Corp., 2016 WL 1436594 (Del. Ch. Apr. 5, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A reargument motion that rehashes arguments already made must be denied.",
+            "role": "background"
+          },
+          {
+            "authority": "In re ML/EQ Real Est. P'ship Litig., 2000 WL 364188 (Del. Ch. Mar. 22, 2000)",
+            "check": "not_found",
+            "check_detail": "ML EQ",
+            "kind": "case",
+            "proposition": "The movant bears a heavy burden on reargument.",
+            "role": "background"
+          },
+          {
+            "authority": "Erste Asset Mgmt. GmbH v. Hees, 341 A.3d 1008 (Del. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 60(b) is not a do-over or an appeal, and relief is not granted easily.",
+            "role": "background"
+          },
+          {
+            "authority": "Scion Breckenridge Managing Member, LLC v. ASB Allegiance Real Estate Fund, 68 A.3d 665 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees may be awarded in the Court's discretion where equity requires.",
+            "role": "background"
+          },
+          {
+            "authority": "Martin v. Harbor Diversified, Inc., 2020 WL 568971 (Del. Ch. Feb. 5, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fee-shifting reduces and allocates the costs of seriously vexatious behavior.",
+            "role": "background"
+          },
+          {
+            "authority": "Johnston v. Arbitrium (Cayman Islands) Handels AG, 720 A.2d 542 (Del. 1998)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees have been shifted where a party unnecessarily prolonged or delayed litigation, falsified records, or knowingly asserted frivolous claims.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Marriott Hotel Props. II Ltd. P'ship Unitholders Litig., 1997 WL 589028 (Del. Ch. Sep. 17, 1997)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "On voluntary dismissal, the Court must deliver substantial justice to both parties.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 11",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Basis of the Court's prior warning that it would sanction continued troubling litigation conduct.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In Plaintiff Kevin Kulak's action against self-represented Defendants Itshak and Keren-Or On, the Chancellor resolved seven post-April 24 Letter Decision motions. Defendants' recusal, reargument, Rule 60(b) and supplemental-declaration motions were denied because they rested on transcript errors that the Chief Court Reporter had corrected before the decision issued, and they identified no misapprehended law or fact, no adverse-party fraud, and no extraordinary circumstances. The Court granted Plaintiff's dismissal of the derivative claim without prejudice and without notice, entered Rule 54(b) final judgment with interest on the fraudulent inducement claim, and shifted Plaintiff's fees for responding to three of Defendants' motions as glaringly egregious conduct that followed an express warning. Plaintiff's sanctions motions were denied because no fuller record would be developed.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 1,
+          "verified": 22
+        },
+        "core_legal_issue": "Whether, after the April 24 Letter Decision granted Plaintiff summary judgment on fraudulent inducement (Count I), self-represented Defendants were entitled to recusal and reassignment, reargument, Rule 60(b) relief, or leave to file a supplemental declaration based on transcript errors that had already been corrected; whether Plaintiff could voluntarily dismiss his derivative claim (Count II) without prejudice and obtain a Rule 54(b) final judgment on Count I; and whether Defendants' serial post-decision motions warranted fee-shifting under the bad-faith exception.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "Defendants' recusal, reargument, Rule 60(b) and supplemental-declaration motions were denied because they rested on transcript errors",
+              "evidence": "Because denying this motion and granting Plaintiff's motion, as explained below, will give finality to both parties, the motion is denied.",
+              "field": "brief_summary",
+              "index": null,
+              "opinion_says": "The supplemental-declaration motion was denied in the Court's discretion for finality, not because it rested on transcript errors. Reargument was denied for no misapprehended law or fact.",
+              "problem": "The supplemental-declaration motion was denied for finality/discretion, and the reargument motion was not tied to transcript errors, so the shared rationale is not supported.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "All four of Defendants' motions were denied: recusal and reassignment, reargument, Rule 60(b)(3)/(6) relief, and leave to submit the Devlyn Supplemental Declaration. The transcript errors on which they relied had been corrected before the April 24 Letter Decision issued, and Defendants chose not to raise further inaccuracies with chambers until after that decision. Plaintiff's motion to voluntarily dismiss Count II (the derivative claim) without prejudice was granted under Rule 41(a)(2). The Draper factors favored dismissal, and notice was unnecessary under Rule 23.1(d)(3)(A) because the dismissal is without prejudice. The Court entered final judgment on Count I under Rule 54(b), finding no just reason for delay because judgment starts Defendants' appeal clock and allows recovery after any appeal, and granted pre- and post-judgment interest. Under the bad-faith exception to the American Rule, the Court shifted the fees and expenses Plaintiff incurred responding to the recusal motion, the supplemental-declaration motion and the Rule 60 motion (the fees Plaintiff requested). It found that Defendants' serial post-decision motions, filed despite the Court's warning, were glaringly egregious, and that bad faith may be inferred from litigation conduct alone. Plaintiff's two sanctions motions, including the spoliation and adverse-inference motion, were denied because dismissal of the last remaining claim leaves no reason or opportunity to develop the record. Plaintiff is directed to submit a proposed form of final order.",
+        "key_facts_and_concessions": [
+          "The April 24 Letter Decision entered summary judgment for Plaintiff on Count I (fraudulent inducement), denied summary judgment on the derivative breach of fiduciary duty claim, held Plaintiff's two sanctions motions under advisement or in abeyance, and warned Defendants that the Court \"would not hesitate to enter sanctions under Rule 11\" if their litigation conduct continued.",
+          "Within a month of the April 24 Letter Decision, Defendants filed three motions challenging it (recusal and reassignment, reargument, and Rule 60(b) relief), and later filed a fourth seeking leave to submit the Supplemental Declaration of Patrick Devlyn.",
+          "The recusal and Rule 60(b)(6) motions rested on stenographic errors in a transcript. At Defendants' request, the Chief Court Reporter promptly corrected them, and the corrected transcript was sent to Defendants the same day they sent a consolidated errata. The Court had the corrected transcript when it issued its decision.",
+          "The Chief Court Reporter advised Defendants to contact chambers if they believed there were additional inaccuracies. Defendants did not do so until after the April 24 Letter Decision issued.",
+          "Defendants' counsel withdrew in early 2024, and Defendants have proceeded self-represented; the Court found they spent comparatively less defending the action.",
+          "Plaintiff funded the derivative litigation with his own resources on behalf of an allegedly defunct company and determined that continuing was no longer financially or practically feasible. There was no record of delay or lack of diligence by Plaintiff, and no dispositive motions were pending.",
+          "Plaintiff's September 16, 2026 motion sought dismissal of the derivative claim without prejudice, final judgment on Count I, fee-shifting, and a grant of the sanctions motions.",
+          "Rule 59 was amended after the reargument motion was filed, eliminating Rule 59(f) effective June 1; reargument is now governed by Rule 59(c) (fn. 25)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "After an express judicial warning, serial motions attacking a decision can support fee-shifting under the bad-faith exception without any state-of-mind evidence, so a party facing such filings should seek fees for each response it is forced to make. A derivative plaintiff who has won a direct claim can use a without-prejudice Rule 41(a)(2) dismissal, which needs no Rule 23.1 notice, together with a Rule 54(b) judgment to reach finality, at the cost of abandoning pending sanctions motions that depended on further record development.",
+        "standard_of_review": "Multiple decision standards. Recusal: Los v. Los two-part test (subjective freedom from bias, and no objective appearance of bias). Reargument: Rule 59(f) (now Rule 59(c)), requiring overlooked controlling law or misapprehended law or facts that would change the outcome, with a heavy burden on the movant. Rule 60(b)(3): fraud, misrepresentation or misconduct by the adverse party. Rule 60(b)(6): extraordinary circumstances. Leave to supplement: discretionary, in the interests of fairness and substantial justice. Rule 41(a)(2): discretionary, asking whether dismissal causes plain legal prejudice under the Draper factors. Rule 54(b): express determination of no just reason for delay. Fee-shifting: bad-faith exception to the American Rule under the glaring egregiousness standard."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402270"
     }
   ],
   "ny_date": "2026-10-16"

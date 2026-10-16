@@ -191,9 +191,15 @@
       "name": "Aprio Advisory Group LLC, et al. v. Dmitri Alexeev",
       "processed_at": "2026-10-16T15:43:47-04:00",
       "status": "ok"
+    },
+    "de-402270": {
+      "docket": "C.A. No. 2023-0011-KSJM",
+      "name": "Kevin Kulak v. Itshak (\"Itzik\") On, et al.",
+      "processed_at": "2026-10-16T17:45:24-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-16T15:43:47-04:00",
-  "page_hash": "f828e009c0122fd41850662c30d882ee215933f8ba9c6c3327e18253d1a409b8"
+  "last_checked_ny": "2026-10-16T17:45:24-04:00",
+  "page_hash": "504fdf81239661c1a017627752d126bc3dc8b859fed0c403821604edd9703174"
 }
