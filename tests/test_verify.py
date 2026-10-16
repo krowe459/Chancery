@@ -1,0 +1,129 @@
+"""Run with: python -m unittest discover -s tests"""
+import json
+import sys
+import unittest
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+
+from verify import RESULT_SCHEMA, VERIFY_MODEL, collect_claims, fact_check  # noqa: E402
+
+SUMMARY = {
+    "key_facts_and_concessions": ["PRADCO sent a letter of intent on Oct. 29.",
+                                  "Thompson signed the letter of intent."],
+    "arguments_rejected_or_waived": ["Waiver: rejected for lack of knowledge."],
+    "holding": "Judgment for Techno-X.",
+    "brief_summary": "Techno-X sued Spartan Forge.",
+    "practical_takeaway": "Not checked: inference by design.",
+}
+
+
+def fake_call(verdicts):
+    """Stand-in for summarize._call that returns canned verdicts by claim id,
+    one dict per call (cycled), and records what it was sent."""
+    sent = []
+
+    def call(messages, **kw):
+        sent.append({"prompt": messages[0]["content"], **kw})
+        table = verdicts[(len(sent) - 1) % len(verdicts)]
+        results = [{"id": cid, "verdict": v, "problem": f"problem {cid}" if v != "supported" else "",
+                    "evidence": ""} for cid, v in table.items()]
+        return json.dumps({"results": results}), 1000
+    return call, sent
+
+
+class CollectClaimsTest(unittest.TestCase):
+    def test_lists_and_text_fields_but_not_takeaway(self):
+        claims = collect_claims(SUMMARY)
+        self.assertEqual([c["field"] for c in claims],
+                         ["key_facts_and_concessions", "key_facts_and_concessions",
+                          "arguments_rejected_or_waived", "holding", "brief_summary"])
+        self.assertEqual([c["id"] for c in claims], [1, 2, 3, 4, 5])
+        self.assertEqual(claims[1]["index"], 1)
+        self.assertIsNone(claims[3]["index"])
+        self.assertNotIn("inference by design", json.dumps(claims))
+
+
+class FactCheckTest(unittest.TestCase):
+    def test_single_pass_flags_unsupported_and_contradicted(self):
+        call, sent = fake_call([{1: "supported", 2: "unsupported", 3: "supported",
+                                 4: "contradicted", 5: "supported"}])
+        usage = []
+        fc = fact_check(SUMMARY, text="opinion text", chunks=None, call=call, usage=usage)
+        self.assertEqual(fc["coverage"], "full")
+        self.assertEqual(fc["checked"], 5)
+        self.assertEqual([(f["field"], f["index"], f["verdict"]) for f in fc["flags"]],
+                         [("key_facts_and_concessions", 1, "unsupported"),
+                          ("holding", None, "contradicted")])
+        self.assertEqual(usage, [1000])
+        self.assertEqual(sent[0]["model"], VERIFY_MODEL)
+        self.assertIs(sent[0]["schema"], RESULT_SCHEMA)
+        self.assertIn("2. Thompson signed the letter of intent.", sent[0]["prompt"])
+        self.assertIn("<opinion>\nopinion text\n</opinion>", sent[0]["prompt"])
+
+    def test_chunked_flags_only_contradictions(self):
+        # Chunk 1 supports claim 1 and contradicts claim 2; chunk 2 cannot see
+        # claim 3 at all. "Unsupported" in an excerpt is not flagged.
+        call, sent = fake_call([
+            {1: "supported", 2: "contradicted", 3: "not_in_excerpt", 4: "unsupported", 5: "supported"},
+            {1: "not_in_excerpt", 2: "supported", 3: "not_in_excerpt", 4: "unsupported", 5: "supported"},
+        ])
+        fc = fact_check(SUMMARY, text=None, chunks=["part one", "part two"], call=call, usage=[])
+        self.assertEqual(fc["coverage"], "contradictions_only")
+        self.assertEqual([(f["field"], f["index"]) for f in fc["flags"]],
+                         [("key_facts_and_concessions", 1)])
+        self.assertEqual(len(sent), 2)
+        self.assertIn("part 1 of 2", sent[0]["prompt"])
+
+    def test_missing_verdicts_are_counted_as_unchecked(self):
+        call, _ = fake_call([{1: "supported", 2: "supported"}])
+        fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
+        self.assertEqual(fc["unchecked"], 3)
+        self.assertEqual(fc["flags"], [])
+
+    def test_empty_summary_makes_no_call(self):
+        call, sent = fake_call([{}])
+        fc = fact_check({}, text="t", chunks=None, call=call, usage=[])
+        self.assertEqual((fc["checked"], sent), (0, []))
+
+
+class DigestRenderingTest(unittest.TestCase):
+    def setUp(self):
+        import send_digest
+        self.render = send_digest.render_entry
+        self.caps = (send_digest.MAX_KEY_FACTS, send_digest.MAX_ARGUMENTS)
+
+    def entry(self, n_facts, flags=()):
+        return {"name": "A v. B", "summary": {
+            "core_legal_issue": "x", "holding": "h", "brief_summary": "b",
+            "key_facts_and_concessions": [f"fact {i}" for i in range(n_facts)],
+            "fact_check": {"coverage": "full", "flags": list(flags)}}}
+
+    def test_long_list_is_capped_with_more_line(self):
+        html = self.render(self.entry(self.caps[0] + 3), "2026-10-15")
+        self.assertIn(f"fact {self.caps[0] - 1}<", html)
+        self.assertNotIn(f"fact {self.caps[0]}<", html)
+        self.assertIn("+3 more in the full summary", html)
+        self.assertIn("state/archive/2026-10-15.json", html)
+
+    def test_flagged_item_beyond_cap_stays_visible(self):
+        late = self.caps[0] + 1
+        flag = {"field": "key_facts_and_concessions", "index": late, "verdict": "unsupported",
+                "problem": "Says signed; opinion says sent."}
+        html = self.render(self.entry(self.caps[0] + 3, [flag]), "2026-10-15")
+        self.assertIn(f"fact {late}<", html)
+        self.assertIn("+2 more in the full summary", html)
+        self.assertIn("Fact check (unsupported): Says signed; opinion says sent.", html)
+        self.assertIn("1 statement in this summary was flagged", html)
+
+    def test_flag_on_text_field_and_old_entries_without_fact_check(self):
+        flag = {"field": "holding", "index": None, "verdict": "contradicted", "problem": "Wrong party."}
+        self.assertIn("Fact check (contradicted): Wrong party.",
+                      self.render(self.entry(1, [flag]), "d"))
+        old = {"name": "A v. B", "summary": {"core_legal_issue": "x", "holding": "h",
+                                             "brief_summary": "b"}}
+        self.assertNotIn("Fact check", self.render(old, "d"))
+
+
+if __name__ == "__main__":
+    unittest.main()

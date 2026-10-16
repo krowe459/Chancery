@@ -20,7 +20,8 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
    - `RESEND_API_KEY`: from resend.com (free tier: 3,000 emails/month, 100/day)
    - `DIGEST_TO`: your inbox. With the default sender `onboarding@resend.dev`, Resend
      only delivers to the address you signed up with. Verify a domain to send elsewhere.
-3. Optional **Variables**: `CLAUDE_MODEL` (default `claude-opus-5-5`), `MAX_CASES_PER_RUN` (8),
+3. Optional **Variables**: `CLAUDE_MODEL` (default `claude-opus-5-5`), `VERIFY_MODEL`
+   (default `claude-sonnet-5-5`), `VERIFY_FACTS` (`0` turns the fact check off), `MAX_CASES_PER_RUN` (8),
    `RUN_TOKEN_BUDGET` (400000), `DIGEST_FROM`.
 4. **Settings → Actions → General → Workflow permissions → Read and write**.
 5. Run **chancery-scrape** by hand once (Actions tab → Run workflow). The first run *seeds*
@@ -40,6 +41,13 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
 - The final summary call includes one worked example (`src/prompt_example.json`) to set the
   standard. Edit that file to change it, and keep it accurate to its opinion. It is skipped
   when summarizing that same opinion. System prompts are cached across a run's calls.
+- After each summary, a second model (`VERIFY_MODEL`) checks its key facts, rejected
+  arguments, holding and brief summary against the opinion text (`src/verify.py`). Statements
+  it finds unsupported or contradicted are flagged in the digest. For opinions too long for one
+  request it checks chunk by chunk and flags only contradictions. Its tokens count toward
+  `RUN_TOKEN_BUDGET`.
+- The digest shows at most 8 key facts, 10 rejected arguments and 12 authorities per opinion,
+  plus any flagged item, with a link to the full summary in `state/archive/`.
 - Every cited authority is checked against the opinion text (reporter cite, first party
   name, section or rule number). Misses are flagged in the digest. A miss is a reason to
   look, not proof the citation was invented. Tests: `python -m unittest discover -s tests`.

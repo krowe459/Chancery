@@ -34,6 +34,10 @@ from common import (
 )
 
 RESEND_URL = "https://api.resend.com/emails"
+# Display caps per list. The full summary stays in state/archive/<date>.json.
+MAX_KEY_FACTS = 8
+MAX_ARGUMENTS = 10
+MAX_AUTHORITIES = 12
 DEFAULT_FROM = "Chancery Digest <onboarding@resend.dev>"
 
 
@@ -42,7 +46,26 @@ def _e(value: object) -> str:
     return html.escape(str(value or ""), quote=True)
 
 
-def render_entry(entry: dict) -> str:
+def _archive_link(ny_date: str) -> str:
+    """Where the full summary lives once the digest's state commit lands."""
+    repo = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    path = f"state/archive/{ny_date}.json"
+    if not repo:
+        return _e(path)
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com").rstrip("/")
+    branch = os.environ.get("GITHUB_REF_NAME", "").strip() or "main"
+    url = f"{server}/{repo}/blob/{branch}/{path}"
+    return f"<a href='{_e(url)}' style='color:#5c6b7a;'>{_e(path)}</a>"
+
+
+def _capped(items: list, cap: int, keep: set[int]) -> tuple[list[tuple[int, object]], int]:
+    """First `cap` items plus any beyond it in `keep` (flagged items stay
+    visible); returns the (index, item) pairs shown and how many were hidden."""
+    shown = [(i, x) for i, x in enumerate(items) if i < cap or i in keep]
+    return shown, len(items) - len(shown)
+
+
+def render_entry(entry: dict, ny_date: str = "") -> str:
     s = entry.get("summary") or {}
     meta = " &middot; ".join(
         _e(x) for x in (entry.get("docket"), entry.get("date"), entry.get("judge"),
@@ -68,6 +91,21 @@ def render_entry(entry: dict) -> str:
     main_auths = [a for a in authorities if a.get("role", "relied_on") != "background"]
     background = [a for a in authorities if a.get("role") == "background"]
 
+    def flag_marks(field: str) -> dict:
+        """index (None for text fields) -> warning HTML for flagged claims."""
+        marks: dict = {}
+        for f in flags:
+            if f.get("field") == field:
+                marks[f.get("index")] = (
+                    f"<div style='color:#8a1c1c;font-size:12px;margin-top:2px;'>&#9888; "
+                    f"Fact check ({_e(f.get('verdict'))}): {_e(f.get('problem'))}</div>")
+        return marks
+
+    def more_line(n: int) -> str:
+        where = _archive_link(ny_date or str(entry.get("ny_date") or ""))
+        return (f"<li style='margin:0 0 4px 0;color:#5c6b7a;list-style:none;margin-left:-18px;"
+                f"font-size:12px;'>+{n} more in the full summary ({where})</li>")
+
     def unverified(a: dict) -> str:
         if a.get("check") != "not_found":
             return ""
@@ -79,13 +117,29 @@ def render_entry(entry: dict) -> str:
         return (f"<li style='margin:0 0 4px 0;'><strong>{_e(a.get('authority'))}</strong>{tag} "
                 f"&mdash; {_e(a.get('proposition'))}{unverified(a)}</li>")
 
-    auths = "".join(auth_item(a) for a in main_auths) or "<li>None identified.</li>"
+    shown_auths, hidden_auths = _capped(
+        main_auths, MAX_AUTHORITIES,
+        {i for i, a in enumerate(main_auths) if a.get("check") == "not_found"})
+    auths = "".join(auth_item(a) for _, a in shown_auths) or "<li>None identified.</li>"
+    if hidden_auths:
+        auths += more_line(hidden_auths)
     if background:
         names = "; ".join(_e(a.get("authority")) + unverified(a) for a in background)
         auths += (f"<li style='margin:0 0 4px 0;color:#5c6b7a;list-style:none;margin-left:-18px;'>"
                   f"Also cited: {names}</li>")
     note = (f"<div style='font-size:12px;color:#8a6d1c;margin-top:8px;'>&#9888; "
             f"{_e(s['coverage_note'])}</div>") if s.get("coverage_note") else ""
+    fc = s.get("fact_check") or {}
+    flags = fc.get("flags") or []
+    if flags:
+        what = "contradicted by" if fc.get("coverage") == "contradictions_only" else "not supported by"
+        note += (f"<div style='font-size:12px;color:#8a1c1c;margin-top:8px;'>&#9888; "
+                 f"{len(flags)} statement{'s' if len(flags) != 1 else ''} in this summary "
+                 f"{'were' if len(flags) != 1 else 'was'} flagged as {what} the opinion text "
+                 f"(marked above). Check them before relying on this summary.</div>")
+    elif fc.get("error"):
+        note += ("<div style='font-size:12px;color:#8a6d1c;margin-top:8px;'>&#9888; "
+                 "The fact check did not run for this summary.</div>")
     misses = (s.get("citation_check") or {}).get("not_found", 0)
     if misses:
         note += (f"<div style='font-size:12px;color:#8a1c1c;margin-top:8px;'>&#9888; "
@@ -98,15 +152,23 @@ def render_entry(entry: dict) -> str:
                 f"<div style='font-size:14px;color:#1d2731;line-height:1.5;margin-top:3px;'>"
                 f"{content}</div></div>")
 
-    def optional_list(label: str, key: str) -> str:
+    def optional_list(label: str, key: str, cap: int) -> str:
         items = s.get(key) or []
         if not items:
             return ""
-        lis = "".join(f"<li style='margin:0 0 4px 0;'>{_e(i)}</li>" for i in items)
+        marks = flag_marks(key)
+        shown, hidden = _capped(items, cap, set(marks))
+        lis = "".join(f"<li style='margin:0 0 4px 0;'>{_e(x)}{marks.get(i, '')}</li>"
+                      for i, x in shown)
+        if hidden:
+            lis += more_line(hidden)
         return section(label, f"<ul style='margin:4px 0 0 18px;padding:0;'>{lis}</ul>")
 
     def optional_text(label: str, key: str) -> str:
         return section(label, _e(s[key])) if s.get(key) else ""
+
+    def text_with_flags(key: str) -> str:
+        return _e(s.get(key)) + "".join(flag_marks(key).values())
 
     disposition = " &middot; ".join(
         f"{label}: {_e(s[key])}" for label, key in
@@ -119,12 +181,12 @@ def render_entry(entry: dict) -> str:
       <tr><td style="padding:0 24px 20px 24px;">
         {section("Core Legal Issue", _e(s.get("core_legal_issue")))}
         {disposition_html}
-        {optional_list("Key Facts &amp; Concessions", "key_facts_and_concessions")}
-        {optional_list("Arguments Rejected or Waived", "arguments_rejected_or_waived")}
+        {optional_list("Key Facts &amp; Concessions", "key_facts_and_concessions", MAX_KEY_FACTS)}
+        {optional_list("Arguments Rejected or Waived", "arguments_rejected_or_waived", MAX_ARGUMENTS)}
         {section("Authorities Cited",
                  f"<ul style='margin:4px 0 0 18px;padding:0;'>{auths}</ul>")}
-        {section("Holding", _e(s.get("holding")))}
-        {section("Brief Summary", _e(s.get("brief_summary")))}
+        {section("Holding", text_with_flags("holding"))}
+        {section("Brief Summary", text_with_flags("brief_summary"))}
         {optional_text("Practical Takeaway (inference, not holding)", "practical_takeaway")}
         {note}
       </td></tr>"""
@@ -136,7 +198,7 @@ def _divider() -> str:
 
 
 def render_html(entries: list[dict], ny_date: str) -> str:
-    rows = "".join(render_entry(e) for e in entries)
+    rows = "".join(render_entry(e, ny_date) for e in entries)
     n = len(entries)
     return f"""<!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>

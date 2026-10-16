@@ -23,6 +23,7 @@ from typing import Any
 import anthropic
 
 from citecheck import check_citations
+from verify import fact_check
 
 MODEL = os.environ.get("CLAUDE_MODEL", "").strip() or "claude-opus-5-5"
 TOKEN_CEILING = 30_000          # max input tokens of opinion text in any one request
@@ -31,6 +32,7 @@ MAX_CHUNKS = int(os.environ.get("MAX_CHUNKS", "12"))
 MAX_DEPTH = 3
 MAP_MAX_TOKENS = 4_000          # output cap per chunk (includes thinking)
 FINAL_MAX_TOKENS = 16_000        # output cap for the final call (includes thinking)
+VERIFY_FACTS = os.environ.get("VERIFY_FACTS", "1").strip() != "0"  # second-pass fact check
 CHARS_PER_TOKEN_FALLBACK = 3.0  # conservative: over-estimates tokens for English prose
 
 # Server-side refusal fallback (opt-in beta). Remove these two lines to disable.
@@ -92,6 +94,19 @@ related entities distinct (e.g., a parent corporation, its division, and its \
 subsidiary LLC).
 - Where the Court assumes a point arguendo or declines to reach an issue, say \
 so, and note any footnote that nonetheless comments on it.
+- Attribute each action only to the actor the opinion names, and describe it \
+the way the opinion does: "sent" is not "signed", "proposed" is not "agreed", \
+and learning of one event is not learning of another. Keep dates tied to the \
+events the opinion ties them to. Do not fill gaps in the narrative by \
+inference; if a detail matters and you are unsure of it, quote the opinion.
+
+Length and order:
+- Order every list by importance, with what the outcome turned on first. \
+Readers see only the first items of each list in the daily digest.
+- Aim for at most 8 key facts, 10 arguments rejected or waived, and 12 \
+relied_on authorities. Merge closely related points rather than listing each. \
+Give background authorities a short proposition. A short procedural order \
+needs far fewer items than this.
 
 Rules: rely only on the text provided. If something is not stated (e.g., the \
 standard of review), say "Not stated" rather than guessing. Never invent \
@@ -235,14 +250,15 @@ def _system(with_example: bool) -> list[dict]:
 
 
 def _call(messages: list[dict], *, max_tokens: int, effort: str,
-          schema: dict | None = None, with_example: bool = False) -> tuple[str, int]:
+          schema: dict | None = None, with_example: bool = False,
+          model: str = MODEL, system: list[dict] | None = None) -> tuple[str, int]:
     output_config: dict[str, Any] = {"effort": effort}
     if schema is not None:
         output_config["format"] = {"type": "json_schema", "schema": schema}
     resp = client().messages.create(
-        model=MODEL,
+        model=model,
         max_tokens=max_tokens,
-        system=_system(with_example),
+        system=system if system is not None else _system(with_example),
         thinking={"type": "adaptive"},
         output_config=output_config,
         messages=messages,
@@ -292,12 +308,13 @@ def _reduce(notes: list[str], meta: str, depth: int, usage: list[int]) -> str:
 # ------------------------------------------------------------------ public API
 
 def summarize_opinion(text: str, row: Any) -> dict[str, Any]:
-    """Return the SUMMARY_SCHEMA fields plus citation_check, coverage_note,
-    model and _input_tokens."""
+    """Return the SUMMARY_SCHEMA fields plus citation_check, fact_check,
+    coverage_note, model and _input_tokens."""
     meta = _meta(row)
     usage: list[int] = []
     tokens = count_tokens(text)
     coverage_note = ""
+    chunks: list[str] | None = None
 
     if tokens <= TOKEN_CEILING:
         body = f"<opinion>\n{text}\n</opinion>"
@@ -332,6 +349,12 @@ def summarize_opinion(text: str, row: Any) -> dict[str, Any]:
     result = json.loads(raw)
     # Checked against the full opinion text, not the map/reduce notes.
     result["citation_check"] = check_citations(result, text)
+    if VERIFY_FACTS:
+        try:
+            result["fact_check"] = fact_check(result, text=text, chunks=chunks,
+                                              call=_call, usage=usage)
+        except Exception as exc:  # noqa: BLE001 - a failed check must not lose the summary
+            result["fact_check"] = {"error": f"{type(exc).__name__}: {exc}"[:300]}
     result["coverage_note"] = coverage_note
     result["model"] = MODEL
     result["_input_tokens"] = sum(usage)
