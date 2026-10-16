@@ -161,9 +161,21 @@
       "name": "Shareholder Representative Services, LLC v. Alexion Pharmaceuticals Inc.",
       "processed_at": "2026-10-15T15:44:36-04:00",
       "status": "ok"
+    },
+    "de-402200": {
+      "docket": "C.A. No. 2023-1181-BWD",
+      "name": "Blue Fire Capital LLC v. Robert A. Lindeman, et al.",
+      "processed_at": "2026-10-16T11:48:17-04:00",
+      "status": "ok"
+    },
+    "de-402210": {
+      "docket": "C.A. 2025-0634-KMM",
+      "name": "M.A.C. Job Fund I, LLC. v. Voyager Technologies, Inc.",
+      "processed_at": "2026-10-16T11:48:17-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-15T15:44:36-04:00",
-  "page_hash": "0cbdce5d94a1489ca02fea55cbb4b007d8111dbace67c8298d0664189a2d657d"
+  "last_checked_ny": "2026-10-16T11:48:17-04:00",
+  "page_hash": "fb30a6c8786fd14b66e6b068823bb76ac3cf6189eabf4b452576215c47236dc1"
 }

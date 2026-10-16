@@ -1,4 +1,332 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402200",
+      "date": "2026-10-16",
+      "docket": "C.A. No. 2023-1181-BWD",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "Blue Fire Capital LLC v. Robert A. Lindeman, et al.",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T11:48:17-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Blue Fire's theory that the March 10 Letter was a Buy/Sell Offer that its April 30 Response accepted while properly rejecting the Release Terms: rejected. The letter made no offer to sell, so there was nothing to accept, and the April 30 Response was instead a rejection and counteroffer.",
+          "The parties' suggestion that citing § 9.12 \"implied\" an offer to sell: rejected. Section 9.12 does not convert a one-sided offer into a buy-and-sell offer; it says such an offer is not subject to § 9.12. The non-invertible Release Terms also foreclose any implied offer to sell, since R&M cannot say what that offer's terms would have been.",
+          "Reliance on R&M's later conduct (the April 29 Letter and May 13 Reply) as showing intent to make a Buy/Sell Offer: rejected. The Court accepted that R&M's conduct suggests that intent, but R&M \"failed to accomplish its intent\" because it did not comply with the plain language of § 9.12.",
+          "R&M's primary theory that Blue Fire failed to accept within 60 days, so R&M validly exercised its § 9.12(b) purchase right on May 13: rejected because the March 10 Letter was never subject to § 9.12.",
+          "R&M's alternative theory that the April 30 Response was a Buy/Sell Offer that the May 13 Reply accepted: rejected. R&M conceded the April 30 Response did not contain both offers, and it only purported to purchase R&M's interest, so R&M could not accept an offer to sell that Blue Fire never made.",
+          "R&M's argument that its noncompliance with § 9.12 was at most an \"immaterial breach\": rejected in fn. 5. Neither party is contractually required to deliver a Buy/Sell Offer, so the issue is not breach; the offers were simply not subject to § 9.12.",
+          "R&M's argument that it may purchase Blue Fire's interest under the June 2025 MIPA: not reached (fn. 3). The Court declined to revisit then-Vice Chancellor Zurn's stay ruling refusing to give effect to an agreement \"that may not have been reached\" while that dispute is litigated in the Northern District of Texas.",
+          "Both sides' requests for fees and costs under Operating Agreement § 11.8: denied because neither party prevailed in enforcing its rights under the Operating Agreement."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "PPDP Operating Agreement § 9.12(a)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "No offer is subject to § 9.12 unless it is both an offer to sell the Offeror's entire Interest and an offer to purchase the Offeree's entire Interest, at a specified cash price on the same Interest value; such offers are irrevocable for 60 days.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "PPDP Operating Agreement § 9.12(b)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Offeror's right to purchase after the Offeree's non-acceptance arises only from an offer subject to § 9.12, so it was unavailable to R&M.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "PPDP Operating Agreement § 11.8",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Fees go to a party that prevails in enforcing its rights under the Agreement; neither party did, so each bears its own fees and costs.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sandcastle Realty, Inc. v. Castagna, 2006 WL 2521437 (Del. Ch. Aug. 16, 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A response to an offer that is not on the offeror's terms is a rejection and counter-offer.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Absent an identified material factual dispute, cross-motions may be deemed a stipulation for decision on the merits on the record submitted; both parties invoked it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "McKenzie v. BDO USA, P.C., 2026 WL 191010 (Del. Ch. Jan. 26, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Absent ambiguity, contract terms are given their plain and ordinary meaning.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Infab Holdco, Inc. v. Cusick, 2025 WL 1430771 (Del. Ch. May 19, 2025) (quoting O'Brien v. Progressive N. Ins. Co., 785 A.2d 281 (Del. 2001))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A contract is ambiguous only when the disputed provisions are reasonably or fairly susceptible to different interpretations.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "XO Commc'ns, LLC v. Level 3 Commc'ns, Inc., 948 A.2d 1111 (Del. Ch. 2007) (quoting NBC Universal, Inc. v. Paxson Commc'ns Corp., 2005 WL 1038997 (Del. Ch. Apr. 29, 2005))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment is particularly appropriate in disputes over unambiguous contracts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Baring v. Condrell, 2004 WL 2340047 (Del. Ch. Oct. 18, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The same standard applies to each cross-motion, and cross-motions alone do not show summary judgment is appropriate.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Blue Fire and R&M, the 50/50 members of PPDP, cross-moved for partial summary judgment, each claiming that a 2021 exchange of letters entitled it to buy the other out under the Operating Agreement's § 9.12 buy/sell provision. Vice Chancellor David held that § 9.12(a) unambiguously excludes any offer that is not both an offer to sell and an offer to buy. R&M's purchase-only March 10 Letter, accompanied by non-invertible Release Terms, therefore never triggered the mechanism despite its caption and R&M's evident intent. Because no qualifying offer was made, neither Blue Fire's purported acceptance nor R&M's purported § 9.12(b) exercise or alternative acceptance bound anyone, and the Court entered judgment against each party on its own claims and denied fees to both.",
+        "citation_check": {
+          "not_checked": 3,
+          "not_found": 0,
+          "verified": 7
+        },
+        "core_legal_issue": "Whether a 2021 exchange of letters between PPDP's two 50% members triggered the shotgun buy/sell mechanism in § 9.12 of the PPDP Operating Agreement, where § 9.12(a) provides that \"[n]o offer shall be subject to the provisions of this Section 9.12 unless such offer is both an offer to sell the entire Interest of the Offeror and an offer to purchase the entire Interest of the Offeree,\" and each letter offered or purported to accept only one side of a buy/sell.",
+        "coverage_note": "",
+        "disposition": "granted in part and denied in part",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "On partial summary judgment, judgment entered for R&M on Counts II (declaratory judgment), III (breach of § 9.12) and IV (specific performance) of the Complaint. Judgment entered for Blue Fire on Counts I-III of the Counterclaims. Applying § 9.12(a)'s unambiguous text, the Court held that R&M's March 10 Letter was not a Buy/Sell Offer because it offered only to buy, with no explicit or implied offer to sell. Blue Fire's April 30 Response therefore could not accept an offer that was never made; it was a rejection and counteroffer, and was itself not a Buy/Sell Offer because it only purported to purchase. R&M's May 13 Reply could neither exercise a § 9.12(b) purchase right nor accept a Blue Fire offer to sell that did not exist. Neither member is bound to sell to the other. Each side bears its own fees and costs under § 11.8. The opinion does not address Count I of the Complaint (derivative fiduciary duty claim against Lindeman), which was outside the Cross-Motions. The Court declined to reach R&M's MIPA-based theory.",
+        "key_facts_and_concessions": [
+          "Section 9.12(a) requires a qualifying offer to be both an offer to sell the Offeror's entire Interest and an offer to purchase the Offeree's entire Interest, at a specified cash price computed on the same Interest value. If the Offeree does not accept within 60 days, § 9.12(b) lets the Offeror purchase at that price.",
+          "R&M's March 10 Letter was captioned \"Notice of Buy/Sell Offer\" and cited § 9.12, but it offered only to purchase Blue Fire's interest for $1.3 million, defining R&M as \"Buyer\" and Blue Fire as \"Seller.\" R&M conceded the letter \"does not follow requirements\" of § 9.12 (fn. 4).",
+          "The March 10 Letter added Release Terms: R&M would indemnify Blue Fire in pending suits including the Lotus Pad Lawsuit, Blue Fire would dismiss its S.D. Ohio action against R&M with prejudice, and R&M would release Blue Fire. These terms could not be inverted onto R&M as seller.",
+          "Blue Fire's April 30 Response purported to accept \"R&M's offer to sell R&M's entire Interest\" for the cash price. It stated that the Release Terms were outside § 9.12 and \"not accepted or rejected.\"",
+          "R&M conceded that Blue Fire's April 30 Response \"does not contain both an offer to buy and an offer to sell\" (DOB at 38).",
+          "R&M's May 13 Reply purported to exercise R&M's § 9.12(b) purchase right. Alternatively, it purported to accept Blue Fire's April 30 Response as an offer to sell Blue Fire's interest.",
+          "R&M's April 29 Letter said \"the buy-sell provisions ... have been triggered.\" Neither party contends that letter made or accepted an offer; Blue Fire cites it only as evidence of R&M's intent (fn. 1).",
+          "Neither party argued that waiver, estoppel or another legal theory should bind the parties to an incorrect interpretation of § 9.12."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Shotgun buy/sell notices should track the operating agreement's formal requirements exactly, including expressly offering both to buy and to sell, because labels, citations to the provision and evident intent will not cure a one-sided offer. Adding non-reciprocal side terms such as releases or litigation dismissals can by themselves defeat any argument that an offer to sell was implied.",
+        "standard_of_review": "Ct. Ch. R. 56(a) summary judgment on cross-motions. Both parties invoked Ct. Ch. R. 56(i), so the Court could deem the motions a stipulation for decision on the merits on the record submitted. Unambiguous contract terms are read according to their plain and ordinary meaning. The analysis heading states \"The Cross-Motions Are Denied,\" but the Court entered judgment for each side on the other side's claims."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402200"
+    },
+    {
+      "case_id": "de-402210",
+      "date": "2026-10-13",
+      "docket": "C.A. 2025-0634-KMM",
+      "judge": "Miller J.",
+      "name": "M.A.C. Job Fund I, LLC. v. Voyager Technologies, Inc.",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T11:48:17-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Contractual good-faith-discretion theory (Count I): rejected. The Investor Agreement sets no standard for declining post-window investments, and the parties showed they knew how to impose one (§§ 4, 5). The Court will not twist the contract to imply a term M.A.C. Job did not secure.",
+          "Request that the Court fix the discretion standard later as a fact question: rejected; there is no basis for the Court to set a standard the contract omits.",
+          "Reliance on Houseman v. Sagerman: distinguished. There, a stockholders' representative owed fiduciary-type duties, and contractual \"sole and absolute discretion\" language equated to a duty of subjective good faith; no comparable standard exists here.",
+          "Amendment of the Marketing Window by course of conduct: rejected. Continued joint marketing and Voyager's expressed enthusiasm did not include any discussion of extending mandatory acceptance; the February 2025 communications at most show efforts to find a way to close in light of the IPO. An agreed extension is not reasonably conceivable.",
+          "Voyager's contention that § 10's signed-writing requirement alone defeats the modification theory: not adopted. Such clauses may be waived or amended orally or by course of conduct, subject to a heightened evidentiary standard; the theory failed instead for lack of pleaded agreement.",
+          "Early-termination breach of § 9: breach adequately pled (unchallenged), but the claim fails for lack of damages. The claimed losses flow from Voyager's refusal to accept the investments, not the February termination, and would have been the same had the contract terminated at the June IPO.",
+          "Implied covenant (Count III), discretion prong: rejected. The parties allocated to M.A.C. Job the post-window risk of non-acceptance. Voyager could prefer the more advantageous IPO even if motivated by \"greed\" without frustrating the agreement's scope, purpose or terms.",
+          "Promissory estoppel (Count II): rejected, as M.A.C. Job acknowledged at oral argument, because an enforceable contract governs the post-window period."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Investor Agreement §§ 4, 5, 7, 9, 10",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Mandatory acceptance applies only during the Marketing Window. §§ 4 and 5 show the parties imposed \"commercially reasonable efforts\" standards where intended, § 9 sets the termination events, and § 10 requires signed-writing amendments.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson & Johnson v. Fortis Advisors LLC, 352 A.3d 229 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant attaches to every contract but is applied surgically: only to unforeseen contingencies or to discretion over a central aspect of the contract, and only to protect reasonable expectations shared at signing.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gerber v. Enter. Prods. Holdings, LLC, 67 A.3d 400 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "In the implied covenant, \"good faith\" means faithfulness to the contract's scope, purpose and terms, and \"fair dealing\" means acting consistently with the agreement and its purpose, not entire-fairness process.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nemec v. Shrader, 991 A.2d 1120 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant does not permit post-contractual rebalancing of economic benefits or rewriting a bad deal.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Winshall v. Viacom Intern., Inc., 55 A.3d 629 (Del. Ch. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party with discretion has no implied obligation to exercise it in a manner benefiting the counterparty.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Continental Ins. Co. v. Rutledge & Co., Inc., 750 A.2d 1219 (Del. Ch. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Anti-oral-modification clauses may be waived orally or by course of conduct, but the proponent must show the modification with specificity and directness.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Reeder v. Sanford School, Inc., 397 A.2d 139 (Del. 1979); Eureka VIII LLC v. Niagara Falls Hldgs. LLC, 899 A.2d 95 (Del. Ch. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An oral modification of a written contract must be proven by clear and convincing evidence, leaving no doubt of the parties' intent.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "MERA USA LLC v. MCS Burbank LLC, 2026 WL 2547077 (Del. Ch. Aug. 28, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Promissory estoppel is a narrow doctrine with four elements and is inapplicable where an enforceable contract governs the promise.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "SIGA Technologies, Inc. v. PharmAthene, Inc., 67 A.3d 330 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Promissory estoppel does not apply where a fully integrated, enforceable contract governs the promise at issue (quoted through MERA).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rhone-Poulenc Basic Chems. Co. v. Am. Motorists Ins. Co., 616 A. 1192 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts will not destroy or twist contract language under the guise of construing it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Houseman v. Sagerman, 2021 WL 3047165 (Del. Ch. July 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A stockholders' representative's contractual \"sole and absolute discretion\" equated to a duty of subjective good faith; the Investor Agreement contains no comparable standard.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Motion to dismiss for failure to state a claim.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Capital Holdings LLC, 27 A.2d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reasonable conceivability pleading standard.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Gen. Motors (Hughes) S'holder Litig., 897 A.2d 162 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Well-pleaded facts are accepted as true; conclusory allegations are not.",
+            "role": "background"
+          },
+          {
+            "authority": "World Energy LLC v. Air Products and Chemicals, Inc., 2026 WL 1948840 (Del. Ch. July 6, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Elements of breach of contract.",
+            "role": "background"
+          },
+          {
+            "authority": "Kentucky Downs Mgt., Inc. v. Kentucky Downs, LLC, 2026 WL 2350870 (Del. Ch. Aug. 13, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court's role in contract interpretation is to effectuate the parties' intent.",
+            "role": "background"
+          },
+          {
+            "authority": "Alta Berkeley IV C.V. v. Omnoen, Inc., 41 A.3d 381 (Del. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Unambiguous terms are given their plain, ordinary meaning.",
+            "role": "background"
+          },
+          {
+            "authority": "Salamone v. Gorman, 106 A.3d 354 (Del. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Objective theory of contracts and respect for parties' bargained-for language.",
+            "role": "background"
+          },
+          {
+            "authority": "Sunder Energy, LLC v. Jackson, 332 A.3d 472 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware is a contractarian state that holds freedom of contract in high regard.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "M.A.C. Job, an EB-5 fundraising vehicle, sued Voyager for breach of contract, promissory estoppel and breach of the implied covenant after Voyager terminated their Investor Agreement without accepting investor funds escrowed after the Marketing Window closed, and Voyager moved to dismiss. The Court held that the Agreement mandated acceptance only during the Marketing Window and set no standard for Voyager's post-window discretion. It found the post-window marketing and February 2025 communications did not plead an agreed extension, and that the admitted § 9 breach caused no damages distinct from non-acceptance. The implied covenant could not reallocate the bargained-for risk of non-acceptance, even if Voyager favored its IPO out of \"greed,\" and promissory estoppel was displaced by the governing contract.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 18
+        },
+        "core_legal_issue": "Whether an EB-5 fundraising counterparty (M.A.C. Job) stated claims for breach of contract, breach of the implied covenant, or promissory estoppel against Voyager. The Investor Agreement required Voyager to accept escrowed investments only \"during the Marketing Window,\" set no standard governing Voyager's discretion to accept investments after the window closed, and allowed amendment only by signed writing; Voyager then terminated without accepting post-window investments.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "the admitted § 9 breach",
+              "evidence": "M.A.C. Job sufficiently alleges Voyager terminated the Investor Agreement in violation of Section 9... Fn. 71: \"Voyager does not challenge these allegations.\"",
+              "field": "brief_summary",
+              "index": null,
+              "opinion_says": "The court found the § 9 breach sufficiently alleged and noted Voyager did not challenge it. It does not say Voyager admitted the breach.",
+              "problem": "Failing to challenge allegations on a motion to dismiss is not an admission of breach, and the opinion never describes the breach as admitted.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Voyager's Rule 12(b)(6) motion granted; the Amended Complaint is dismissed in its entirety with prejudice. Count I fails on all three theories. (1) The Investor Agreement imposes no standard on Voyager's post-window discretion, and the Court will not supply one. (2) It is not reasonably conceivable the parties agreed by conduct to extend the mandatory acceptance period. (3) Termination in breach of § 9 caused no recoverable damages, because the losses stem from non-acceptance and would be identical had the agreement terminated at the IPO. Count III fails because the contract allocated to M.A.C. Job the risk that Voyager would not accept post-window investments, so the implied covenant cannot supply that protection. Count II fails because, as Voyager conceded, an enforceable contract governed the post-window period, and M.A.C. Job acknowledged the claim then cannot survive. No fees or further directives.",
+        "key_facts_and_concessions": [
+          "Section 7 obligated Voyager to accept all EB-5 investments \"actually received in the Escrow Account from qualified EB-5 Investors during the Marketing Window\"; the parties agree the six-month Marketing Window ended November 22, 2024.",
+          "Both escrow wires (January 28 and February 3, 2025, totaling $1.45 million) were received after the Marketing Window closed.",
+          "M.A.C. Job agreed at oral argument (Tr. 30) that the Investor Agreement contains no standard governing Voyager's discretion post-window, but urged the Court to supply one later as a factual issue. Elsewhere the Agreement imposes \"commercially reasonable efforts\" obligations (§§ 4, 5).",
+          "Voyager clarified in briefing that the Investor Agreement did not terminate when the Marketing Window closed, and M.A.C. Job acknowledged at oral argument that promissory estoppel then cannot survive.",
+          "Section 10 permits amendment \"only by an agreement in writing signed by each party\"; no signed writing is alleged. In the post-window communications cited, the parties never discussed extending the mandatory acceptance period before February 2025.",
+          "On February 10, 2025, M.A.C. Job wrote that the Marketing Window \"expired in November\" and that extending it \"could be complicated in the context of the IPO\"; Voyager replied it would coordinate with Latham on IPO timing and \"get this papered and done ASAP.\" No agreement followed.",
+          "Voyager terminated on February 17, 2025, citing the expired window and a \"threshold requirement\" (which M.A.C. Job alleges does not exist). Voyager did not challenge that neither § 9 termination event had occurred (fn. 71).",
+          "M.A.C. Job sought $2 million in out-of-pocket expenses, lost fees and lost profits for the early termination. The parties agree the IPO closed in June; the opinion states \"June 12, 2024,\" though it elsewhere treats the IPO as closing after the February 2025 termination."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Parties whose economics depend on a counterparty's post-deadline discretion should negotiate an express standard (e.g., good faith or commercially reasonable efforts) or a signed extension before the mandatory period lapses; continued joint performance and expressions of commitment will not plead a modification or an implied-covenant claim. Pleadings on an early-termination theory must tie damages to the termination itself rather than to losses that would have occurred under the contract's own terms.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(6) reasonable conceivability. Well-pleaded facts are accepted as true and reasonable inferences drawn for plaintiff; conclusory allegations are not accepted. The Court noted, but did not apply at the pleading stage, the heightened \"specificity and directness\" and clear-and-convincing standard for proving an oral or conduct-based modification."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402210"
+    }
+  ],
+  "ny_date": "2026-10-16"
 }
