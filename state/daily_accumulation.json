@@ -326,6 +326,617 @@
         "standard_of_review": "Ct. Ch. R. 12(b)(6) reasonable conceivability. Well-pleaded facts are accepted as true and reasonable inferences drawn for plaintiff; conclusory allegations are not accepted. The Court noted, but did not apply at the pleading stage, the heightened \"specificity and directness\" and clear-and-convincing standard for proving an oral or conduct-based modification."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402210"
+    },
+    {
+      "case_id": "de-402240",
+      "date": "2026-10-16",
+      "docket": "C.A. No. 2026-0508-JTL",
+      "judge": "Laster V.C.",
+      "name": "Aprio Advisory Group LLC, et al. v. Dmitri Alexeev",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T15:43:47-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Alexeev was a partner, not an employee, so § 925 cannot apply: rejected. Under the functional, control-focused inquiry of Ramos, Strother and Clackamas, and given § 925's protective purpose, Alexeev's lack of management authority made him functionally an employee. The Court found employee status could be decided without discovery or a hearing.",
+          "The Challenged Agreement was a condition of the Merger, not of employment: rejected. The test is whether the employee could stay without signing, and the Buyer conceded he would have lost his job.",
+          "§ 925(e) counsel exception: rejected. It requires both individual representation and negotiation; company-retained counsel available for questions is not individual representation, and the form agreement allowed no negotiation.",
+          "Cal. Bus. & Prof. Code § 16601 (sale-of-business exception): not reached. It validates restrictive covenants, not forum or choice-of-law provisions; the Buyer may raise it to defend the Covenants in a forum with jurisdiction.",
+          "Delaware ties strengthened by non-party Delaware affiliate Evolution Buyer, LLC: rejected, because the Buyer also has non-party Georgia and Massachusetts affiliates, so entity status was not significant.",
+          "Delaware as the default state under § 188: rejected. Place of contracting, any negotiation, performance and subject matter all point to California, and the Buyer's Delaware entity status was the only Delaware tie.",
+          "Delaware's general freedom-of-contract interest: held insufficient to override California's fundamental policy, following Ascension.",
+          "Rule 12(b)(3) venue and Rule 12(b)(6) failure-to-state-a-claim grounds: not reached."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Cal. Lab. Code § 925",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "An employer may not require a California-based employee, as a condition of employment, to agree to litigate outside California or to forgo California law; such provisions are voidable by the employee; § 925(e) exempts only employees individually represented by counsel in negotiating those terms.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 187",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Chosen law applies unless the chosen state lacks a substantial relationship, or applying it would violate a fundamental policy of a state with a materially greater interest; a statute protecting against oppressive use of superior bargaining power can embody such a policy (cmt. g).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 188",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The contacts for determining the default state; when the places of negotiation and performance coincide, that state's law usually applies.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Certain Underwriters at Lloyds, London v. Chemtura Corp., 160 A.3d 457 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware follows the Restatement (Second) for contract choice of law, including the actual-conflict step.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 2708(a)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A Delaware choice-of-law clause in a contract of $100,000 or more is conclusively presumed to reflect a significant, material and reasonable relationship with Delaware, so § 187(a) was satisfied.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ramos v. Super. Ct., 239 Cal. Rptr. 3d 679 (Ct. App. 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A titled partner with no equity and subject to management control by equity partners is an employee for purposes of California employment law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Strother v. S. Cal. Permanente Med. Gp., 79 F.3d 859 (9th Cir. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Employee status requires a factual inquiry into the true relationship beyond the \"partner\" label, including compensation, liability exposure and management role.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Clackamas Gastroenterology Assocs., P.C. v. Wells, 538 U.S. 440 (2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Six EEOC control factors govern whether a partner, director or shareholder is an employee; title alone is not determinative.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "LGCY Power, LLC v. Super. Ct., 291 Cal. Rptr. 3d 50 (2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Section 925 is intended to give California-based employees a California forum for employment-related claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dalavai v. Amazon.com, Inc., 2026 WL 776364 (S.D. Cal. Mar. 19, 2026); Patel v. SAP Am., Inc., 2025 WL 1810011 (N.D. Cal. July 1, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An agreement is a \"condition of employment\" only if the employee could not obtain or keep the job without signing it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bromlow v. D & M Carriers, LLC, 438 F. Supp. 3d 1021 (N.D. Cal. 2020); Ryze Claim Sols. LLC v. Super. Ct., 33 Cal. App. 5th 1066 (2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Section 925 expresses California's strong public policy against requiring employees to litigate in another forum.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ascension Ins. Hldgs., LLC v. Underwood, 2015 WL 356002 (Del. Ch. Jan. 28, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware's general freedom-of-contract interest cannot trump the fundamental policy of a default state with overwhelming contacts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Cal. Bus. & Prof. Code § 16601",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "It validates sale-of-business restrictive covenants but not forum or choice-of-law provisions, so it is irrelevant to jurisdiction.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Nat'l Indus. Gp. (Hldg.) v. Carlyle Inv. Mgmt. L.L.C., 67 A.3d 373 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A freely and knowingly agreed forum-selection clause can confer personal jurisdiction; Delaware generally enforces such clauses.",
+            "role": "background"
+          },
+          {
+            "authority": "Ryan v. Gifford, 935 A.2d 258 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(2) burden, two-step analysis and prima facie standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Cap. Gp. Cos., Inc. v. Armour, 2004 WL 2521295 (Del. Ch. Oct. 29, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Valid consent obviates the formal jurisdictional analysis.",
+            "role": "background"
+          },
+          {
+            "authority": "Smith v. Van Gorkom, 488 A.2d 858 (Del. 1985)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Producing weak evidence when strong evidence is available supports an adverse inference.",
+            "role": "background"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 6",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Most-significant-relationship factors.",
+            "role": "background"
+          },
+          {
+            "authority": "FP UC Hldgs., LLC v. Hamilton, 2020 WL 1492783 (Del. Ch. Mar. 27, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court determines which state's law would apply absent the choice-of-law clause.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Holdco, Evolution Buyer, LLC and the Buyer sued former Aprio LLP partner Dimitri Alexeev, a California resident, for breaching restrictive covenants and for tortious interference and trade secret misappropriation; Alexeev moved to dismiss under Rules 12(b)(2), (b)(3) and (b)(6). Vice Chancellor Laster reached only personal jurisdiction, which rested solely on Delaware forum and law provisions incorporated from the Merger Agreement. Applying Restatement §§ 187-188, the Court held that California is the default state and that Cal. Lab. Code § 925 reflects a fundamental California policy that overrides the Delaware choice of law. Alexeev's \"partner\" title did not take him outside § 925's definition of employee, and he signed to keep his job without individual counsel, so his jurisdictional challenge voided the provisions.",
+        "citation_check": {
+          "not_checked": 3,
+          "not_found": 0,
+          "verified": 16
+        },
+        "core_legal_issue": "Whether Delaware forum-selection and choice-of-law provisions, incorporated from a merger agreement into a restrictive covenant agreement that a California-based equity-holding \"partner\" had to sign to keep his job, could supply consent to personal jurisdiction, or whether Cal. Lab. Code § 925 made them voidable at his election under the Restatement (Second) § 187(b) analysis.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Rule 12(b)(2) motion granted and the action dismissed for lack of personal jurisdiction. Delaware law passed § 187(a) by virtue of 6 Del. C. § 2708, but California is the default state under § 188. Section 925 applies because Alexeev was functionally an employee, signed as a condition of employment and fell outside the § 925(e) counsel exception. Section 925 embodies a fundamental California policy that outweighs Delaware's general freedom-of-contract interest, so under § 187(b) the Delaware Forum and Delaware Law Provisions are voidable at Alexeev's election. Consistent with prior decisions of the Court, Alexeev exercised that election by contesting jurisdiction, so the provisions are invalid. Because no other basis for jurisdiction was claimed, the case was dismissed. The Court did not reach Rule 12(b)(3), Rule 12(b)(6) or § 16601. No fee award or other directive.",
+        "key_facts_and_concessions": [
+          "Plaintiffs relied exclusively on the Delaware Forum Provision, read under the Delaware Law Provision, for jurisdiction; it was undisputed that personal jurisdiction did not otherwise exist.",
+          "Alexeev is a California resident who signed the Challenged Agreement in California, performed in California and allegedly breached it in California.",
+          "The Challenged Agreement has no forum or choice-of-law clause of its own; its § 16 incorporates Merger Agreement § 10.13 (Delaware law; exclusive Delaware forum) \"mutatis mutandis.\"",
+          "The Buyer acknowledged that a partner who did not sign \"would not continue to be a Member of the Firm following closing\" (AB at 18), so signing was a condition of employment.",
+          "Holdco Agreement § 4.2 vested management exclusively in the Managing Partner & CEO and barred Class A members such as Alexeev from management or binding Holdco.",
+          "Holdco itself described Alexeev as \"an employee of Aprio LLP\" and referred to his \"employment\"; the Buyer also conceded that negotiating with 216 partners would be \"completely unworkable.\"",
+          "The Lieberman affidavit stated that Levenfeld Pearlstein \"did not represent the individual AAG members or Aprio partners\" and was retained by AAG; Lieberman recalled no contact with Alexeev. The Challenged Agreement was presented take-it-or-leave-it.",
+          "Plaintiffs did not identify their principal places of business, which supported an inference that the information would have been adverse; no one disputed that 6 Del. C. § 2708 applied."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Acquirers that require California-based equity-holding professionals to sign restrictive covenant agreements as a condition of keeping their jobs should not rely on Delaware forum and law clauses to establish jurisdiction in Chancery. The § 925(e) safe harbor requires actual individual representation and negotiation, and company-retained counsel available to answer questions did not satisfy it here.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(2). Plaintiffs bear the burden of showing a basis for jurisdiction. Absent an evidentiary hearing, a prima facie showing suffices and the record is construed in the light most favorable to plaintiffs; the Court may consider pleadings, affidavits and discovery of record. Choice of law was decided under Restatement (Second) of Conflict of Laws §§ 187, 188 and 6."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402240"
+    },
+    {
+      "case_id": "de-402230",
+      "date": "2026-10-16",
+      "docket": "C.A. No. 2026-0772-JTL",
+      "judge": "Laster V.C.",
+      "name": "In re Cloudflare, Inc. Stockholder Litigation",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T15:43:47-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Injunction Exclusion (plaintiffs): rejected. Section 144(d)(6)(b) is ambiguous, but the jurisprudential backdrop, the Optimizing article and practitioner commentary show it reaches only traditional enhanced-scrutiny settings (Unocal/Revlon defensive and deal-protection devices; Blasius-type interference). Plaintiffs' reading would let injunction suits sidestep the single-cleansing regime for non-freeze-out controller transactions.",
+          "Challenge to the Board's Disinterest Determinations for Lakhani and Sandell (plaintiffs): rejected. The omitted facts (book blurb, student talks, Portugal assistance, home and boat invitations; NEA's returns, co-investments, references, and social ties) were not material in light of what the Board knew, so the Heightened Presumption applies. Plaintiffs did not allege that a Board majority lacked disinterestedness or independence from any Committee member.",
+          "Presumption Provision is pleading-stage only (plaintiffs): rejected. Echoing business judgment rule usage, it applies after the pleading stage and, consistent with Hudak, requires clear and convincing evidence to rebut.",
+          "Lakhani and Sandell were not disinterested, so the Approval Requirement failed (plaintiffs): rejected at this stage. A reasonable board could treat Lakhani as disinterested, and Sandell's ties \"straddle the line\" but do not show that no board could reasonably have so determined.",
+          "No inference from missing Signal messages absent a spoliation motion (defendants): rejected. The Court may draw inferences from what the record contains and omits; producing weak evidence when strong evidence should have been available supports an inference that the strong evidence would have been adverse (Van Gorkom).",
+          "Defense testimony that Signal was not used for substantive communications: not credited at this stage in light of surviving messages, unexplained shortening of deletion settings, and strained testimony.",
+          "Gross negligence, including failure to obtain a fairness opinion (plaintiffs): rejected as a basis for injunctive relief. The process bore outward signs of diligence (competent advisors, eighteen meetings, extensive minutes), and Delaware imposes no duty to obtain a fairness opinion.",
+          "Balancing of equities: defendants' contention that the Founders may leave if the Recapitalization is delayed rejected as lacking credible record support. The transaction is unilateral and no third-party deal is at risk.",
+          "Defendants' attack on the Centerview notes as inaccurate: not accepted at this stage. Plaintiffs' reading of \"narrative\" and \"story\" as justifying a pre-ordained result is reasonably probable, and choosing among interpretations awaits trial (fn. 63).",
+          "Defendants' alternative theory that Suder alone satisfied the Approval Requirement as the sole disinterested Committee member: not reached because the challenges to Lakhani and Sandell failed (fn. 268)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 144(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Committee-Approval Path of the General Controller Safe Harbor requires approval in good faith and without gross negligence by a majority of disinterested directors on a committee of 2+ directors whom the board determined to be disinterested.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(d)(6)(b)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Injunction Exclusion; held ambiguous and construed to reach only traditional enhanced-scrutiny defensive devices, not this controller recapitalization.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(d)(2)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Board determination of exchange-listing independence creates a heightened presumption of disinterestedness, rebuttable only by \"substantial and particularized facts\"; applies after the pleading stage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hudak v. Procek, 806 A.2d 140 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rebutting a weighty \"legal presumption\" requires clear and convincing evidence; adopted for the Heightened Presumption post-pleading.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "D.R.E. 301",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Delaware follows Morgan's approach (presumption shifts the burden of persuasion), not the federal bursting-bubble rule.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re S. Peru Copper Corp. S'holder Deriv. Litig., 52 A.3d 761 (Del. Ch. 2011)",
+            "check": "not_found",
+            "check_detail": "S Peru",
+            "kind": "case",
+            "proposition": "Controlled-mindset theory: a committee that considers only the controller's options and works to justify the controller's terms can fail despite a facially sound process.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Smith v. Van Gorkom, 488 A.2d 858 (Del. 1985)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Production of weak evidence when strong evidence is or should have been available supports the conclusion that the strong evidence would have been adverse.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Brehm v. Eisner, 746 A.2d 244 (Del. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Duty of care requires consideration of all material information reasonably available; applied to test the Board's Disinterest Determinations.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dodiya v. Franklin, 2026 WL 2517931 (Del. Ch. Aug. 26, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Safe Harbor Statute provides powerful protection; qualified committee action is necessary but not sufficient; § 144 does not displace common-law fiduciary requirements; enhanced scrutiny not applied to a board's safe-harbor determination.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hamermesh, Jacobs & Strine, Optimizing the World's Leading Corporate Law, 77 Bus. Law. 321 (2022)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Foundational source for the statute; called for single-cleansing of non-freeze-out controller transactions (including control-preserving charter amendments) with no injunction carve-out, and for confining enhanced scrutiny to pre-closing injunction contexts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RLF, Proposed Legislation (Feb. 18, 2025); Klinger-Wilensky et al., Corp. Governance Advisor (2025); ABA, Sea Change (2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Contemporaneous Council-linked commentary reading the Injunction Exclusion as limited to defensive devices such as poison pills and deal protections.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "IRA Tr. FBO Bobbie Ahmed v. Crane, 2017 WL 7053964 (Del. Ch. Dec. 11, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Entire fairness applies to reclassifications that extend controller control; fairness opinions are not required for any transaction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Levco Alt. Fund Ltd. v. Reader's Dig. Ass'n, 2002 WL 1859064 (Del. 2002) (TABLE)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Enjoined a controller recapitalization noting the absence of a fairness opinion; the Court observed that later decisions show greater deference to forgoing one.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Solash v. Telex Corp., 1988 WL 3587 (Del. Ch. Jan. 19, 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Risk of losing a premium third-party transaction can tip the balance against an injunction; inapplicable to a unilateral recapitalization.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "In re Cornerstone Therapeutics, Inc., S'holder Litig., 115 A.3d 1173 (Del. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Analogy supporting director-by-director, non-circular review of Disinterest Determinations.",
+            "role": "background"
+          },
+          {
+            "authority": "Mills Acq. Co. v. Macmillan, Inc., 559 A.2d 1261 (Del. 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Three-element preliminary injunction standard.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Tesla, Inc. Deriv. Litig., 2025 WL 3689114 (Del. 2025) (TABLE)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Complex closed transactions are impracticable to unwind.",
+            "role": "background"
+          },
+          {
+            "authority": "Palkon v. Maffei, 339 A.3d 705 (Del. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Supreme Court questioned stock-price-reaction damages methods, supporting the conclusion that damages are an inadequate remedy.",
+            "role": "background"
+          },
+          {
+            "authority": "Rutledge v. Clearway Energy Gp. LLC, 360 A.3d 1271 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Section 144(b)–(c) displaced Match, requiring dual-cleansing only for going-private transactions.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. S.B. 21 syn., 153d Gen. Assem. (2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Good-faith and gross-negligence requirements preserve core common-law fiduciary conduct.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Walt Disney Co. Deriv. Litig., 906 A.2d 27 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Bad faith includes intentionally acting with a purpose other than advancing the corporation's best interests.",
+            "role": "background"
+          },
+          {
+            "authority": "United Food & Com. Workers Union v. Zuckerberg, 250 A.3d 862 (Del. Ch. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A director may in good faith believe founder control maximizes long-term value.",
+            "role": "background"
+          },
+          {
+            "authority": "T. Rowe Price Recovery Fund, L.P. v. Rubin, 770 A.2d 536 (Del. Ch. 2000)",
+            "check": "not_found",
+            "check_detail": "T Rowe",
+            "kind": "case",
+            "proposition": "At the injunction stage, plaintiffs must show a reasonable likelihood that defendants cannot prove entire fairness at trial.",
+            "role": "background"
+          },
+          {
+            "authority": "Sterling v. Mayflower Hotel Corp., 93 A.2d 107 (Del. 1952)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fairness test asks whether minority holders receive the substantial equivalent in value of what they had before.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 16(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Docket-management authority supporting an optional bifurcated safe-harbor trial.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Stockholders of Cloudflare, Inc. sued the Founders as controllers and the directors over a Committee-negotiated recapitalization (Class B Exchange into nine-vote Preferred Stock plus a Class C non-voting split) designed to stop the erosion of the Founders' voting control, and moved to preliminarily enjoin its closing. The Court of Chancery (Laster, V.C.) resolved every statutory question under the 2025 Safe Harbor Statute for defendants: the Injunction Exclusion is limited to enhanced-scrutiny settings, the Board's Disinterest Determinations stand, and the Heightened Presumption applies post-pleading and requires clear and convincing evidence to rebut. The Court nevertheless found a reasonable probability that the Committee failed the statute's independent good-faith requirement, citing evidence of a controlled mindset, an unauthorized back-channel assurance to Prince, Prince's threats and allied directors' intervention, and Signal auto-deletion that undercut defendants' credibility. Under the resulting entire fairness review, plaintiffs showed a reasonable probability of success, and irreparable harm and the balance of equities supported a status-quo injunction, with defendants offered an expedited bifurcated trial on safe-harbor good faith.",
+        "citation_check": {
+          "not_checked": 3,
+          "not_found": 2,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether stockholder plaintiffs showed a reasonable probability of defeating the General Controller Safe Harbor's Committee-Approval Path (8 Del. C. § 144(b)(1)), and then of prevailing under entire fairness, sufficient to preliminarily enjoin a founder-control-preserving recapitalization. The subsidiary questions were: whether the Injunction Exclusion (§ 144(d)(6)(b)) takes the case outside the statute; whether the Board's Disinterest Determinations and the § 144(d)(2) Heightened Presumption survive the plaintiffs' challenges to Lakhani and Sandell; what that presumption requires after the pleading stage; and whether the Committee approved \"in good faith and without gross negligence.\"",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 20,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Preliminary injunction granted. An injunction will issue preventing the Recapitalization from closing pending post-trial disposition. Irreparable harm exists because the multi-class recapitalization and the issuance of new Class C shares could not practicably be unwound, and a reliable damages measure is unlikely. The equities favor relief because the transaction is unilateral and the record does not support the claim that the Founders would leave. On the merits, defendants prevailed on every statutory issue: the Injunction Exclusion does not apply; the Board's Disinterest Determinations stand, so the Heightened Presumption applies to Lakhani and Sandell; that presumption applies post-pleading and requires clear and convincing proof that no reasonable board could have made the determination; and plaintiffs lack a reasonable probability of carrying that burden, so the Approval Requirement was met. Gross negligence was unlikely. Plaintiffs nonetheless showed a reasonable probability that the Committee did not act in good faith, given evidence of a controlled mindset, Lakhani's unauthorized assurance, Prince's threats, the intervention of non-Committee directors, Signal deletions and defendants' credibility problems. With the safe harbor potentially unavailable, entire fairness governs, and plaintiffs showed a reasonable probability that defendants cannot prove fair dealing or fair price. The Court stated that without the credibility problems it could have found the safe harbor so likely to apply as to negate injunctive relief. Directives: defendants must elect within ten days whether to bifurcate. A bifurcated first trial would be limited to Committee-Approval Path compliance (centered on good faith), held promptly, ideally in about ninety days, with no expert testimony expected, limited fact witnesses and little or no additional discovery. Absent bifurcation, a full trial will be held promptly. After the election, the Court will convene a case management conference, and the parties must confer and submit a joint letter beforehand; the Rule 7(d)(3) word limit does not apply.",
+        "key_facts_and_concessions": [
+          "Despite promising the Committee he would refrain from discussing its process, Lakhani told Prince at the April 30, 2026 Lisbon dinner that he expected \"the Committee was going to be able to get to where [the Founders'] proposal was\"; the Committee never authorized that communication.",
+          "When Sandell previewed the Committee's second proposal, Prince exploded in May 2–3 texts and told Ledbetter, a non-Committee director, \"I'm tendering my resignation in 12 hours if this BS isn't resolved.\" Ledbetter replied \"Let me fix it,\" backchanneled with Sandell, and joined a Committee meeting along with Cunningham. The final 40% Class A-only Capital-at-Risk Requirement was \"where Prince had said he expected the negotiations to land.\"",
+          "Centerview junior-banker notes of a February 4, 2026 advisor meeting record a \"[n]eed to figure out the narrative and ensure there are 'gets' for Matthew/Michelle.\" After Prince \"loved\" the Class B Exchange plus Non-Voting Stock Authorization, the Committee pursued that path and never presented Centerview's other alternatives to the Founders. The Court found the notes consistent with the transaction's flow despite the defense witnesses' uniform attacks on them (fn. 63).",
+          "Committee members, the Founders and Ledbetter used Signal chats with auto-delete settings (including a \"bus\" emoji chat Prince set to one-day deletion, and \"Progress Committee\" and \"SC\" chats). Some deletion settings were created or shortened after Prince's explosion. No one disabled auto-delete until the first litigation hold on June 5, 2026, although advisors had warned of likely litigation, and surviving messages contradicted defense testimony that Signal was not used for substantive communications.",
+          "The Committee never sought a fairness opinion and never valued the Recapitalization, the Founders' tax and estate-planning benefits, or the widened voting/cash-flow wedge. The Court viewed the Service Requirement and majority-independent-board concessions as of limited value because no one expected the Founders to leave and the Board had always been majority independent.",
+          "The Founders held 50.3% of the voting power and the transaction was not conditioned on a majority-of-the-minority vote. Only 15.6% to 17.7% of the non-Founder voting power supported the components put to a vote, and ISS and Glass Lewis recommended against.",
+          "The Company had committed in related litigation not to close until the Court ruled, but on August 21, 2026 defendants' counsel announced a mid-September closing. The Company backed off only after a teleconference at which the Court advised plaintiffs to seek a TRO; the Court treated this as compounding defendants' credibility problems.",
+          "At the hearing, plaintiffs' counsel acknowledged that plaintiffs view the case as disinterested directors falling prey to a controlled mindset, and plaintiffs advanced no separate gross negligence theory. The parties agree entire fairness governs if the safe harbor does not apply."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Satisfying § 144(b)(1)'s structural requirements does not end the inquiry: the good-faith prong remains a live, fact-intensive path around the safe harbor, and committee members' back-channel assurances, non-member directors' involvement, controller pressure, and ephemeral messaging during anticipated litigation can generate enough credibility doubt to support an injunction and force a trial. On the other side, boards that document their consideration of directors' relationships when making Disinterest Determinations gain a Heightened Presumption that plaintiffs must overcome by clear and convincing evidence at trial.",
+        "standard_of_review": "Preliminary injunction under Mills Acq. Co. v. Macmillan: (1) reasonable probability of success on the merits, (2) threatened irreparable harm, and (3) balancing of the equities, with a strong showing on one element able to offset a weaker showing on another. On the safe harbor: at trial, rebutting the § 144(d)(2) Heightened Presumption requires clear and convincing evidence that no reasonable board could have determined the director was disinterested; at the injunction stage, plaintiffs need a reasonable probability of making that showing. Good faith and gross negligence carry no clear-and-convincing overlay. If the safe harbor fails, entire fairness applies with the burden on defendants, and plaintiffs must show a reasonable likelihood that defendants cannot prove fairness. Statutory interpretation is a question of law."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402230"
+    },
+    {
+      "case_id": "de-402220",
+      "date": "2026-10-01",
+      "docket": "C.A. No. 2020-0985-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Mitchell Partners, L.P. v. AMFI, et al.",
+      "ny_date": "2026-10-16",
+      "ny_processed_at": "2026-10-16T15:43:47-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Impermissible delegation of valuation to Peat Marwick under §§ 141(a)/152-153: rejected. The minutes show valuation \"based upon advice\" from Peat Marwick, and the Supplemental Agreement reserved valuation to the parties' mutual agreement. The Board relied on its advisor; it did not delegate the decision.",
+          "No valuation was ever obtained: rejected. Inability to produce a 1982 hardcopy valuation does not show it never existed, and the Request for Rulings, Form S-14 and charter circumstantially show a $20 million valuation.",
+          "Invalid or untimely consideration under § 152: rejected. Plaintiff did not allege fraud, so the Board's judgment on consideration is conclusive. Plaintiff's only support for untimely receipt (Little Sabine's stock ledger and the missing Investments Corp. ledger) was \"not enough,\" and under Bylaws § 6.2 the certificate would not have issued without payment.",
+          "Objection to the admissibility and authenticity of the duplicate Class B Stock Certificate: overruled. Plaintiff offered only argument, with no facts or testimony putting authenticity in contention, against credible authenticating witnesses.",
+          "Disregarding Harrison's testimony because her interrogatory answers disclaimed personal knowledge and her testimony was allegedly withheld in discovery: rejected. The prior statements go to the credibility of her memory, and there was no evidence she recalled the 1994 entries earlier.",
+          "Derivative standing for Counts IV and V: rejected for failure of contemporaneous ownership under 8 Del. C. § 327 and Rule 23.1, because the transactions occurred in 1982-1983. Maclary, which helped Plaintiff survive dismissal, is no longer relevant now that the 1982 issuance date is found (fn. 209).",
+          "Count IV as a direct claim: the Court did not decide direct versus derivative, noting Defendants' contrary arguments were \"compelling.\" Any direct claim falls with Count III because it is predicated on the Class B stock being void or voidable.",
+          "Count V (disclosure claim over the 1983 reverse-split proxy): fails because Plaintiff was not a stockholder in 1983 and so was owed no fiduciary duty.",
+          "Permanent injunction on Count I: rejected as conclusory. Plaintiff stated and applied no legal standard, and some of its factual claims about the ledger were unsupported.",
+          "Count II: Plaintiff's enhanced-scrutiny theory failed because it did not adequately identify director conflicts. Its alternative Caremark theory failed for lack of bad faith, given that Delaware law prescribes no form of stock ledger and the Director Defendants promptly corrected deficiencies after the Letter Decision."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 152 (now § 152(d)); 59 Del. Laws ch. 437 § 8 (1974); 83 Del. Laws ch. 377 § 3 (2022)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Absent fraud, the directors' judgment as to the value of consideration for stock is conclusive, then as now. Section 152 was split into subsections only in 2022.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Former 8 Del. C. § 153(a) (57 Del. Laws ch. 148 § 10 (1969); 59 Del. Laws ch. 437 § 8 (1974))",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Par value stock may issue for consideration not less than par, as determined by the board, and is payable in the form and manner the board determines.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Field v. Carlisle Corp., 68 A.2d 817 (Del. Ch. 1949)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Directors may employ non-directors to assist in valuing property received for stock, and reliance assumes knowledge of the valuation. Plaintiff cited it for a non-delegable duty to fix the number and price of shares.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "West Palm Beach Firefighters' Pension Fund v. Moelis & Co., 311 A.3d 809 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A board may not delegate a core function to another and agree to be bound by that person's determination, because doing so violates 8 Del. C. § 141(a). Used to frame the delegation-versus-reliance distinction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "D.R.E. 1002-03",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A duplicate cannot stand in for an original when the original's authenticity is genuinely in question.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Graves v. State, 2006 WL 496140 (Del. Super. Feb. 2, 2006) (citing D.R.E. 901(a))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Authenticity asks whether a document is what its proponent claims, and the objector must present facts or testimony sufficient to put it in contention.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Estate of Osborn v. Kemp, 2009 WL 2586783 (Del. Ch. Aug. 20, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A person with sufficient knowledge can authenticate a record without absolute verification of its accuracy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "AMFI Bylaws § 6.2 (JX-1)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Class B Stock Certificate would not have issued without timely payment of valid consideration.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 327; Ct. Ch. R. 23.1(a)(2)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Contemporaneous ownership is required for derivative standing.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Leung v. Schuler, 2000 WL 264328 (Del. Ch. Feb. 29, 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No fiduciary relationship or duty exists toward a plaintiff who became a stockholder after the alleged violation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Stone v. Ritter, 911 A.2d 362 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A showing of bad faith is essential to director oversight liability.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Merck & Co., Inc. v. Bayer AG, 2023 WL 2751590 (Del. Ch. Apr. 3, 2023), aff'd, 308 A.3d 1190 (Del. 2023) (TABLE); Macrophage Therapeutics, Inc. v. Goldberg, 2021 WL 2585429 (Del. Ch. June 23, 2021) (cited through Dkt. 137)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Arguments not meaningfully developed or unsupported by authority are not preserved. Applied to hold Plaintiff's conclusory injunction argument insufficient.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. §§ 219, 224",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Delaware law prescribes no specific form for a stock ledger, so long as records can be converted to legible paper form within a reasonable time.",
+            "role": "background"
+          },
+          {
+            "authority": "Lynam v. Gallagher, 526 A.2d 878 (Del. 1987)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited \"cf.\" (fn. 151): stock certificates are mere evidence of property, so the absence of a certificate does not prove stock was not issued.",
+            "role": "background"
+          },
+          {
+            "authority": "Maclary v. Pleasant Hills, Inc., 109 A.2d 830 (Del. Ch. 1954)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Helped Plaintiff survive dismissal while the issuance date was undetermined, but is no longer relevant given the finding of a 1982 issuance.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "In re Caremark Int'l Inc. Deriv. Litig., 698 A.2d 959 (Del. Ch. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Plaintiff's alternative oversight theory for Count II.",
+            "role": "background"
+          },
+          {
+            "authority": "Mitchell P'rs, L.P. v. AMFI Corp., 2024 WL 3289389 (Del. Ch. July 3, 2024); 2025 WL 2105837 (Del. Ch. July 28, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Prior rulings: the 2024 decision dismissed Count III's waste theory and Count V as to Pugh and Harrison; the 2025 decision granted Plaintiff summary judgment on Count I and denied it on Count III.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 220",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Basis for Plaintiff's October 7, 2020 inspection demand for the stock ledger.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Mitchell Partners, L.P., a Class A holder that learned of $20 million in AMFI Class B stock from 2019 financials, tried stock-ledger claims and challenges to the 1982 Class B issuance against AMFI, its directors and the Hotel Subsidiaries after earlier winning summary judgment on ledger deficiencies. The Court found that board minutes, the Supplemental Agreement, regulatory filings, an authenticated duplicate certificate and decades of accounting treatment proved a valid July 30, 1982 issuance. It rejected Plaintiff's delegation, missing-valuation and consideration challenges. Plaintiff's stipulated 1998 ownership then defeated derivative standing and any fiduciary claim over the 1983 reverse split. The ledger claims failed because Plaintiff articulated no injunction standard and proved no conflict or bad faith after AMFI remediated the ledger.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 17
+        },
+        "core_legal_issue": "After trial, whether AMFI Corporation validly issued 20,000 shares of Class B non-voting stock to American Fidelity Life on July 30, 1982 in compliance with then-operative 8 Del. C. §§ 152-153. The answer controlled whether a Class A holder of record only since 1998 could pursue fiduciary claims over the 1982 issuance and the 1983 reverse split. Also at issue: whether Plaintiff was entitled to a permanent injunction or fiduciary-duty relief on stock-ledger claims after AMFI corrected the ledger deficiencies found on summary judgment.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 20,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Court entered judgment for Defendants on all claims. AMFI validly issued 20,000 Class B shares to American Fidelity Life on July 30, 1982. The Board relied on, rather than delegated to, Peat Marwick; the valuation circumstantially existed; and the Board's unfraud-tainted judgment on consideration is conclusive. Count III's declarations therefore fail. Because the 1982 issuance and 1983 reverse split predate Plaintiff's stipulated 1998 ownership, the derivative aspects of Counts IV and V fail for want of contemporaneous ownership. Without deciding direct versus derivative, the Court held that any direct Count IV claim falls with Count III and that Count V fails because no fiduciary duty was owed to Plaintiff in 1983. No further relief issued on the Stock Ledger Claims: the injunction request was conclusory, and Count II failed for unidentified conflicts and lack of bad faith. The class certification motion held in abeyance pending trial is not separately addressed. The parties must meet and confer and submit an agreed form, or competing forms, of Final Order and Judgment within 20 business days. The decision was reissued October 16, 2026 to acknowledge lead defense counsel.",
+        "key_facts_and_concessions": [
+          "July 26, 1982 Board minutes: the Board resolved to complete the Merger effective July 30, 1982. It resolved that the value of Investments Corp. and Little Sabine \"be determined as of July 30, 1982, based upon advice from\" Peat Marwick, and \"authorized and directed\" issuance of Class B stock to American Fidelity Life \"in accordance with the Supplemental Agreement.\"",
+          "The Supplemental Agreement priced Class B stock at $1,000 per share and provided that the subsidiaries' value would be set by mutual agreement of AMFI, American Fidelity Life and the merger subsidiary. Peat Marwick's Request for Rulings stated 20,000 Class B shares would issue, and the charter authorized exactly 20,000 Class B shares.",
+          "The parties stipulated that AMFI could not locate or produce the Peat Marwick valuation.",
+          "Plaintiff stipulated that it has owned Class A shares since June 19, 1998, despite briefing that said 1996 and trial testimony of a 1989 purchase. The Court accepted the stipulation and noted that even setting it aside, Plaintiff owned no earlier than 1989 (fn. 81, fn. 208).",
+          "JX-241, a photocopy of a Class B Stock Certificate dated July 30, 1982 in American Fidelity Life's name, was authenticated by Corporaal, Harrison and Marilyn Woodbury. They testified to a raised seal and recognized signatures, and Marilyn Woodbury testified that Marilyn holds the original.",
+          "Harrison found the certificate in 1993 or 1994, and Saltmarsh then made correcting entries showing the Hotel Subsidiaries' Class B holdings as of April 1, 1994. Yancey signed and notarized a 2016 Stock Assignment confirming American Fidelity Life's transfer to the Hotel Subsidiaries effective April 1, 1994.",
+          "AMFI carried Class B stock in \"Retained Earnings\" in its consolidated financial statements from 1983 onward and has paid taxes on it since at least 2017. Pugh first broke the Class B stock out separately in the 2019 financials.",
+          "After the July 3, 2024 Letter Decision, Corporaal created a Class B control card and ledger sheets and produced the inactive, old and cancelled stock cards. The control card page Plaintiff says was missing resulted from a photocopying error, and the record does not support Plaintiff's accusation that it was purposefully withheld (fn. 103)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "In challenges to decades-old stock issuances, contemporaneous board minutes and transactional and regulatory documents can carry the issuance and consideration showings even when the advisor's valuation is lost. Ownership-date stipulations can independently foreclose derivative and fiduciary claims tied to pre-ownership transactions. A party pressing a permanent injunction or an authenticity objection should state the governing standard and offer actual evidence, not conclusory argument.",
+        "standard_of_review": "Post-trial findings of fact; the Court did not expressly state a burden or standard of proof. Count II required a showing of bad faith under Caremark/Stone v. Ritter. Authenticity of the duplicate stock certificate was assessed under D.R.E. 901 and 1002-03. No permanent-injunction standard was applied because Plaintiff did not state or apply one."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402220"
     }
   ],
   "ny_date": "2026-10-16"
