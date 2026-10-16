@@ -104,6 +104,9 @@ the way the opinion does: "sent" is not "signed", "proposed" is not "agreed", \
 and learning of one event is not learning of another. Keep dates tied to the \
 events the opinion ties them to. Do not fill gaps in the narrative by \
 inference; if a detail matters and you are unsure of it, quote the opinion.
+- Refer to the judge by title or as "the Court", never by pronoun. Use a \
+pronoun for any other person only if the opinion uses that pronoun for them; \
+otherwise use their name or role.
 
 Length and order:
 - Order every list by importance, with what the outcome turned on first. \
