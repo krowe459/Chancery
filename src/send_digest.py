@@ -65,7 +65,7 @@ def _capped(items: list, cap: int, keep: set[int]) -> tuple[list[tuple[int, obje
     return shown, len(items) - len(shown)
 
 
-def render_entry(entry: dict, ny_date: str = "") -> str:
+def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = None) -> str:
     s = entry.get("summary") or {}
     meta = " &middot; ".join(
         _e(x) for x in (entry.get("docket"), entry.get("date"), entry.get("judge"),
@@ -102,7 +102,8 @@ def render_entry(entry: dict, ny_date: str = "") -> str:
         return marks
 
     def more_line(n: int) -> str:
-        where = _archive_link(ny_date or str(entry.get("ny_date") or ""))
+        where = (_e(full_summary_ref) if full_summary_ref is not None
+                 else _archive_link(ny_date or str(entry.get("ny_date") or "")))
         return (f"<li style='margin:0 0 4px 0;color:#5c6b7a;list-style:none;margin-left:-18px;"
                 f"font-size:12px;'>+{n} more in the full summary ({where})</li>")
 
@@ -197,8 +198,11 @@ def _divider() -> str:
     return "<tr><td style='padding:0 24px;'><hr style='border:0;border-top:1px solid #e3e8ee;margin:0;'></td></tr>"
 
 
-def render_html(entries: list[dict], ny_date: str) -> str:
-    rows = "".join(render_entry(e, ny_date) for e in entries)
+def render_html(entries: list[dict], ny_date: str, full_summary_ref: str | None = None,
+                title: str = "Delaware Court of Chancery &mdash; Daily Digest") -> str:
+    """full_summary_ref overrides where "+N more" points (default: the archive);
+    title is trusted HTML."""
+    rows = "".join(render_entry(e, ny_date, full_summary_ref) for e in entries)
     n = len(entries)
     return f"""<!doctype html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
@@ -208,7 +212,7 @@ def render_html(entries: list[dict], ny_date: str) -> str:
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0"
              style="max-width:680px;background:#ffffff;border:1px solid #e3e8ee;border-radius:6px;">
         <tr><td style="background:#0b2545;padding:20px 24px;border-radius:6px 6px 0 0;">
-          <div style="color:#ffffff;font-size:20px;font-weight:700;">Delaware Court of Chancery &mdash; Daily Digest</div>
+          <div style="color:#ffffff;font-size:20px;font-weight:700;">{title}</div>
           <div style="color:#c9d6e3;font-size:13px;margin-top:4px;">{_e(ny_date)} &middot; {n} new decision{'s' if n != 1 else ''}</div>
         </td></tr>
         {rows}

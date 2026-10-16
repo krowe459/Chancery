@@ -30,6 +30,14 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
 6. Test delivery: run **chancery-digest** with `force: true`.
 7. Set a monthly spend limit in the Anthropic Console as a billing backstop.
 
+## Previewing summaries
+Run **chancery-preview** (Actions tab → Run workflow) with up to 5 opinion URLs or download ids
+(e.g. `402160`). It runs the full pipeline on the current code and attaches the rendered digest
+and full JSON as the `chancery-preview` artifact; the run's summary page lists any fact-check
+flags. It never writes state or sends email, so use it to test prompt changes or to
+re-summarize an opinion that was already processed (`backfill` only works on the first run).
+Locally: `cd src && python preview.py 402160` writes `preview/`.
+
 ## Operational notes
 - If the court redesigns its page, `scrape.py` exits with code 2. The run goes red and
   GitHub emails you. The parser finds columns by header text, so reordered columns still work.
