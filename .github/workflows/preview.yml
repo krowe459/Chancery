@@ -1,0 +1,62 @@
+name: chancery-preview
+
+# Manual only. Summarizes the opinions you name with the current code and
+# attaches the rendered digest and full JSON to the run as an artifact.
+# Reads nothing it writes back: no state commit, no email.
+on:
+  workflow_dispatch:
+    inputs:
+      opinions:
+        description: "Opinion URLs or download ids (e.g. 402160), separated by spaces or commas. Max 5."
+        required: true
+      verify_facts:
+        description: "Run the second-pass fact check"
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: chancery-preview
+  cancel-in-progress: false
+
+env:
+  TZ: America/New_York
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check -q -r requirements.txt
+
+      - name: Summarize and render
+        working-directory: src
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          VERIFY_MODEL: ${{ vars.VERIFY_MODEL }}
+          VERIFY_FACTS: ${{ inputs.verify_facts && '1' || '0' }}
+          # Passed as data, never interpolated into the command line.
+          PREVIEW_OPINIONS: ${{ inputs.opinions }}
+        run: python preview.py
+
+      - name: Upload preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chancery-preview
+          path: preview/
+          if-no-files-found: warn
+          retention-days: 14
