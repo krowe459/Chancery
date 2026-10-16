@@ -37,7 +37,8 @@ def fake_call(verdicts):
             claim = CLAIM_TEXT.get(cid, "")
             results.append({"id": cid, "verdict": v, "problem": f"problem {cid}" if bad else "",
                             "assertion": claim.split()[0] + " " + claim.split()[1] if bad and claim else "",
-                            "opinion_says": "something else" if bad else "", "evidence": ""})
+                            "opinion_says": "something else" if bad else "", "evidence": "",
+                            "confirmed": bad})
         return json.dumps({"results": results}), 1000
     return call, sent
 
@@ -114,11 +115,31 @@ class VagueFlagTest(unittest.TestCase):
                 {"id": 1, "verdict": "unsupported", "assertion": "", "opinion_says": "",
                  "problem": "...is fine... the problem is none substantive...", "evidence": ""},
                 {"id": 2, "verdict": "unsupported", "assertion": "Thompson signed",
-                 "opinion_says": "PRADCO sent the LOI", "problem": "Wrong act.", "evidence": ""},
+                 "opinion_says": "PRADCO sent the LOI", "problem": "Wrong act.", "evidence": "",
+                 "confirmed": True},
             ]}), 10
         fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
         self.assertEqual(fc["dropped_vague"], 1)
         self.assertEqual([(f["index"], f["assertion"]) for f in fc["flags"]], [(1, "Thompson signed")])
+
+
+class UnconfirmedFlagTest(unittest.TestCase):
+    def test_flag_whose_own_check_finds_support_is_dropped(self):
+        # The Oct. 16 preview's bond flag: verdict first, then "Actually ...
+        # the assertion is supported". With confirmed=False it is dropped.
+        claim = SUMMARY["brief_summary"]
+        def call(messages, **kw):
+            return json.dumps({"results": [
+                {"id": 5, "evidence": "Techno-X sued", "opinion_says": "Techno-X sued Spartan Forge",
+                 "assertion": claim, "problem": "Actually the claim is supported.",
+                 "verdict": "unsupported", "confirmed": False}]}), 10
+        fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
+        self.assertEqual((fc["flags"], fc["dropped_unconfirmed"], fc["dropped_vague"]), ([], 1, 0))
+
+    def test_schema_puts_evidence_before_verdict_and_check_last(self):
+        order = list(RESULT_SCHEMA["properties"]["results"]["items"]["properties"])
+        self.assertLess(order.index("evidence"), order.index("verdict"))
+        self.assertEqual(order[-1], "confirmed")
 
 
 class DigestRenderingTest(unittest.TestCase):

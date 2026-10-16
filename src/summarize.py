@@ -108,8 +108,9 @@ inference; if a detail matters and you are unsure of it, quote the opinion.
 Length and order:
 - Order every list by importance, with what the outcome turned on first. \
 Readers see only the first items of each list in the daily digest.
-- Aim for at most 8 key facts, 10 arguments rejected or waived, and 12 \
-relied_on authorities. Give background authorities a short proposition. A \
+- These are hard ceilings, not targets: at most 8 key facts, at most 10 \
+arguments rejected or waived, and at most 12 authorities tagged relied_on. \
+Count before you finish. Give background authorities a short proposition. A \
 short procedural order needs far fewer items than this.
 - One point per item. Do not bundle unrelated facts, arguments or requests \
 into one entry with (a), (b), (c) sub-parts, and list one authority per entry \
