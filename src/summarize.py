@@ -1,6 +1,7 @@
 """Claude summarization engine with a hard token-ceiling guard.
 
-Single pass when the opinion fits under TOKEN_CEILING (30,000 tokens).
+Single pass when the opinion fits under TOKEN_CEILING (default 150,000 tokens,
+which covers nearly every Chancery opinion).
 Otherwise: split -> summarize each chunk (map) -> recursively condense the
 chunk notes until they fit (reduce) -> one final structured call.
 
@@ -26,8 +27,11 @@ from citecheck import check_citations
 from verify import fact_check
 
 MODEL = os.environ.get("CLAUDE_MODEL", "").strip() or "claude-opus-5-5"
-TOKEN_CEILING = 30_000          # max input tokens of opinion text in any one request
-TARGET_CHUNK_TOKENS = 24_000    # headroom under the ceiling for prompt + metadata
+# Max input tokens of opinion text in any one request. Opinions under it get a
+# single pass and a full fact check; longer ones are split (map -> reduce) and
+# fact-checked for contradictions only.
+TOKEN_CEILING = int(os.environ.get("TOKEN_CEILING", "150000"))
+TARGET_CHUNK_TOKENS = int(TOKEN_CEILING * 0.8)  # headroom for prompt + metadata
 MAX_CHUNKS = int(os.environ.get("MAX_CHUNKS", "12"))
 MAX_DEPTH = 3
 MAP_MAX_TOKENS = 4_000          # output cap per chunk (includes thinking)
@@ -46,7 +50,8 @@ def client() -> anthropic.Anthropic:
     global _client
     if _client is None:
         # timeout per attempt; the SDK retries 429/5xx/connection errors itself.
-        _client = anthropic.Anthropic(timeout=180.0, max_retries=3)
+        # Long opinions at high effort can take several minutes per request.
+        _client = anthropic.Anthropic(timeout=600.0, max_retries=3)
     return _client
 
 
@@ -104,9 +109,13 @@ Length and order:
 - Order every list by importance, with what the outcome turned on first. \
 Readers see only the first items of each list in the daily digest.
 - Aim for at most 8 key facts, 10 arguments rejected or waived, and 12 \
-relied_on authorities. Merge closely related points rather than listing each. \
-Give background authorities a short proposition. A short procedural order \
-needs far fewer items than this.
+relied_on authorities. Give background authorities a short proposition. A \
+short procedural order needs far fewer items than this.
+- One point per item. Do not bundle unrelated facts, arguments or requests \
+into one entry with (a), (b), (c) sub-parts, and list one authority per entry \
+unless the Court cites them together for one proposition. If there are more \
+points than the limit, leave out the least important ones rather than \
+merging them.
 
 Rules: rely only on the text provided. If something is not stated (e.g., the \
 standard of review), say "Not stated" rather than guessing. Never invent \

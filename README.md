@@ -6,7 +6,7 @@ opinion with Claude and emails one HTML digest per New York business day through
 ```
 scrape.yml (every 2h, weekdays) ──► src/scrape.py ──► state/processed_cases.json
           │ unchanged? exit (≈1 billed minute)        state/daily_accumulation.json
-          └─ new rows ─► src/summarize.py (≤30k-token requests, map→reduce)
+          └─ new rows ─► src/summarize.py (single pass ≤150k tokens, else map→reduce)
 digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend ──► inbox
                                      archive → state/archive/YYYY-MM-DD.json
 ```
