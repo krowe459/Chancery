@@ -101,6 +101,18 @@ class AssembleTest(unittest.TestCase):
         self.assertIn("Footnotes not matched", text)
         self.assertIn("[^7]: A footnote nothing points to.", text)
 
+    def test_separator_rule_marks_body_size_footnotes(self):
+        # Kulak v. On (Oct. 16): footnote text is the same 12pt as the body;
+        # only the separator rule above it marks the footnote area.
+        page = (line("The motions are denied for the reasons below ^1 and the", 120, size=12)
+                + line("case will proceed to a final order shortly.", 152, size=12, x1=330)
+                + line("^1 Dkt. 162.", 640, size=12, x1=200))
+        without = build(page)
+        self.assertNotIn("[^1]: Dkt. 162.", without)
+        with_rule = assemble([(W, H, page, 630.0)])
+        self.assertIn("reasons below[^1] and the case", with_rule)
+        self.assertIn("[^1]: Dkt. 162.", with_rule)
+
     def test_empty_document(self):
         self.assertIsNone(assemble([(W, H, [])]))
 
