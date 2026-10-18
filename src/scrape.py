@@ -14,6 +14,9 @@ Env:    ANTHROPIC_API_KEY (required when there is something to summarize)
         RUN_TOKEN_BUDGET    (default 400000) - per-run input-token ceiling
         BACKFILL            (default 0)   - on first run, summarize this many
                                             existing rows instead of seeding all
+        MAX_AGE_BUSINESS_DAYS (default 2) - skip opinions the court posts more
+                                            than this many business days after
+                                            their decision date (-1 disables)
 """
 from __future__ import annotations
 
@@ -25,7 +28,7 @@ import re
 import sys
 import time
 from dataclasses import asdict, dataclass
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
@@ -237,6 +240,42 @@ def extract_text(session: requests.Session, url: str) -> str:
 
 # ------------------------------------------------------------------ pipeline
 
+def business_days_old(decided: str, today: date) -> int | None:
+    """Weekdays after `decided` up to and including `today` (court holidays
+    are not excluded). None if the listing's date could not be parsed."""
+    try:
+        day = date.fromisoformat(decided)
+    except (TypeError, ValueError):
+        return None
+    count = 0
+    while day < today:
+        day += timedelta(days=1)
+        if day.weekday() < 5:
+            count += 1
+    return count
+
+
+def skip_late_postings(rows: list, state: dict, stamp: str, max_age: int,
+                       today: date) -> list:
+    """Drop rows decided more than `max_age` business days before `today`,
+    recording them in state as "skipped_old" so they are never summarized.
+    The court sometimes posts opinions days or weeks after they were decided
+    (e.g. an Oct. 1 opinion first listed Oct. 16); those are not news."""
+    if max_age < 0:
+        return rows
+    fresh = []
+    for r in rows:
+        age = business_days_old(r.date, today)
+        if age is not None and age > max_age:
+            state["cases"][r.case_id] = {"processed_at": stamp, "status": "skipped_old",
+                                         "docket": r.docket, "name": r.name, "date": r.date}
+            print(f"Skipping {r.name} ({r.docket}): decided {r.date}, "
+                  f"{age} business days before it was listed.")
+        else:
+            fresh.append(r)
+    return fresh
+
+
 def _prune(cases: dict) -> dict:
     cutoff = (now_ny() - timedelta(days=PROCESSED_RETENTION_DAYS)).isoformat()
     return {k: v for k, v in cases.items() if v.get("processed_at", "") >= cutoff}
@@ -283,13 +322,19 @@ def main() -> int:
     stamp = now_ny().isoformat(timespec="seconds")
 
     # First run: seed state instead of summarizing the whole back catalogue.
-    if not state["cases"]:
+    first_run = not state["cases"]
+    if first_run:
         seed = rows[backfill:] if backfill else rows
         for r in seed:
             state["cases"][r.case_id] = {"processed_at": stamp, "status": "seeded",
                                          "docket": r.docket, "name": r.name}
         new_rows = rows[:backfill]
         print(f"Seeded {len(seed)} existing rows; backfilling {len(new_rows)}.")
+    else:
+        # An explicit backfill on the first run is honoured whatever the dates.
+        new_rows = skip_late_postings(new_rows, state, stamp,
+                                      env_int("MAX_AGE_BUSINESS_DAYS", 2), now_ny().date())
+        save_json(PROCESSED_PATH, state)
 
     import anthropic  # imported lazily: fast path needs no SDK
     from summarize import summarize_opinion

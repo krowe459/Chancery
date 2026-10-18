@@ -56,6 +56,7 @@ jobs:
           VERIFY_FACTS: ${{ vars.VERIFY_FACTS || '1' }}
           MAX_CASES_PER_RUN: ${{ vars.MAX_CASES_PER_RUN || '8' }}
           RUN_TOKEN_BUDGET: ${{ vars.RUN_TOKEN_BUDGET || '400000' }}
+          MAX_AGE_BUSINESS_DAYS: ${{ vars.MAX_AGE_BUSINESS_DAYS || '2' }}
           BACKFILL: ${{ github.event.inputs.backfill || '0' }}
         run: python scrape.py
 

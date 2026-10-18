@@ -34,6 +34,20 @@ class CiteCheckTest(unittest.TestCase):
         )
         self.assertEqual(counts["not_found"], 0, checks)
 
+    def test_party_names_ignore_punctuation(self):
+        # Kulak v. On (Oct. 16): "In re ML/EQ" was reported missing because the
+        # opinion keeps the slash and the extracted party name did not.
+        from citecheck import check_citations as cc
+        opinion = "[^29]In re ML/EQ Real Est. P\u2019ship Litig., Consol., 2000 WL 364188, at *1."
+        for name in ("In re ML/EQ Real Est. P'ship Litig., 2000 WL 364188",
+                     "In re ML EQ Real Estate Partnership Litigation, 2000 WL 364188"):
+            summary = {"authorities_cited": [{"authority": name, "kind": "case"}]}
+            self.assertEqual(cc(summary, opinion)["not_found"], 0, name)
+
+    def test_loose_party_match_still_catches_invented_names(self):
+        _, checks = run(("In re XY/ZQ Litig., 2000 WL 1234567", "case"))
+        self.assertEqual(list(checks.values()), ["not_found"])
+
     def test_invented_reporter_cite_is_flagged(self):
         _, checks = run(("Telxon Corp. v. Meyerson, 802 A.2d 999 (Del. 2002)", "case"))
         self.assertEqual(list(checks.values()), ["not_found"])

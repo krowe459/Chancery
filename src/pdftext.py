@@ -16,7 +16,8 @@ text from word positions and font sizes instead:
 How the parts are told apart, per page:
   * body size = the most common font size in the document;
   * the footnote area is the run of lines at the bottom of the page that are
-    smaller than body text (letterhead or small text above body lines is not);
+    smaller than body text (letterhead or small text above body lines is not),
+    or everything below the footnote separator rule when the page has one;
   * a reference marker is a short number set well below its line's text size.
 
 pdf_to_text() returns None when the layout doesn't fit this model (no text
@@ -143,15 +144,18 @@ def _short(ln: Line, margin: float, right: float) -> bool:
 
 # ---------------------------------------------------------------- assembly
 
-def assemble(pages: list[tuple[float, float, list[dict]]]) -> str | None:
-    """pages: (width, height, words) per page, each word a dict with
-    text, x0, x1, top and size, in reading order. Returns the rebuilt text."""
-    all_words = [w for _, _, words in pages for w in words]
+def assemble(pages: list[tuple]) -> str | None:
+    """pages: (width, height, words[, separator_top]) per page, each word a
+    dict with text, x0, x1, top and size, in reading order. separator_top is
+    the y-position of the page's footnote separator rule, if one was found.
+    Returns the rebuilt text."""
+    pages = [(p[0], p[1], p[2], p[3] if len(p) > 3 else None) for p in pages]
+    all_words = [w for _, _, words, _ in pages for w in words]
     if not all_words:
         return None
     body_size = _line_size(all_words)
 
-    built = [(h, [_make_line(ws) for ws in _build_lines(words)]) for _, h, words in pages]
+    built = [(h, [_make_line(ws) for ws in _build_lines(words)]) for _, h, words, _ in pages]
     headers = _running_headers(built)
 
     paragraphs: list[list] = []        # each: [text, [marker numbers]]
@@ -162,15 +166,21 @@ def assemble(pages: list[tuple[float, float, list[dict]]]) -> str | None:
 
     # Pass 1: drop running headers and split each page into body and footnote area.
     split_pages: list[tuple[list[Line], list[Line]]] = []
-    for (_, height, _), (_, lines) in zip(pages, built):
+    for (_, height, _, separator), (_, lines) in zip(pages, built):
         lines = [ln for ln in lines if ln.text or ln.markers]
         lines = [ln for ln in lines
                  if not ((ln.top < height * HEADER_BAND or ln.top > height * (1 - HEADER_BAND))
                          and _header_key(ln.text) in headers)]
-        # Footnote area: trailing run of lines smaller than body text.
+        # Footnote area: trailing run of lines smaller than body text, or
+        # everything below the footnote separator rule, whichever starts first.
+        # Some opinions set footnote text at body size; only the rule (and the
+        # small reference numbers) mark it.
         split = len(lines)
         while split > 0 and lines[split - 1].size < body_size * SMALL_RATIO:
             split -= 1
+        if separator is not None:
+            below = next((i for i, ln in enumerate(lines) if ln.top > separator), len(lines))
+            split = min(split, below)
         split_pages.append((lines[:split], lines[split:]))
 
     # Margins come from the whole document: a short last page has no reliable margin.
@@ -255,6 +265,27 @@ def _letters(text: str) -> int:
     return sum(c.isalpha() for c in text)
 
 
+def _separator_top(page, words: list[dict]) -> float | None:
+    """Top of the footnote separator: a thin horizontal rule, about 1.5 to 3.5
+    inches long, starting at the left text margin, below the top quarter of
+    the page and with text beneath it (Word draws one above footnotes)."""
+    if not words:
+        return None
+    # Candidate left margins: the leftmost text, and the most common left edge
+    # (letterhead on a first page can sit further left than the body text).
+    margins = {min(w["x0"] for w in words),
+               Counter(round(w["x0"]) for w in words).most_common(1)[0][0]}
+    lowest = max(w["top"] for w in words)
+    rules = [(r["top"], r["x0"], r["x1"]) for r in getattr(page, "rects", [])
+             if r["height"] < 2] + \
+            [(ln["top"], ln["x0"], ln["x1"]) for ln in getattr(page, "lines", [])
+             if abs(ln["top"] - ln["bottom"]) < 2]
+    tops = [top for top, x0, x1 in rules
+            if 100 <= x1 - x0 <= 260 and any(abs(x0 - m) <= 20 for m in margins)
+            and page.height * 0.25 < top < lowest]
+    return min(tops) if tops else None
+
+
 def pdf_to_text(data: bytes, plain_text: str) -> str | None:
     """Footnote-aware text, or None if it would lose content compared with
     plain_text (the caller's ordinary extraction of the same PDF)."""
@@ -264,9 +295,10 @@ def pdf_to_text(data: bytes, plain_text: str) -> str | None:
         return None
     try:
         with pdfplumber.open(io.BytesIO(data)) as pdf:
-            pages = [(p.width, p.height,
-                      p.extract_words(extra_attrs=["size"], use_text_flow=True))
-                     for p in pdf.pages]
+            pages = []
+            for p in pdf.pages:
+                words = p.extract_words(extra_attrs=["size"], use_text_flow=True)
+                pages.append((p.width, p.height, words, _separator_top(p, words)))
     except Exception:  # noqa: BLE001 - any parser failure means "use plain text"
         return None
     text = assemble(pages)
