@@ -197,9 +197,15 @@
       "name": "Kevin Kulak v. Itshak (\"Itzik\") On, et al.",
       "processed_at": "2026-10-16T17:45:24-04:00",
       "status": "ok"
+    },
+    "de-402300": {
+      "docket": "C.A. No. 2026-0493-DH (BWD)",
+      "name": "Julius Lipp v. Mixedbread AI, Inc.",
+      "processed_at": "2026-10-19T15:48:41-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-16T17:45:24-04:00",
-  "page_hash": "504fdf81239661c1a017627752d126bc3dc8b859fed0c403821604edd9703174"
+  "last_checked_ny": "2026-10-19T15:48:41-04:00",
+  "page_hash": "02a198ec170ab5bdaa2d30d10047b876b95758113e8b54c944a981779445f51a"
 }
