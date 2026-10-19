@@ -203,9 +203,15 @@
       "name": "Julius Lipp v. Mixedbread AI, Inc.",
       "processed_at": "2026-10-19T15:48:41-04:00",
       "status": "ok"
+    },
+    "de-402310": {
+      "docket": "C.A. No. 2026-0754-CCB",
+      "name": "Max Glass v. RWA Company LLC",
+      "processed_at": "2026-10-19T19:45:34-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-19T15:48:41-04:00",
-  "page_hash": "02a198ec170ab5bdaa2d30d10047b876b95758113e8b54c944a981779445f51a"
+  "last_checked_ny": "2026-10-19T19:45:34-04:00",
+  "page_hash": "de994b663d337f84d10d2bf0e625affbca79c70d48ee3b826ad10dd20687608b"
 }
