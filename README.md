@@ -40,7 +40,9 @@ re-summarize an opinion that was already processed (`backfill` only works on the
 Locally: `cd src && python preview.py 402160` writes `preview/`.
 
 ## Operational notes
-- If the court redesigns its page, `scrape.py` exits with code 2. The run goes red and
+- If the listing page parses to no opinions, `scrape.py` waits and re-fetches it
+  (`LISTING_RETRIES`, default 2, `LISTING_RETRY_WAIT`, default 60 seconds), logging each empty
+  page's status and title. If it is still empty (e.g. the court redesigned the page), it exits with code 2. The run goes red and
   GitHub emails you. The parser finds columns by header text, so reordered columns still work.
 - GitHub disables scheduled workflows in public repos after 60 days with no repository
   activity. The daily state commits count as activity.

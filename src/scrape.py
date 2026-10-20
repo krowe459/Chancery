@@ -14,6 +14,9 @@ Env:    ANTHROPIC_API_KEY (required when there is something to summarize)
         RUN_TOKEN_BUDGET    (default 400000) - per-run input-token ceiling
         BACKFILL            (default 0)   - on first run, summarize this many
                                             existing rows instead of seeding all
+        LISTING_RETRIES     (default 2)   - re-fetch an empty listing this many
+                                            times before failing the run
+        LISTING_RETRY_WAIT  (default 60)  - seconds between those re-fetches
         MAX_AGE_BUSINESS_DAYS (default 2) - skip opinions the court posts more
                                             than this many business days after
                                             their decision date (-1 disables)
@@ -240,6 +243,39 @@ def extract_text(session: requests.Session, url: str) -> str:
 
 # ------------------------------------------------------------------ pipeline
 
+def describe_page(resp) -> str:
+    """One-line description of a page that yielded no rows, for the log."""
+    html = resp.text or ""
+    match = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+    title = _clean(BeautifulSoup(match.group(1), "html.parser").get_text()) if match else ""
+    return (f"HTTP {resp.status_code}, {len(html):,} bytes, "
+            f"title {title[:120]!r}" if title else
+            f"HTTP {resp.status_code}, {len(html):,} bytes, no <title>")
+
+
+def fetch_listing(session: requests.Session, retries: int, wait: float) -> list[CaseRow]:
+    """Fetch and parse the listing, re-fetching when it parses to no rows.
+
+    The court's site occasionally serves a page without the opinions table (an
+    error or maintenance page, or a partial load); the Oct. 19, 2026 5:45 PM
+    run failed that way and the next run was fine. Waiting and trying again
+    rides out those blips, while a real layout change still fails the run
+    after the last attempt. Each empty attempt is logged with the page's
+    status, size and title, so a failed run shows what the court served."""
+    for attempt in range(retries + 1):
+        resp = get_with_retry(session, LISTING_URL)
+        rows = parse_listing(resp.text)
+        if rows:
+            if attempt:
+                print(f"Listing parsed on attempt {attempt + 1}.")
+            return rows
+        print(f"No opinion rows parsed (attempt {attempt + 1} of {retries + 1}): "
+              f"{describe_page(resp)}", file=sys.stderr)
+        if attempt < retries:
+            time.sleep(wait)
+    return []
+
+
 def business_days_old(decided: str, today: date) -> int | None:
     """Weekdays after `decided` up to and including `today` (court holidays
     are not excluded). None if the listing's date could not be parsed."""
@@ -301,12 +337,12 @@ def main() -> int:
     accum.setdefault("entries", [])
 
     session = http_session()
-    html = get_with_retry(session, LISTING_URL).text
-    rows = parse_listing(html)
+    rows = fetch_listing(session, env_int("LISTING_RETRIES", 2),
+                         env_int("LISTING_RETRY_WAIT", 60))
     if not rows:
-        # Layout changed or the site served an error page. Fail loudly so the
-        # Actions run goes red and GitHub e-mails you, rather than silently
-        # recording an empty fingerprint.
+        # Still empty after re-fetching: most likely the layout changed. Fail
+        # loudly so the Actions run goes red and GitHub e-mails you, rather
+        # than silently recording an empty fingerprint.
         print("ERROR: no opinion rows parsed from listing page.", file=sys.stderr)
         return 2
 
