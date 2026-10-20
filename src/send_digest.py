@@ -7,7 +7,10 @@ Exactly-once per New York calendar day, regardless of which UTC cron fired:
             the ledger commit is lost after a successful send.
 An empty accumulation file exits 0 without sending anything.
 
-Usage:  python src/send_digest.py [--force]
+Usage:  python src/send_digest.py [--force] [--check]
+        --check reports whether a digest is due (GitHub output "due") without
+        sending anything; the workflow uses it to decide whether to run a
+        last-minute scrape first.
 Env:    RESEND_API_KEY, DIGEST_TO
         DIGEST_FROM     (default "Chancery Digest <onboarding@resend.dev>")
         DIGEST_HOUR_NY  (default 18)
@@ -251,9 +254,23 @@ def send_via_resend(subject: str, html_body: str, idempotency_key: str) -> str:
     return resp.json().get("id", "")
 
 
+def digest_due(now, ny_date: str, sent: dict, force: bool) -> tuple[bool, str]:
+    """Whether today's digest should go out now, and why not if it shouldn't."""
+    if any(s["ny_date"] == ny_date for s in sent["sent"]):
+        return False, f"Digest for {ny_date} already sent."
+    if not force:
+        if now.weekday() >= 5:
+            return False, f"{ny_date} is a weekend in New York."
+        if now.hour < env_int("DIGEST_HOUR_NY", 18):
+            return False, f"Too early ({now:%H:%M %Z}). This is the off-DST cron slot."
+    return True, "Digest is due."
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true", help="ignore the NY weekday/hour gate")
+    parser.add_argument("--check", action="store_true",
+                        help="only report whether a digest is due (output 'due'); send nothing")
     args = parser.parse_args()
 
     now = now_ny()
@@ -261,16 +278,14 @@ def main() -> int:
     sent = load_json(SENT_PATH, {"sent": []})
     set_github_output("sent", "false")
 
-    if any(s["ny_date"] == ny_date for s in sent["sent"]):
-        print(f"Digest for {ny_date} already sent. Exiting.")
+    due, reason = digest_due(now, ny_date, sent, args.force)
+    if args.check:
+        set_github_output("due", "true" if due else "false")
+        print(reason)
         return 0
-    if not args.force:
-        if now.weekday() >= 5:
-            print(f"{ny_date} is a weekend in New York. Exiting.")
-            return 0
-        if now.hour < env_int("DIGEST_HOUR_NY", 18):
-            print(f"Too early ({now:%H:%M %Z}). This is the off-DST cron slot; exiting.")
-            return 0
+    if not due:
+        print(f"{reason} Exiting.")
+        return 0
 
     accum = load_json(ACCUMULATION_PATH, {"ny_date": None, "entries": []})
     entries = accum.get("entries", [])

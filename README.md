@@ -7,7 +7,7 @@ opinion with Claude and emails one HTML digest per New York business day through
 scrape.yml (every 2h, weekdays) ──► src/scrape.py ──► state/processed_cases.json
           │ unchanged? exit (≈1 billed minute)        state/daily_accumulation.json
           └─ new rows ─► src/summarize.py (single pass ≤150k tokens, else map→reduce)
-digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend ──► inbox
+digest.yml (≈6pm New York)       ──► last-minute scrape ──► src/send_digest.py ──► Resend ──► inbox
                                      archive → state/archive/YYYY-MM-DD.json
 ```
 
@@ -41,6 +41,10 @@ re-summarize an opinion that was already processed (`backfill` only works on the
 Locally: `cd src && python preview.py 402160` writes `preview/`.
 
 ## Operational notes
+- Just before sending, the digest workflow runs one more scrape (capped at 12 minutes,
+  `PREDIGEST_TIME_BUDGET_MINUTES`) so opinions posted after the 5:45pm scrape make that
+  evening's email. It only runs when a digest is actually due, and a failure there never
+  blocks the email.
 - If the listing page parses to no opinions, `scrape.py` waits and re-fetches it
   (`LISTING_RETRIES`, default 2, `LISTING_RETRY_WAIT`, default 60 seconds), logging each empty
   page's status and title. If it is still empty (e.g. the court redesigned the page), it exits with code 2. The run goes red and
