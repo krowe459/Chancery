@@ -31,7 +31,8 @@ env:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # The pre-digest scrape is capped at 20 minutes; sending takes seconds.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
         with:
@@ -43,9 +44,48 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: pip install --disable-pip-version-check -q "requests>=2.32"
+        run: pip install --disable-pip-version-check -q -r requirements.txt
+
+      - name: Check whether a digest is due
+        id: due
+        working-directory: src
+        env:
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          if [ "$FORCE" = "true" ]; then python send_digest.py --check --force; else python send_digest.py --check; fi
+
+      # Last-minute scrape so opinions posted after the last scheduled scrape
+      # (5:45pm EDT) still make tonight's email. Only when a digest is about to
+      # go out, and never allowed to block it: a failure or a long run just
+      # leaves new opinions for tomorrow's digest, as before.
+      - name: Scrape for opinions posted since the last run
+        id: prescrape
+        if: steps.due.outputs.due == 'true'
+        continue-on-error: true
+        timeout-minutes: 20
+        working-directory: src
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          VERIFY_MODEL: ${{ vars.VERIFY_MODEL }}
+          VERIFY_FACTS: ${{ vars.VERIFY_FACTS || '1' }}
+          MAX_CASES_PER_RUN: ${{ vars.MAX_CASES_PER_RUN || '8' }}
+          RUN_TOKEN_BUDGET: ${{ vars.RUN_TOKEN_BUDGET || '400000' }}
+          # Keep the email from going out much later than usual.
+          RUN_TIME_BUDGET_MINUTES: ${{ vars.PREDIGEST_TIME_BUDGET_MINUTES || '12' }}
+          MAX_AGE_BUSINESS_DAYS: ${{ vars.MAX_AGE_BUSINESS_DAYS || '2' }}
+          LISTING_RETRIES: ${{ vars.LISTING_RETRIES || '2' }}
+          LISTING_RETRY_WAIT: ${{ vars.LISTING_RETRY_WAIT || '60' }}
+        run: python scrape.py
+
+      - name: Commit scrape state
+        if: always() && steps.prescrape.outcome != 'skipped'
+        continue-on-error: true   # a push hiccup here must not stop the email
+        run: "scripts/commit_state.sh 'chore(state): pre-digest scrape'"
 
       - name: Compile and send digest
         id: digest
@@ -61,4 +101,3 @@ jobs:
       - name: Commit state
         if: steps.digest.outputs.sent == 'true'
         run: "scripts/commit_state.sh 'chore(state): digest sent'"
-
