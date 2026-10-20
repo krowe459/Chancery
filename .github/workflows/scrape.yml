@@ -28,7 +28,10 @@ env:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 15   # hard cap: a hung request can't burn the free-tier minutes
+    # Hard cap so a hung request can't burn free-tier minutes. The scrape step
+    # stops itself after RUN_TIME_BUDGET_MINUTES (40) and is killed at 50; the
+    # remaining 10 leave room for the state commit.
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v5
         with:
@@ -49,6 +52,7 @@ jobs:
       - name: Detect changes and summarize new opinions
         id: scrape
         working-directory: src
+        timeout-minutes: 50
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
@@ -56,12 +60,16 @@ jobs:
           VERIFY_FACTS: ${{ vars.VERIFY_FACTS || '1' }}
           MAX_CASES_PER_RUN: ${{ vars.MAX_CASES_PER_RUN || '8' }}
           RUN_TOKEN_BUDGET: ${{ vars.RUN_TOKEN_BUDGET || '400000' }}
+          RUN_TIME_BUDGET_MINUTES: ${{ vars.RUN_TIME_BUDGET_MINUTES || '40' }}
           MAX_AGE_BUSINESS_DAYS: ${{ vars.MAX_AGE_BUSINESS_DAYS || '2' }}
           LISTING_RETRIES: ${{ vars.LISTING_RETRIES || '2' }}
           LISTING_RETRY_WAIT: ${{ vars.LISTING_RETRY_WAIT || '60' }}
           BACKFILL: ${{ github.event.inputs.backfill || '0' }}
         run: python scrape.py
 
+      # Runs even if the scrape step failed or was killed at its time limit:
+      # state is saved atomically after each opinion, so whatever finished is
+      # committed and never re-billed. A no-op when nothing changed.
       - name: Commit state
-        if: steps.scrape.outputs.changed == 'true'
+        if: always() && steps.scrape.outcome != 'skipped'
         run: "scripts/commit_state.sh 'chore(state): scrape'"

@@ -22,7 +22,8 @@ digest.yml (≈6pm New York)       ──► src/send_digest.py ──► Resend
      only delivers to the address you signed up with. Verify a domain to send elsewhere.
 3. Optional **Variables**: `CLAUDE_MODEL` (default `claude-opus-5-5`), `VERIFY_MODEL`
    (default `claude-sonnet-5-5`), `VERIFY_FACTS` (`0` turns the fact check off), `MAX_CASES_PER_RUN` (8),
-   `RUN_TOKEN_BUDGET` (400000), `MAX_AGE_BUSINESS_DAYS` (2; opinions the court lists more than
+   `RUN_TOKEN_BUDGET` (400000), `RUN_TIME_BUDGET_MINUTES` (40; later opinions wait for the next run),
+   `MAX_AGE_BUSINESS_DAYS` (2; opinions the court lists more than
    this many business days after their decision date are skipped, `-1` keeps them), `DIGEST_FROM`.
 4. **Settings → Actions → General → Workflow permissions → Read and write**.
 5. Run **chancery-scrape** by hand once (Actions tab → Run workflow). The first run *seeds*

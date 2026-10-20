@@ -12,6 +12,10 @@ Usage:  python src/scrape.py
 Env:    ANTHROPIC_API_KEY (required when there is something to summarize)
         MAX_CASES_PER_RUN   (default 8)   - per-run cost ceiling
         RUN_TOKEN_BUDGET    (default 400000) - per-run input-token ceiling
+        RUN_TIME_BUDGET_MINUTES (default 40) - stop starting new opinions after
+                                            this long and leave the rest for the
+                                            next run (the workflow step is killed
+                                            at 50 minutes)
         BACKFILL            (default 0)   - on first run, summarize this many
                                             existing rows instead of seeding all
         LISTING_RETRIES     (default 2)   - re-fetch an empty listing this many
@@ -328,6 +332,8 @@ def _accumulate(accum: dict, entry: dict) -> bool:
 def main() -> int:
     max_cases = env_int("MAX_CASES_PER_RUN", 8)
     run_token_budget = env_int("RUN_TOKEN_BUDGET", 400_000)
+    run_time_budget = env_int("RUN_TIME_BUDGET_MINUTES", 40) * 60
+    started = time.monotonic()
     backfill = env_int("BACKFILL", 0)
 
     state = load_json(PROCESSED_PATH, {"page_hash": None, "cases": {}})
@@ -387,6 +393,14 @@ def main() -> int:
     tokens_used = 0
     processed_now = 0
     for row in new_rows[:max_cases]:
+        elapsed = time.monotonic() - started
+        if elapsed >= run_time_budget:
+            # One opinion (summary + fact check at high effort) can take several
+            # minutes; stopping here keeps the run inside the workflow's time
+            # limit so the state commit always happens. The rest are picked up
+            # next run, as with the token budget.
+            print(f"Run time budget reached ({elapsed / 60:.1f} min); deferring the rest.")
+            break
         if tokens_used >= run_token_budget:
             print(f"Run token budget reached ({tokens_used}); deferring the rest.")
             break
