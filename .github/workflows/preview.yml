@@ -28,7 +28,7 @@ env:
 jobs:
   preview:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60   # up to 5 opinions, several minutes each
     steps:
       - uses: actions/checkout@v5
 
