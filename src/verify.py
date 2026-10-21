@@ -66,7 +66,11 @@ verdict only after the evidence:
 2. "opinion_says": state what the opinion says on the point, or that it says \
 nothing.
 3. "assertion": if part of the claim conflicts with or goes beyond what the \
-opinion says, copy those exact words from the claim; otherwise leave it empty.
+opinion says, copy those exact words from the claim; otherwise leave it empty. \
+If more than one part is wrong, copy the most significant one, the one most \
+likely to mislead a reader about what the Court decided or found, and mention \
+the others in "problem". A harmless or trivially true phrase is never the \
+most significant.
 4. "problem": explain the error in one sentence, or leave it empty.
 5. "verdict": now decide, consistently with what you wrote above.
 6. "confirmed": re-read fields 1-5. true only if the claim, as written, is \

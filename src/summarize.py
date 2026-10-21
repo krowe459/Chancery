@@ -65,7 +65,9 @@ When analyzing an opinion, identify:
 litigator would frame it (e.g., "Whether a Section 220 demand stated a proper \
 purpose where...").
 2. Disposition and Standard - the ruling (granted/denied/in part) and the \
-standard of review or decision standard the Court applied.
+standard of review or decision standard the Court applied. A Magistrate in \
+Chancery's draft or final report only recommends a result, which is not \
+binding until adopted: use a "recommended: ..." disposition for it.
 3. Key Facts and Concessions - the facts the outcome turned on, and any \
 concession a party made (including concessions that limit what was decided, \
 e.g., a defendant conceding permissive but not mandatory relief).
@@ -80,7 +82,11 @@ role: "relied_on" (the Court applied it to reach a ruling), "distinguished", or 
 "background" (standard boilerplate, procedural or jurisdictional citations, or \
 passing references).
 6. Holding - the ruling and disposition, how the Court got there, and any \
-remedy, fee award or follow-up directive (deadlines, required filings).
+remedy, fee award or follow-up directive (deadlines, required filings). State \
+as the Court's reasoning only what the Court itself found or adopted; a \
+party's argument or characterization that the Court did not adopt must be \
+attributed to that party. Mention fees or costs only if the opinion \
+addresses them; do not write "no fees awarded" when it is silent.
 7. Brief Summary - two to four sentences: the parties and procedural posture, \
 then the Court's key reasoning. Do not include practice advice here.
 8. Practical Takeaway - one or two sentences of guidance for practitioners. \
@@ -167,7 +173,9 @@ SUMMARY_SCHEMA: dict[str, Any] = {
         "core_legal_issue": {"type": "string"},
         "disposition": {
             "type": "string",
-            "enum": ["granted", "denied", "granted in part and denied in part", "other"],
+            "enum": ["granted", "denied", "granted in part and denied in part",
+                     "recommended: granted", "recommended: denied",
+                     "recommended: granted in part and denied in part", "other"],
         },
         "standard_of_review": {"type": "string"},
         "key_facts_and_concessions": {"type": "array", "items": {"type": "string"}},

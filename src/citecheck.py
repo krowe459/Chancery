@@ -67,7 +67,9 @@ def _first_party(authority: str) -> str | None:
     """First distinctive word of the case name, e.g. 'telxon', 'el paso'."""
     name = re.split(r",|\(|\s\d", authority, maxsplit=1)[0]
     name = re.split(r"\s+v\.?\s+|\s+vs\.?\s+", name, maxsplit=1)[0]
-    words = [w for w in re.findall(r"[A-Za-z][A-Za-z'&.\-]*", name)
+    # Words start with a letter but may contain digits ("KT4", "3M"); a
+    # leading number ("2009 Caiola Family Tr.") is skipped.
+    words = [w for w in re.findall(r"[A-Za-z][A-Za-z0-9'&.\-]*", name)
              if w.strip(".").lower() not in PARTY_STOPWORDS]
     if not words:
         return None

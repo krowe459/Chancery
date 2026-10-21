@@ -173,6 +173,20 @@ class DigestRenderingTest(unittest.TestCase):
                       "PRADCO sent it. Says signed; opinion says sent.", html)
         self.assertIn("1 statement in this summary was flagged", html)
 
+    def test_distinguished_authority_beyond_cap_stays_visible(self):
+        import send_digest
+        cap = send_digest.MAX_AUTHORITIES
+        auths = [{"authority": f"Case {i} v. X", "role": "relied_on", "proposition": "p"}
+                 for i in range(cap)]
+        auths += [{"authority": "Khanna v. Covad", "role": "distinguished", "proposition": "p"},
+                  {"authority": "Extra v. Y", "role": "relied_on", "proposition": "p"}]
+        entry = self.entry(1)
+        entry["summary"]["authorities_cited"] = auths
+        html = self.render(entry, "2026-10-20")
+        self.assertIn("Khanna v. Covad</strong> <em>(distinguished)</em>", html)
+        self.assertNotIn("Extra v. Y", html)
+        self.assertIn("+1 more in the full summary", html)
+
     def test_flag_on_text_field_and_old_entries_without_fact_check(self):
         flag = {"field": "holding", "index": None, "verdict": "contradicted", "problem": "Wrong party."}
         self.assertIn("Fact check (contradicted): Wrong party.",
