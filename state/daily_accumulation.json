@@ -1,4 +1,199 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402330",
+      "date": "2026-10-21",
+      "docket": "C.A. No. 2026-0733-CDW",
+      "judge": "Wright M.",
+      "name": "Peter A. Walker v. Icon Management Aggregator L.P. and Icon Topco L.P.",
+      "ny_date": "2026-10-21",
+      "ny_processed_at": "2026-10-21T09:54:56-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendants' objection that the counterclaims seek damages and other relief beyond the declarations sought in the Underlying Action: rejected. Success would still defeat the Underlying Plaintiffs' asserted entitlement to acquire Walker's units on the challenged terms, so the counterclaims keep their defensive function.",
+          "Contention that the counterclaims' additional elements break the logical relationship with the Underlying Complaint: rejected. Resolving them requires examining the same agreements and the circumstances of the amendment and repurchase, and the added elements do not eliminate that factual and legal overlap.",
+          "Walker's argument that his third-party claims need not satisfy Roven because Section 6.04(f) omits \"in defending\" and covers anyone \"made party to\" or \"otherwise involved in\" a proceeding: rejected under Edmundson and Krauss. Neither that participation language nor Section 6.04(e)'s non-exclusive reference to investigating or defending claims exempts offensive claims from Roven.",
+          "Argument that the claims against KKR are compulsory: rejected. Rule 14(a)(1) impleader is permissive, KKR asserted no claim against Walker, and joining KKR does not make claims against it compulsory under Rule 13(a).",
+          "Argument that the third-party claims serve to defeat or offset the claims against Walker: rejected. Walker made no such showing, and as in Krauss, pleading additional claims against a previously unnamed party does not establish their defensive character."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Citadel Holding Corp. v. Roven, 603 A.2d 818 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Two-part test for advancing counterclaim expenses; prejudgment interest is ordinarily awarded as of right and runs from the date of demand.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pontone v. Milso Indus. Corp., 100 A.3d 1023 (Del. Ch. 2014) (Pontone II)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A counterclaim is advanceable if it is compulsory and advanced to defeat or offset the affirmative claims; same transaction or occurrence means a logical relationship, informed by shared fact, law and evidence; a potential offsetting damages award qualifies; interest runs from the date the amount was specified and the undertaking produced.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Krauss v. 180 Life Scis. Corp., 2022 WL 665323 (Del. Ch. Mar. 7, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "\"Offset\" is read broadly; offensive litigation generally is not advanceable; a third-party claim against previously unnamed parties was not shown to be compulsory or defensive; Roven applied despite \"otherwise participating\" coverage language.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Edmundson v. Theorem Techs., Inc., 2026 WL 2688857, at *8 n.69 (Del. Ch. Sept. 14, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Omitting \"in defending\" language does not by itself dispense with Roven's requirements; the Court noted that Report is on exceptions before a constitutionally appointed member of the court (fn. 53).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pontone v. Milso Indus. Corp., 2014 WL 2439973 (Del. Ch. May 29, 2014) (Pontone I)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Roven made a counterclaim advanceable because recovery would offset liability even though it could not defeat the claim; a broad reading of offset comports with Delaware policy favoring advancement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Partnership Agreement § 6.04(f)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Mandatory advancement for an Indemnitee made party to or otherwise involved in a proceeding, upon a written undertaking to repay.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Partnership Agreement § 6.04(e)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Indemnification scope; its reference to investigating or defending claims does not exempt offensive claims from Roven.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fed. R. Civ. P. 13(a)(1); Ct. Ch. R. 13(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A counterclaim is compulsory if it arises out of the transaction or occurrence that is the subject of the opposing party's claim, and Rule 13(a) reaches only an opposing party.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 14(a)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Impleader of a nonparty is permissive, not required, so third-party claims are not compulsory.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Transamerica Occidental Life Ins. Co. v. Aviation Off. of Am., Inc., 292 F.3d 384 (3d Cir. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The logical-relationship requirement is viewed liberally to promote judicial economy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Leiske v. Kidd, 2026 WL 265493 (Del. Ch. Feb. 2, 2026) (citing Stifel Fin. Corp. v. Cochran, 809 A.2d 555 (Del. 2002))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees-on-fees in proportion to success is the default rule absent contrary contract language.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 2301(a)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Prejudgment interest at the legal rate.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Danenberg v. Fitracks, Inc., 58 A.3d 991 (Del. Ch. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Model fee-dispute resolution plan to be included in the proposed implementing order.",
+            "role": "background"
+          },
+          {
+            "authority": "Mooney v. Echo Therapeutics, Inc., 2015 WL 3413272 (Del. Ch. May 28, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Krauss: offensive litigation is generally not advanceable.",
+            "role": "background"
+          },
+          {
+            "authority": "Fasciana v. Elec. Data Sys. Corp., 829 A.2d 178 (Del. Ch. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Additional support for fees-on-fees.",
+            "role": "background"
+          },
+          {
+            "authority": "Rhodes v. bioMerieux, Inc., 2024 WL 669034 (Del. Ch. Feb. 19, 2024); Senior Tour Players 207 Mgmt. Co. LLC v. Golftown 207 Hldg. Co., LLC, 853 A.2d 124 (Del. Ch. 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment suits advancement disputes, which are resolved on the plain meaning of the governing instruments.",
+            "role": "background"
+          },
+          {
+            "authority": "Cianciulli v. Webinar.Net, Inc., 2025 WL 2831336 (Del. Ch. Oct. 6, 2025); Ct. Ch. R. 56(c)(3); D.R.E. 202(d)(1)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court may take judicial notice of filings in the Underlying Action.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Partnership Agreement § 6.03",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Topco must pay or cause to be paid the Partnership's obligations, including those under Section 6.04.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(d)(2)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Governs the deadline for exceptions to the Report.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Walker, Instructure's former CFO, sued the Partnership and Topco for advancement under Section 6.04(f) of the Partnership Agreement for the Underlying Action, in which the Underlying Plaintiffs seek to validate the Call Right Amendment and the $0 Call Notice used to extinguish his vested Class C Units; the parties cross-moved for summary judgment before a Magistrate in Chancery. With defense costs and Count One conceded, the Court applied Roven and held that the remaining counterclaims against the Underlying Plaintiffs are compulsory and defensive, even though they also seek damages. Following Edmundson and Krauss, the Court held that the absence of \"in defending\" language does not exempt offensive claims from Roven, and that the permissive third-party claims against KKR, which asserted no claim against Walker, are neither compulsory nor defensive.",
+        "citation_check": {
+          "not_checked": 3,
+          "not_found": 0,
+          "verified": 17
+        },
+        "core_legal_issue": "Whether Section 6.04(f) of the Partnership Agreement, which covers an Indemnitee \"made party to, or is otherwise involved in\" a proceeding without \"in defending\" language, entitles Walker to advancement beyond his undisputed defense costs: specifically, for prosecuting counterclaims against the Underlying Plaintiffs and third-party claims against KKR under the Citadel Holding Corp. v. Roven compulsory-and-defensive test.",
+        "coverage_note": "",
+        "disposition": "granted in part and denied in part",
+        "fact_check": {
+          "checked": 15,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Cross-motions granted in part and denied in part. Walker is entitled to advancement for defending the Underlying Action, which is undisputed. He is also entitled to advancement for Counterclaims One, Two, Five, Seven, Eight, Nine and Ten insofar as asserted against the Underlying Plaintiffs: Count One is conceded, and the rest satisfy both Roven prongs because they bear a logical relationship to the declaratory claims and would defeat the Underlying Plaintiffs' asserted entitlement to acquire his units on the challenged terms. He is not entitled to advancement for his third-party claims against KKR (Counts Three, Four and Six, and Counts Seven, Eight and Ten as asserted against KKR). Section 6.04(f)'s broad participation language does not displace Roven, impleader under Rule 14(a)(1) is permissive, KKR asserted no claim against him, and he did not show those claims defeat or offset the claims against him. Walker receives fees-on-fees to the extent of his success and prejudgment interest at the legal rate from the date of demand. Exceptions are due by October 26, 2026. If none are taken or the Report is affirmed, the parties must meet and confer within five business days and submit a proposed implementing order with a Danenberg v. Fitracks-style fee-dispute plan.",
+        "key_facts_and_concessions": [
+          "Defendants do not dispute Walker's entitlement to advancement for defending against their claims in the Underlying Action (fn. 32), so only the counterclaims and third-party claims were contested.",
+          "Defendants concede that Counterclaim Count One is advanceable (fn. 39).",
+          "The Underlying Action, brought by the Partnership, Topco, Instructure and Topco GP (the \"Underlying Plaintiffs\"), seeks declarations that the Call Right Amendment and the Call Notice are valid and enforceable; it arises from the repurchase of Walker's vested Class C Units for no consideration (a purported fair market value of $0) after his resignation.",
+          "Counterclaims Two, Five, Seven, Eight, Nine and Ten each challenge the same amendment and repurchase the Underlying Plaintiffs seek to validate, sounding respectively in fiduciary duty, contract, conversion, unjust enrichment, implied covenant and promissory estoppel.",
+          "KKR asserted no claim against Walker; Walker joined KKR as a third-party defendant, alleging KKR controlled Defendants and its employees directed the challenged conduct.",
+          "Section 6.04(f) mandates advancement for an Indemnitee who \"was, is or is threatened to be made party to, or is otherwise involved in\" a proceeding, upon a written undertaking, and does not limit coverage to expenses incurred \"in defending.\"",
+          "Neither side filed the Underlying Complaint or Underlying Counterclaims in this record, but the Court took judicial notice of them (fn. 18).",
+          "Walker qualifies as an Indemnitee through his service as an employee/officer and his status as a former or current Partner (fn. 35)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Broad \"made party to or otherwise involved in\" advancement language will not, by itself, carry impleader claims against a non-adverse party such as a controller, so claimants should be ready to show both Roven prongs for every claim against every defendant. Counterclaims that attack the very transaction a declaratory plaintiff seeks to validate remain advanceable even when they also seek damages.",
+        "standard_of_review": "Ct. Ch. R. 56(a) summary judgment on cross-motions (no genuine dispute of material fact; entitlement to judgment as a matter of law), applying the plain meaning of the advancement provisions; counterclaim and third-party advanceability measured by the two-part Roven test. Issued as a Magistrate's Report under Ct. Ch. R. 144, subject to exceptions."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402330"
+    }
+  ],
+  "ny_date": "2026-10-21"
 }

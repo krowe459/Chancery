@@ -209,9 +209,15 @@
       "name": "Max Glass v. RWA Company LLC",
       "processed_at": "2026-10-19T19:45:34-04:00",
       "status": "ok"
+    },
+    "de-402330": {
+      "docket": "C.A. No. 2026-0733-CDW",
+      "name": "Peter A. Walker v. Icon Management Aggregator L.P. and Icon Topco L.P.",
+      "processed_at": "2026-10-21T09:54:56-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-19T19:45:34-04:00",
-  "page_hash": "de994b663d337f84d10d2bf0e625affbca79c70d48ee3b826ad10dd20687608b"
+  "last_checked_ny": "2026-10-21T09:54:56-04:00",
+  "page_hash": "15d5a9a76d9c07fa424a04e59c07585d9ea4abdec19ee17d40bed75df01db292"
 }
