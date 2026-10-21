@@ -222,9 +222,15 @@
       "name": "Patrick Flannery v. London Stock Exchange Group, PLC, Refinitiv US LLC, Latitude Merger Sub Inc, & MayStreet Inc",
       "processed_at": "2026-10-21T13:46:34-04:00",
       "status": "skipped_old"
+    },
+    "de-402390": {
+      "docket": "C.A. No. 2022-1100-NAC",
+      "name": "Vale Ventures IA LLC v. Gray Jay Management Investments, LLC,",
+      "processed_at": "2026-10-21T17:49:55-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-21T13:46:34-04:00",
-  "page_hash": "c25266aa03085b48e0e3adcded9461f070844be7b32fd8320755ce320e4d63e9"
+  "last_checked_ny": "2026-10-21T17:49:55-04:00",
+  "page_hash": "b49e52ca5a6877792e24c140379d428c7b327e7c678f4dacedfac676694f20e7"
 }
