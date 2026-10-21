@@ -123,9 +123,13 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
         return (f"<li style='margin:0 0 4px 0;'><strong>{_e(a.get('authority'))}</strong>{tag} "
                 f"&mdash; {_e(a.get('proposition'))}{unverified(a)}</li>")
 
+    # Flagged and distinguished authorities stay visible past the cap: the
+    # cases an opinion distinguishes are often the ones it turns on (Khanna
+    # was hidden as the 13th authority in the Oct. 20 Glass v. RWA entry).
     shown_auths, hidden_auths = _capped(
         main_auths, MAX_AUTHORITIES,
-        {i for i, a in enumerate(main_auths) if a.get("check") == "not_found"})
+        {i for i, a in enumerate(main_auths)
+         if a.get("check") == "not_found" or a.get("role") == "distinguished"})
     auths = "".join(auth_item(a) for _, a in shown_auths) or "<li>None identified.</li>"
     if hidden_auths:
         auths += more_line(hidden_auths)

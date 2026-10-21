@@ -44,6 +44,16 @@ class CiteCheckTest(unittest.TestCase):
             summary = {"authorities_cited": [{"authority": name, "kind": "case"}]}
             self.assertEqual(cc(summary, opinion)["not_found"], 0, name)
 
+    def test_digits_in_party_names(self):
+        # Glass v. RWA (Oct. 20): "KT4 P'rs" was reported missing as "KT P'rs".
+        from citecheck import check_citations as cc
+        opinion = "[^35]: KT4 P\u2019rs. LLC v. Palantir Tech., Inc., 203 A.3d 738, 751 (Del. 2019)."
+        summary = {"authorities_cited": [{"authority": "KT4 P'rs LLC v. Palantir Tech., Inc., 203 A.3d 738",
+                                          "kind": "case"}]}
+        self.assertEqual(cc(summary, opinion)["not_found"], 0)
+        caiola = {"authorities_cited": [{"authority": "2009 Caiola Family Tr. v. PWA, LLC", "kind": "case"}]}
+        self.assertEqual(cc(caiola, "See 2009 Caiola Family Tr. v. PWA, LLC.")["not_found"], 0)
+
     def test_loose_party_match_still_catches_invented_names(self):
         _, checks = run(("In re XY/ZQ Litig., 2000 WL 1234567", "case"))
         self.assertEqual(list(checks.values()), ["not_found"])
