@@ -215,9 +215,16 @@
       "name": "Peter A. Walker v. Icon Management Aggregator L.P. and Icon Topco L.P.",
       "processed_at": "2026-10-21T09:54:56-04:00",
       "status": "ok"
+    },
+    "de-402350": {
+      "date": "2026-10-15",
+      "docket": "2025-0547-MAA",
+      "name": "Patrick Flannery v. London Stock Exchange Group, PLC, Refinitiv US LLC, Latitude Merger Sub Inc, & MayStreet Inc",
+      "processed_at": "2026-10-21T13:46:34-04:00",
+      "status": "skipped_old"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-21T09:54:56-04:00",
-  "page_hash": "15d5a9a76d9c07fa424a04e59c07585d9ea4abdec19ee17d40bed75df01db292"
+  "last_checked_ny": "2026-10-21T13:46:34-04:00",
+  "page_hash": "c25266aa03085b48e0e3adcded9461f070844be7b32fd8320755ce320e4d63e9"
 }
