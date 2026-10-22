@@ -43,6 +43,14 @@ class PromptExampleTest(unittest.TestCase):
         self.assertEqual(len(summarize._system(False)), 1)
         self.assertEqual(summarize._system(True)[-1]["cache_control"], {"type": "ephemeral"})
 
+    def test_post_trial_dispositions_are_offered(self):
+        import summarize
+        enum = summarize.SUMMARY_SCHEMA["properties"]["disposition"]["enum"]
+        for value in ("judgment for plaintiff", "judgment for defendant",
+                      "judgment in part for each side"):
+            self.assertIn(value, enum)
+            self.assertIn(f'"{value}"', summarize.SYSTEM_PROMPT)
+
 
 if __name__ == "__main__":
     unittest.main()
