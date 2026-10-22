@@ -115,7 +115,7 @@ def preview(opinions: list[str]) -> int:
                    indent=2, ensure_ascii=False) + "\n", "utf-8")
     (OUT_DIR / "digest-preview.html").write_text(
         render_html(entries, today_ny(), full_summary_ref="summaries.json in this preview",
-                    title="Chancery Digest &mdash; Preview (not sent)"), "utf-8")
+                    title="Delaware Business Courts Digest &mdash; Preview (not sent)"), "utf-8")
 
     report = [f"Previewed {len(entries)} opinion(s); {tokens:,} input tokens sent.", ""]
     for e in entries:

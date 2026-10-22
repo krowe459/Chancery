@@ -35,7 +35,7 @@ class PreviewRenderingTest(unittest.TestCase):
             "core_legal_issue": "x", "holding": "h", "brief_summary": "b",
             "key_facts_and_concessions": [f"fact {i}" for i in range(12)]}}
         html = render_html([entry], "2026-10-16", full_summary_ref="summaries.json in this preview",
-                           title="Chancery Digest &mdash; Preview (not sent)")
+                           title="Delaware Business Courts Digest &mdash; Preview (not sent)")
         self.assertIn("Preview (not sent)", html)
         self.assertIn("summaries.json in this preview", html)
         self.assertNotIn("state/archive", html)

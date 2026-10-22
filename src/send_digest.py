@@ -12,7 +12,7 @@ Usage:  python src/send_digest.py [--force] [--check]
         sending anything; the workflow uses it to decide whether to run a
         last-minute scrape first.
 Env:    RESEND_API_KEY, DIGEST_TO
-        DIGEST_FROM     (default "Chancery Digest <onboarding@resend.dev>")
+        DIGEST_FROM     (default "Delaware Business Courts Digest <onboarding@resend.dev>")
         DIGEST_HOUR_NY  (default 18)
 """
 from __future__ import annotations
@@ -41,7 +41,7 @@ RESEND_URL = "https://api.resend.com/emails"
 MAX_KEY_FACTS = 8
 MAX_ARGUMENTS = 10
 MAX_AUTHORITIES = 12
-DEFAULT_FROM = "Chancery Digest <onboarding@resend.dev>"
+DEFAULT_FROM = "Delaware Business Courts Digest <onboarding@resend.dev>"
 # Court label on each entry, and the digest's order: appellate rulings on
 # Chancery first, then Chancery, then the Superior Court's CCLD. Entries from
 # before courts were tracked have no "court" and are Chancery's.
@@ -318,7 +318,7 @@ def main() -> int:
 
     entries = order_entries(entries)
     n = len(entries)
-    subject = f"Chancery Digest — {now:%a %b %-d, %Y} — {n} new decision{'s' if n != 1 else ''}"
+    subject = f"Delaware Business Courts Digest — {now:%a %b %-d, %Y} — {n} new decision{'s' if n != 1 else ''}"
     email_id = send_via_resend(subject, render_html(entries, ny_date), f"chancery-digest/{ny_date}")
     print(f"Sent digest {email_id} with {n} entries.")
 

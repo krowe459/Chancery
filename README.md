@@ -1,4 +1,4 @@
-# Chancery Digest
+# Delaware Business Courts Digest
 
 Diff-driven watcher for Delaware business-court opinions. It summarizes each new
 opinion with Claude and emails one HTML digest per New York business day through Resend.
