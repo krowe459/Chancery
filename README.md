@@ -1,7 +1,18 @@
 # Chancery Digest
 
-Diff-driven watcher for Delaware Court of Chancery opinions. It summarizes each new
+Diff-driven watcher for Delaware business-court opinions. It summarizes each new
 opinion with Claude and emails one HTML digest per New York business day through Resend.
+
+Courts watched (`COURTS` in `src/scrape.py`):
+- **Court of Chancery**: every opinion and order on its listing.
+- **Supreme Court of Delaware**: decisions on appeal from the Court of Chancery. Each new
+  row's PDF caption is read for "Court Below: Court of Chancery" (or a Chancery C.A. No.).
+- **Superior Court, CCLD**: Complex Commercial Litigation Division decisions, found by
+  "CCLD" in the listing row's case number, or failing that in the PDF caption.
+
+Rows outside scope are recorded in `state/processed_cases.json` as `out_of_scope` and never
+summarized or re-read. In the digest, Supreme Court entries come first, then Chancery, then
+CCLD, each non-Chancery entry with a court label.
 
 ```
 scrape.yml (every 2h, weekdays) ──► src/scrape.py ──► state/processed_cases.json
@@ -45,9 +56,12 @@ Locally: `cd src && python preview.py 402160` writes `preview/`.
   `PREDIGEST_TIME_BUDGET_MINUTES`) so opinions posted after the 5:45pm scrape make that
   evening's email. It only runs when a digest is actually due, and a failure there never
   blocks the email.
-- If the listing page parses to no opinions, `scrape.py` waits and re-fetches it
+- A court watched for the first time is seeded: the rows already on its listing are
+  recorded, not summarized, so adding a court never bills for its back catalogue.
+- If a listing page parses to no opinions, `scrape.py` waits and re-fetches it
   (`LISTING_RETRIES`, default 2, `LISTING_RETRY_WAIT`, default 60 seconds), logging each empty
-  page's status and title. If it is still empty (e.g. the court redesigned the page), it exits with code 2. The run goes red and
+  page's status and title. If it is still empty (e.g. the court redesigned the page), the other courts still run
+  and the scrape then exits with code 2. The run goes red and
   GitHub emails you. The parser finds columns by header text, so reordered columns still work.
 - GitHub disables scheduled workflows in public repos after 60 days with no repository
   activity. The daily state commits count as activity.

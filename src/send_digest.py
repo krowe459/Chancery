@@ -42,6 +42,20 @@ MAX_KEY_FACTS = 8
 MAX_ARGUMENTS = 10
 MAX_AUTHORITIES = 12
 DEFAULT_FROM = "Chancery Digest <onboarding@resend.dev>"
+# Court label on each entry, and the digest's order: appellate rulings on
+# Chancery first, then Chancery, then the Superior Court's CCLD. Entries from
+# before courts were tracked have no "court" and are Chancery's.
+COURT_LABELS = {"supreme": "Supreme Court (appeal from Chancery)",
+                "chancery": "Court of Chancery",
+                "superior": "Superior Court CCLD"}
+COURT_ORDER = list(COURT_LABELS)
+
+
+def order_entries(entries: list[dict]) -> list[dict]:
+    newest = sorted(entries, key=lambda e: (e.get("date", ""), e.get("name", "")), reverse=True)
+    rank = lambda e: (COURT_ORDER.index(e.get("court") or "chancery")
+                      if (e.get("court") or "chancery") in COURT_ORDER else len(COURT_ORDER))
+    return sorted(newest, key=rank)
 
 
 def _e(value: object) -> str:
@@ -70,13 +84,18 @@ def _capped(items: list, cap: int, keep: set[int]) -> tuple[list[tuple[int, obje
 
 def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = None) -> str:
     s = entry.get("summary") or {}
+    court = entry.get("court") or "chancery"
+    label = "" if court == "chancery" else COURT_LABELS.get(court, court)
     meta = " &middot; ".join(
         _e(x) for x in (entry.get("docket"), entry.get("date"), entry.get("judge"),
                         entry.get("opinion_type")) if x
     )
+    tag = (f"<div style='font-size:11px;font-weight:700;letter-spacing:.04em;"
+           f"text-transform:uppercase;color:#8a5a00;margin-bottom:4px;'>{_e(label)}</div>"
+           if label else "")
     head = f"""
       <tr><td style="padding:20px 24px 0 24px;">
-        <div style="font-size:17px;font-weight:700;color:#0b2545;line-height:1.3;">
+        {tag}<div style="font-size:17px;font-weight:700;color:#0b2545;line-height:1.3;">
           <a href="{_e(entry.get('url'))}" style="color:#0b2545;text-decoration:none;">{_e(entry.get('name'))}</a>
         </div>
         <div style="font-size:12px;color:#5c6b7a;margin-top:4px;">{meta}</div>
@@ -208,7 +227,7 @@ def _divider() -> str:
 
 
 def render_html(entries: list[dict], ny_date: str, full_summary_ref: str | None = None,
-                title: str = "Delaware Court of Chancery &mdash; Daily Digest") -> str:
+                title: str = "Delaware Business Courts &mdash; Daily Digest") -> str:
     """full_summary_ref overrides where "+N more" points (default: the archive);
     title is trusted HTML."""
     rows = "".join(render_entry(e, ny_date, full_summary_ref) for e in entries)
@@ -297,7 +316,7 @@ def main() -> int:
         print("Accumulation file is empty. No email sent.")
         return 0
 
-    entries = sorted(entries, key=lambda e: (e.get("date", ""), e.get("name", "")), reverse=True)
+    entries = order_entries(entries)
     n = len(entries)
     subject = f"Chancery Digest — {now:%a %b %-d, %Y} — {n} new decision{'s' if n != 1 else ''}"
     email_id = send_via_resend(subject, render_html(entries, ny_date), f"chancery-digest/{ny_date}")
