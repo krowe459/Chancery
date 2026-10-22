@@ -30,8 +30,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from common import ACCUMULATION_PATH, ARCHIVE_DIR, ROOT, env_int, load_json, today_ny
-from scrape import (LISTING_URL, CaseRow, extract_text, get_with_retry, http_session,
-                    parse_listing)
+from scrape import COURTS, CaseRow, extract_text, get_with_retry, http_session, parse_listing
 
 OUT_DIR = ROOT / "preview"
 DOWNLOAD_URL = "https://courts.delaware.gov/opinions/download.aspx?id={id}"
@@ -57,17 +56,21 @@ def _key(url: str) -> str:
 
 def known_rows(session) -> dict[str, dict]:
     """Case metadata by download id: past archives and the accumulation first,
-    then the court's current listing (which wins, being freshest)."""
+    then the courts' current listings (which win, being freshest)."""
     rows: dict[str, dict] = {}
     for path in sorted(ARCHIVE_DIR.glob("*.json")) + [ACCUMULATION_PATH]:
         for e in load_json(path, {}).get("entries", []):
             if e.get("url"):
-                rows[_key(e["url"])] = {f: e.get(f, "") for f in CaseRow.__dataclass_fields__}
-    try:
-        for r in parse_listing(get_with_retry(session, LISTING_URL).text):
-            rows[_key(r.url)] = asdict(r)
-    except Exception as exc:  # noqa: BLE001 - metadata is a nicety; carry on without it
-        print(f"Warning: could not read the court listing ({exc}); using archived metadata.")
+                rows[_key(e["url"])] = {f: e.get(f, "chancery" if f == "court" else "")
+                                        for f in CaseRow.__dataclass_fields__}
+    for court in reversed(COURTS):   # Chancery last, so it wins a shared row
+        try:
+            html = get_with_retry(session, court.listing_url).text
+            for r in parse_listing(html, court.listing_url, court.key):
+                rows[_key(r.url)] = asdict(r)
+        except Exception as exc:  # noqa: BLE001 - metadata is a nicety; carry on without it
+            print(f"Warning: could not read the {court.label} listing ({exc}); "
+                  "using archived metadata.")
     return rows
 
 
@@ -93,7 +96,7 @@ def preview(opinions: list[str]) -> int:
     for url in urls:
         info = meta.get(_key(url)) or {"case_id": f"preview-{_key(url)}", "name": url,
                                        "docket": "", "date": "", "judge": "",
-                                       "opinion_type": "", "url": url}
+                                       "opinion_type": "", "url": url, "court": ""}
         row = CaseRow(**{**info, "url": url})
         print(f"Summarizing {row.name} ({row.docket or 'docket unknown'})")
         entry = {**asdict(row), "ny_date": today_ny()}

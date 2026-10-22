@@ -36,9 +36,13 @@ class RunTimeBudgetTest(unittest.TestCase):
         saved_monotonic, saved_summarize = scrape.time.monotonic, sys.modules.get("summarize")
         try:
             scrape.PROCESSED_PATH, scrape.ACCUMULATION_PATH = tmp / "p.json", tmp / "a.json"
-            common.save_json(scrape.PROCESSED_PATH, {"page_hash": "x", "cases": {"de-0": {
-                "processed_at": "2026-10-19T12:00:00-04:00", "status": "ok"}}})
-            scrape.fetch_listing = lambda session, retries, wait: rows
+            old = {"processed_at": "2026-10-19T12:00:00-04:00", "status": "ok"}
+            common.save_json(scrape.PROCESSED_PATH, {"page_hash": "x", "cases": {
+                "de-0": old, "de-8": {**old, "court": "supreme"},
+                "de-9": {**old, "court": "superior"}}})
+            others = {k: [scrape.CaseRow(f"de-{n}", "Old", "", "2026-10-19", "J", "", "u", k)]
+                      for k, n in (("supreme", 8), ("superior", 9))}
+            scrape.fetch_listing = lambda session, retries, wait, court: others.get(court.key, rows)
             scrape.extract_text = lambda session, url: "text"
             scrape.now_ny = lambda: datetime(2026, 10, 20, 11, 50, tzinfo=common.NY)
             scrape.time.monotonic = lambda: clock[0]
@@ -60,7 +64,8 @@ class RunTimeBudgetTest(unittest.TestCase):
         # 0 min -> case 1; 25 min -> case 2; 50 min >= 40 -> stop.
         self.assertEqual(summarized, ["de-1", "de-2"])
         self.assertNotIn("de-3", state["cases"])        # left for the next run
-        self.assertEqual(state["page_hash"], "x")      # backlog keeps the fast path off
+        self.assertEqual(state["page_hashes"]["chancery"], "x")  # backlog keeps the fast path off
+        self.assertIn("supreme", state["page_hashes"])            # no backlog there
         self.assertIn("Run time budget reached (50.0 min)", out.getvalue())
 
 

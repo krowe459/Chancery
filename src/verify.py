@@ -44,8 +44,8 @@ LIST_FIELDS = ("key_facts_and_concessions", "arguments_rejected_or_waived")
 TEXT_FIELDS = ("holding", "brief_summary")
 
 VERIFY_SYSTEM = """\
-You check a summary of a Delaware Court of Chancery opinion against the \
-opinion text. You will get numbered claims from the summary and the opinion \
+You check a summary of a Delaware court opinion (Court of Chancery, Supreme \
+Court or Superior Court) against the opinion text. You will get numbered claims from the summary and the opinion \
 (or one excerpt of it). For each claim, decide:
 
 - supported: every factual assertion in the claim is stated in the text or \

@@ -1,7 +1,7 @@
 """Claude summarization engine with a hard token-ceiling guard.
 
 Single pass when the opinion fits under TOKEN_CEILING (default 150,000 tokens,
-which covers nearly every Chancery opinion).
+which covers nearly every opinion).
 Otherwise: split -> summarize each chunk (map) -> recursively condense the
 chunk notes until they fit (reduce) -> one final structured call.
 
@@ -57,7 +57,11 @@ def client() -> anthropic.Anthropic:
 
 SYSTEM_PROMPT = """\
 You are a senior Delaware corporate litigation associate preparing a same-day \
-briefing for partners who litigate in the Court of Chancery. Your readers know \
+briefing for partners who litigate in the Court of Chancery. The decisions \
+come from the Court of Chancery, the Supreme Court of Delaware on appeal from \
+the Court of Chancery, and the Superior Court's Complex Commercial Litigation \
+Division (CCLD); the decision's court is given with it. "The Court" means the \
+court that issued the decision. Your readers know \
 Delaware law cold; do not explain basics. Precision beats breadth.
 
 When analyzing an opinion, identify:
@@ -71,7 +75,10 @@ binding until adopted: use a "recommended: ..." disposition for it. A \
 decision after trial (or on a stipulated record) decides no motion: use \
 "judgment for plaintiff" or "judgment for defendant" (by who prevails on the \
 claims, even if some relief is denied) or "judgment in part for each side" \
-when each side wins a claim or counterclaim on the merits.
+when each side wins a claim or counterclaim on the merits. A Supreme Court \
+decision gives its mandate: "affirmed", "reversed", "reversed and remanded" or \
+"affirmed in part and reversed in part" (remanded or not); its standard is the \
+appellate standard of review.
 3. Key Facts and Concessions - the facts the outcome turned on, and any \
 concession a party made (including concessions that limit what was decided, \
 e.g., a defendant conceding permissive but not mandatory relief).
@@ -92,7 +99,9 @@ party's argument or characterization that the Court did not adopt must be \
 attributed to that party. Mention fees or costs only if the opinion \
 addresses them; do not write "no fees awarded" when it is silent.
 7. Brief Summary - two to four sentences: the parties and procedural posture, \
-then the Court's key reasoning. Do not include practice advice here.
+then the Court's key reasoning. For a Supreme Court decision, name the Court \
+of Chancery ruling under review and its judge, and say what the Supreme Court \
+held about it. Do not include practice advice here.
 8. Practical Takeaway - one or two sentences of guidance for practitioners. \
 This is the only field where you may go beyond the opinion, and it must not \
 assert facts, reasons or circumstances the opinion does not state.
@@ -157,7 +166,7 @@ a short procedural order needs far less than this.
 </example>"""
 
 MAP_INSTRUCTIONS = """\
-Below is part {i} of {n} of a Delaware Court of Chancery decision ({meta}). \
+Below is part {i} of {n} of a Delaware court decision ({meta}). \
 Write dense working notes for a later merge step: parties and posture, issues \
 raised, key facts, party concessions, arguments rejected or held waived, every \
 statute/rule/doctrine/case cited with the proposition, the Court's reasoning, \
@@ -165,8 +174,8 @@ and any rulings or dispositions in this part. Include substantive footnotes. Use
 bullets, keep pin cites, no preamble. Max ~600 words."""
 
 REDUCE_INSTRUCTIONS = """\
-Below are working notes from consecutive parts of one Delaware Court of \
-Chancery decision ({meta}). Merge them into one set of dense notes, removing \
+Below are working notes from consecutive parts of one Delaware court \
+decision ({meta}). Merge them into one set of dense notes, removing \
 duplication but keeping every authority, concession, waiver finding, ruling, \
 and disposition. Terse \
 bullets, no preamble. Max ~900 words."""
@@ -181,7 +190,9 @@ SUMMARY_SCHEMA: dict[str, Any] = {
                      "recommended: granted", "recommended: denied",
                      "recommended: granted in part and denied in part",
                      "judgment for plaintiff", "judgment for defendant",
-                     "judgment in part for each side", "other"],
+                     "judgment in part for each side",
+                     "affirmed", "reversed", "reversed and remanded",
+                     "affirmed in part and reversed in part", "other"],
         },
         "standard_of_review": {"type": "string"},
         "key_facts_and_concessions": {"type": "array", "items": {"type": "string"}},
@@ -305,8 +316,16 @@ def _call(messages: list[dict], *, max_tokens: int, effort: str,
     return text.strip(), sent
 
 
+COURT_NAMES = {
+    "chancery": "Court of Chancery",
+    "supreme": "Supreme Court of Delaware, on appeal from the Court of Chancery",
+    "superior": "Superior Court, Complex Commercial Litigation Division",
+}
+
+
 def _meta(row: Any) -> str:
-    return f"{row.name}, {row.docket}, decided {row.date}, {row.judge}"
+    court = COURT_NAMES.get(getattr(row, "court", "chancery"), "Delaware court")
+    return f"{court}: {row.name}, {row.docket}, decided {row.date}, {row.judge}"
 
 
 def _reduce(notes: list[str], meta: str, depth: int, usage: list[int]) -> str:
