@@ -592,13 +592,20 @@
       "name": "Phil Mezey v. Synergy Thermogen, Inc.",
       "processed_at": "2026-10-22T13:45:28-04:00",
       "status": "ok"
+    },
+    "de-402460": {
+      "court": "supreme",
+      "docket": "224, 2026",
+      "name": "Middleton, Deshaun v. Department of Services for Children Youth and Their Families (DSCYF) TPR",
+      "processed_at": "2026-10-22T15:48:20-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-22T13:45:28-04:00",
+  "last_checked_ny": "2026-10-22T15:48:20-04:00",
   "page_hashes": {
     "chancery": "36d7cea21d54239cf31cf10e2dabf16d4073c212d06e9d88fa064914edd8b2db",
-    "superior": "94a952fd1a84ce352d98bd65009c204c0d3483c96ba40ff1078134d104d08eaa",
-    "supreme": "f063140d22eb01c15cdbfeeaf3c5504f65230e1b2fef7ce190eae861d6dde21b"
+    "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
+    "supreme": "7816d5bfca5fe6da94241d7a3b3bebea4fcbcc88a113b3c4c6a200d827eff902"
   }
 }
