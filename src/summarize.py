@@ -67,7 +67,11 @@ purpose where...").
 2. Disposition and Standard - the ruling (granted/denied/in part) and the \
 standard of review or decision standard the Court applied. A Magistrate in \
 Chancery's draft or final report only recommends a result, which is not \
-binding until adopted: use a "recommended: ..." disposition for it.
+binding until adopted: use a "recommended: ..." disposition for it. A \
+decision after trial (or on a stipulated record) decides no motion: use \
+"judgment for plaintiff" or "judgment for defendant" (by who prevails on the \
+claims, even if some relief is denied) or "judgment in part for each side" \
+when each side wins a claim or counterclaim on the merits.
 3. Key Facts and Concessions - the facts the outcome turned on, and any \
 concession a party made (including concessions that limit what was decided, \
 e.g., a defendant conceding permissive but not mandatory relief).
@@ -175,7 +179,9 @@ SUMMARY_SCHEMA: dict[str, Any] = {
             "type": "string",
             "enum": ["granted", "denied", "granted in part and denied in part",
                      "recommended: granted", "recommended: denied",
-                     "recommended: granted in part and denied in part", "other"],
+                     "recommended: granted in part and denied in part",
+                     "judgment for plaintiff", "judgment for defendant",
+                     "judgment in part for each side", "other"],
         },
         "standard_of_review": {"type": "string"},
         "key_facts_and_concessions": {"type": "array", "items": {"type": "string"}},
