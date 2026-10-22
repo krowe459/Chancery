@@ -51,6 +51,12 @@ class PromptExampleTest(unittest.TestCase):
             self.assertIn(value, enum)
             self.assertIn(f'"{value}"', summarize.SYSTEM_PROMPT)
 
+    def test_takeaway_rule_limits_case_descriptions_to_the_opinion(self):
+        import summarize
+        rule = " ".join(summarize.SYSTEM_PROMPT.split())
+        self.assertIn("Everything it says about this case", rule)
+        self.assertIn("Do not label the case with a category the opinion does not use", rule)
+
 
 if __name__ == "__main__":
     unittest.main()
