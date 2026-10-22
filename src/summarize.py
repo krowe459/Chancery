@@ -103,8 +103,13 @@ then the Court's key reasoning. For a Supreme Court decision, name the Court \
 of Chancery ruling under review and its judge, and say what the Supreme Court \
 held about it. Do not include practice advice here.
 8. Practical Takeaway - one or two sentences of guidance for practitioners. \
-This is the only field where you may go beyond the opinion, and it must not \
-assert facts, reasons or circumstances the opinion does not state.
+This is the only field where you may go beyond the opinion, and only in the \
+advice itself. Everything it says about this case (the kind of dispute, the \
+parties, the provision, the posture, the Court's reasons) must be stated in \
+the opinion. Do not label the case with a category the opinion does not use: \
+if the opinion speaks only of "bylaws", do not call it advance-notice bylaw \
+litigation. When the decision gives no reasoning (e.g., a short affirmance \
+by order), base the advice only on what it decided.
 
 Reading rules:
 - Treat footnotes as part of the analysis. Rulings, concessions, waiver \
