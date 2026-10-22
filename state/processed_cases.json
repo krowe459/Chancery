@@ -18,6 +18,13 @@
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-401350": {
+      "court": "superior",
+      "docket": "N25C-08-255 DJB",
+      "name": "Waters-El v. Nissan Motor Acceptance Co., LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-401360": {
       "docket": "C.A. No. 2019-1003-BWD",
       "name": "Curonix LLC v. Laura Tyler Perryman, StimGuard Medical Corporation, LTP Limited, LLC, et al.",
@@ -28,6 +35,13 @@
       "docket": "C.A. No. 2025-1286-NAC",
       "name": "In re Care One, LLC Advancement Litigation",
       "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401390": {
+      "court": "superior",
+      "docket": "N25C-09-183 PAW CCLD",
+      "name": "FirstService Roofing Holdings, Inc., et al. v. Travis Webb",
+      "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "seeded"
     },
     "de-401400": {
@@ -46,6 +60,13 @@
       "docket": "2022-1045-LWW",
       "name": "In Re Saama Technologies Litigation",
       "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401470": {
+      "court": "superior",
+      "docket": "N25C-04-099 CLS",
+      "name": "Hughs v. Royal Energy Resources, Inc., et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "seeded"
     },
     "de-401490": {
@@ -72,6 +93,27 @@
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-401560": {
+      "court": "superior",
+      "docket": "K25A-05-001 RLG",
+      "name": "Bradford v. American Finance, LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401570": {
+      "court": "superior",
+      "docket": "S24C-08-028 CAK",
+      "name": "Lingo v. Gordon et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401580": {
+      "court": "superior",
+      "docket": "N26C-01-066 CLS",
+      "name": "Russell v. Harris, et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-401590": {
       "docket": "2024-1009-CDW (KSJM)",
       "name": "Elias Guerra, in his capacity as Securityholder Representative, and Popwallet, Inc. v. Snap Inc.",
@@ -82,6 +124,27 @@
       "docket": "2022-1057-LWW",
       "name": "ACON Igloo Holdings, LLC v. Dometic Corporation",
       "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401610": {
+      "court": "supreme",
+      "docket": "94, 2026",
+      "name": "Womack v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401620": {
+      "court": "supreme",
+      "docket": "339, 2026",
+      "name": "Kalima v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401670": {
+      "court": "supreme",
+      "docket": "411, 2025",
+      "name": "Natalie Ayers v. Travelers Casualty Insurance Company",
+      "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "seeded"
     },
     "de-401680": {
@@ -96,16 +159,65 @@
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-401710": {
+      "court": "superior",
+      "docket": "N25C-11-185 DJB",
+      "name": "Reigal, et al. v. Civic Association of Surrey Park, et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401720": {
+      "court": "superior",
+      "docket": "1905004634, 19005004787",
+      "name": "State v. West",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-401730": {
       "docket": "2020-0985-KSJM",
       "name": "Mitchell Partners, L.P. v. AMFI, et al.",
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-401740": {
+      "court": "superior",
+      "docket": "N26A-01-001 SSA",
+      "name": "Galaxy Television v. Marijuana Appeals Commission",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401750": {
+      "court": "superior",
+      "docket": "S24C-07-019 CAK",
+      "name": "Delaware Department of Transportation v. Leslie Gay Knapp Marini, et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401760": {
+      "court": "supreme",
+      "docket": "127, 2026",
+      "name": "Gemini Insurance Company v. Bausch & Lomb Americas, Inc.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-401770": {
       "docket": "C.A. No. 2026-0579-DG",
       "name": "Stephen M. Esposito, et al. v. Drivers History Information Sales, LLC Transunion, et al.",
       "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401780": {
+      "court": "superior",
+      "docket": "N25C-03-301 PRW CCLD",
+      "name": "The Turner Corporation, et al. v. Lexington Insurance Company et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401790": {
+      "court": "superior",
+      "docket": "N26C-04-294 SKR CCLD",
+      "name": "Shareholder Representative Services LLC v. Teleflex Incorporated",
+      "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "seeded"
     },
     "de-401800": {
@@ -120,10 +232,122 @@
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-401830": {
+      "court": "supreme",
+      "docket": "29, 2026",
+      "name": "Cornice Ventures I LLC and Cornice Ventures II LLC v. Joshua Silberstein",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401840": {
+      "court": "supreme",
+      "docket": "45, 2026",
+      "name": "Rosas-Jose v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401850": {
+      "court": "supreme",
+      "docket": "81, 2026",
+      "name": "Craig Peed v. Essential Staffing, Inc. IAB",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401860": {
+      "court": "supreme",
+      "docket": "379, 2026",
+      "name": "Jeff D'Ambrosio Imports Inc. d/b/a Jeff D'Ambrosio Chrysler Jeep Dodge v. Delborrello Financial Services DE LLC d/b/a United Check Cashing",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401870": {
+      "court": "superior",
+      "docket": "N25C-10-292 SPL",
+      "name": "Sand Park Capital, LLC v. Lyrix Holdings LLC, et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-401880": {
       "docket": "C.A. No. 2025-0194-DG",
       "name": "In the Matter of George, Jr., Elton",
       "processed_at": "2026-10-14T14:56:16-04:00",
+      "status": "seeded"
+    },
+    "de-401900": {
+      "court": "supreme",
+      "docket": "135, 2026",
+      "name": "Thompson v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401910": {
+      "court": "supreme",
+      "docket": "202, 2026",
+      "name": "Reese v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401920": {
+      "court": "supreme",
+      "docket": "123, 2026",
+      "name": "Maven, Kyla vs. Mavery Tandon",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401960": {
+      "court": "superior",
+      "docket": "1201018253, 1202006406, 1402013417",
+      "name": "State v. Yarborough",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401970": {
+      "court": "superior",
+      "docket": "K25C-07-022 JJC",
+      "name": "Dickerson v. Town of Smyrna, et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401980": {
+      "court": "supreme",
+      "docket": "417, 2026",
+      "name": "Ryan Lane, et al. vs. ATG Capital Opportunities Fund LP",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-401990": {
+      "court": "supreme",
+      "docket": "89, 2026",
+      "name": "Conroe WM LLC v. HREF Senior Worthington LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402000": {
+      "court": "superior",
+      "docket": "N22C-04-129 MAA CCLD",
+      "name": "Longshot Holdings, Inc. v. Quaker Chemical Corporation",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402010": {
+      "court": "supreme",
+      "docket": "425, 2025",
+      "name": "Cannon v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402030": {
+      "court": "supreme",
+      "docket": "41, 2026",
+      "name": "Jones, Tristan vs. Avery Hopkins",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402040": {
+      "court": "supreme",
+      "docket": "423, 2025",
+      "name": "Thompkins v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "seeded"
     },
     "de-402050": {
@@ -132,11 +356,25 @@
       "processed_at": "2026-10-14T14:56:16-04:00",
       "status": "seeded"
     },
+    "de-402060": {
+      "court": "superior",
+      "docket": "N24A-07-002 DJB",
+      "name": "Maclary v. James Malin Plumbing",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-402070": {
       "docket": "2026-0686-LWW",
       "name": "Forian Holdings LLC, et al. v. Symphony Health Solutions Corporation, et al.",
       "processed_at": "2026-10-14T15:13:29-04:00",
       "status": "ok"
+    },
+    "de-402080": {
+      "court": "supreme",
+      "docket": "103, 2026",
+      "name": "Roberta Ann K.W. Wong Leung Revocable Trust U/A Dated 03/09/2018 vs Amazon.com, Inc.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
     },
     "de-402090": {
       "docket": "2024-0097-LWW",
@@ -150,11 +388,60 @@
       "processed_at": "2026-10-14T15:13:29-04:00",
       "status": "ok"
     },
+    "de-402110": {
+      "court": "superior",
+      "docket": "S25C-07-007 MHC",
+      "name": "Brewer v. State of Delaware",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402120": {
+      "court": "superior",
+      "docket": "N25C-11-057 MAH",
+      "name": "L. Doe v. Uber Technologies, Inc., et. al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402130": {
+      "court": "supreme",
+      "docket": "352, 2026",
+      "name": "Henry v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402140": {
+      "court": "supreme",
+      "docket": "188, 2026",
+      "name": "Brundge v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402150": {
+      "court": "superior",
+      "docket": "K26A-03-002 RLG",
+      "name": "Jones v. UIAB et al.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-402160": {
       "docket": "C.A. No. 2024-1313-LWW",
       "name": "Techno-X USA Inc. v. Spartan Forge LLC et al.",
       "processed_at": "2026-10-15T11:50:32-04:00",
       "status": "ok"
+    },
+    "de-402170": {
+      "court": "supreme",
+      "docket": "147, 2026",
+      "name": "In Re Priority Responsible Funding LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402180": {
+      "court": "supreme",
+      "docket": "149, 2026",
+      "name": "Ana Maria Turner v. Lam Research Corporation",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
     },
     "de-402190": {
       "docket": "C.A. No. 2020-1069-MTZ",
@@ -192,11 +479,39 @@
       "processed_at": "2026-10-16T15:43:47-04:00",
       "status": "ok"
     },
+    "de-402250": {
+      "court": "supreme",
+      "docket": "254, 2026",
+      "name": "IMO Amanda Grusenmeyer vs. Natasha Hollingsworth, Warden, B.W.C.I.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402260": {
+      "court": "supreme",
+      "docket": "415, 2026",
+      "name": "Pearsall v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-402270": {
       "docket": "C.A. No. 2023-0011-KSJM",
       "name": "Kevin Kulak v. Itshak (\"Itzik\") On, et al.",
       "processed_at": "2026-10-16T17:45:24-04:00",
       "status": "ok"
+    },
+    "de-402280": {
+      "court": "superior",
+      "docket": "1504010863A",
+      "name": "State v. Broomer",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402290": {
+      "court": "supreme",
+      "docket": "258, 2026",
+      "name": "Brinkley v. State",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
     },
     "de-402300": {
       "docket": "C.A. No. 2026-0493-DH (BWD)",
@@ -210,11 +525,25 @@
       "processed_at": "2026-10-19T19:45:34-04:00",
       "status": "ok"
     },
+    "de-402320": {
+      "court": "superior",
+      "docket": "1212015998 A&B",
+      "name": "State v. Stephenson",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-402330": {
       "docket": "C.A. No. 2026-0733-CDW",
       "name": "Peter A. Walker v. Icon Management Aggregator L.P. and Icon Topco L.P.",
       "processed_at": "2026-10-21T09:54:56-04:00",
       "status": "ok"
+    },
+    "de-402340": {
+      "court": "supreme",
+      "docket": "112, 2026",
+      "name": "Thomas M. Sands, et al v. Homestar Remodeling, LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
     },
     "de-402350": {
       "date": "2026-10-15",
@@ -223,14 +552,46 @@
       "processed_at": "2026-10-21T13:46:34-04:00",
       "status": "skipped_old"
     },
+    "de-402360": {
+      "court": "superior",
+      "docket": "N26C-05-282 SSA",
+      "name": "Botanical Beverages et al. v. A&R Distribution, LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402370": {
+      "court": "superior",
+      "docket": "N26C-06-155 SSA",
+      "name": "H & R Hospitality of DE v. Selective Insurance Co.",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
+    "de-402380": {
+      "court": "superior",
+      "docket": "N26C-03-126 DJB",
+      "name": "DeMartino v. McCromick",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "seeded"
+    },
     "de-402390": {
       "docket": "C.A. No. 2022-1100-NAC",
       "name": "Vale Ventures IA LLC v. Gray Jay Management Investments, LLC,",
       "processed_at": "2026-10-21T17:49:55-04:00",
       "status": "ok"
+    },
+    "de-402400": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0309-CWD (BWD)",
+      "name": "Melrose Wang Capital Investments LLC v. Houston Hotel Partners, LLC",
+      "processed_at": "2026-10-22T11:50:06-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-21T17:49:55-04:00",
-  "page_hash": "b49e52ca5a6877792e24c140379d428c7b327e7c678f4dacedfac676694f20e7"
+  "last_checked_ny": "2026-10-22T11:50:06-04:00",
+  "page_hashes": {
+    "chancery": "d9948416eb613ea236c9764c70d4b99a298e0e7779c8a7751704c2da20e29010",
+    "superior": "94a952fd1a84ce352d98bd65009c204c0d3483c96ba40ff1078134d104d08eaa",
+    "supreme": "f063140d22eb01c15cdbfeeaf3c5504f65230e1b2fef7ce190eae861d6dde21b"
+  }
 }

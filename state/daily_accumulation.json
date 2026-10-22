@@ -1,4 +1,76 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402400",
+      "court": "chancery",
+      "date": "2026-10-22",
+      "docket": "C.A. No. 2026-0309-CWD (BWD)",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "Melrose Wang Capital Investments LLC v. Houston Hotel Partners, LLC",
+      "ny_date": "2026-10-22",
+      "ny_processed_at": "2026-10-22T11:50:06-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiff's contention that Section 8.3 should be read in isolation, without reference back to Sections 8.1 and 8.2: rejected. The Court agreed with the Report's reading that \"any such Manager or Member\" incorporates the Section 8.1/8.2 eligibility criteria.",
+          "Advancement under Section 8.3 read standalone: rejected in the alternative. The affirmative Plenary Action does not relate to Plaintiff's \"involvement with the Company,\" and the standard-of-conduct statement and repayment undertaking make no sense where the underlying proceeding does not concern the claimant's conduct; the Court quoted with approval the Company's brief on this point."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Operating Agreement §§ 8.1, 8.2, 8.3",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Advancement under § 8.3 extends to \"any such Manager or Member,\" read with the §§ 8.1–8.2 indemnification and exculpation criteria (acts in good faith on behalf of the Company), in actions relating to the Member's involvement with the Company, subject to a standard-of-conduct statement and repayment undertaking.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court reviews a Magistrate's determinations de novo on exceptions.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Est. of Erdman, 2011 WL 2191680 (Del. Ch. May 26, 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A report is adopted where the decision is supported by the factual record and its conclusions of law are proper.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Melrose Wang Capital Investments LLC, a member of Houston Hotel Partners, LLC, sought advancement under Operating Agreement § 8.3 for its own plenary suit alleging that the Company and AAFF made distributions in breach of the waterfall. The Magistrate in Chancery recommended denial, and Plaintiff took exceptions. Vice Chancellor David, reviewing de novo, adopted the Report. The Court added that, even on Plaintiff's standalone reading of § 8.3, an affirmative member suit challenging others' conduct is not a proceeding relating to the Member's involvement with the Company, as the standard-of-conduct conditions confirm.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 2
+        },
+        "core_legal_issue": "Whether Section 8.3 of the Company's Operating Agreement, which mandates advancement for a Member in an action \"relating to\" the Member's \"involvement with the Company\" upon a good-faith statement and repayment undertaking, entitles a Member to advancement of expenses in its own affirmative suit against the Company and another member for breach of the Operating Agreement's distribution waterfall.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 10,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Exceptions denied; the Magistrate's Report is adopted and affirmed. On de novo review, the Court agreed with the Report that Section 8.3 advancement is available only to a Member eligible for indemnification or exculpation under Sections 8.1 or 8.2, and that Plaintiff is not acting on behalf of the Company in the Plenary Action. Independently, even reading Section 8.3 in isolation, the Court held that Plaintiff's affirmative claims do not relate to Plaintiff's \"involvement with the Company,\" except insofar as Plaintiff has standing to challenge the board's and AAFF's conduct. The Court reasoned that Section 8.3's standard-of-conduct statement and repayment undertaking do not make sense for a proceeding that does not concern the claimant's conduct.",
+        "key_facts_and_concessions": [
+          "Plaintiff is a member of the Company, a Delaware LLC, and is the plaintiff, not a defendant, in the Plenary Action (C.A. No. 2025-1262-BWD) against the Company and another member, AAFF.",
+          "The Plenary Action alleges the Company and AAFF breached the Operating Agreement by directing and approving distributions to AAFF in violation of the waterfall provisions and by amending or modifying the Operating Agreement without Plaintiff's consent; it seeks damages and a declaration that Sections 4.3 and 6.3 do not provide an alternative to the waterfall.",
+          "Section 8.3 requires advancement for \"any such Manager or Member\" in an action \"relating to Manager or Member's involvement with the Company,\" conditioned on a written statement of good-faith belief that the applicable standard of conduct was met and an undertaking to repay if it is determined that it was not.",
+          "Sections 8.1 and 8.2 indemnify and exculpate Members and Managers only for acts performed in good faith \"on behalf of the Company\" and reasonably believed to be within the authority conferred by the Operating Agreement.",
+          "The Magistrate's June 25, 2026 oral Report concluded that \"any such Manager or Member\" in Section 8.3 refers back to those eligible under Sections 8.1 or 8.2, and that Plaintiff is not acting \"on behalf of the Company\" within the scope of its authority in the Plenary Action.",
+          "The Court found that the Plenary Action does not concern Plaintiff's conduct and relates to Plaintiff's involvement with the Company only insofar as Plaintiff has standing to challenge the board's and AAFF's conduct."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Advancement provisions keyed to a claimant's standard of conduct and a repayment undertaking will likely be read to cover defense of claims about the claimant's own conduct, not a member's affirmative suit to enforce distribution rights. Members who want fee-shifting for enforcement suits should bargain for an express prevailing-party or enforcement-fee clause.",
+        "standard_of_review": "De novo review of the Magistrate in Chancery's factual and legal determinations on exceptions (DiGiacobbe v. Sestak)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402400"
+    }
+  ],
+  "ny_date": "2026-10-22"
 }
