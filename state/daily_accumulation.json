@@ -265,6 +265,172 @@
         "standard_of_review": "Not stated"
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402470"
+    },
+    {
+      "case_id": "de-402480",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. 2021-0479-PAF",
+      "judge": "Wright M.",
+      "name": "David Dinkevich v. Deutsche Telekom AG, et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T11:52:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Present-day strategy (TAC ¶¶ 7, 97), including the emphasis that SoftBank is a Japanese company not traded on a U.S. exchange: rejected. The SoftBank defendants did not explain what disclosure would reveal beyond the public mix, the subject is widely covered in the media, and no tangible evidence of damage was offered.",
+          "Proprietary strategies (TAC ¶¶ 100-01, 103-06; SAC ¶¶ 99-100, 102-05): rejected. The material is not truly strategy, it duplicates or elaborates unredacted text, and it is stale.",
+          "Loan discussions (TAC ¶¶ 301, 305, 311, 365; SAC ¶¶ 285, 289, 298): rejected because no particularized harm was articulated.",
+          "Argument that existing public information about the loans satisfies the public interest: rejected as misframing Rule 5.1. Information need not be necessary to understand a dispute to be publicly accessible, and the necessity inquiry arises only in the Rule 5.1(b)(2)(D) balancing, which the Court did not reach.",
+          "Fisher/Misra conversation (TAC ¶ 296 / SAC ¶ 277) and TAC ¶ 362(B) as sensitive personal information: rejected. Neither contains financial information, and information that is personal, previously private or embarrassing does not alone warrant confidentiality.",
+          "Claure's 2020 net worth: rejected for lack of tangible evidence of concrete damage from disclosure now. Alternatively, the information appears relevant and necessary to the public's understanding of the allegations about Claure's ability to impartially consider a demand.",
+          "Argument that the Claure/Fisher allegations will not help the public understand claims not based on personal finances or text messages: rejected. Fn. 17 states that even with harm shown, ¶ 362(B) appears necessary to understand plaintiff's argument that Claure could not impartially evaluate a demand to sue Legere.",
+          "Fn. 18: the statement that \"the improperly filed TAC should be stricken entirely from the docket\" was not acted on. The Court found it unclear whether this was a request for judicial action and, if it was, held that it exceeds the scope of a Rule 5.1 motion."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 5.1(b)(2)(A)-(D)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Defines Confidential Information by four criteria: maintained confidentially, not otherwise public, particularized harm from public access, and harm outweighing the public interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(g)(6)(D)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The person seeking to maintain confidential treatment bears the burden of persuasion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Oxbow Carbon LLC Unitholder Litig., 2016 WL 7323443 (Del. Ch. Dec. 15, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The public is presumed to have a right of access to all judicial proceedings and records; particularized harm requires tangible evidence of concrete damage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Boeing Co. Deriv. Litig., 2021 WL 392851 (Del. Ch. Feb. 1, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party must point to specific information and proffer tangible evidence of concrete damage; speculation about harm that \"could\" result is insufficient.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sequoia Presidential Yacht Grp. LLC v. FE P'rs LLC, 2013 WL 3724946 (Del. Ch. July 15, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Only limited information qualifies for confidential treatment; that information is embarrassing or previously undisclosed does not alone warrant confidentiality; good cause is required.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Horres v. Chick-fil-A, Inc., 2013 WL 1223605 (Del. Ch. Mar. 27, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "News media coverage substantially undercuts any claim of harm; Rule 5.1's presumptive three-year limit reflects that information grows stale.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Order Denying Mot. for Confidential Treatment, Goldberg Consulting LLC v. Cornell, C.A. No. 2024-1321-JTL (Del. Ch. Apr. 23, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Passage of time renders information stale; information need not be necessary to understand a dispute to be publicly accessible, because the public can presumptively access all docket information.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Manhattan Telecomms. Corp. v. Granite Telecomms., LLC, 2020 WL 6799122 (Del. Ch. Nov. 19, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Information already in the public mix does not merit confidentiality; information cannot stay redacted merely because disclosure could cause economic harm.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Al Jazeera Am., LLC v. AT&T Servs., Inc., 2013 WL 5614284 (Del. Ch. Oct. 14, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Manhattan Telecomms.: potential economic harm alone does not justify redaction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Soligenix, Inc. v. Emergent Prod. Dev. Gaithersburg, Inc., 289 A.3d 667 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The public interest is especially strong where the information is material to understanding the nature of the dispute (fn. 17 alternative ground).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Court proceedings and docket filings are public unless the Court or the Rules provide otherwise.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fishel v. Liberty Media Corp., C.A. No. 2021-0820-KSJM (Del. Ch. Mar. 2, 2023) (TRANSCRIPT)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with \"cf.\" for privacy concerns about net worth information, acknowledging that Claure's 2020 net worth could conceivably be sensitive.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(f)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Procedure for a non-party challenge to confidential treatment.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(a)(2), 144(b)(2), 144(d)(1); Ct. Ch. R. 6(a)(1)(C)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Limited reassignment as a Referred Dispute; Final Report; deadline for notice of exceptions.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In a derivative and class action over the T-Mobile/Sprint merger and SoftBank's later monetization of T-Mobile stock, a Handelsblatt journalist challenged extensive redactions. After the other defendants withdrew nearly all of theirs, only the SoftBank defendants moved to keep certain complaint paragraphs and the Sacks Report confidential, and a Magistrate in Chancery heard the matter on limited reassignment. The Final Report recommends denying confidentiality for all complaint redactions because the SoftBank defendants offered only conclusory assertions rather than tangible evidence of concrete harm, and much of the material was public, duplicative, stale, or merely personal. It recommends granting the unopposed request to keep the Sacks Report confidential.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 14
+        },
+        "core_legal_issue": "Whether, on a non-party journalist's Rule 5.1(f) challenge, the SoftBank defendants carried their burden to show that redacted allegations in the public Second and Third Amended Complaints (about SoftBank's business and investment strategy, 2019 communications, internal discussions of loans to SoftBank officers to buy T-Mobile stock, and personal information of Claure and Fisher), along with the Sacks Report, qualify as \"Confidential Information\" warranting continued confidential treatment, in particular by showing particularized harm with tangible evidence of concrete damage.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "argued only that the negotiations were not public",
+              "evidence": "They concede \"[t]he pertinent terms of these loans are public knowledge.\" ... they contend ... \"[a]ny public interest in the loans . . . should be satisfied by the substantial public information\"",
+              "field": "key_facts_and_concessions",
+              "index": 3,
+              "opinion_says": "The SoftBank defendants conceded the loan terms are public. But they also argued that the public interest was satisfied by existing public information and that disclosure would pose a risk of harm.",
+              "problem": "The defendants made further arguments, including that existing public information satisfied the public interest and that disclosure risked harm, so \"only\" is wrong.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Magistrate in Chancery recommended denying the Motion as to every proposed redaction in the Second and Third Amended Complaints. The SoftBank defendants offered only conclusory assertions of harm and no tangible evidence of concrete damage, so they failed to show particularized harm under Rule 5.1(b)(2)(C). The redacted material was already in the public mix, was banter rather than strategy, duplicated unredacted text, was stale, or was merely personal or embarrassing. Because particularized harm was not shown, the Court did not conduct the Rule 5.1(b)(2)(D) balancing. The Court nonetheless observed, in the alternative, that the Claure net-worth information and TAC ¶ 362(B) appear necessary to understand the demand-impartiality allegations. The Court recommended granting continued confidential treatment for all versions of the Sacks Report, which was unopposed and consistent with its August 25, 2026 order striking the updated report. It did not act on the suggestion that the TAC be stricken, finding that any such request exceeds a Rule 5.1 motion. As a Final Report, any notice of exceptions is due by November 4, 2026.",
+        "key_facts_and_concessions": [
+          "The Motion offered only conclusory statements that the information concerned SoftBank's \"proprietary business and investment strategies\" or its executives' \"sensitive personal and financial information,\" without articulating any harm or offering tangible evidence of concrete damage.",
+          "After non-party Objector (Phillip Alvares de Souza Soares, a Handelsblatt journalist) filed the Challenge on August 27, defendants withdrew nearly all redactions. Only the SoftBank defendants (SoftBank, Claure, Fisher) moved, covering 15 TAC paragraphs, 11 SAC paragraphs, and all versions of the Sacks Report.",
+          "The redactions to the public versions of the Second and Third Amended Complaints covered roughly one-third of the text on their combined 385 pages. Fn. 6 notes that only 68 words were public across 20 pages of the SAC (¶¶ 97-132).",
+          "The SoftBank defendants conceded that \"[t]he pertinent terms of these loans are public knowledge\" and argued only that the negotiations were not public.",
+          "The 'proprietary strategy' material was characterized by the Court as \"less strategy and more banter and boasting.\" It added detail to unredacted text about Legere's employment discussions with Claure and Son, at least one redaction was substantially identical to unredacted language, and the material was seven years old. SoftBank appears to have exited Uber in 2022, and WeWork filed Chapter 11 in November 2023.",
+          "SoftBank's present-day business and investment strategy is heavily covered in the media and other public sources (fn. 14).",
+          "Only the two references to Claure's estimated 2020 net worth (TAC ¶ 318 / SAC ¶ 305) could conceivably be sensitive. How the $515 million loan relates to that net worth appears relevant to whether Claure could impartially consider a demand.",
+          "The Objector did not object to continued confidentiality of the Sacks Report. The Court had struck the July 30, 2026 updated Sacks Report and all references to it by an August 25, 2026 minute order."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A party seeking continued confidential treatment in response to a Rule 5.1 challenge should support each redaction with specific, tangible evidence of concrete current harm. Labels like \"proprietary strategy\" or \"sensitive personal information\" will not do, particularly for years-old communications or material that adds detail to unredacted text. Arguing that the public does not need the information to understand the dispute does not substitute for showing harm, because necessity matters only at the Rule 5.1(b)(2)(D) balancing step.",
+        "standard_of_review": "Ct. Ch. R. 5.1(b)(2)(A)-(D) four-part definition of Confidential Information, with the movant bearing the burden of persuasion under Ct. Ch. R. 5.1(g)(6)(D). Particularized harm requires specific information and \"tangible evidence of concrete damage.\" The matter was a Referred Dispute under Ct. Ch. R. 144(a)(2), resolved by a Final Report under Rule 144(b)(2)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402480"
     }
   ],
   "ny_date": "2026-10-23"

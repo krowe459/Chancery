@@ -613,12 +613,19 @@
       "name": "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. v. ExactLogix, Inc. d/b/a Acculynx.com, et al.",
       "processed_at": "2026-10-23T09:54:37-04:00",
       "status": "ok"
+    },
+    "de-402480": {
+      "court": "chancery",
+      "docket": "C.A. 2021-0479-PAF",
+      "name": "David Dinkevich v. Deutsche Telekom AG, et al.",
+      "processed_at": "2026-10-23T11:52:36-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-23T09:54:37-04:00",
+  "last_checked_ny": "2026-10-23T11:52:36-04:00",
   "page_hashes": {
-    "chancery": "51720b3188ad1bad49198c06727381eeb79c09496387716c601e7f52ddb68fdd",
+    "chancery": "6effa1ae4cba4cde52ebba81fa3325ebab2acbca9b32bc7e514231ebc40a6d8a",
     "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
     "supreme": "df602d78831d2e53c04a459ba65a2dc9364d66525351c7177bc1f5ca9b23052f"
   }
