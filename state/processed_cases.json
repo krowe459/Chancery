@@ -586,6 +586,13 @@
       "processed_at": "2026-10-22T11:50:06-04:00",
       "status": "ok"
     },
+    "de-402410": {
+      "court": "supreme",
+      "docket": "242, 2026",
+      "name": "IMO the Petition of Anibal Melendez Garcia for a Writ of Mandamus",
+      "processed_at": "2026-10-23T13:45:39-04:00",
+      "status": "out_of_scope"
+    },
     "de-402420": {
       "court": "chancery",
       "docket": "C.A. No. 2026-0834-CDW",
@@ -599,6 +606,20 @@
       "name": "Charles Dean Coverdale and Mary Elizabeth Coverdale v. Sylvan Acres Homeowners Association, Inc., and Thomas Leschak",
       "processed_at": "2026-10-23T07:49:17-04:00",
       "status": "ok"
+    },
+    "de-402440": {
+      "court": "supreme",
+      "docket": "336, 2026",
+      "name": "Everly, Thomas vs. Ella Everly",
+      "processed_at": "2026-10-23T13:45:39-04:00",
+      "status": "out_of_scope"
+    },
+    "de-402450": {
+      "court": "supreme",
+      "docket": "36, 2026",
+      "name": "Saavedra v. State",
+      "processed_at": "2026-10-23T13:45:39-04:00",
+      "status": "out_of_scope"
     },
     "de-402460": {
       "court": "supreme",
@@ -623,10 +644,10 @@
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-23T11:52:36-04:00",
+  "last_checked_ny": "2026-10-23T13:45:39-04:00",
   "page_hashes": {
     "chancery": "6effa1ae4cba4cde52ebba81fa3325ebab2acbca9b32bc7e514231ebc40a6d8a",
     "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
-    "supreme": "df602d78831d2e53c04a459ba65a2dc9364d66525351c7177bc1f5ca9b23052f"
+    "supreme": "d203db8da4e8a1e4a18d1f34139feb70a47d926ffdd88abb81abcdfbd6749826"
   }
 }
