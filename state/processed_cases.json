@@ -641,13 +641,27 @@
       "name": "David Dinkevich v. Deutsche Telekom AG, et al.",
       "processed_at": "2026-10-23T11:52:36-04:00",
       "status": "ok"
+    },
+    "de-402500": {
+      "court": "chancery",
+      "docket": "C.A. No. 2022-1001-KSJM",
+      "name": "Sjunde AP-Fonden v. Activision Blizzard, Inc., et al.",
+      "processed_at": "2026-10-23T15:45:36-04:00",
+      "status": "ok"
+    },
+    "de-402510": {
+      "court": "supreme",
+      "docket": "393, 2026",
+      "name": "Terra Taylor, in her official capacity as Commissioner of the Delaware Department of Correction vs. Waunye Calm, Brandon Gatewood, Isaiah Harber, Jyai",
+      "processed_at": "2026-10-23T15:45:36-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-23T13:45:39-04:00",
+  "last_checked_ny": "2026-10-23T15:45:36-04:00",
   "page_hashes": {
-    "chancery": "6effa1ae4cba4cde52ebba81fa3325ebab2acbca9b32bc7e514231ebc40a6d8a",
+    "chancery": "3ee6513c849e87e2a001d23472342fd6b03cdd65e345d60e2b2d846b08f115e9",
     "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
-    "supreme": "d203db8da4e8a1e4a18d1f34139feb70a47d926ffdd88abb81abcdfbd6749826"
+    "supreme": "0d1a01c52a5564366a67027abd2bf10a32734a1ff345c7d95b679549fceb28bc"
   }
 }

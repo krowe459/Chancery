@@ -431,6 +431,377 @@
         "standard_of_review": "Ct. Ch. R. 5.1(b)(2)(A)-(D) four-part definition of Confidential Information, with the movant bearing the burden of persuasion under Ct. Ch. R. 5.1(g)(6)(D). Particularized harm requires specific information and \"tangible evidence of concrete damage.\" The matter was a Referred Dispute under Ct. Ch. R. 144(a)(2), resolved by a Final Report under Rule 144(b)(2)."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402480"
+    },
+    {
+      "case_id": "de-402500",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2022-1001-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Sjunde AP-Fonden v. Activision Blizzard, Inc., et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T15:45:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Due process requires carving out the Federal Claims or granting an opt-out: rejected. Under Nottingham, due process requires notice but not an opt-out right, and a settlement may release weak or low-value claims, including exclusively federal securities claims, to secure reasonable consideration for meaningful ones. IsZo (Del. Sep. 14, 2026) reaffirmed this.",
+          "Plaintiff is inadequate because it did not sell shares and so could not have brought the Federal Claims: rejected as factually false, since Plaintiff sold more shares than the Fund.",
+          "Plaintiff is conflicted because it did not pursue the Federal Claims and now supports releasing them: rejected. If the claims had value, Plaintiff would have had more incentive than the Fund to pursue them, so the issue reduces to the claims' value.",
+          "The Court should defer to the federal court on the Federal Claims: rejected. Delay would cost the Settlement Class nearly $10,000 per day in interest. Under Matsushita and Nottingham, approving a general release is within a state court's power, and the federal court can decide whether to enforce the Release.",
+          "In re MCA requires a federal court to first decide the merits of released federal claims: rejected. MCA rejected the first settlement because the federal claims were the only ones with substantial merit, and it directs this Court to evaluate the federal claims' strength itself.",
+          "The Fund's alternative loss-causation theories: rejected as resting on multiple layers of speculation. The theories were that misstatements induced Seller Class members to sell and forfeit appraisal rights, or that full knowledge would have let them threaten an injunction to extract higher consideration.",
+          "The Fund's theory that paying the dividend on the subsidiary's shares diverted value to Microsoft: called illogical (fn. 89), because the cash would have flowed to Microsoft at closing either way, and the theory raises none of the complexities of Plaintiff's Treasury-Dividend Claim.",
+          "Challenges to typicality and adequacy under Rule 23(a) as applied to a class that includes the Seller Class: rejected. The Court found no conflict between Plaintiff and other class members and found that Plaintiff fairly represented the class.",
+          "Plaintiff's objection to the Fund's 24-page reply brief, filed on the eve of the settlement hearing: overruled, and the filing was allowed (fn. 28)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Nottingham Partners v. Dana, 564 A.2d 1089 (Del. 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Due process requires notice but no opt-out right for absent class members with damages claims. The trial court has discretion to grant opt-outs by balancing defendants' interest in global resolution against individuals' day in court. Approving a general release of exclusively federal claims is within state-court power, but adjudicating those claims is not.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Matsushita Elec. Indus. Co. v. Epstein, 516 U.S. 367 (1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "State courts may approve class settlements releasing exclusively federal Exchange Act claims without infringing exclusive federal jurisdiction, and the resulting judgment has preclusive effect in federal court.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Phila. Stock Exch., Inc., 945 A.2d 1123 (Del. 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Opt-out rights properly denied where settlement benefits dwarf the minimal value of surrendered claims and opt-outs would defeat the settlement; also cited for global-release practice, notice sufficiency, and the identical-factual-predicate test for release scope.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Activision Blizzard, Inc. S'holder Litig., 124 A.3d 1025 (Del. Ch. 2015) (\"Activision OG\")",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stockholder claims travel with the shares, so sellers lose them; Rule 10b-5 claims are personal; and weak or hypothetical federal securities claims may be released without allocated consideration.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Triarc Cos., Inc., 791 A.2d 872 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "It is fair to bar claims that are weak, of little or no probable value, or unlikely to yield recovery as part of an overall settlement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re MCA, Inc., 598 A.2d 687 (Del. Ch. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Does not require a federal court to first decide the merits of released federal claims; it rejected a settlement because the federal claims were the only ones with substantial merit, and it directs the Court of Chancery to assess their strength.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "28 U.S.C. § 1658(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The limitations period for the Federal Claims runs two years from when a reasonably diligent plaintiff would have discovered, or the plaintiff actually discovered, the facts constituting the violation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dura Pharms., Inc. v. Broudo, 544 U.S. 336 (2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A securities-fraud plaintiff must prove the misstatements caused economic loss, which underpinned the Court's view that the Fund's loss causation was weak.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(f)(5)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Lists the four findings required to approve a class settlement: adequate representation, adequate notice, arm's-length negotiation, and relief within a range of reasonableness considering claim strength, litigation risk, release scope and objections.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(a), 23(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The non-opt-out Settlement Class met numerosity, commonality, typicality and adequacy, and Rule 23(b)(1) because separate actions would risk inconsistent adjudications; the Court did not reach Rule 23(b)(2).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Goodrich v. E.F. Hutton Gp., Inc., 681 A.2d 1039 (Del. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court applies its own business judgment to settlement fairness and must independently determine fee reasonableness for common-fund beneficiaries.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Dell Techs. Inc. Class V S'holders Litig., 326 A.3d 686 (Del. 2024) (\"Dell II\"); Sugarland Indus., Inc. v. Thomas, 420 A.2d 142 (Del. 1980)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Sugarland factors govern, results achieved is paramount along with causation, the approach is non-formulaic, and fees should incentivize counsel without creating a windfall.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ams. Mining Corp. v. Theriault, 51 A.3d 1213 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stage-of-case percentage approach: 15-25% applies after meaningful litigation, supporting a fee of about 24% of the net fund.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Dell Techs. Inc. Class V S'holders Litig., 300 A.3d 679 (Del. Ch. 2023) (\"Dell I\")",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Describes the stage-of-case ranges and the causation requirement, and supplies the comparative data showing this is the largest Chancery third-party merger settlement.",
+            "role": "background"
+          },
+          {
+            "authority": "IsZo Cap. LP v. Brandenburg, 2026 WL 2689902 (Del. Sep. 14, 2026) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reaffirms Nottingham's due process requirements for an objector to a non-opt-out class.",
+            "role": "background"
+          },
+          {
+            "authority": "Merck & Co. v. Reynolds, 559 U.S. 633 (2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Discovery rule for the securities limitations period.",
+            "role": "background"
+          },
+          {
+            "authority": "Pension Tr. Fund for Operating Eng'rs v. Mortg. Asset Securitization Transactions, Inc., 730 F.3d 263 (3d Cir. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Inquiry notice and the timing of a reasonably diligent investigation.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Exxon Mobil Corp. Sec. Litig., 500 F.3d 189 (3d Cir. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A § 20(a) claim fails where the underlying § 10(b) claim is time-barred.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Countrywide Corp. S'holders Litig., 2009 WL 2595739 (Del. Ch. Aug. 24, 2009); In re Cox Radio, Inc. S'holders Litig., 2010 WL 1806616 (Del. Ch. May 6, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery routinely approves non-opt-out settlements releasing low-value federal claims over objections.",
+            "role": "background"
+          },
+          {
+            "authority": "In re AMC Ent. Hldgs., Inc. S'holder Litig., 299 A.3d 501 (Del. Ch. 2023); In re Faraday Future Intelligent Elec. Inc., S'holder Litig., 2025 WL 445038 (Del. Ch. Feb. 10, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "State-court power to approve general releases; releases may reach claims arising from the same factual predicate.",
+            "role": "background"
+          },
+          {
+            "authority": "Prezant v. De Angelis, 636 A.2d 915 (Del. 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Two-step class certification analysis.",
+            "role": "background"
+          },
+          {
+            "authority": "Leon N. Weiner & Assocs., Inc. v. Krapf, 584 A.2d 1220 (Del. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Commonality and adequacy standards.",
+            "role": "background"
+          },
+          {
+            "authority": "Forsythe v. ESC Fund Mgmt. Co. (U.S.), Inc., 2013 WL 458373 (Del. Ch. Feb. 6, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Range of results a reasonable plaintiff could accept.",
+            "role": "background"
+          },
+          {
+            "authority": "Krinsky v. Helfand, 156 A.2d 90 (Del. 1959)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Claims surviving a motion to dismiss are typically strong enough to support a settlement.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(aa)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Representative-party affidavit requirement, satisfied by Plaintiff's affidavits.",
+            "role": "background"
+          },
+          {
+            "authority": "Maurer v. Int'l Re-Ins. Corp., 95 A.2d 827 (Del. 1953)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "American Rule on fees.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 205",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Validation of the Merger in the separate Section 205 Action and the Section 205 counterclaims.",
+            "role": "background"
+          },
+          {
+            "authority": "Frank Schneider et al., 2012-2025 Review & Analysis: M&A Litigation Settlements in the Delaware Court of Chancery, Cornerstone Research (Sep. 23, 2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Only 12 of 143 Chancery M&A settlements from 2012-2025 were $100 million or more.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After nearly four years of litigation by Sjunde AP-Fonden challenging Microsoft's acquisition of Activision Blizzard, the parties sought approval of a $250 million settlement, the largest ever in the Court of Chancery challenging a third-party merger, and Plaintiff petitioned for fees. A group of merger-arbitrage funds led by The Arbitrage Fund objected only to the Release's extinguishment of federal securities claims they filed for the Seller Class three weeks after the Term Sheet. Chancellor McCormick overruled the objection, holding that Nottingham and Matsushita permit a non-opt-out settlement to release exclusively federal claims of little value. The Court found those claims weak on limitations and loss causation, rejected the adequacy and deference arguments, certified the class under Rule 23(b)(1), approved the Settlement, and awarded $60 million in fees plus $447,680.66 in expenses.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 27
+        },
+        "core_legal_issue": "Whether the Court could approve a $250 million non-opt-out class settlement of fiduciary and DGCL claims arising from Microsoft Corporation's acquisition of Activision Blizzard, Inc., where the global Release extinguishes, for no consideration, federal Section 10(b)/Rule 10b-5 and Section 20(a) claims that an objecting arbitrage fund filed in federal court for stockholders who sold during the Merger's pendency (the Seller Class); and whether a $60 million fee was reasonable.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 19,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Objection overruled; class certified; settlement approved; fees and expenses awarded. The Court held that releasing the Federal Claims does not violate due process: under Nottingham, Philadelphia Stock Exchange, Triarc and Matsushita, the Court may release exclusively federal claims if they are of little or no value. The Court stated that only the federal court can rule on the Federal Claims' merits and decide whether to enforce the Release. In this Court's assessment, however, the Federal Claims have little or no value, given strong limitations defenses (the underlying facts were discoverable before April 27, 2024) and weak, speculative loss causation. Releasing them for no consideration was therefore appropriate to secure the Settlement. The Court certified the Settlement Class as a non-opt-out class under Rule 23(a) and 23(b)(1), without reaching 23(b)(2). It approved the Settlement, Release and plan of allocation under Rule 23(f)(5), finding adequate representation, adequate notice (over one million notices mailed by A.B. Data plus a website), arm's-length mediated negotiations, and a reasonable result given the claims' survival on motions to dismiss, litigation risk and damages mitigation, and a release appropriately broad for claims covering all Merger events. Applying Sugarland and Americas Mining, the Court awarded $60 million in fees, about 24% of the net fund and within the 15-25% range for meaningful litigation, and called it \"more than reasonable\" in light of the roughly $778 million 2023 Dividend also caused by the litigation. The secondary factors also supported the fee: 10,727.20 hours (lodestar $10,852,110.50, implied rate $5,593, 5.5x multiplier, excluding Section 205 Action time already compensated), complexity, full contingency and counsel's standing. The Court also awarded $447,680.66 in expenses.",
+        "key_facts_and_concessions": [
+          "Defendants required a global release; if the Seller Class were excluded from the Settlement Class and the Federal Claims carved out of the Release, there would be no settlement (Stipulation §§ VII(1)(b), X(1), X(3)).",
+          "The Fund (The Arbitrage Fund, leading Water Island-managed merger-arbitrage funds) filed the Federal Claims on April 27, 2026, three weeks after the April 3, 2026 Term Sheet based on Judge Phillips's $250 million mediator's proposal. The Fund does not object to the fairness of the Settlement, from which it stands to receive about $250,000.",
+          "Seller Class members have no right to bring or benefit from the Chancery claims on shares they sold, because those claims travel with the shares (Activision OG). The Federal Claims are personal claims within exclusive federal jurisdiction, so the Release extinguishes them for no consideration.",
+          "Plaintiff itself sold 130,641 Activision shares while the Merger was pending, more than the Fund's 26,600, which undercut the Fund's premise that Plaintiff could not have brought the Federal Claims.",
+          "The Court found that a reasonably diligent plaintiff could have discovered the facts behind all three alleged misstatements before April 27, 2024. Merger-price challenges were disclosed in the March 2022 proxy and the May 2022 10-Q; Plaintiff had the Long-Range Plan by June 2022; the cloud-services offset terms were obtained in 2022 and the disclosure letter in March 2024; and the subsidiary dividend was public in 2023.",
+          "The Fund bought after the Merger announcement and sold while the Merger was pending, so both prices reflected any alleged deflation. Activision's stock price also rose sharply on the announcement, contrary to the theory that contemporaneous statements depressed it.",
+          "Plaintiff conceded \"significant obstacles to liability\" and that substantial damages would be \"difficult, uncertain, and delayed\"; the 2023 Dividend at least partially mitigated damages on all claims (fns. 125-126).",
+          "The $60 million fee was unopposed by Defendants and not objected to by the Fund. It equals about 24% of the net Settlement Fund, and the parties agreed Plaintiff could cite the roughly $778 million 2023 Dividend as a litigation benefit (Stipulation § VIII(2))."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Objectors seeking to carve parallel federal securities claims out of a global Chancery release should be ready to show those claims' value on limitations and loss causation, not rely on due process or deference arguments. Filing federal claims after a term sheet, or drawing them from the Chancery record, invites the Court to treat them as low-value. Settling parties should build a record on the federal claims' weaknesses and the cost of delay.",
+        "standard_of_review": "Settlement: Ct. Ch. R. 23(f)(5) reasonableness, with the Court using its own business judgment (Goodrich) to decide whether the settlement falls within a range of results a reasonable plaintiff, not compelled to settle, could accept. Opt-out/release of federal claims: Nottingham balancing focused on the value of the released claims. Class certification: Ct. Ch. R. 23(a) and 23(b). Fees: Sugarland factors, with results achieved paramount, applied through the Americas Mining stage-of-case percentage approach."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402500"
+    },
+    {
+      "case_id": "de-402510",
+      "court": "supreme",
+      "date": "2026-10-23",
+      "docket": "393, 2026",
+      "judge": "Traynor J.",
+      "name": "Terra Taylor, in her official capacity as Commissioner of the Delaware Department of Correction vs. Waunye Calm, Brandon Gatewood, Isaiah Harber, Jyai",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T15:45:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Timeliness as to the July 17 Decision: Defendant argued that the private-right-of-action issue, raised again in opposition to the preliminary injunction, was arguably not appealable until the August 11 Decision. The Supreme Court rejected this, agreeing with the Court of Chancery that the application as to the July 17 Decision was untimely.",
+          "Alternative request to extend the ten-day certification period: the Court of Chancery ruled the application untimely, and the Supreme Court agreed. The order does not separately analyze the extension request.",
+          "Defendant's argument that the Rule 42(b)(iii) criteria (novelty, conflict with other trial court decisions, and constitutional interpretation at least as important as a statute) and the interests of justice and judicial economy favored certification: rejected because the potential benefits of interlocutory review do not outweigh the inefficiency, disruption and probable costs.",
+          "Merits of the Cruel Punishment Clause rulings: not reached. The refusal rests on untimeliness and the cost-benefit balance, and the Court of Chancery deferred appellate review until after final judgment."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42(c)(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A certification application must be served and filed within 10 days of the order, or within a longer period the trial court sets for good cause shown.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Interlocutory review requires a substantial issue of material importance and likely benefits that outweigh probable costs, such that review is in the interests of justice; the trial court assesses the most efficient and just schedule.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(iii)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The criteria weighed in assessing whether the benefits of interlocutory review outweigh its inefficiency, disruption and probable costs.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(d)(v)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Applications for interlocutory review are addressed to the Supreme Court's sound discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. Const. art. I, § 11 (Cruel Punishment Clause)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The constitutional provision underlying Plaintiffs' claims.",
+            "role": "background"
+          },
+          {
+            "authority": "U.S. Const. amend. VIII",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Court of Chancery held the Delaware Clause has meaning independent of the Eighth Amendment.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2082677 (Del. Ch. July 17, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The July 17 Decision on standing, ripeness and the private right of action.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2322604 (Del. Ch. Aug. 11, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The August 11 Decision denying a preliminary injunction and setting the Cruel Punishment Clause test.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2581610 (Del. Ch. Sept. 4, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery's denial of certification, concluding that the appeal should come after final judgment.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Commissioner Terra Taylor of the Delaware Department of Correction sought interlocutory review of two Court of Chancery rulings (the order does not name the judge) in a putative prisoner class action over oleoresin capsicum use without decontamination. The July 17 Decision recognized a private right of action under Delaware's Cruel Punishment Clause. The August 11 Decision held that the Clause is independent of the Eighth Amendment and requires no cruel intent, while denying a preliminary injunction. The Court of Chancery denied certification, finding the July 17 application untimely and concluding that appeal after final judgment following a narrow December trial was the most efficient course. The Supreme Court agreed on both points and refused the appeal.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 7
+        },
+        "core_legal_issue": "Whether the Supreme Court should accept an interlocutory appeal under Supr. Ct. R. 42 from Court of Chancery rulings that (i) a private right of action for injunctive and declaratory relief exists under the Cruel Punishment Clause (Del. Const. art. I, § 11), (ii) the Clause has meaning independent of the Eighth Amendment, and (iii) a violation turns on objectively significant risk of serious harm and reasonable necessity rather than cruel intent, where the certification application for the earlier ruling was filed outside Rule 42(c)(i)'s ten-day window and trial was set within months.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 13,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Interlocutory appeal refused. Exercising its discretion and giving due weight to the Court of Chancery's view, the Supreme Court held that the application does not meet Rule 42(b)'s strict standards. It agreed with the Court of Chancery on two points. First, the application as to the July 17 Decision was untimely. Second, the potential benefits of interlocutory review of the August 11 Decision do not outweigh the inefficiency, disruption and probable costs of an interlocutory appeal. The merits of the Cruel Punishment Clause rulings were not addressed.",
+        "key_facts_and_concessions": [
+          "Defendant acknowledged that its August 21, 2026 certification application was not filed within ten days of the July 17 Decision, which recognized a private right of action for injunctive and declaratory relief under the Cruel Punishment Clause.",
+          "Trial was scheduled for December and, per the Court of Chancery, was likely to be narrow in scope; the Court of Chancery had ordered trial within 120 days of the August 11 Decision.",
+          "Plaintiffs conceded that the August 11 Decision decided a substantial issue of material importance, and the Court of Chancery accepted that concession.",
+          "Plaintiffs conceded that Rule 42(b)(iii)(A) (novel question of law) weighed in favor of certification; they argued that the other Rule 42(b)(iii) criteria weighed against it.",
+          "The Court of Chancery found that its private-right-of-action ruling, its independent-meaning ruling and its no-cruel-intent test each decided a substantial issue of material importance. It found that its standing, ripeness and mootness rulings did not.",
+          "The August 11 Decision denied a preliminary injunction. Plaintiffs had shown a reasonable probability of success and irreparable harm, but not that the balance of hardships favored relief.",
+          "The Department adopted a written decontamination policy after the complaint was filed. The Court of Chancery held the case was not moot because the policy was potentially inadequate."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Seek certification within ten days of the order that decides the issue, or obtain a good-cause extension from the trial court under Rule 42(c)(i), rather than waiting to re-raise the issue in a later ruling. Even concededly substantial constitutional questions will not secure interlocutory review where a prompt, narrow trial makes post-judgment appeal more efficient.",
+        "standard_of_review": "Interlocutory review is addressed to the Supreme Court's sound discretion under Supr. Ct. R. 42(d)(v), giving due weight to the Court of Chancery's view and applying Rule 42(b)'s strict certification standards."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402510"
     }
   ],
   "ny_date": "2026-10-23"
