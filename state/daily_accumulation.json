@@ -802,6 +802,353 @@
         "standard_of_review": "Interlocutory review is addressed to the Supreme Court's sound discretion under Supr. Ct. R. 42(d)(v), giving due weight to the Court of Chancery's view and applying Rule 42(b)'s strict certification standards."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402510"
+    },
+    {
+      "case_id": "de-402520",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2018-0691-NAC",
+      "judge": "Cook V.C.",
+      "name": "Richard F. Burkhart, et al. vs Genworth Financial, Inc., et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T17:46:38-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' different claims/different statute argument: rejected. The test is whether the claims aim to modify the prior determination by revisiting its core issue, not whether the claims or statute are the same.",
+          "Plaintiffs' characterization that the object of the suit is to restore $1.5 billion to GLIC rather than unwind the Merger: rejected as belied by the SAC's allegations and prayer for unwinding, which was relief available in the Department proceeding.",
+          "Plaintiffs' fraud exception: rejected. There is no genuine dispute that the Department had the CMA and its automatic-termination term from the 2015 Form D. Genworth's failure to point this out at the Hearing does not create a triable fraud issue, and second-guessing whether the Hearing record could have been more expansive \"will almost always be the case.\"",
+          "Plaintiffs' argument that publication notice did not give them a full and fair opportunity to litigate: called \"dubious\" in fn. 197, because Plaintiffs do not argue they lacked constructive notice.",
+          "Defendants' lack-of-standing argument: rejected as law of the case. MTD I held that a DUFTA injury occurs at the time of transfer and that creditors with contingent, unmatured claims have standing.",
+          "Defendants' reliance on Albence v. Mennella as an intervening change in law: rejected, because MTD I rested on an injury already suffered at the transfer, not on imminent future injury.",
+          "Defendants' argument that discovery contradicted allegations accepted at the pleading stage (GLIC's solvency, MYRAP effectiveness): rejected, because MTD I's standing ruling was a legal determination that did not rest on those facts.",
+          "Defendants' insolvency/unreasonably small capital argument: not reached. The Court indicated multiple genuine disputes of material fact would preclude summary judgment given LTCI's decades-long liabilities, and noted insolvency is an element only of the constructive fraud claims.",
+          "Defendants' no-transfer-of-debtor-property argument (CMA terminated by its own terms): not reached. The Court indicated it would deny summary judgment and develop the facts at trial, given no Delaware precedent, a split in other jurisdictions and an insider-controlled termination.",
+          "Defendants' primary administrative jurisdiction argument: not reached (fn. 220). Collateral attack is the better fit given the Commissioner's final approval and the absence of any pending Department proceeding."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Gulf LNG Energy, LLC v. Eni USA Gas Mktg. LLC, 242 A.3d 575 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A claimant's description of the attack and identity of parties or claims are not dispositive. The court examines the harm alleged and relief sought to determine whether the suit is a disguised attempt at second review of a prior determination.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "ETC Ne. Field Servs., LLC v. Muse, 2024 WL 2797337 (Del. Ch. May 31, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Claims that aim to modify a final determination by revisiting its core issue, or that ask the court to conclude the agency erred, are impermissible collateral attacks, even if framed as independent claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Vale, 2015 WL 721038 (Del. Ch. Feb. 19, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Defines a collateral attack as an attempt to avoid, defeat, evade or deny the force and effect of a final order in an incidental proceeding other than by direct review.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Robins v. Garvine, 136 A.2d 549 (Del. 1957)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware prohibits collateral attacks on final judicial or administrative determinations except for fraud or lack of jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Taylor v. Hatzel & Buehler, 258 A.2d 905 (Del. 1969)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quasi-judicial administrative decisions are not subject to collateral attack unless void on their face or beyond the agency's jurisdiction, particularly where direct review was available.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Keen v. Naegele, 1989 WL 72037 (Del. Ch. June 14, 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fraud or collusion with respect to the prior judgment itself robs it of binding effect (the fraud exception).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "18 Del. C. § 4930(b)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A merger involving a Delaware insurer requires Commissioner approval after filing, notice and hearing. The Commissioner need not approve a merger that would substantially reduce the security of and service to policyholders, which made that the core issue in the Department's review.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Burkhart v. Genworth Fin., Inc. (MTD I), Dkt. 85 (Del. Ch. Jan. 31, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Creditors with contingent, unmatured claims have DUFTA standing. The injury is the prejudice suffered at the time of the allegedly fraudulent transfer, and this ruling is law of the case.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hoskins v. State, 102 A.3d 724 (Del. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Law of the case is established when a legal principle is applied to constant facts. The party seeking departure bears the burden.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "State v. Wright, 131 A.3d 310 (Del. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Law of the case may be revisited only if the prior ruling is clearly wrong, produces injustice or is undermined by changed circumstances.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Siegman for Siegman v. Columbia Pictures Ent., Inc., 1993 WL 10969 (Del. Ch. Jan. 15, 1993)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The law of the case doctrine has greater force when a case is transferred from one judge to another.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Albence v. Mennella, 320 A.3d 212 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Its imminence analysis for future injury does not apply where the DUFTA injury occurred at the time of transfer.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "6 Del. C. § 1304",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Elements of intentional and constructive fraudulent transfer; insolvency or inadequate capital is required only for constructive claims.",
+            "role": "background"
+          },
+          {
+            "authority": "6 Del. C. §§ 1301(2), (10), (12)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "DUFTA definitions of \"asset,\" \"property\" and \"transfer,\" discussed in the unresolved transfer issue.",
+            "role": "background"
+          },
+          {
+            "authority": "Quadrant Structured Prods. Co. v. Vertin, 115 A.3d 535 (Del. Ch. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "DUFTA requires insolvency at the time of transfer, not continuous insolvency.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Glick, 568 B.R. 634 (Bankr. N.D. Ill. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited by Defendants for the point that termination per a contract's terms is not a transfer; the Court noted those cases could be read as factually distinct, without deciding.",
+            "role": "background"
+          },
+          {
+            "authority": "Express Scripts, Inc. v. Del. State Empl. Benefits Comm., 2021 WL 5873177 (Del. Ch. Dec. 13, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment may be denied where developing the facts at trial is desirable to clarify the law.",
+            "role": "background"
+          },
+          {
+            "authority": "Banther v. State, 884 A.2d 487 (Del. 2005); Levinson v. Delaware Comp. Rating Bureau, Inc., 616 A.2d 1182 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contrast between collateral attack (final determination) and primary administrative jurisdiction (stay pending agency ruling).",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(c)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Telxon Corp. v. Meyerson, 802 A.2d 257 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "There is no right to summary judgment.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "A putative class of GLIC long-term care insurance policyholders and agents sued Genworth and affiliates under DUFTA over the 2015–2016 Reinsurance Termination, and Defendants moved for summary judgment while Plaintiffs cross-filed a former Rule 56(d) motion. Vice Chancellor Cook rejected Defendants' renewed standing challenge as foreclosed by law of the case, and indicated that the insolvency and transfer issues presented genuine disputes, but did not decide them. The Court granted summary judgment because the suit is a collateral attack on the Insurance Commissioner's final 2016 approval of the BLAIC–GLIC Merger under 18 Del. C. § 4930(b). It found no triable fraud issue because the Department had approved the CMA, including its automatic termination, a year before the Hearing.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether DUFTA intentional and constructive fraudulent transfer claims brought by GLIC long-term care insurance policyholders and agents, challenging the Reinsurance Termination (the Cancellation of the Brookfield Guaranty in favor of the CMA, and BLAIC's Merger into GLIC), are an impermissible collateral attack on the Delaware Insurance Commissioner's 2016 approval of the Merger under 18 Del. C. § 4930(b), and whether the fraud exception applies because Genworth did not raise the CMA at the approval Hearing.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 20,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendants' Motion for Summary Judgment granted; Plaintiffs' Rule 56(d) Motion and Defendants' Motion to Strike denied as moot. The Court first held that Plaintiffs have standing because the MTD I ruling is law of the case and Defendants identified no exception. On collateral attack, the Commissioner's statutorily mandated core finding was that the Merger would not substantially reduce policyholder security. The Action challenges that finding, effectively asks the Court to hold the Commissioner erred, and seeks relief (unwinding the Reinsurance Termination) that was available in the Department proceeding, so it is an impermissible collateral attack regardless of the different statute invoked. The fraud exception does not apply because the Department indisputably received and approved the CMA disclosures, including its automatic termination, in 2015. The Court did not reach insolvency, transfer or primary administrative jurisdiction, though it indicated genuine factual disputes exist on insolvency and that the transfer question would be better suited to trial. In fn. 223, the Court indicated the 56(d) Motion would likely fail on the merits and found Defendants' procedural objections compelling. Counsel must confer and file a joint proposed implementing order within 10 business days.",
+        "key_facts_and_concessions": [
+          "On September 15, 2016, the Commissioner adopted the findings of the hearing officer (former Vice Chancellor Lamb) and approved the Merger, finding it \"would not substantially reduce the security of or service to be rendered to the policyholders of GLIC.\"",
+          "The Hearing was publicly noticed on the Department's website, in two Delaware newspapers and on the state public meeting calendar. No objector appeared; neither Plaintiffs nor \"the insurance companies that seem to be funding this litigation\" participated, and no one sought review of the approval.",
+          "Genworth's September 1, 2015 Form D sought approval to terminate the Guaranty and replace it with the CMA. It stated that the CMA \"would automatically be terminated\" upon completion of the LTC Repatriation Plan and attached a draft CMA with the same term. The Department approved it on September 8, 2015.",
+          "Genworth did not raise the CMA's existence, terms or termination at the 2016 Hearing. At oral argument, Defendants maintained that the Department \"knew full well about the CMA\" (fn. 64).",
+          "The SAC's prayer seeks an order requiring Defendants \"to unwind the Reinsurance Termination.\" SAC ¶ 29 asserts the harm \"can be remedied only by injunctions requiring the unwinding\" of the Reinsurance Termination.",
+          "Plaintiffs concede GLIC has sufficient assets to pay claims through 2047. Defendants admit at oral argument that the LTCI liabilities extend significantly beyond 2047.",
+          "No policyholder Plaintiff has made a claim, and each agent Plaintiff has received all commissions due.",
+          "The Action was reassigned from one judge to another in May 2022, which strengthens the law of the case doctrine as to the MTD I standing ruling."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where a regulator's statutory approval necessarily decided the issue a later suit would revisit, the collateral attack doctrine can bar the later suit even when it is framed under a different statute and the plaintiffs never participated in the publicly noticed proceeding. Creditors and policyholders should object or seek direct review at the approval stage. Regulated parties should document that disclosures made in related filings with the same regulator defeat later fraud-exception arguments.",
+        "standard_of_review": "Ct. Ch. R. 56(c) summary judgment (pre-amendment rule). Facts and inferences are viewed in the light most favorable to the non-movant; once the movant puts unrebutted facts in the record, the non-movant must adduce evidence of a genuine dispute of material fact. Prior standing ruling reviewed under the law of the case doctrine."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402520"
+    },
+    {
+      "case_id": "de-402530",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2026-0715-CDW (BWD)",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "Chad Bronstein, et al. v. Tyson 2.0, Inc.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T17:46:38-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Releases cover advancement under Illinois law: waived. The Company did not meaningfully engage on Illinois law before the Magistrate, and \"[t]he exceptions process is not available for parties to spring new arguments.\" The Company therefore failed to carry its burden on the affirmative defense.",
+          "Delaware law governs the scope of the Releases: rejected. Although advancement claims may be contractually released under Delaware law, whether the Releases' language covers advancement is governed by Illinois law under the agreements' choice-of-law clause.",
+          "Failure to prove the defense warranted only denial of the Company's motion, not judgment for Plaintiffs: rejected. The parties agreed to cross-motions and identified no disputed material fact, so Rule 56(i) permitted decision on the merits.",
+          "Unsettled Illinois law creates terrain precluding summary judgment: rejected (fn. 1). The Company conceded the uncertainty concerns construction of a governing instrument, not disputed facts, and having waived its Illinois-law arguments it cannot repackage the Release defense as a factual dispute.",
+          "Report improperly treated the Beer Case as categorically advanceable without count-by-count analysis: rejected. The Court analyzed each disputed count and found each arises \"by reason of\" former corporate status.",
+          "Fees-on-fees should be adjusted: denied (fn. 5), because that request depended on the Company's other exceptions being sustained."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Houghton v. Ceresini, 2026 WL 2043726 (Del. Ch. July 15, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "\"The exceptions process is not available for parties to spring new arguments\"; new Illinois-law arguments raised on exceptions are waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Separation agreements ¶ 18 (choice-of-law clause) and ¶ 4 (Release)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Illinois law governs interpretation of the Releases, including whether they reach advancement claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Kokorich v. Momentus Inc., 2023 WL 3454190 (Del. Ch. May 15, 2023), aff'd, 308 A.3d 1192 (Del. 2023) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Advancement claims under indemnification agreements and bylaws are contractual and may be released like any other contractual right.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Where cross-motions for summary judgment identify no disputed material fact, the Court may deem them a stipulation for decision on the merits on the submitted record.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ephrat v. MedCPU, Inc., 2019 WL 2613281 (Del. Ch. June 26, 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A claim arises \"by reason of the fact\" of corporate capacity if there is a nexus or causal connection between the underlying proceeding and official corporate capacity; this includes post-employment misuse of proprietary information obtained as a director or officer.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marino v. Patriot Rail Co., 131 A.3d 325 (Del. Ch. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The scope of advancement rights normally turns on the pleadings in the underlying litigation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Brown v. LiveOps, Inc., 903 A.2d 324 (Del. Ch. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Post-employment misuse of proprietary information accessed as a director and officer arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Thompson v. Orix USA Corp., 2016 WL 3226933 (Del. Ch. June 3, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Same: post-employment misuse of information accessed through a corporate position triggers advancement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Zaman v. Amedeo Hldg., Inc., 2008 WL 2168397 (Del. Ch. May 23, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Breach of an obligation to keep confidential information acquired while serving as a fiduciary arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pontone v. Milso Indus. Corp., 100 A.3d 1023 (Del. Ch. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Inducing employees and customers to move to a competitor by leveraging confidential information learned in an official corporate capacity arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "De novo review of a Magistrate in Chancery's determinations on exceptions.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 145(e)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Referenced through Ephrat's quotation describing the proceedings for which expenses may be advanced.",
+            "role": "background"
+          },
+          {
+            "authority": "Hoseman v. Weinschneider, 322 F.3d 468 (7th Cir. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "New Illinois-law authority the Company first cited on exceptions; not considered because the argument was waived.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Former Tyson 2.0 officers Bronstein, Cosby and Wilks sought advancement for two Northern District of Illinois suits (the Beer Case and the RICO Case), and a Magistrate in Chancery granted Plaintiffs' cross-motion for summary judgment on entitlement and fees-on-fees; the Company filed exceptions. Reviewing de novo, Vice Chancellor David held the Company's Illinois-law release arguments waived because they were first raised on exceptions, despite the separation agreements' Illinois choice-of-law clause. The Vice Chancellor also held that Rule 56(i) supported entry of judgment on the agreed cross-motions. A count-by-count review confirmed that each disputed Beer Case count arises by reason of Bronstein's and Cosby's former corporate status because each turns on relationships or confidential information obtained in their corporate roles.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 12
+        },
+        "core_legal_issue": "On exceptions to a Magistrate in Chancery's summary judgment order granting advancement to former officers of Tyson 2.0, Inc.: (1) whether Tyson 2.0 proved its affirmative defense that Illinois-law separation agreements released advancement claims, where it argued only Delaware law before the Magistrate; and (2) whether each disputed count of the Beer Case complaint, which challenges post-employment conduct, arises \"by reason of\" Bronstein's and Cosby's former corporate status.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 16,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Exceptions denied and the Report's conclusions affirmed. On the release defense, Delaware law permits releasing advancement claims, but Illinois law governs whether these Releases do so. The Company did not meaningfully argue Illinois law before the Magistrate, so its Illinois-law arguments on exceptions were waived and it failed to carry its burden on the affirmative defense. Entry of judgment for Plaintiffs, rather than merely denying the Company's motion, was proper under Rule 56(i) because the parties agreed to cross-motions and identified no disputed material fact; the Company's own concession that the uncertainty concerns construction of a governing instrument foreclosed recasting the defense as a fact dispute. On the merits, the Court reviewed each disputed Beer Case count (II, IV, VI, VII, XII, XIII) and found that each alleges solicitation or interference by leveraging relationships, projects or confidential information developed or obtained in Bronstein's and Cosby's corporate roles. Each therefore arises \"by reason of\" their former corporate status and requires advancement. The Company's request to adjust the fees-on-fees award, which depended on sustaining its other exceptions, was denied.",
+        "key_facts_and_concessions": [
+          "Bronstein's and Cosby's 2023 separation agreements contain a broad release of claims \"relating to, arising out of, or in any way connected with\" their employment, and ¶ 18 provides that the agreements \"shall be interpreted, enforced, and governed under the laws of Illinois.\"",
+          "Before the Magistrate, the Company argued only that the Releases covered advancement under Delaware law. Plaintiffs responded that Illinois law governs and would not reach advancement claims; the Company's only reply at oral argument was that it viewed \"Delaware law as more relevant and controlling.\"",
+          "On exceptions, the Company argued for the first time that the Releases cover advancement under Illinois law, citing new authority (e.g., Hoseman v. Weinschneider).",
+          "The parties agreed to submit entitlement to advancement on cross-motions for summary judgment and did not identify a disputed issue of material fact.",
+          "The Company conceded on exceptions that \"the uncertainty concerns the construction of a governing instrument rather than disputed facts\" (fn. 1).",
+          "The Beer Case counts the Company disputed (Counts II, IV, VI, VII, XII, XIII) allege solicitation of Hulk Hogan, TGB Entertainment and Volo using relationships and contacts formed during employment, continued development of the \"Real American\" beer begun while Bronstein was at Tyson 2.0, and use of confidential information obtained in their roles.",
+          "Count XIII alleges Bronstein and Cosby knew of the prospective beer relationship because \"they were at times the principal officers in charge of developing that relationship on behalf of Tyson 2.0.\"",
+          "The Magistrate issued the Report by granting Plaintiffs' proposed form of order with explanatory comments."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "When a release defense rests on an agreement with a non-Delaware choice-of-law clause, brief the scope question under the chosen law before the Magistrate in Chancery, because new choice-of-law arguments and authority are waived on exceptions. Parties who agree to decide entitlement on cross-motions should expect Rule 56(i) merits judgment unless they identify a genuine fact dispute, and \"post-employment\" labels will not avoid advancement where the underlying complaint pleads misuse of relationships or confidential information gained in office.",
+        "standard_of_review": "De novo review of the Magistrate in Chancery's determinations (DiGiacobbe v. Sestak). Below, cross-motions for summary judgment were deemed a stipulation for decision on the record under Ct. Ch. R. 56(i)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402530"
     }
   ],
   "ny_date": "2026-10-23"
