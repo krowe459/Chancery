@@ -1,0 +1,1155 @@
+{
+  "entries": [
+    {
+      "case_id": "de-402470",
+      "court": "supreme",
+      "date": "2026-10-23",
+      "docket": "369, 2026",
+      "judge": "Seitz C.J.",
+      "name": "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. v. ExactLogix, Inc. d/b/a Acculynx.com, et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T09:54:37-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "The order does not identify Appellants' appellate arguments. It rejects them only implicitly, by affirming for the reasons stated in the Court of Chancery's August 7, 2026 Post-Trial Memorandum Opinion."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Court of Chancery Post-Trial Memorandum Opinion dated August 7, 2026 (C.A. No. 2026-0023)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Adopted in full as the basis for, and the reasons supporting, affirmance of the Court of Chancery's judgment.",
+            "role": "relied_on"
+          }
+        ],
+        "brief_summary": "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. appealed the Court of Chancery's post-trial judgment, entered on a Post-Trial Memorandum Opinion dated August 7, 2026, in their action against ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr. as seller representative, which included counterclaims. The order does not identify the Court of Chancery judge. After briefing and oral argument, the Supreme Court affirmed by short order, two days after submission, adopting the trial court's opinion as its basis and reasoning.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 0
+        },
+        "core_legal_issue": "Whether the Court of Chancery's post-trial judgment, entered on the Post-Trial Memorandum Opinion dated August 7, 2026, in the action between Verisk Analytics, Inc. and Lenny Merger Sub, Inc. and ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr. (as seller representative), should be affirmed. The order does not identify the issues decided below or raised on appeal.",
+        "coverage_note": "",
+        "disposition": "affirmed",
+        "fact_check": {
+          "checked": 8,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The judgment of the Court of Chancery is affirmed. The Supreme Court found it \"evident\" that the judgment should be affirmed on the basis of, and for the reasons stated in, the Post-Trial Memorandum Opinion dated August 7, 2026. The order states no further analysis, remedy or directive.",
+        "key_facts_and_concessions": [
+          "The Supreme Court affirmed \"on the basis of and for the reasons stated in the Post-Trial Memorandum Opinion dated August 7, 2026\" and added no independent reasoning.",
+          "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. were Plaintiffs/Counterclaim Defendants below and are the Appellants.",
+          "ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr., \"in his capacity as seller representative,\" were Defendants/Counterclaim Plaintiffs below and are the Appellees.",
+          "The appeal was decided on the parties' briefs, the record below and oral argument; it was submitted October 21, 2026 and decided October 23, 2026.",
+          "The panel was Seitz, C.J., and Traynor, Legrow, Griffiths and Zurn, JJ.; the order was signed by Seitz, C.J. \"BY THE COURT.\""
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "The Supreme Court adopted the August 7, 2026 Post-Trial Memorandum Opinion wholesale, so that opinion's reasoning now carries Supreme Court endorsement; practitioners should cite and analyze it directly. Appellants should expect that a post-trial judgment can be affirmed swiftly by order without separate appellate analysis.",
+        "standard_of_review": "Not stated"
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402470"
+    },
+    {
+      "case_id": "de-402510",
+      "court": "supreme",
+      "date": "2026-10-23",
+      "docket": "393, 2026",
+      "judge": "Traynor J.",
+      "name": "Terra Taylor, in her official capacity as Commissioner of the Delaware Department of Correction vs. Waunye Calm, Brandon Gatewood, Isaiah Harber, Jyai",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T15:45:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Timeliness as to the July 17 Decision: Defendant argued that the private-right-of-action issue, raised again in opposition to the preliminary injunction, was arguably not appealable until the August 11 Decision. The Supreme Court rejected this, agreeing with the Court of Chancery that the application as to the July 17 Decision was untimely.",
+          "Alternative request to extend the ten-day certification period: the Court of Chancery ruled the application untimely, and the Supreme Court agreed. The order does not separately analyze the extension request.",
+          "Defendant's argument that the Rule 42(b)(iii) criteria (novelty, conflict with other trial court decisions, and constitutional interpretation at least as important as a statute) and the interests of justice and judicial economy favored certification: rejected because the potential benefits of interlocutory review do not outweigh the inefficiency, disruption and probable costs.",
+          "Merits of the Cruel Punishment Clause rulings: not reached. The refusal rests on untimeliness and the cost-benefit balance, and the Court of Chancery deferred appellate review until after final judgment."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42(c)(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A certification application must be served and filed within 10 days of the order, or within a longer period the trial court sets for good cause shown.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Interlocutory review requires a substantial issue of material importance and likely benefits that outweigh probable costs, such that review is in the interests of justice; the trial court assesses the most efficient and just schedule.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(iii)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The criteria weighed in assessing whether the benefits of interlocutory review outweigh its inefficiency, disruption and probable costs.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(d)(v)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Applications for interlocutory review are addressed to the Supreme Court's sound discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. Const. art. I, § 11 (Cruel Punishment Clause)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The constitutional provision underlying Plaintiffs' claims.",
+            "role": "background"
+          },
+          {
+            "authority": "U.S. Const. amend. VIII",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Court of Chancery held the Delaware Clause has meaning independent of the Eighth Amendment.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2082677 (Del. Ch. July 17, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The July 17 Decision on standing, ripeness and the private right of action.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2322604 (Del. Ch. Aug. 11, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The August 11 Decision denying a preliminary injunction and setting the Cruel Punishment Clause test.",
+            "role": "background"
+          },
+          {
+            "authority": "Calm v. Taylor, 2026 WL 2581610 (Del. Ch. Sept. 4, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery's denial of certification, concluding that the appeal should come after final judgment.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Commissioner Terra Taylor of the Delaware Department of Correction sought interlocutory review of two Court of Chancery rulings (the order does not name the judge) in a putative prisoner class action over oleoresin capsicum use without decontamination. The July 17 Decision recognized a private right of action under Delaware's Cruel Punishment Clause. The August 11 Decision held that the Clause is independent of the Eighth Amendment and requires no cruel intent, while denying a preliminary injunction. The Court of Chancery denied certification, finding the July 17 application untimely and concluding that appeal after final judgment following a narrow December trial was the most efficient course. The Supreme Court agreed on both points and refused the appeal.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 7
+        },
+        "core_legal_issue": "Whether the Supreme Court should accept an interlocutory appeal under Supr. Ct. R. 42 from Court of Chancery rulings that (i) a private right of action for injunctive and declaratory relief exists under the Cruel Punishment Clause (Del. Const. art. I, § 11), (ii) the Clause has meaning independent of the Eighth Amendment, and (iii) a violation turns on objectively significant risk of serious harm and reasonable necessity rather than cruel intent, where the certification application for the earlier ruling was filed outside Rule 42(c)(i)'s ten-day window and trial was set within months.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 13,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Interlocutory appeal refused. Exercising its discretion and giving due weight to the Court of Chancery's view, the Supreme Court held that the application does not meet Rule 42(b)'s strict standards. It agreed with the Court of Chancery on two points. First, the application as to the July 17 Decision was untimely. Second, the potential benefits of interlocutory review of the August 11 Decision do not outweigh the inefficiency, disruption and probable costs of an interlocutory appeal. The merits of the Cruel Punishment Clause rulings were not addressed.",
+        "key_facts_and_concessions": [
+          "Defendant acknowledged that its August 21, 2026 certification application was not filed within ten days of the July 17 Decision, which recognized a private right of action for injunctive and declaratory relief under the Cruel Punishment Clause.",
+          "Trial was scheduled for December and, per the Court of Chancery, was likely to be narrow in scope; the Court of Chancery had ordered trial within 120 days of the August 11 Decision.",
+          "Plaintiffs conceded that the August 11 Decision decided a substantial issue of material importance, and the Court of Chancery accepted that concession.",
+          "Plaintiffs conceded that Rule 42(b)(iii)(A) (novel question of law) weighed in favor of certification; they argued that the other Rule 42(b)(iii) criteria weighed against it.",
+          "The Court of Chancery found that its private-right-of-action ruling, its independent-meaning ruling and its no-cruel-intent test each decided a substantial issue of material importance. It found that its standing, ripeness and mootness rulings did not.",
+          "The August 11 Decision denied a preliminary injunction. Plaintiffs had shown a reasonable probability of success and irreparable harm, but not that the balance of hardships favored relief.",
+          "The Department adopted a written decontamination policy after the complaint was filed. The Court of Chancery held the case was not moot because the policy was potentially inadequate."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Seek certification within ten days of the order that decides the issue, or obtain a good-cause extension from the trial court under Rule 42(c)(i), rather than waiting to re-raise the issue in a later ruling. Even concededly substantial constitutional questions will not secure interlocutory review where a prompt, narrow trial makes post-judgment appeal more efficient.",
+        "standard_of_review": "Interlocutory review is addressed to the Supreme Court's sound discretion under Supr. Ct. R. 42(d)(v), giving due weight to the Court of Chancery's view and applying Rule 42(b)'s strict certification standards."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402510"
+    },
+    {
+      "case_id": "de-402500",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2022-1001-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Sjunde AP-Fonden v. Activision Blizzard, Inc., et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T15:45:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Due process requires carving out the Federal Claims or granting an opt-out: rejected. Under Nottingham, due process requires notice but not an opt-out right, and a settlement may release weak or low-value claims, including exclusively federal securities claims, to secure reasonable consideration for meaningful ones. IsZo (Del. Sep. 14, 2026) reaffirmed this.",
+          "Plaintiff is inadequate because it did not sell shares and so could not have brought the Federal Claims: rejected as factually false, since Plaintiff sold more shares than the Fund.",
+          "Plaintiff is conflicted because it did not pursue the Federal Claims and now supports releasing them: rejected. If the claims had value, Plaintiff would have had more incentive than the Fund to pursue them, so the issue reduces to the claims' value.",
+          "The Court should defer to the federal court on the Federal Claims: rejected. Delay would cost the Settlement Class nearly $10,000 per day in interest. Under Matsushita and Nottingham, approving a general release is within a state court's power, and the federal court can decide whether to enforce the Release.",
+          "In re MCA requires a federal court to first decide the merits of released federal claims: rejected. MCA rejected the first settlement because the federal claims were the only ones with substantial merit, and it directs this Court to evaluate the federal claims' strength itself.",
+          "The Fund's alternative loss-causation theories: rejected as resting on multiple layers of speculation. The theories were that misstatements induced Seller Class members to sell and forfeit appraisal rights, or that full knowledge would have let them threaten an injunction to extract higher consideration.",
+          "The Fund's theory that paying the dividend on the subsidiary's shares diverted value to Microsoft: called illogical (fn. 89), because the cash would have flowed to Microsoft at closing either way, and the theory raises none of the complexities of Plaintiff's Treasury-Dividend Claim.",
+          "Challenges to typicality and adequacy under Rule 23(a) as applied to a class that includes the Seller Class: rejected. The Court found no conflict between Plaintiff and other class members and found that Plaintiff fairly represented the class.",
+          "Plaintiff's objection to the Fund's 24-page reply brief, filed on the eve of the settlement hearing: overruled, and the filing was allowed (fn. 28)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Nottingham Partners v. Dana, 564 A.2d 1089 (Del. 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Due process requires notice but no opt-out right for absent class members with damages claims. The trial court has discretion to grant opt-outs by balancing defendants' interest in global resolution against individuals' day in court. Approving a general release of exclusively federal claims is within state-court power, but adjudicating those claims is not.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Matsushita Elec. Indus. Co. v. Epstein, 516 U.S. 367 (1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "State courts may approve class settlements releasing exclusively federal Exchange Act claims without infringing exclusive federal jurisdiction, and the resulting judgment has preclusive effect in federal court.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Phila. Stock Exch., Inc., 945 A.2d 1123 (Del. 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Opt-out rights properly denied where settlement benefits dwarf the minimal value of surrendered claims and opt-outs would defeat the settlement; also cited for global-release practice, notice sufficiency, and the identical-factual-predicate test for release scope.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Activision Blizzard, Inc. S'holder Litig., 124 A.3d 1025 (Del. Ch. 2015) (\"Activision OG\")",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stockholder claims travel with the shares, so sellers lose them; Rule 10b-5 claims are personal; and weak or hypothetical federal securities claims may be released without allocated consideration.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Triarc Cos., Inc., 791 A.2d 872 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "It is fair to bar claims that are weak, of little or no probable value, or unlikely to yield recovery as part of an overall settlement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re MCA, Inc., 598 A.2d 687 (Del. Ch. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Does not require a federal court to first decide the merits of released federal claims; it rejected a settlement because the federal claims were the only ones with substantial merit, and it directs the Court of Chancery to assess their strength.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "28 U.S.C. § 1658(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The limitations period for the Federal Claims runs two years from when a reasonably diligent plaintiff would have discovered, or the plaintiff actually discovered, the facts constituting the violation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dura Pharms., Inc. v. Broudo, 544 U.S. 336 (2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A securities-fraud plaintiff must prove the misstatements caused economic loss, which underpinned the Court's view that the Fund's loss causation was weak.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(f)(5)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Lists the four findings required to approve a class settlement: adequate representation, adequate notice, arm's-length negotiation, and relief within a range of reasonableness considering claim strength, litigation risk, release scope and objections.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(a), 23(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The non-opt-out Settlement Class met numerosity, commonality, typicality and adequacy, and Rule 23(b)(1) because separate actions would risk inconsistent adjudications; the Court did not reach Rule 23(b)(2).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Goodrich v. E.F. Hutton Gp., Inc., 681 A.2d 1039 (Del. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court applies its own business judgment to settlement fairness and must independently determine fee reasonableness for common-fund beneficiaries.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Dell Techs. Inc. Class V S'holders Litig., 326 A.3d 686 (Del. 2024) (\"Dell II\"); Sugarland Indus., Inc. v. Thomas, 420 A.2d 142 (Del. 1980)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Sugarland factors govern, results achieved is paramount along with causation, the approach is non-formulaic, and fees should incentivize counsel without creating a windfall.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ams. Mining Corp. v. Theriault, 51 A.3d 1213 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stage-of-case percentage approach: 15-25% applies after meaningful litigation, supporting a fee of about 24% of the net fund.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Dell Techs. Inc. Class V S'holders Litig., 300 A.3d 679 (Del. Ch. 2023) (\"Dell I\")",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Describes the stage-of-case ranges and the causation requirement, and supplies the comparative data showing this is the largest Chancery third-party merger settlement.",
+            "role": "background"
+          },
+          {
+            "authority": "IsZo Cap. LP v. Brandenburg, 2026 WL 2689902 (Del. Sep. 14, 2026) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reaffirms Nottingham's due process requirements for an objector to a non-opt-out class.",
+            "role": "background"
+          },
+          {
+            "authority": "Merck & Co. v. Reynolds, 559 U.S. 633 (2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Discovery rule for the securities limitations period.",
+            "role": "background"
+          },
+          {
+            "authority": "Pension Tr. Fund for Operating Eng'rs v. Mortg. Asset Securitization Transactions, Inc., 730 F.3d 263 (3d Cir. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Inquiry notice and the timing of a reasonably diligent investigation.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Exxon Mobil Corp. Sec. Litig., 500 F.3d 189 (3d Cir. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A § 20(a) claim fails where the underlying § 10(b) claim is time-barred.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Countrywide Corp. S'holders Litig., 2009 WL 2595739 (Del. Ch. Aug. 24, 2009); In re Cox Radio, Inc. S'holders Litig., 2010 WL 1806616 (Del. Ch. May 6, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery routinely approves non-opt-out settlements releasing low-value federal claims over objections.",
+            "role": "background"
+          },
+          {
+            "authority": "In re AMC Ent. Hldgs., Inc. S'holder Litig., 299 A.3d 501 (Del. Ch. 2023); In re Faraday Future Intelligent Elec. Inc., S'holder Litig., 2025 WL 445038 (Del. Ch. Feb. 10, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "State-court power to approve general releases; releases may reach claims arising from the same factual predicate.",
+            "role": "background"
+          },
+          {
+            "authority": "Prezant v. De Angelis, 636 A.2d 915 (Del. 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Two-step class certification analysis.",
+            "role": "background"
+          },
+          {
+            "authority": "Leon N. Weiner & Assocs., Inc. v. Krapf, 584 A.2d 1220 (Del. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Commonality and adequacy standards.",
+            "role": "background"
+          },
+          {
+            "authority": "Forsythe v. ESC Fund Mgmt. Co. (U.S.), Inc., 2013 WL 458373 (Del. Ch. Feb. 6, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Range of results a reasonable plaintiff could accept.",
+            "role": "background"
+          },
+          {
+            "authority": "Krinsky v. Helfand, 156 A.2d 90 (Del. 1959)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Claims surviving a motion to dismiss are typically strong enough to support a settlement.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 23(aa)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Representative-party affidavit requirement, satisfied by Plaintiff's affidavits.",
+            "role": "background"
+          },
+          {
+            "authority": "Maurer v. Int'l Re-Ins. Corp., 95 A.2d 827 (Del. 1953)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "American Rule on fees.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 205",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Validation of the Merger in the separate Section 205 Action and the Section 205 counterclaims.",
+            "role": "background"
+          },
+          {
+            "authority": "Frank Schneider et al., 2012-2025 Review & Analysis: M&A Litigation Settlements in the Delaware Court of Chancery, Cornerstone Research (Sep. 23, 2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Only 12 of 143 Chancery M&A settlements from 2012-2025 were $100 million or more.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After nearly four years of litigation by Sjunde AP-Fonden challenging Microsoft's acquisition of Activision Blizzard, the parties sought approval of a $250 million settlement, the largest ever in the Court of Chancery challenging a third-party merger, and Plaintiff petitioned for fees. A group of merger-arbitrage funds led by The Arbitrage Fund objected only to the Release's extinguishment of federal securities claims they filed for the Seller Class three weeks after the Term Sheet. Chancellor McCormick overruled the objection, holding that Nottingham and Matsushita permit a non-opt-out settlement to release exclusively federal claims of little value. The Court found those claims weak on limitations and loss causation, rejected the adequacy and deference arguments, certified the class under Rule 23(b)(1), approved the Settlement, and awarded $60 million in fees plus $447,680.66 in expenses.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 27
+        },
+        "core_legal_issue": "Whether the Court could approve a $250 million non-opt-out class settlement of fiduciary and DGCL claims arising from Microsoft Corporation's acquisition of Activision Blizzard, Inc., where the global Release extinguishes, for no consideration, federal Section 10(b)/Rule 10b-5 and Section 20(a) claims that an objecting arbitrage fund filed in federal court for stockholders who sold during the Merger's pendency (the Seller Class); and whether a $60 million fee was reasonable.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 19,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Objection overruled; class certified; settlement approved; fees and expenses awarded. The Court held that releasing the Federal Claims does not violate due process: under Nottingham, Philadelphia Stock Exchange, Triarc and Matsushita, the Court may release exclusively federal claims if they are of little or no value. The Court stated that only the federal court can rule on the Federal Claims' merits and decide whether to enforce the Release. In this Court's assessment, however, the Federal Claims have little or no value, given strong limitations defenses (the underlying facts were discoverable before April 27, 2024) and weak, speculative loss causation. Releasing them for no consideration was therefore appropriate to secure the Settlement. The Court certified the Settlement Class as a non-opt-out class under Rule 23(a) and 23(b)(1), without reaching 23(b)(2). It approved the Settlement, Release and plan of allocation under Rule 23(f)(5), finding adequate representation, adequate notice (over one million notices mailed by A.B. Data plus a website), arm's-length mediated negotiations, and a reasonable result given the claims' survival on motions to dismiss, litigation risk and damages mitigation, and a release appropriately broad for claims covering all Merger events. Applying Sugarland and Americas Mining, the Court awarded $60 million in fees, about 24% of the net fund and within the 15-25% range for meaningful litigation, and called it \"more than reasonable\" in light of the roughly $778 million 2023 Dividend also caused by the litigation. The secondary factors also supported the fee: 10,727.20 hours (lodestar $10,852,110.50, implied rate $5,593, 5.5x multiplier, excluding Section 205 Action time already compensated), complexity, full contingency and counsel's standing. The Court also awarded $447,680.66 in expenses.",
+        "key_facts_and_concessions": [
+          "Defendants required a global release; if the Seller Class were excluded from the Settlement Class and the Federal Claims carved out of the Release, there would be no settlement (Stipulation §§ VII(1)(b), X(1), X(3)).",
+          "The Fund (The Arbitrage Fund, leading Water Island-managed merger-arbitrage funds) filed the Federal Claims on April 27, 2026, three weeks after the April 3, 2026 Term Sheet based on Judge Phillips's $250 million mediator's proposal. The Fund does not object to the fairness of the Settlement, from which it stands to receive about $250,000.",
+          "Seller Class members have no right to bring or benefit from the Chancery claims on shares they sold, because those claims travel with the shares (Activision OG). The Federal Claims are personal claims within exclusive federal jurisdiction, so the Release extinguishes them for no consideration.",
+          "Plaintiff itself sold 130,641 Activision shares while the Merger was pending, more than the Fund's 26,600, which undercut the Fund's premise that Plaintiff could not have brought the Federal Claims.",
+          "The Court found that a reasonably diligent plaintiff could have discovered the facts behind all three alleged misstatements before April 27, 2024. Merger-price challenges were disclosed in the March 2022 proxy and the May 2022 10-Q; Plaintiff had the Long-Range Plan by June 2022; the cloud-services offset terms were obtained in 2022 and the disclosure letter in March 2024; and the subsidiary dividend was public in 2023.",
+          "The Fund bought after the Merger announcement and sold while the Merger was pending, so both prices reflected any alleged deflation. Activision's stock price also rose sharply on the announcement, contrary to the theory that contemporaneous statements depressed it.",
+          "Plaintiff conceded \"significant obstacles to liability\" and that substantial damages would be \"difficult, uncertain, and delayed\"; the 2023 Dividend at least partially mitigated damages on all claims (fns. 125-126).",
+          "The $60 million fee was unopposed by Defendants and not objected to by the Fund. It equals about 24% of the net Settlement Fund, and the parties agreed Plaintiff could cite the roughly $778 million 2023 Dividend as a litigation benefit (Stipulation § VIII(2))."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Objectors seeking to carve parallel federal securities claims out of a global Chancery release should be ready to show those claims' value on limitations and loss causation, not rely on due process or deference arguments. Filing federal claims after a term sheet, or drawing them from the Chancery record, invites the Court to treat them as low-value. Settling parties should build a record on the federal claims' weaknesses and the cost of delay.",
+        "standard_of_review": "Settlement: Ct. Ch. R. 23(f)(5) reasonableness, with the Court using its own business judgment (Goodrich) to decide whether the settlement falls within a range of results a reasonable plaintiff, not compelled to settle, could accept. Opt-out/release of federal claims: Nottingham balancing focused on the value of the released claims. Class certification: Ct. Ch. R. 23(a) and 23(b). Fees: Sugarland factors, with results achieved paramount, applied through the Americas Mining stage-of-case percentage approach."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402500"
+    },
+    {
+      "case_id": "de-402520",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2018-0691-NAC",
+      "judge": "Cook V.C.",
+      "name": "Richard F. Burkhart, et al. vs Genworth Financial, Inc., et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T17:46:38-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' different claims/different statute argument: rejected. The test is whether the claims aim to modify the prior determination by revisiting its core issue, not whether the claims or statute are the same.",
+          "Plaintiffs' characterization that the object of the suit is to restore $1.5 billion to GLIC rather than unwind the Merger: rejected as belied by the SAC's allegations and prayer for unwinding, which was relief available in the Department proceeding.",
+          "Plaintiffs' fraud exception: rejected. There is no genuine dispute that the Department had the CMA and its automatic-termination term from the 2015 Form D. Genworth's failure to point this out at the Hearing does not create a triable fraud issue, and second-guessing whether the Hearing record could have been more expansive \"will almost always be the case.\"",
+          "Plaintiffs' argument that publication notice did not give them a full and fair opportunity to litigate: called \"dubious\" in fn. 197, because Plaintiffs do not argue they lacked constructive notice.",
+          "Defendants' lack-of-standing argument: rejected as law of the case. MTD I held that a DUFTA injury occurs at the time of transfer and that creditors with contingent, unmatured claims have standing.",
+          "Defendants' reliance on Albence v. Mennella as an intervening change in law: rejected, because MTD I rested on an injury already suffered at the transfer, not on imminent future injury.",
+          "Defendants' argument that discovery contradicted allegations accepted at the pleading stage (GLIC's solvency, MYRAP effectiveness): rejected, because MTD I's standing ruling was a legal determination that did not rest on those facts.",
+          "Defendants' insolvency/unreasonably small capital argument: not reached. The Court indicated multiple genuine disputes of material fact would preclude summary judgment given LTCI's decades-long liabilities, and noted insolvency is an element only of the constructive fraud claims.",
+          "Defendants' no-transfer-of-debtor-property argument (CMA terminated by its own terms): not reached. The Court indicated it would deny summary judgment and develop the facts at trial, given no Delaware precedent, a split in other jurisdictions and an insider-controlled termination.",
+          "Defendants' primary administrative jurisdiction argument: not reached (fn. 220). Collateral attack is the better fit given the Commissioner's final approval and the absence of any pending Department proceeding."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Gulf LNG Energy, LLC v. Eni USA Gas Mktg. LLC, 242 A.3d 575 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A claimant's description of the attack and identity of parties or claims are not dispositive. The court examines the harm alleged and relief sought to determine whether the suit is a disguised attempt at second review of a prior determination.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "ETC Ne. Field Servs., LLC v. Muse, 2024 WL 2797337 (Del. Ch. May 31, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Claims that aim to modify a final determination by revisiting its core issue, or that ask the court to conclude the agency erred, are impermissible collateral attacks, even if framed as independent claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Vale, 2015 WL 721038 (Del. Ch. Feb. 19, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Defines a collateral attack as an attempt to avoid, defeat, evade or deny the force and effect of a final order in an incidental proceeding other than by direct review.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Robins v. Garvine, 136 A.2d 549 (Del. 1957)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware prohibits collateral attacks on final judicial or administrative determinations except for fraud or lack of jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Taylor v. Hatzel & Buehler, 258 A.2d 905 (Del. 1969)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quasi-judicial administrative decisions are not subject to collateral attack unless void on their face or beyond the agency's jurisdiction, particularly where direct review was available.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Keen v. Naegele, 1989 WL 72037 (Del. Ch. June 14, 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fraud or collusion with respect to the prior judgment itself robs it of binding effect (the fraud exception).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "18 Del. C. § 4930(b)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A merger involving a Delaware insurer requires Commissioner approval after filing, notice and hearing. The Commissioner need not approve a merger that would substantially reduce the security of and service to policyholders, which made that the core issue in the Department's review.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Burkhart v. Genworth Fin., Inc. (MTD I), Dkt. 85 (Del. Ch. Jan. 31, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Creditors with contingent, unmatured claims have DUFTA standing. The injury is the prejudice suffered at the time of the allegedly fraudulent transfer, and this ruling is law of the case.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hoskins v. State, 102 A.3d 724 (Del. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Law of the case is established when a legal principle is applied to constant facts. The party seeking departure bears the burden.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "State v. Wright, 131 A.3d 310 (Del. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Law of the case may be revisited only if the prior ruling is clearly wrong, produces injustice or is undermined by changed circumstances.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Siegman for Siegman v. Columbia Pictures Ent., Inc., 1993 WL 10969 (Del. Ch. Jan. 15, 1993)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The law of the case doctrine has greater force when a case is transferred from one judge to another.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Albence v. Mennella, 320 A.3d 212 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Its imminence analysis for future injury does not apply where the DUFTA injury occurred at the time of transfer.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "6 Del. C. § 1304",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Elements of intentional and constructive fraudulent transfer; insolvency or inadequate capital is required only for constructive claims.",
+            "role": "background"
+          },
+          {
+            "authority": "6 Del. C. §§ 1301(2), (10), (12)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "DUFTA definitions of \"asset,\" \"property\" and \"transfer,\" discussed in the unresolved transfer issue.",
+            "role": "background"
+          },
+          {
+            "authority": "Quadrant Structured Prods. Co. v. Vertin, 115 A.3d 535 (Del. Ch. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "DUFTA requires insolvency at the time of transfer, not continuous insolvency.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Glick, 568 B.R. 634 (Bankr. N.D. Ill. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited by Defendants for the point that termination per a contract's terms is not a transfer; the Court noted those cases could be read as factually distinct, without deciding.",
+            "role": "background"
+          },
+          {
+            "authority": "Express Scripts, Inc. v. Del. State Empl. Benefits Comm., 2021 WL 5873177 (Del. Ch. Dec. 13, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment may be denied where developing the facts at trial is desirable to clarify the law.",
+            "role": "background"
+          },
+          {
+            "authority": "Banther v. State, 884 A.2d 487 (Del. 2005); Levinson v. Delaware Comp. Rating Bureau, Inc., 616 A.2d 1182 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contrast between collateral attack (final determination) and primary administrative jurisdiction (stay pending agency ruling).",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(c)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Telxon Corp. v. Meyerson, 802 A.2d 257 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "There is no right to summary judgment.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "A putative class of GLIC long-term care insurance policyholders and agents sued Genworth and affiliates under DUFTA over the 2015–2016 Reinsurance Termination, and Defendants moved for summary judgment while Plaintiffs cross-filed a former Rule 56(d) motion. Vice Chancellor Cook rejected Defendants' renewed standing challenge as foreclosed by law of the case, and indicated that the insolvency and transfer issues presented genuine disputes, but did not decide them. The Court granted summary judgment because the suit is a collateral attack on the Insurance Commissioner's final 2016 approval of the BLAIC–GLIC Merger under 18 Del. C. § 4930(b). It found no triable fraud issue because the Department had approved the CMA, including its automatic termination, a year before the Hearing.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether DUFTA intentional and constructive fraudulent transfer claims brought by GLIC long-term care insurance policyholders and agents, challenging the Reinsurance Termination (the Cancellation of the Brookfield Guaranty in favor of the CMA, and BLAIC's Merger into GLIC), are an impermissible collateral attack on the Delaware Insurance Commissioner's 2016 approval of the Merger under 18 Del. C. § 4930(b), and whether the fraud exception applies because Genworth did not raise the CMA at the approval Hearing.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 20,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendants' Motion for Summary Judgment granted; Plaintiffs' Rule 56(d) Motion and Defendants' Motion to Strike denied as moot. The Court first held that Plaintiffs have standing because the MTD I ruling is law of the case and Defendants identified no exception. On collateral attack, the Commissioner's statutorily mandated core finding was that the Merger would not substantially reduce policyholder security. The Action challenges that finding, effectively asks the Court to hold the Commissioner erred, and seeks relief (unwinding the Reinsurance Termination) that was available in the Department proceeding, so it is an impermissible collateral attack regardless of the different statute invoked. The fraud exception does not apply because the Department indisputably received and approved the CMA disclosures, including its automatic termination, in 2015. The Court did not reach insolvency, transfer or primary administrative jurisdiction, though it indicated genuine factual disputes exist on insolvency and that the transfer question would be better suited to trial. In fn. 223, the Court indicated the 56(d) Motion would likely fail on the merits and found Defendants' procedural objections compelling. Counsel must confer and file a joint proposed implementing order within 10 business days.",
+        "key_facts_and_concessions": [
+          "On September 15, 2016, the Commissioner adopted the findings of the hearing officer (former Vice Chancellor Lamb) and approved the Merger, finding it \"would not substantially reduce the security of or service to be rendered to the policyholders of GLIC.\"",
+          "The Hearing was publicly noticed on the Department's website, in two Delaware newspapers and on the state public meeting calendar. No objector appeared; neither Plaintiffs nor \"the insurance companies that seem to be funding this litigation\" participated, and no one sought review of the approval.",
+          "Genworth's September 1, 2015 Form D sought approval to terminate the Guaranty and replace it with the CMA. It stated that the CMA \"would automatically be terminated\" upon completion of the LTC Repatriation Plan and attached a draft CMA with the same term. The Department approved it on September 8, 2015.",
+          "Genworth did not raise the CMA's existence, terms or termination at the 2016 Hearing. At oral argument, Defendants maintained that the Department \"knew full well about the CMA\" (fn. 64).",
+          "The SAC's prayer seeks an order requiring Defendants \"to unwind the Reinsurance Termination.\" SAC ¶ 29 asserts the harm \"can be remedied only by injunctions requiring the unwinding\" of the Reinsurance Termination.",
+          "Plaintiffs concede GLIC has sufficient assets to pay claims through 2047. Defendants admit at oral argument that the LTCI liabilities extend significantly beyond 2047.",
+          "No policyholder Plaintiff has made a claim, and each agent Plaintiff has received all commissions due.",
+          "The Action was reassigned from one judge to another in May 2022, which strengthens the law of the case doctrine as to the MTD I standing ruling."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where a regulator's statutory approval necessarily decided the issue a later suit would revisit, the collateral attack doctrine can bar the later suit even when it is framed under a different statute and the plaintiffs never participated in the publicly noticed proceeding. Creditors and policyholders should object or seek direct review at the approval stage. Regulated parties should document that disclosures made in related filings with the same regulator defeat later fraud-exception arguments.",
+        "standard_of_review": "Ct. Ch. R. 56(c) summary judgment (pre-amendment rule). Facts and inferences are viewed in the light most favorable to the non-movant; once the movant puts unrebutted facts in the record, the non-movant must adduce evidence of a genuine dispute of material fact. Prior standing ruling reviewed under the law of the case doctrine."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402520"
+    },
+    {
+      "case_id": "de-402480",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. 2021-0479-PAF",
+      "judge": "Wright M.",
+      "name": "David Dinkevich v. Deutsche Telekom AG, et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T11:52:36-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Present-day strategy (TAC ¶¶ 7, 97), including the emphasis that SoftBank is a Japanese company not traded on a U.S. exchange: rejected. The SoftBank defendants did not explain what disclosure would reveal beyond the public mix, the subject is widely covered in the media, and no tangible evidence of damage was offered.",
+          "Proprietary strategies (TAC ¶¶ 100-01, 103-06; SAC ¶¶ 99-100, 102-05): rejected. The material is not truly strategy, it duplicates or elaborates unredacted text, and it is stale.",
+          "Loan discussions (TAC ¶¶ 301, 305, 311, 365; SAC ¶¶ 285, 289, 298): rejected because no particularized harm was articulated.",
+          "Argument that existing public information about the loans satisfies the public interest: rejected as misframing Rule 5.1. Information need not be necessary to understand a dispute to be publicly accessible, and the necessity inquiry arises only in the Rule 5.1(b)(2)(D) balancing, which the Court did not reach.",
+          "Fisher/Misra conversation (TAC ¶ 296 / SAC ¶ 277) and TAC ¶ 362(B) as sensitive personal information: rejected. Neither contains financial information, and information that is personal, previously private or embarrassing does not alone warrant confidentiality.",
+          "Claure's 2020 net worth: rejected for lack of tangible evidence of concrete damage from disclosure now. Alternatively, the information appears relevant and necessary to the public's understanding of the allegations about Claure's ability to impartially consider a demand.",
+          "Argument that the Claure/Fisher allegations will not help the public understand claims not based on personal finances or text messages: rejected. Fn. 17 states that even with harm shown, ¶ 362(B) appears necessary to understand plaintiff's argument that Claure could not impartially evaluate a demand to sue Legere.",
+          "Fn. 18: the statement that \"the improperly filed TAC should be stricken entirely from the docket\" was not acted on. The Court found it unclear whether this was a request for judicial action and, if it was, held that it exceeds the scope of a Rule 5.1 motion."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 5.1(b)(2)(A)-(D)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Defines Confidential Information by four criteria: maintained confidentially, not otherwise public, particularized harm from public access, and harm outweighing the public interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(g)(6)(D)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The person seeking to maintain confidential treatment bears the burden of persuasion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Oxbow Carbon LLC Unitholder Litig., 2016 WL 7323443 (Del. Ch. Dec. 15, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The public is presumed to have a right of access to all judicial proceedings and records; particularized harm requires tangible evidence of concrete damage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Boeing Co. Deriv. Litig., 2021 WL 392851 (Del. Ch. Feb. 1, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party must point to specific information and proffer tangible evidence of concrete damage; speculation about harm that \"could\" result is insufficient.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sequoia Presidential Yacht Grp. LLC v. FE P'rs LLC, 2013 WL 3724946 (Del. Ch. July 15, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Only limited information qualifies for confidential treatment; that information is embarrassing or previously undisclosed does not alone warrant confidentiality; good cause is required.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Horres v. Chick-fil-A, Inc., 2013 WL 1223605 (Del. Ch. Mar. 27, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "News media coverage substantially undercuts any claim of harm; Rule 5.1's presumptive three-year limit reflects that information grows stale.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Order Denying Mot. for Confidential Treatment, Goldberg Consulting LLC v. Cornell, C.A. No. 2024-1321-JTL (Del. Ch. Apr. 23, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Passage of time renders information stale; information need not be necessary to understand a dispute to be publicly accessible, because the public can presumptively access all docket information.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Manhattan Telecomms. Corp. v. Granite Telecomms., LLC, 2020 WL 6799122 (Del. Ch. Nov. 19, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Information already in the public mix does not merit confidentiality; information cannot stay redacted merely because disclosure could cause economic harm.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Al Jazeera Am., LLC v. AT&T Servs., Inc., 2013 WL 5614284 (Del. Ch. Oct. 14, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Manhattan Telecomms.: potential economic harm alone does not justify redaction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Soligenix, Inc. v. Emergent Prod. Dev. Gaithersburg, Inc., 289 A.3d 667 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The public interest is especially strong where the information is material to understanding the nature of the dispute (fn. 17 alternative ground).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Court proceedings and docket filings are public unless the Court or the Rules provide otherwise.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fishel v. Liberty Media Corp., C.A. No. 2021-0820-KSJM (Del. Ch. Mar. 2, 2023) (TRANSCRIPT)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with \"cf.\" for privacy concerns about net worth information, acknowledging that Claure's 2020 net worth could conceivably be sensitive.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 5.1(f)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Procedure for a non-party challenge to confidential treatment.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(a)(2), 144(b)(2), 144(d)(1); Ct. Ch. R. 6(a)(1)(C)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Limited reassignment as a Referred Dispute; Final Report; deadline for notice of exceptions.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In a derivative and class action over the T-Mobile/Sprint merger and SoftBank's later monetization of T-Mobile stock, a Handelsblatt journalist challenged extensive redactions. After the other defendants withdrew nearly all of theirs, only the SoftBank defendants moved to keep certain complaint paragraphs and the Sacks Report confidential, and a Magistrate in Chancery heard the matter on limited reassignment. The Final Report recommends denying confidentiality for all complaint redactions because the SoftBank defendants offered only conclusory assertions rather than tangible evidence of concrete harm, and much of the material was public, duplicative, stale, or merely personal. It recommends granting the unopposed request to keep the Sacks Report confidential.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 14
+        },
+        "core_legal_issue": "Whether, on a non-party journalist's Rule 5.1(f) challenge, the SoftBank defendants carried their burden to show that redacted allegations in the public Second and Third Amended Complaints (about SoftBank's business and investment strategy, 2019 communications, internal discussions of loans to SoftBank officers to buy T-Mobile stock, and personal information of Claure and Fisher), along with the Sacks Report, qualify as \"Confidential Information\" warranting continued confidential treatment, in particular by showing particularized harm with tangible evidence of concrete damage.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "argued only that the negotiations were not public",
+              "evidence": "They concede \"[t]he pertinent terms of these loans are public knowledge.\" ... they contend ... \"[a]ny public interest in the loans . . . should be satisfied by the substantial public information\"",
+              "field": "key_facts_and_concessions",
+              "index": 3,
+              "opinion_says": "The SoftBank defendants conceded the loan terms are public. But they also argued that the public interest was satisfied by existing public information and that disclosure would pose a risk of harm.",
+              "problem": "The defendants made further arguments, including that existing public information satisfied the public interest and that disclosure risked harm, so \"only\" is wrong.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Magistrate in Chancery recommended denying the Motion as to every proposed redaction in the Second and Third Amended Complaints. The SoftBank defendants offered only conclusory assertions of harm and no tangible evidence of concrete damage, so they failed to show particularized harm under Rule 5.1(b)(2)(C). The redacted material was already in the public mix, was banter rather than strategy, duplicated unredacted text, was stale, or was merely personal or embarrassing. Because particularized harm was not shown, the Court did not conduct the Rule 5.1(b)(2)(D) balancing. The Court nonetheless observed, in the alternative, that the Claure net-worth information and TAC ¶ 362(B) appear necessary to understand the demand-impartiality allegations. The Court recommended granting continued confidential treatment for all versions of the Sacks Report, which was unopposed and consistent with its August 25, 2026 order striking the updated report. It did not act on the suggestion that the TAC be stricken, finding that any such request exceeds a Rule 5.1 motion. As a Final Report, any notice of exceptions is due by November 4, 2026.",
+        "key_facts_and_concessions": [
+          "The Motion offered only conclusory statements that the information concerned SoftBank's \"proprietary business and investment strategies\" or its executives' \"sensitive personal and financial information,\" without articulating any harm or offering tangible evidence of concrete damage.",
+          "After non-party Objector (Phillip Alvares de Souza Soares, a Handelsblatt journalist) filed the Challenge on August 27, defendants withdrew nearly all redactions. Only the SoftBank defendants (SoftBank, Claure, Fisher) moved, covering 15 TAC paragraphs, 11 SAC paragraphs, and all versions of the Sacks Report.",
+          "The redactions to the public versions of the Second and Third Amended Complaints covered roughly one-third of the text on their combined 385 pages. Fn. 6 notes that only 68 words were public across 20 pages of the SAC (¶¶ 97-132).",
+          "The SoftBank defendants conceded that \"[t]he pertinent terms of these loans are public knowledge\" and argued only that the negotiations were not public.",
+          "The 'proprietary strategy' material was characterized by the Court as \"less strategy and more banter and boasting.\" It added detail to unredacted text about Legere's employment discussions with Claure and Son, at least one redaction was substantially identical to unredacted language, and the material was seven years old. SoftBank appears to have exited Uber in 2022, and WeWork filed Chapter 11 in November 2023.",
+          "SoftBank's present-day business and investment strategy is heavily covered in the media and other public sources (fn. 14).",
+          "Only the two references to Claure's estimated 2020 net worth (TAC ¶ 318 / SAC ¶ 305) could conceivably be sensitive. How the $515 million loan relates to that net worth appears relevant to whether Claure could impartially consider a demand.",
+          "The Objector did not object to continued confidentiality of the Sacks Report. The Court had struck the July 30, 2026 updated Sacks Report and all references to it by an August 25, 2026 minute order."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A party seeking continued confidential treatment in response to a Rule 5.1 challenge should support each redaction with specific, tangible evidence of concrete current harm. Labels like \"proprietary strategy\" or \"sensitive personal information\" will not do, particularly for years-old communications or material that adds detail to unredacted text. Arguing that the public does not need the information to understand the dispute does not substitute for showing harm, because necessity matters only at the Rule 5.1(b)(2)(D) balancing step.",
+        "standard_of_review": "Ct. Ch. R. 5.1(b)(2)(A)-(D) four-part definition of Confidential Information, with the movant bearing the burden of persuasion under Ct. Ch. R. 5.1(g)(6)(D). Particularized harm requires specific information and \"tangible evidence of concrete damage.\" The matter was a Referred Dispute under Ct. Ch. R. 144(a)(2), resolved by a Final Report under Rule 144(b)(2)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402480"
+    },
+    {
+      "case_id": "de-402430",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "2025-1167-CCB",
+      "judge": "Brittingham M.",
+      "name": "Charles Dean Coverdale and Mary Elizabeth Coverdale v. Sylvan Acres Homeowners Association, Inc., and Thomas Leschak",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T07:49:17-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Section 15 discretion as a basis for denial: rejected. The \"sole and complete authority\" grant is inherently imprecise, sets no clear, objective standard, and does not require garages to match the house; strict construction bars expanding it.",
+          "Section 20(c) (utility buildings/sheds) governs garages: rejected as \"a creative argument\" (fn. 78). By its plain terms it covers utility buildings/sheds no larger than 12' x 24' x 10' and 288 sq. ft., and Leschak's testimony on whether it applied to garages was inconsistent.",
+          "Unwritten matching requirements reflected in past practice and the HOA Permit Request Form: rejected. Imposing them under general architectural discretion would let SAHA create new restrictions without the two-thirds amendment Section 30 requires (fn. 81-82).",
+          "Two-thirds community \"variance\" as an alternate path to compliance: rejected (fn. 80). Section 30 is a mechanism to alter or rescind the Restrictions, not a case-by-case variance.",
+          "Section 28 non-waiver provision (Respondents) and waiver through uneven enforcement (Petitioners): not reached, because the Court held the Restrictions unenforceable as applied.",
+          "Petitioners' claim that Leschak acted ultra vires, outside his capacity as President, and slandered title: rejected as unsupported by the trial evidence. Leschak signed as President with Board approval, consistent with the By-Laws and Certificate of Incorporation.",
+          "Validity of the Notice of Violation: rejected. It rested on unenforceable Section 15, alleged a continuing violation where none existed, and cited \"non-permitted infrastructure\" with no supporting evidence."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "10 Del. C. § 348(e)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The nonprevailing party at a § 348 trial must pay the prevailing party's attorney fees and court costs unless that would be unfair, unreasonable or harsh.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Benner v. Council of Narrows Ass'n of Owners, 2014 WL 7269740 (Del. Ch. Dec. 22, 2014), adopted, 2015 WL 1206724 (Del. Ch. Mar. 16, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Approval covenants are enforceable only if they articulate a clear, precise and fixed standard and are viewed with suspicion; absent such standards the covenant is unenforceable even if owners know approval is required.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Seabreak Homeowners Ass'n, Inc. v. Gresser, 517 A.2d 263 (Del. Ch. 1986), aff'd, 538 A.2d 1113 (Del. 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Approval may not be unreasonably withheld and doubts are resolved for landowners; owners must have notice of the specific requirements; imposing newly asserted or undisclosed requirements is arbitrary and unreasonable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lawhon v. Winding Ridge Homeowners Ass'n, Inc., 2008 WL 5459246 (Del. Ch. Dec. 31, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Architectural review covenants risk arbitrary application; harmony-based restrictions are permissible only where the community has a sufficiently coherent visual style; restrictions too vague to give notice are unenforceable. Fn. 74 notes Lawhon did not decide enforceability as written.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dolan v. Vills. of Clearwater Homeowner's Ass'n, Inc., 2005 WL 2810724 (Del. Ch. Oct. 21, 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The review board bears the burden to show its actions are reasonable, restrictions must provide a reasoned, non-arbitrary basis, and ambiguous restrictions are read in the owner's favor.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Canal Corkran Homeowners Ass'n, Inc. v. Petrone, 2017 WL 1450168 (Del. Ch. Apr. 21, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A covenant lacking clear, precise and fixed standards of application is unenforceable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Quail Vill. Homeowners Ass'n, Inc. v. Rossell, 2018 WL 6534456 (Del. Ch. Dec. 10, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The architectural review committee bears the burden on validity; the injunction movant bears its own burden; the standard is preponderance of the evidence.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Wild Quail Golf & Country Club Homeowners' Ass'n, Inc. v. Babbitt, 2021 WL 2324660 (Del. Ch. June 3, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Deed restrictions are construed as contracts, by plain meaning and as a whole.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Alapocas Maint. Corp. v. Wilmington Friends Sch., Inc., 2023 WL 5013706 (Del. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Ambiguity in deed restrictions is resolved in favor of the landowner.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Yu, Tr. of Elmer Yu Revocable Tr. v. Cahill, 2024 WL 4100859 (Del. Ch. Sept. 6, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Permanent injunction elements; irreparable harm is often presumed for recorded instruments affecting title; injunction is appropriate absent substantial economic harm to the other side.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rudnitsky v. Rudnitsky, 2000 WL 1724234 (Del. Ch. Nov. 14, 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cancellation is the ordinary equitable remedy to remove a cloud on title.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "BuzzFeed, Inc. v. Anderson, 2022 WL 15627216 (Del. Ch. Oct. 28, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An agent of a disclosed principal who signs on the principal's behalf generally is not personally bound.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lazard Debt Recovery GP, LLC v. Weinstock, 864 A.2d 955 (Del. Ch. 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An agent contracting within authority for a disclosed principal is not personally liable.",
+            "role": "background"
+          },
+          {
+            "authority": "6 Del. C. § 3-402(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A representative signing unambiguously on behalf of an identified principal is not liable on the instrument.",
+            "role": "background"
+          },
+          {
+            "authority": "10 Del. C. § 8133",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Fn. 105: the Delaware Volunteer Immunity Statute applies to Leschak as an unpaid agent of a non-profit.",
+            "role": "background"
+          },
+          {
+            "authority": "Newton v. Leparc Condo. Ass'n, 2026 WL 937381",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Volunteer immunity barred an individual claim against an association council chair.",
+            "role": "background"
+          },
+          {
+            "authority": "Fernstrom v. Trunzo, 2017 WL 6028871",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Claim dismissed absent proof of ultra vires conduct.",
+            "role": "background"
+          },
+          {
+            "authority": "The Cove on Herring Creek Homeowners' Ass'n, Inc. v. Riggs, 2003 WL 1903473 (Del. Ch. Apr. 9, 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Injunction granted where the opposing party showed no substantial economic hardship.",
+            "role": "background"
+          },
+          {
+            "authority": "Tusi v. Mruz, 2002 WL 31499312 (Del. Ch. Oct. 31, 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Restrictive covenants are strictly construed.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. Exp. Shuttle, Inc. v. Older, 2002 WL 31458243 (Del. Ch. Oct. 23, 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Definition of preponderance of the evidence.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 41(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Respondents' motion to dismiss at the close of Petitioners' case was deferred to the close of evidence and renewed.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144; Ct. Ch. R. 174(c)(2); 10 Del. C. § 348",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Final report subject to exceptions; § 348 eligibility certification and mandatory mediation.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Homeowners sued Sylvan Acres Homeowners Association, Inc. and its Board President, Leschak, under 10 Del. C. § 348 after SAHA denied their garage plans and Leschak recorded a Notice of Violation following site excavation. After a one-day trial, the Magistrate in Chancery found the architectural review covenant lacked clear, precise and fixed standards and did not require a garage to match the house, so the denial was unreasonable and the Notice of Violation must be cancelled as a cloud on title. The personal claim against Leschak was dismissed because he acted as President with Board authorization, and fees and costs were shifted to Petitioners under § 348(e).",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 22
+        },
+        "core_legal_issue": "Whether Sylvan Acres' architectural review covenant (Restrictions § 15, granting the Architectural and Building Committee \"sole and complete authority\" to approve plans) supplied clear, precise and fixed standards that could support denying a garage the Restrictions expressly permit (§ 2) because its metal siding and roof did not match the house; whether the recorded Notice of Violation must be cancelled; and whether Leschak, the SAHA Board President, is personally liable for recording it.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 17,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Court's final report found the Restrictions unenforceable as they relate to the construction and design of Petitioners' proposed garage and recommended judgment for Petitioners against SAHA. Section 2 permits a garage, and Section 15's grant of \"sole and complete authority\" sets no clear, objective standard. Read strictly, nothing in the Restrictions requires matching siding or roofing, and Section 20(c) covers only small utility buildings/sheds. SAHA therefore could not impose unwritten matching requirements without a Section 30 amendment, and its denial was unreasonable. Because the Notice of Violation rested on unenforceable Section 15, alleged a continuing violation that did not exist, and cited infrastructure for which there was no evidence, Petitioners showed actual success. Irreparable harm followed from the cloud on title, and the balance of equities favored relief because Respondents showed no hardship, so the Notice of Violation is to be cancelled. The claim against Leschak personally was dismissed: the evidence showed he signed and recorded the Notice as President with Board approval, consistent with the By-Laws and Certificate of Incorporation. Footnotes add agency-law principles and the Volunteer Immunity Statute. Attorneys' fees and costs are shifted to Petitioners as prevailing parties under 10 Del. C. § 348(e); no amount or procedure was set. Exceptions may be taken under Rule 144.",
+        "key_facts_and_concessions": [
+          "Section 2 of the Restrictions expressly permits \"a garage for the use of privately owned automobiles.\" No provision requires garage siding or roofing to match the house. Section 15 requires submission of plans, including color schemes, and gives the reviewing body \"sole and complete authority\" with no stated standard.",
+          "Petitioners proposed a 24' x 28' post-frame garage with a front matching the house and metal cladding on the other sides and roof. The first denial was given orally by Board member Mike Lacey. The August 22 and August 26, 2025 letters reaffirming the denial were silent as to which provision required it (fn. 16, 18).",
+          "The October 23, 2025 denial of the second application required wood cladding on all four sides and roofing and colors matching the house, citing thirty years of consistent practice and sixteen other free-standing garages. Witnesses gave shifting reasons for the denial, including glare, horizontal versus vertical siding, and mismatched materials (fn. 31).",
+          "Leschak's interrogatory answer stated that \"[t]o the extent any architectural guidelines exist, they were never incorporated into the Declaration and were never distributed to residents.\" No member of the Architectural and Building Committee testified (fn. 71).",
+          "Petitioners acknowledged their property is subject to the Restrictions. After the denial they removed topsoil and placed filler at the garage site in anticipation of approval. The September 5, 2025 Notice of Continuing Violation cited excavation, grading, hardscaping and \"non-permitted infrastructure.\" The Court found there was no continuing violation and no evidence of any infrastructure.",
+          "Leschak signed and recorded the Notice of Violation as President. Leschak testified the Board approved it on a September 4, 2025 phone call after counsel recommended it, and Board Secretary Jenkins corroborated that the Board authorized the filing.",
+          "The Board offered Petitioners a \"variance\" if two-thirds of the community approved, and Petitioners declined (fn. 80).",
+          "The HOA Permit Request Form given to Petitioners after the first denial states that \"[e]xterior material must conform to those used on the original structure.\" That language does not appear in the Restrictions as to garages (fn. 82)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "An association that conditions construction on approval must point to a written, objective standard in the recorded restrictions. Past practice, permit-form language, or a stretched reading of an adjacent provision (here a shed restriction) will not substitute, and the Court held a two-thirds amendment provision cannot be repurposed as a case-by-case variance. Under § 348(e), losing such a dispute carries mandatory fee shifting, and recording a notice of violation without evidentiary support invites cancellation.",
+        "standard_of_review": "Post-trial final report under 10 Del. C. § 348, decided by a preponderance of the evidence. The architectural review committee bears the burden to show the restriction is valid, reasonable and enforceable. Deed restrictions are strictly construed and doubts are resolved for the landowner. Petitioners bear the burden on injunctive relief: actual success on the merits, irreparable harm and balance of the equities. Respondents' Ct. Ch. R. 41(b) motion was deferred to the close of all evidence and then renewed."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402430"
+    },
+    {
+      "case_id": "de-402530",
+      "court": "chancery",
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2026-0715-CDW (BWD)",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "Chad Bronstein, et al. v. Tyson 2.0, Inc.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T17:46:38-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Releases cover advancement under Illinois law: waived. The Company did not meaningfully engage on Illinois law before the Magistrate, and \"[t]he exceptions process is not available for parties to spring new arguments.\" The Company therefore failed to carry its burden on the affirmative defense.",
+          "Delaware law governs the scope of the Releases: rejected. Although advancement claims may be contractually released under Delaware law, whether the Releases' language covers advancement is governed by Illinois law under the agreements' choice-of-law clause.",
+          "Failure to prove the defense warranted only denial of the Company's motion, not judgment for Plaintiffs: rejected. The parties agreed to cross-motions and identified no disputed material fact, so Rule 56(i) permitted decision on the merits.",
+          "Unsettled Illinois law creates terrain precluding summary judgment: rejected (fn. 1). The Company conceded the uncertainty concerns construction of a governing instrument, not disputed facts, and having waived its Illinois-law arguments it cannot repackage the Release defense as a factual dispute.",
+          "Report improperly treated the Beer Case as categorically advanceable without count-by-count analysis: rejected. The Court analyzed each disputed count and found each arises \"by reason of\" former corporate status.",
+          "Fees-on-fees should be adjusted: denied (fn. 5), because that request depended on the Company's other exceptions being sustained."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Houghton v. Ceresini, 2026 WL 2043726 (Del. Ch. July 15, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "\"The exceptions process is not available for parties to spring new arguments\"; new Illinois-law arguments raised on exceptions are waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Separation agreements ¶ 18 (choice-of-law clause) and ¶ 4 (Release)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Illinois law governs interpretation of the Releases, including whether they reach advancement claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Kokorich v. Momentus Inc., 2023 WL 3454190 (Del. Ch. May 15, 2023), aff'd, 308 A.3d 1192 (Del. 2023) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Advancement claims under indemnification agreements and bylaws are contractual and may be released like any other contractual right.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Where cross-motions for summary judgment identify no disputed material fact, the Court may deem them a stipulation for decision on the merits on the submitted record.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ephrat v. MedCPU, Inc., 2019 WL 2613281 (Del. Ch. June 26, 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A claim arises \"by reason of the fact\" of corporate capacity if there is a nexus or causal connection between the underlying proceeding and official corporate capacity; this includes post-employment misuse of proprietary information obtained as a director or officer.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marino v. Patriot Rail Co., 131 A.3d 325 (Del. Ch. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The scope of advancement rights normally turns on the pleadings in the underlying litigation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Brown v. LiveOps, Inc., 903 A.2d 324 (Del. Ch. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Post-employment misuse of proprietary information accessed as a director and officer arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Thompson v. Orix USA Corp., 2016 WL 3226933 (Del. Ch. June 3, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Same: post-employment misuse of information accessed through a corporate position triggers advancement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Zaman v. Amedeo Hldg., Inc., 2008 WL 2168397 (Del. Ch. May 23, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Breach of an obligation to keep confidential information acquired while serving as a fiduciary arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pontone v. Milso Indus. Corp., 100 A.3d 1023 (Del. Ch. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Inducing employees and customers to move to a competitor by leveraging confidential information learned in an official corporate capacity arises by reason of corporate status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "De novo review of a Magistrate in Chancery's determinations on exceptions.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 145(e)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Referenced through Ephrat's quotation describing the proceedings for which expenses may be advanced.",
+            "role": "background"
+          },
+          {
+            "authority": "Hoseman v. Weinschneider, 322 F.3d 468 (7th Cir. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "New Illinois-law authority the Company first cited on exceptions; not considered because the argument was waived.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Former Tyson 2.0 officers Bronstein, Cosby and Wilks sought advancement for two Northern District of Illinois suits (the Beer Case and the RICO Case), and a Magistrate in Chancery granted Plaintiffs' cross-motion for summary judgment on entitlement and fees-on-fees; the Company filed exceptions. Reviewing de novo, Vice Chancellor David held the Company's Illinois-law release arguments waived because they were first raised on exceptions, despite the separation agreements' Illinois choice-of-law clause. The Vice Chancellor also held that Rule 56(i) supported entry of judgment on the agreed cross-motions. A count-by-count review confirmed that each disputed Beer Case count arises by reason of Bronstein's and Cosby's former corporate status because each turns on relationships or confidential information obtained in their corporate roles.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 12
+        },
+        "core_legal_issue": "On exceptions to a Magistrate in Chancery's summary judgment order granting advancement to former officers of Tyson 2.0, Inc.: (1) whether Tyson 2.0 proved its affirmative defense that Illinois-law separation agreements released advancement claims, where it argued only Delaware law before the Magistrate; and (2) whether each disputed count of the Beer Case complaint, which challenges post-employment conduct, arises \"by reason of\" Bronstein's and Cosby's former corporate status.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 16,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Exceptions denied and the Report's conclusions affirmed. On the release defense, Delaware law permits releasing advancement claims, but Illinois law governs whether these Releases do so. The Company did not meaningfully argue Illinois law before the Magistrate, so its Illinois-law arguments on exceptions were waived and it failed to carry its burden on the affirmative defense. Entry of judgment for Plaintiffs, rather than merely denying the Company's motion, was proper under Rule 56(i) because the parties agreed to cross-motions and identified no disputed material fact; the Company's own concession that the uncertainty concerns construction of a governing instrument foreclosed recasting the defense as a fact dispute. On the merits, the Court reviewed each disputed Beer Case count (II, IV, VI, VII, XII, XIII) and found that each alleges solicitation or interference by leveraging relationships, projects or confidential information developed or obtained in Bronstein's and Cosby's corporate roles. Each therefore arises \"by reason of\" their former corporate status and requires advancement. The Company's request to adjust the fees-on-fees award, which depended on sustaining its other exceptions, was denied.",
+        "key_facts_and_concessions": [
+          "Bronstein's and Cosby's 2023 separation agreements contain a broad release of claims \"relating to, arising out of, or in any way connected with\" their employment, and ¶ 18 provides that the agreements \"shall be interpreted, enforced, and governed under the laws of Illinois.\"",
+          "Before the Magistrate, the Company argued only that the Releases covered advancement under Delaware law. Plaintiffs responded that Illinois law governs and would not reach advancement claims; the Company's only reply at oral argument was that it viewed \"Delaware law as more relevant and controlling.\"",
+          "On exceptions, the Company argued for the first time that the Releases cover advancement under Illinois law, citing new authority (e.g., Hoseman v. Weinschneider).",
+          "The parties agreed to submit entitlement to advancement on cross-motions for summary judgment and did not identify a disputed issue of material fact.",
+          "The Company conceded on exceptions that \"the uncertainty concerns the construction of a governing instrument rather than disputed facts\" (fn. 1).",
+          "The Beer Case counts the Company disputed (Counts II, IV, VI, VII, XII, XIII) allege solicitation of Hulk Hogan, TGB Entertainment and Volo using relationships and contacts formed during employment, continued development of the \"Real American\" beer begun while Bronstein was at Tyson 2.0, and use of confidential information obtained in their roles.",
+          "Count XIII alleges Bronstein and Cosby knew of the prospective beer relationship because \"they were at times the principal officers in charge of developing that relationship on behalf of Tyson 2.0.\"",
+          "The Magistrate issued the Report by granting Plaintiffs' proposed form of order with explanatory comments."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "When a release defense rests on an agreement with a non-Delaware choice-of-law clause, brief the scope question under the chosen law before the Magistrate in Chancery, because new choice-of-law arguments and authority are waived on exceptions. Parties who agree to decide entitlement on cross-motions should expect Rule 56(i) merits judgment unless they identify a genuine fact dispute, and \"post-employment\" labels will not avoid advancement where the underlying complaint pleads misuse of relationships or confidential information gained in office.",
+        "standard_of_review": "De novo review of the Magistrate in Chancery's determinations (DiGiacobbe v. Sestak). Below, cross-motions for summary judgment were deemed a stipulation for decision on the record under Ct. Ch. R. 56(i)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402530"
+    }
+  ],
+  "ny_date": "2026-10-23"
+}
