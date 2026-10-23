@@ -210,6 +210,61 @@
         "standard_of_review": "Post-trial final report under 10 Del. C. § 348, decided by a preponderance of the evidence. The architectural review committee bears the burden to show the restriction is valid, reasonable and enforceable. Deed restrictions are strictly construed and doubts are resolved for the landowner. Petitioners bear the burden on injunctive relief: actual success on the merits, irreparable harm and balance of the equities. Respondents' Ct. Ch. R. 41(b) motion was deferred to the close of all evidence and then renewed."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402430"
+    },
+    {
+      "case_id": "de-402470",
+      "court": "supreme",
+      "date": "2026-10-23",
+      "docket": "369, 2026",
+      "judge": "Seitz C.J.",
+      "name": "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. v. ExactLogix, Inc. d/b/a Acculynx.com, et al.",
+      "ny_date": "2026-10-23",
+      "ny_processed_at": "2026-10-23T09:54:37-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "The order does not identify Appellants' appellate arguments. It rejects them only implicitly, by affirming for the reasons stated in the Court of Chancery's August 7, 2026 Post-Trial Memorandum Opinion."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Court of Chancery Post-Trial Memorandum Opinion dated August 7, 2026 (C.A. No. 2026-0023)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Adopted in full as the basis for, and the reasons supporting, affirmance of the Court of Chancery's judgment.",
+            "role": "relied_on"
+          }
+        ],
+        "brief_summary": "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. appealed the Court of Chancery's post-trial judgment, entered on a Post-Trial Memorandum Opinion dated August 7, 2026, in their action against ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr. as seller representative, which included counterclaims. The order does not identify the Court of Chancery judge. After briefing and oral argument, the Supreme Court affirmed by short order, two days after submission, adopting the trial court's opinion as its basis and reasoning.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 0
+        },
+        "core_legal_issue": "Whether the Court of Chancery's post-trial judgment, entered on the Post-Trial Memorandum Opinion dated August 7, 2026, in the action between Verisk Analytics, Inc. and Lenny Merger Sub, Inc. and ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr. (as seller representative), should be affirmed. The order does not identify the issues decided below or raised on appeal.",
+        "coverage_note": "",
+        "disposition": "affirmed",
+        "fact_check": {
+          "checked": 8,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The judgment of the Court of Chancery is affirmed. The Supreme Court found it \"evident\" that the judgment should be affirmed on the basis of, and for the reasons stated in, the Post-Trial Memorandum Opinion dated August 7, 2026. The order states no further analysis, remedy or directive.",
+        "key_facts_and_concessions": [
+          "The Supreme Court affirmed \"on the basis of and for the reasons stated in the Post-Trial Memorandum Opinion dated August 7, 2026\" and added no independent reasoning.",
+          "Verisk Analytics, Inc. and Lenny Merger Sub, Inc. were Plaintiffs/Counterclaim Defendants below and are the Appellants.",
+          "ExactLogix, Inc. d/b/a Acculynx.com and Richard Spanton, Jr., \"in his capacity as seller representative,\" were Defendants/Counterclaim Plaintiffs below and are the Appellees.",
+          "The appeal was decided on the parties' briefs, the record below and oral argument; it was submitted October 21, 2026 and decided October 23, 2026.",
+          "The panel was Seitz, C.J., and Traynor, Legrow, Griffiths and Zurn, JJ.; the order was signed by Seitz, C.J. \"BY THE COURT.\""
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "The Supreme Court adopted the August 7, 2026 Post-Trial Memorandum Opinion wholesale, so that opinion's reasoning now carries Supreme Court endorsement; practitioners should cite and analyze it directly. Appellants should expect that a post-trial judgment can be affirmed swiftly by order without separate appellate analysis.",
+        "standard_of_review": "Not stated"
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402470"
     }
   ],
   "ny_date": "2026-10-23"
