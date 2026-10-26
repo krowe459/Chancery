@@ -642,6 +642,13 @@
       "processed_at": "2026-10-23T11:52:36-04:00",
       "status": "ok"
     },
+    "de-402490": {
+      "court": "supreme",
+      "docket": "116, 2026",
+      "name": "Neal v. State",
+      "processed_at": "2026-10-26T12:13:58-04:00",
+      "status": "out_of_scope"
+    },
     "de-402500": {
       "court": "chancery",
       "docket": "C.A. No. 2022-1001-KSJM",
@@ -669,13 +676,27 @@
       "name": "Chad Bronstein, et al. v. Tyson 2.0, Inc.",
       "processed_at": "2026-10-23T17:46:38-04:00",
       "status": "ok"
+    },
+    "de-402550": {
+      "court": "supreme",
+      "docket": "396, 2025",
+      "name": "Drayton v. State",
+      "processed_at": "2026-10-26T12:13:58-04:00",
+      "status": "out_of_scope"
+    },
+    "de-402560": {
+      "court": "supreme",
+      "docket": "383, 2025",
+      "name": "Fletcher v. State",
+      "processed_at": "2026-10-26T12:13:58-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-23T17:46:38-04:00",
+  "last_checked_ny": "2026-10-26T12:13:58-04:00",
   "page_hashes": {
     "chancery": "9d0a5c2f15f96935f338df1d559b9b8b9c0f46073fd05f308e5e41dbc27d49a4",
     "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
-    "supreme": "0d1a01c52a5564366a67027abd2bf10a32734a1ff345c7d95b679549fceb28bc"
+    "supreme": "001329a6836c9d55393d400c3d9ef018a7ac29992e2174c158ec34d9f1d680b9"
   }
 }
