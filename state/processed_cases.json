@@ -690,13 +690,27 @@
       "name": "Fletcher v. State",
       "processed_at": "2026-10-26T12:13:58-04:00",
       "status": "out_of_scope"
+    },
+    "de-402580": {
+      "court": "supreme",
+      "docket": "251, 2026",
+      "name": "GI DI Rushmore Parent LP v. Donald E. Stoops, Jr.",
+      "processed_at": "2026-10-26T13:50:56-04:00",
+      "status": "ok"
+    },
+    "de-402590": {
+      "court": "superior",
+      "docket": "2107011685",
+      "name": "State v. Watson",
+      "processed_at": "2026-10-26T13:50:56-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-26T12:13:58-04:00",
+  "last_checked_ny": "2026-10-26T13:50:56-04:00",
   "page_hashes": {
     "chancery": "9d0a5c2f15f96935f338df1d559b9b8b9c0f46073fd05f308e5e41dbc27d49a4",
-    "superior": "fdf8a4cf752a62fd7de8e39b6f1825dd6c3770de28695798e0a347789f1bdadc",
-    "supreme": "001329a6836c9d55393d400c3d9ef018a7ac29992e2174c158ec34d9f1d680b9"
+    "superior": "966ee7382fae15519230fa93d41b099385c5e3b6fb90478c2af38f9c22f4ce98",
+    "supreme": "1e52c5bc1485085dbecf0b0183918154e6b0ab0f95247b82ee94af3021130144"
   }
 }

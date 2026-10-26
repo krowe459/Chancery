@@ -1,4 +1,203 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402580",
+      "court": "supreme",
+      "date": "2026-10-26",
+      "docket": "251, 2026",
+      "judge": "Traynor J.",
+      "name": "GI DI Rushmore Parent LP v. Donald E. Stoops, Jr.",
+      "ny_date": "2026-10-26",
+      "ny_processed_at": "2026-10-26T13:50:56-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Internal-affairs doctrine (Rushmore): rejected. Under Salzberg, forum-selection clauses can regulate intra-corporate claims, so disputes over them are intra-corporate claims rather than internal-affairs claims, and a choice-of-law analysis applies.",
+          "Delaware as the \"default state\" (Rushmore): rejected. The § 188 contacts favor Oklahoma: the place of contracting and the place of performance are Oklahoma, and negotiation, subject matter and domicile are neutral.",
+          "Place of performance is Delaware or neutral because Incentive Units sit in both states depending on vesting (Rushmore): rejected as confusing the place of performance with the location of the subject matter. The contract was performed by Stoops working for Bluepeak in Oklahoma.",
+          "No conflict between Delaware and Oklahoma law on forum-clause enforceability (Rushmore): rejected. Delaware typically enforces unnegotiated, otherwise-valid forum-selection clauses, while Oklahoma case law enforces only clauses the parties specifically negotiated or discussed.",
+          "Subject matter located in Oklahoma because the subject matter is Stoops's employment (Stoops): rejected. The subject matter is the grant of Incentive Units in return for work, so this factor is neutral (unvested units in Delaware, vested units in Oklahoma).",
+          "Court of Chancery's reliance on the Oklahoma Access Statute (Okla. Stat. tit. 15 § 216): not adopted (fn. 58). The statute preserves access to \"ordinary tribunals,\" meaning a judicial forum rather than Oklahoma tribunals, so it does not embody a fundamental policy against forum-selection clauses. Gemini (Idaho statute requiring Idaho tribunals) does not compel a contrary reading.",
+          "Enforceability and reasonableness of the clause under Delaware law (Rushmore): not reached, because Oklahoma law governs. The Court of Chancery's alternative holding that lack of notice made enforcement unreasonable under Delaware law was neither reviewed nor endorsed.",
+          "Oklahoma's policy restricting non-competes: not reviewed. The Court limited its conflict review to forum-selection-clause enforcement."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 187(2)",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "A contractual choice of law is enforced unless (a) there is no substantial relationship or other reasonable basis, or (b) applying it would contravene a fundamental policy of a state with a materially greater interest that would be the default state under § 188. The exceptions are disjunctive.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 188",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "The default state is the state with the most significant relationship, evaluated through five contacts weighed by their relative importance to the dispute.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 187 cmt. g",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "A fundamental policy may be embodied in a statute making contracts illegal or protecting against oppressive use of superior bargaining power. The Court extended this to policies embodied in case law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Certain Underwriters at Lloyds, London v. Chemtura Corp., 160 A.3d 457 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Choice-of-law determinations are reviewed de novo; Delaware follows the Restatement § 187 test, and the Restatement offers layers of guidance for identifying the most significant relationship.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Salzberg v. Sciabacucchi, 227 A.3d 102 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Distinguishes internal corporate claims from broader intra-corporate claims, which forum provisions may regulate. The Court relied on it to hold that forum-selection disputes are intra-corporate claims subject to choice-of-law analysis.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Eads v. Woodmen of the World Life Ins. Soc'y, 785 P.2d 328 (Okla. Civ. App. 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Oklahoma's test for forum-selection clauses (the highest Oklahoma court to address the issue): lack of bargaining, a form contract, terms unreasonably favorable to one side, and unequal bargaining power can render a clause unreasonable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Adams v. Bay Ltd., 60 P.3d 509 (Okla. Civ. App. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Applies the Eads factors disjunctively; a clause not negotiated by the parties may be found invalid.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Howard Family Charitable Found., Inc. v. Trimble, 259 P.3d 850 (Okla. Civ. App. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A disjunctive \"unfair or unreasonable\" standard may invalidate forum-selection clauses that the parties have not negotiated or discussed.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Burggraf Servs., Inc. v. H2O Solutions, 369 P.3d 52 (Okla. Civ. App. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A forum-selection clause is unenforceable where there is no evidence it was negotiated and the defendants had relatively little bargaining power.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "UBEO Holdings, LLC v. Drakulic, 2021 WL 1716966 (Del. Ch.); Mack v. Rev. Worldwide, Inc., 2020 WL 7774604 (Del. Ch. Dec. 30, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited together: Delaware typically enforces unnegotiated, otherwise-valid forum-selection clauses, even where the party never read the agreement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Restatement (Second) of Conflict of Laws § 188 cmt. e",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "The place-of-negotiation contact is of less importance where there is no single place of negotiation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Okla. Stat. tit. 15 § 216",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The Oklahoma Access Statute relied on below preserves access to ordinary (judicial) tribunals, not Oklahoma tribunals, and so is not a fundamental policy against forum-selection clauses (fn. 58).",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Gemini Techs., Inc. v. Smith & Wesson Corp., 931 F.3d 911 (9th Cir. 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Construed an Idaho statute that expressly requires enforcement in Idaho tribunals, unlike Oklahoma's statute (fn. 58).",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Edgar v. MITE Corp., 457 U.S. 624 (1982)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The internal-affairs doctrine recognizes that only one state should regulate an entity's internal affairs.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 115",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Cited with Salzberg regarding internal corporate claims.",
+            "role": "background"
+          },
+          {
+            "authority": "Focus Fin. Partners, LLC v. Holsopple, 241 A.3d 784 (Del. Ch. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The § 188 contacts are evaluated according to their relative importance.",
+            "role": "background"
+          },
+          {
+            "authority": "The Bremen v. Zapata Off-Shore Co., 407 U.S. 1 (1972)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted in Eads: the party resisting a forum clause may show the contractual forum is so gravely inconvenient as to deprive it of its day in court.",
+            "role": "background"
+          },
+          {
+            "authority": "STI Trucking, LLC v. Santa Rosa Operating, LLC, 2021 WL 3604609 (N.D. Okla. Aug. 13, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A forum-selection clause may be invalid where it was not negotiated or agreed upon.",
+            "role": "background"
+          },
+          {
+            "authority": "CDX Holdings, Inc. v. Fox, 141 A.3d 1037 (Del. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Factual findings are reviewed for clear error.",
+            "role": "background"
+          },
+          {
+            "authority": "Sunder Energy, LLC v. Jackson, 332 A.3d 472 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Preliminary injunction rulings are reviewed for abuse of discretion.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Rushmore appealed the Court of Chancery's dismissal for lack of personal jurisdiction (GI DI Rushmore Parent L.P. v. Stoops, 2026 WL 1679305 (Del. Ch. June 10, 2026); the trial judge is not named in the order) of its suit to enforce restrictive covenants against Stoops, a former Bluepeak executive based in Oklahoma. The Court of Chancery held the Partnership Agreement's Delaware forum-selection clause unenforceable under both Oklahoma and Delaware law. The Supreme Court held that forum-clause disputes are intra-corporate rather than internal-affairs matters, that Oklahoma is the § 188 default state, and that Oklahoma case law's refusal to enforce unnegotiated forum clauses is a fundamental policy conflicting with Delaware law. Because the clause was never negotiated or discussed, Oklahoma would not enforce it, and the Court affirmed without reaching Delaware-law enforceability.",
+        "citation_check": {
+          "not_checked": 4,
+          "not_found": 0,
+          "verified": 16
+        },
+        "core_legal_issue": "Whether a Delaware forum-selection clause found only in a Delaware limited partnership agreement, which an Oklahoma-based employee joined through an incentive unit grant and joinder he signed without receiving or reading the partnership agreement, could supply personal jurisdiction over him in the Court of Chancery. The answer turned on whether the internal-affairs doctrine displaces choice-of-law analysis and, if not, whether Restatement (Second) § 187(2)(b) required applying Oklahoma law, under which unnegotiated forum-selection clauses are unenforceable.",
+        "coverage_note": "",
+        "disposition": "affirmed",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Affirmed: the dismissal for lack of personal jurisdiction and the denial of the preliminary injunction. The internal-affairs doctrine does not govern because, under Salzberg, forum-selection disputes are intra-corporate claims, so a choice-of-law analysis applies. Under Restatement § 187(2)(b), Oklahoma is the default state under § 188. A fundamental policy may be embodied in case law as well as statute, and Oklahoma case law in the Eads line treats lack of negotiation of a forum-selection clause as sufficient to void it. That conflicts with Delaware's typical enforcement of unnegotiated clauses, so Oklahoma law governs the Partnership Agreement's forum-selection clause. Because the clause was undisputedly neither negotiated nor discussed (Stoops never received the Partnership Agreement before signing the Joinder), the Court predicted Oklahoma would not enforce it. Without the clause, Delaware lacks personal jurisdiction over Stoops. The Court affirmed on Oklahoma case law rather than the Court of Chancery's Access Statute rationale, which it found does not establish a fundamental policy against forum clauses (fn. 58). It did not decide whether Delaware law would enforce the clause.",
+        "key_facts_and_concessions": [
+          "The Partnership Agreement's forum-selection clause was Rushmore's only asserted basis for personal jurisdiction, below and on appeal. Stoops is an Oklahoma resident with no Delaware contacts, and neither party argued any other basis.",
+          "When Stoops signed the Unit Agreement and the Joinder Agreement, he had neither received nor read the Partnership Agreement, despite acknowledging in Unit Agreement § 7.7 that he had, and he had not asked for it. He first requested it in February 2024, more than two and a half years later.",
+          "It was undisputed that Stoops and Rushmore did not negotiate or discuss the forum-selection clause.",
+          "Only the Partnership Agreement contains the Delaware forum-selection clause; both the Unit Agreement and the Partnership Agreement contain Delaware choice-of-law provisions.",
+          "Stoops lived and worked in Oklahoma for his entire Bluepeak tenure (Vice President, Market Development, June 2021 to April 2026) and signed the Unit Agreement there. Rushmore agreed that Oklahoma is the place of contracting (Reply Br. at 12).",
+          "The parties negotiated the Unit Agreement minimally and from separate states.",
+          "The Unit Agreement granted Incentive Units (about 2% of Rushmore's management incentive pool) in consideration for Stoops's services. It made him a limited partner and imposed four restrictive covenants: non-competition, non-solicitation and confidentiality for two years post-employment, and non-disparagement in perpetuity.",
+          "Rushmore sued after Stoops resigned to join Dobson Fiber, a Bluepeak competitor, seeking injunctions and damages for breach of the covenants. Bluepeak (Clarity Telecom, LLC) is a Delaware LLC and Rushmore's only subsidiary."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Sponsors that grant equity to out-of-state employees should not rely on a forum-selection clause buried in an unseen partnership agreement incorporated by joinder. Put the clause in the signed grant document, deliver the governing agreement before signing, and document any negotiation or discussion of the clause, because the Supreme Court will apply the employee's home-state law where its case law embodies a fundamental policy. Plaintiffs should also develop any independent basis for personal jurisdiction rather than resting solely on the clause.",
+        "standard_of_review": "De novo for choice-of-law determinations in contract disputes; clear error for factual findings; abuse of discretion for the grant or denial of a preliminary injunction."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402580"
+    }
+  ],
+  "ny_date": "2026-10-26"
 }
