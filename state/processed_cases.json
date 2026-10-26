@@ -711,13 +711,20 @@
       "name": "In Re: Rancho Verde",
       "processed_at": "2026-10-26T15:53:35-04:00",
       "status": "ok"
+    },
+    "de-402630": {
+      "court": "superior",
+      "docket": "1504011040A",
+      "name": "State v. Mayfield",
+      "processed_at": "2026-10-26T17:47:31-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-26T15:53:35-04:00",
+  "last_checked_ny": "2026-10-26T17:47:31-04:00",
   "page_hashes": {
     "chancery": "0f70081f325c30f74d39cb2f9845421b07703af24b3fdb3046e986a00569fc66",
-    "superior": "966ee7382fae15519230fa93d41b099385c5e3b6fb90478c2af38f9c22f4ce98",
+    "superior": "9ad9c3c2acad8e21d8623088723794d0e596d650036d66e04a79da819740afa7",
     "supreme": "1e52c5bc1485085dbecf0b0183918154e6b0ab0f95247b82ee94af3021130144"
   }
 }
