@@ -704,12 +704,19 @@
       "name": "State v. Watson",
       "processed_at": "2026-10-26T13:50:56-04:00",
       "status": "out_of_scope"
+    },
+    "de-402600": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0412-TJF",
+      "name": "In Re: Rancho Verde",
+      "processed_at": "2026-10-26T15:53:35-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-26T13:50:56-04:00",
+  "last_checked_ny": "2026-10-26T15:53:35-04:00",
   "page_hashes": {
-    "chancery": "9d0a5c2f15f96935f338df1d559b9b8b9c0f46073fd05f308e5e41dbc27d49a4",
+    "chancery": "0f70081f325c30f74d39cb2f9845421b07703af24b3fdb3046e986a00569fc66",
     "superior": "966ee7382fae15519230fa93d41b099385c5e3b6fb90478c2af38f9c22f4ce98",
     "supreme": "1e52c5bc1485085dbecf0b0183918154e6b0ab0f95247b82ee94af3021130144"
   }
