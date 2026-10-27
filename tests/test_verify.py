@@ -58,9 +58,11 @@ class CollectClaimsTest(unittest.TestCase):
         # The Oct. 26 Rushmore takeaway misstated the Court's choice-of-law rule.
         call, sent = fake_call([{6: "contradicted"}])
         fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
-        self.assertIn("6. [Practical takeaway: check only what it says about this case",
+        self.assertIn("6. [Practical takeaway: check what it says about this case",
                       sent[0]["prompt"])
-        self.assertIn("Do not judge the advice itself", sent[0]["system"][0]["text"])
+        system = " ".join(sent[0]["system"][0]["text"].split())
+        self.assertIn("Do not judge whether the advice is wise", system)
+        self.assertIn("recommends a step that the Court's own reasoning shows would not", system)
         self.assertEqual([(f["field"], f["assertion"]) for f in fc["flags"]],
                          [("practical_takeaway", "Advice only:")])
 

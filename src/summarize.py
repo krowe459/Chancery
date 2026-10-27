@@ -112,7 +112,13 @@ parties, the provision, the posture, the Court's reasons) must be stated in \
 the opinion. Do not label the case with a category the opinion does not use: \
 if the opinion speaks only of "bylaws", do not call it advance-notice bylaw \
 litigation. When the decision gives no reasoning (e.g., a short affirmance \
-by order), base the advice only on what it decided.
+by order), base the advice only on what it decided. The advice must follow \
+from the ground the Court actually decided on: recommend only steps that, \
+under the Court's own reasoning, would have changed the result or avoided \
+the problem. Do not suggest a step the reasoning shows would not help (e.g., \
+moving a forum clause into the signed document, when the Court held \
+unnegotiated clauses void wherever they appear), and do not generalize the \
+holding beyond the conditions the Court relied on.
 
 Reading rules:
 - Treat footnotes as part of the analysis. Rulings, concessions, waiver \
