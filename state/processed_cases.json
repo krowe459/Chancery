@@ -677,6 +677,13 @@
       "processed_at": "2026-10-23T17:46:38-04:00",
       "status": "ok"
     },
+    "de-402540": {
+      "court": "supreme",
+      "docket": "307, 2026",
+      "name": "Phillips v. State",
+      "processed_at": "2026-10-27T13:57:09-04:00",
+      "status": "out_of_scope"
+    },
     "de-402550": {
       "court": "supreme",
       "docket": "396, 2025",
@@ -689,6 +696,13 @@
       "docket": "383, 2025",
       "name": "Fletcher v. State",
       "processed_at": "2026-10-26T12:13:58-04:00",
+      "status": "out_of_scope"
+    },
+    "de-402570": {
+      "court": "supreme",
+      "docket": "61, 2026",
+      "name": "Teresa D. Robinson v. Jone Posey, et al.",
+      "processed_at": "2026-10-27T13:57:09-04:00",
       "status": "out_of_scope"
     },
     "de-402580": {
@@ -718,13 +732,34 @@
       "name": "State v. Mayfield",
       "processed_at": "2026-10-26T17:47:31-04:00",
       "status": "out_of_scope"
+    },
+    "de-402640": {
+      "court": "superior",
+      "docket": "N25C-01-330 MAA CCLD",
+      "name": "Davenport Investments, LLC v. Toro Real Estate Partners, LLC",
+      "processed_at": "2026-10-27T13:57:09-04:00",
+      "status": "ok"
+    },
+    "de-402650": {
+      "court": "superior",
+      "docket": "N25C-07-121 KMM CCLD",
+      "name": "US WorldMeds Partners, LLC v. Supernus Pharms., Inc.",
+      "processed_at": "2026-10-27T13:57:09-04:00",
+      "status": "ok"
+    },
+    "de-402660": {
+      "court": "superior",
+      "docket": "S26M-02-001 MHC",
+      "name": "Rickman v. Delaware Department of Justice",
+      "processed_at": "2026-10-27T13:57:09-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-26T17:47:31-04:00",
+  "last_checked_ny": "2026-10-27T13:57:09-04:00",
   "page_hashes": {
     "chancery": "0f70081f325c30f74d39cb2f9845421b07703af24b3fdb3046e986a00569fc66",
-    "superior": "9ad9c3c2acad8e21d8623088723794d0e596d650036d66e04a79da819740afa7",
-    "supreme": "1e52c5bc1485085dbecf0b0183918154e6b0ab0f95247b82ee94af3021130144"
+    "superior": "46a1c7321e1553a64be2f418fc4bca1117d8eed119ce8c7fa683d1b22168db15",
+    "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }

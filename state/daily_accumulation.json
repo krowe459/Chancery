@@ -1,4 +1,412 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402640",
+      "court": "superior",
+      "date": "2026-10-27",
+      "docket": "N25C-01-330 MAA CCLD",
+      "judge": "Adams J.",
+      "name": "Davenport Investments, LLC v. Toro Real Estate Partners, LLC",
+      "ny_date": "2026-10-27",
+      "ny_processed_at": "2026-10-27T13:57:09-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendants' argument that the Exclusivity Provision did not bar closing once negotiations broke down: rejected. Closing without Davenport was an alternative transaction replacing all of the Preferred Equity Investment.",
+          "Expectation damages for breach of the Exclusivity Provision: rejected. The transaction actually closed (all-cash, no Davenport funding at closing, no loan) was not \"the transaction contemplated in [the LOI]\"; Davenport's own hesitancy precluded any finding that it would have funded at closing; and the provision did not oblige Defendants to close all-cash and admit Davenport afterward. The Court did not resolve the resulting \"chicken-and-egg paradox.\"",
+          "Reliance on Vice Chancellor Glasscock's denial of a motion in limine on expectation damages (fn. 70): rejected. The motion was denied as a disguised summary judgment motion, not on the merits of the theory.",
+          "LOI as a Type I preliminary agreement: rejected because § 10 expressly disclaims being bound by the Joint Venture and term sheet economics, so the parties had not agreed on all points.",
+          "LOI as a Type II preliminary agreement: rejected. Assuming Type II status, the question is academic because the Court found no but-for closing; nor was bad faith shown, as the Cohen 5:49 PM email reflected an impasse Davenport caused, not ill will.",
+          "Implied covenant gap-filler for a duty to negotiate in good faith: rejected. The deal falling through was foreseeable, and § 10 acknowledges that negotiations could fail; the theory also does not cure the damages failure.",
+          "Tortious interference against DiRenzo and Cohen: rejected for lack of but-for damages and lack of evidence that they acted outside the scope of their authority or for self-interest rather than Toro's.",
+          "Davenport's prior-material-breach defense to the deposit counterclaim: rejected. Termination itself was not a breach (§ 7 has no anti-termination language and § 8 contemplates termination by either party); the breach was the later closing, by which time the refund obligation had ripened.",
+          "Defendants' abuse of process counterclaim based on the preliminary injunction motion: rejected. The Vice Chancellor found a colorable claim, Defendants were found in breach, and losing a motion does not make it improper.",
+          "Any other counterclaims: waived because Defendants did not raise them in post-trial briefing (fn. 122)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "LOI §§ 7, 8, 10",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "§ 7 bars alternative transactions replacing Davenport's Preferred Equity Investment; § 8 requires a refund of unspent deposit on termination; § 10 makes all but §§ 7-8 non-binding.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "White Winston Select Asset Funds, LLC v. Good Times Restaurants, Inc., 2022 WL 1659161 (D. Del. May 25, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A letter of intent that is neither Type I nor Type II is a third category of preliminary agreement for which only reliance damages are available, because it does not nail down enough of the final deal.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "SIGA Techs., Inc. v. PharmAthene, Inc., 67 A.3d 330 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Defines Type I and Type II preliminary agreements; Type II expectation damages require a finding that the parties would have agreed but for bad-faith negotiation; bad faith requires dishonest purpose or furtive design (quoting CNL-AB LLC v. E. Prop. Fund I SPE (MS REF) LLC, 2011 WL 353529); distinguished on its facts, where the defendant proposed dramatically altered terms.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Exit Strategy, LLC v. Festival Retail Fund BH, L.P., 326 A.3d 356 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Objective theory of contracts; intent is determined from the four corners of the agreement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nemec v. Shrader, 991 A.2d 1120 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant fills only gaps for developments that could not be anticipated.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "West v. Access Control Related Enters., LLC, 2019 WL 2385863 (Del. Super. June 5, 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Agents may be liable for inducing a company's breach only if they acted outside the scope of their authority.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "BRP Hold Ox, LLC v. Chilian, 2018 WL 5734648 (Del. Super. Oct. 31, 2018) (quoting Nix v. Sawyer, 466 A.2d 407 (Del. Super. 1983))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Abuse of process requires an ulterior purpose and a willful, improper use of process.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "JanCo FS 2, LLC v. ISS Facility Servs., Inc., 344 A.3d 1009 (Del. Super. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A breach plaintiff must prove damages by a preponderance of the evidence.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Base Optics Inc. v. Liu, 2015 WL 3491495 (Del. Ch. May 29, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Damages must be provable to a reasonable certainty and flow from the breach.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Dura Medic Hldgs., Inc. Consolidated Litig., 333 A.3d 227 (Del. Ch. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contract remedies seek to give the non-breaching party the benefit of its bargain (expectation damages).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Greenfield One III GmbH & Co. KG v. Chaney, 2026 WL 3047089 (Del. Ch. Oct. 9, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reliance damages are out-of-pocket losses incurred in reliance on the promise, not lost profits.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Murphy v. State, 632 A.2d 1150 (Del. 1993); Emerald P'rs v. Berlin, 726 A.2d 1215 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Issues not briefed are waived; applied to counterclaims omitted from post-trial briefing.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson & Johnson v. Fortis Advisors LLC, 352 A.3d 229 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Restates Nemec; \"hindsight cannot correct oversight.\"",
+            "role": "background"
+          },
+          {
+            "authority": "Pardo v. State, 160 A.3d 1136 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The fact-finder may accept or reject any sworn testimony.",
+            "role": "background"
+          },
+          {
+            "authority": "Interim Healthcare, Inc. v. Spherion Corp., 884 A.2d 513 (Del. Super. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Evenly balanced evidence means the burden is not met.",
+            "role": "background"
+          },
+          {
+            "authority": "Buck v. Viking Hldg. Mgmt. Co. LLC, 2024 WL 4352368 (Del. Super. Sept. 30, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "All elements, including damages, must be proven by a preponderance of the evidence.",
+            "role": "background"
+          },
+          {
+            "authority": "Zenith Energy Terminals Joliet Hldgs. LLC v. CenterPoint Props. Tr., 2024 WL 3570165 (Del. Super. July 29, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Factors for assessing witness credibility in a bench trial.",
+            "role": "background"
+          },
+          {
+            "authority": "LOI § 9",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Basis for the directed briefing on attorneys' fees and interest.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After the Court of Chancery transferred the case for lack of subject matter jurisdiction, the Superior Court CCLD (Adams, J.) held a bench trial on Davenport's claims that Toro and its principals DiRenzo and Cohen breached a joint venture LOI by cutting Davenport out of three Jacksonville apartment acquisitions, and on Defendants' counterclaims. The Court found a breach of the binding Exclusivity Provision but held that expectation damages were unavailable because the LOI's economic terms were non-binding and Davenport's own conduct prevented any finding that the contemplated deal would have closed; Davenport offered no reliance damages theory. The Court awarded Defendants return of the $100,000 Due Diligence Deposit because the termination itself was not a breach and Davenport proved no diligence spending, and it rejected the tortious interference and abuse of process claims.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 16
+        },
+        "core_legal_issue": "Whether Davenport could recover expectation (lost-profit) damages for Toro's breach of a binding exclusivity provision in an LOI whose Joint Venture and economic terms were expressly non-binding, and whether Defendants' termination of the LOI barred their claim under the LOI's binding deposit provision to recover the $100,000 Due Diligence Deposit.",
+        "coverage_note": "",
+        "disposition": "judgment in part for each side",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Davenport proved that Defendants breached the Exclusivity Provision by terminating the LOI before Davenport decided whether to join and then closing an alternative transaction that replaced all of Davenport's investment. Davenport failed, however, to prove damages: its sole theory was expectation damages, the LOI is a third-category preliminary agreement (not Type I or Type II) for which only reliance damages are available, and the record (Davenport's loan refusal, paused drafting, failure to commit and late diligence request) precludes a finding that the contemplated deal would have closed. Its breach of contract claim was therefore dismissed in its entirety, including the Type I, Type II (no bad faith) and implied covenant theories; the Court did not address Davenport's consideration arguments (fn. 108). The tortious interference claim failed for lack of damages and lack of proof that DiRenzo and Cohen acted outside their authority. On the counterclaims, Defendants are entitled to return of the $100,000 Due Diligence Deposit because termination was not itself wrongful and Davenport did not prove it spent any of the deposit; the abuse of process counterclaim failed, and any other counterclaims were waived. The parties must notify the Court by letter within five days of any open issues; otherwise they are to brief attorneys' fees and interest under LOI § 9.",
+        "key_facts_and_concessions": [
+          "LOI § 10 declares the LOI and the Exhibit A term sheet non-binding and \"not ... an offer or a commitment by the Parties\"; only § 7 (Exclusivity Provision) and § 8 (Due Diligence Deposit) are excepted as binding.",
+          "The Exclusivity Provision bars Defendants, until closing on all Properties, from committing to \"any alternative to the transaction contemplated in this letter, including any alternative transaction that would replace all or part of the 'Preferred Equity Investment.'\"",
+          "Davenport presented only an expert expectation-damages (lost profits) theory at trial and \"presented no reliance damages theory.\"",
+          "During the week of March 11, 2019, Davenport refused to approve the proposed loan over lender approval of the post-TIC Rollup structure, paused drafting the Joint Venture Agreement (its task under LOI § 4) and \"never committed to invest\"; it could not identify its open questions.",
+          "At 4:27 PM on March 15, 2019, two weeks before the first closing, Davenport sent a voluminous supplemental due diligence request; at 5:49 PM Cohen emailed Justin Sperling \"we want to get davenport [sic] out of the deal.\"",
+          "Defendants do not dispute that DiRenzo orally terminated the LOI in a March 16, 2019 call to John Quinn and followed up in writing (March 24).",
+          "Toro closed Whispering Oaks and Highlander on March 29, 2019 all-cash because the loan was not ready, and closed River City Landing on May 8, 2019, all without Davenport's investment.",
+          "John Quinn testified that he had no evidence of Davenport's out-of-pocket due diligence costs; Davenport offered no legal bills or expense reports."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A party suing on a binding exclusivity clause in an LOI whose economic terms are expressly non-binding should prove reliance damages, at least in the alternative, because the Court held that lost-profit damages fail absent proof the contemplated deal would have closed. A recipient of a refundable diligence deposit should keep invoices and expense records to show what was actually spent before termination.",
+        "standard_of_review": "Post-trial bench findings by a preponderance of the evidence; each party bears the burden on its own claims, including damages; the Court as fact-finder assesses credibility and weight."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402640"
+    },
+    {
+      "case_id": "de-402650",
+      "court": "superior",
+      "date": "2026-10-26",
+      "docket": "N25C-07-121 KMM CCLD",
+      "judge": "Miller J.",
+      "name": "US WorldMeds Partners, LLC v. Supernus Pharms., Inc.",
+      "ny_date": "2026-10-27",
+      "ny_processed_at": "2026-10-27T13:57:09-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "US WorldMeds' claim to fees for pre-suit \"investigation\": rejected. Gibson Dunn's April 30–May 15, 2025 communications about the dispute before any legal action were not incurred \"in connection with\" the action in which US WorldMeds prevailed, so $80,732.29 was excluded.",
+          "Supernus's argument that all Court of Chancery fees are unrecoverable because US WorldMeds did not prevail there: rejected in large part. Complaint drafting, redaction, litigation-hold and summary judgment work transferred to this action. Only estimated Chancery-specific time was cut ($8,000 for Gibson Dunn; $3,500 for McCarter).",
+          "Gibson Dunn's fees for preparation and communications with investors: excluded ($7,326) as not incurred in connection with the litigation.",
+          "Supernus's hours-disparity argument (more than twice defense hours; Mr. Mixon's 478.7 hours roughly equal to Supernus's top three billers combined): rejected. A larger team billing more time is not necessarily unreasonable, and second-guessing counsel's judgment is to be avoided.",
+          "Supernus's argument that 99.4 associate hours on a brief over the year-end holidays \"raises its own red flags\": rejected. The Court will not impute bad faith from long hours before holidays. The combined reply/answering brief responded to arguments based on Kentucky and District of Delaware litigations and required a 15-page affidavit.",
+          "Supernus's overstaffing argument under Concord Steel: rejected for the merits work because associates billed 48% of hours, unlike the 98% senior-partner billing in Concord Steel.",
+          "Supernus's challenge to Mr. Mixon's rates ($1,471.50 in 2025; $1,719 in 2026) as exceeding those of Supernus's 50-year attorney: rejected. They are Gibson Dunn's customary rates, the increase was an ordinary-course annual increase, and they are comparable to rates Delaware courts have approved.",
+          "Gibson Dunn's expenses ($49,913.64, plus $542.14 in the supplemental period): denied as unsubstantiated because the Court could not conclude they were reasonable.",
+          "Supplemental Fee Application: the Court expressly declined to deny it in full despite its presentation for the first time in reply, while warning in fn. 47 that a party doing so \"runs the risk of having the entire application denied.\" It cut Gibson Dunn's supplemental fees by one-third as excessive and overstaffed: senior attorneys did work juniors could have done, the entitlement was already decided, and interest calculations were presumably largely complete.",
+          "Supernus's argument that US WorldMeds could not raise its interest allocation after the summary judgment ruling and needed to seek reconsideration under Rule 59 or 60: rejected. The Opinion acknowledged the August 8 Payment but did not rule on its allocation or on pre-judgment interest."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Agreement § 11.1 (prevailing party fee-shifting provision)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Fees are recoverable only if incurred \"in connection with such legal action\" in which the Seller ultimately prevails. The scope of the provision defines what is recoverable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "All Pro Maids, Inc. v. Layton, 2004 WL 3029869 (Del. Ch. Dec. 20, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees outside the scope of a fee-shifting provision are not recoverable; the court there reduced an award for fees \"not reasonably necessary\"; reasonableness review need not examine each time entry.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gener8, LLC v. Castanon, 2025 WL 88889 (Del. Ch. Jan. 14, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts have broad discretion over fee amounts. Counsel may not \"play fast and loose.\" A larger team billing more time is not necessarily unreasonable. Second-guessing counsel's judgment is hazardous. Unsubstantiated expenses may be excluded.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lynch v. Gonzalez, 2020 WL 5587716 (Del. Ch. Sept. 18, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Gener8: an award was reduced where the party bearing the burden failed to substantiate expenses as reasonable on their face.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sorrento Therapeutics, Inc. v. Mack, 2026 WL 906110 (Del. Ch. Apr. 2, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware courts generally eschew second-guessing counsel's judgment on whether work was necessary (quoting Arbitrium); also states the test for reasonable expenses (quoting Weil).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Daneberg v. Fitracks Inc., 58 A.3d 991 (Del. Ch. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Uncertainty about fee shifting gives a client incentive to monitor counsel, so bills it has paid provide an initial \"rough cut\" of a commercially reasonable fee (quoting Aveta Inc. v. Bengoa).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Roma Landmark Theaters LLC v. Cohen Exhibition Co. LLC, 2021 WL 5174088 (Del. Ch. Nov. 8, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A partner's $1,645 hourly rate was reasonable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re TransPerfect Global, Inc., 2021 WL 1711797 (Del. Ch. Apr. 30, 2021), aff'd, 278 A.3d 630 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Partner rates of $1,225–$1,775 and a $1,200 \"counsel\" rate in 2019-2020 were reasonable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Biggs v. Strauss, 1988 WL 55343 (Del. Super. May 17, 1988) (quoting 2 Woolley on Delaware Practice § 948 (1906))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An order compelling payment is distinguishable from a judgment, and money judgments are enforced by execution.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Vanderzeyde v. RDIS Corp., 1996 WL 33167791 (Del. Ch. June 6, 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contempt is not the appropriate remedy for failure to satisfy a money judgment; execution process is.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Mobilactive Media, LLC, 2018 WL 5046282 (Del. Ch. June 28, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "As a general rule, a holder of a money judgment must resort to collection mechanisms.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Blanch v. Stone & Paper, Investors, LLC, 295 A.3d 1099 (TABLE) (Del. Apr. 6, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An order is final when the trial court declares its intention that the order be its final act disposing of all justiciable matters. Cited for the inconsistency between the proposed order's retained-jurisdiction and final-judgment paragraphs.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Concord Steel, Inc. v. Wilmington Steel Processing Co., 2010 WL 571934 (Del. Ch. Feb. 5, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A 20% cut to senior partners' fees where they billed 98% of hours; distinguished because Gibson Dunn's associates billed 48% of merits hours.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Gandhi-Kapoor v. Hone Cap. LLC, 305 A.3d 707 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A court may order additional relief where collection mechanisms are inadequate; no inadequacy was suggested here.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "AFH Holding & Advisory, LLC v. Emmaus Life Sciences, Inc., 2014 WL 1760935 (Del. Super. Apr. 16, 2014) (quoting West Willow–Bay Court, LLC v. Robino–Bay Court Plaza, LLC, 2009 WL 458779 (Del. Ch. Feb. 23, 2009))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Deference to the parties' fee agreement; prevailing-party provisions apply all-or-nothing absent qualifying language; construe to execute intent.",
+            "role": "background"
+          },
+          {
+            "authority": "Bako Pathology LP v. Bakotic, 288 A.3d 252 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contractual fee-shifting provisions are enforced and interpreted under contract principles.",
+            "role": "background"
+          },
+          {
+            "authority": "Arvinder (\"Sonny\") Kakar v. Octo Consulting Gp., LLC, 2026 WL 2497322 (Del. Super. Aug. 25, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Broad discretion over fees; courts generally exclude excessive, redundant or unnecessary hours.",
+            "role": "background"
+          },
+          {
+            "authority": "Mahani v. Edix Media Group, Inc., 935 A.2d 242 (Del. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The movant bears the burden of establishing that fees are reasonable.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. Lawyers' Rules of Prof. Conduct 1.5",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Factors guiding fee reasonableness.",
+            "role": "background"
+          },
+          {
+            "authority": "Miller v. Silverside, 2016 WL 4502012 (Del. Super. Aug. 26, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court need not address each Rule 1.5 factor individually.",
+            "role": "background"
+          },
+          {
+            "authority": "Weil v. VEREIT Operating P'ship, L.P., 2018 WL 834428 (Del. Ch. Feb. 13, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Expenses are reasonable if actually incurred, thought prudent by competent counsel, and charged at customary rates.",
+            "role": "background"
+          },
+          {
+            "authority": "US WorldMeds P'ners, LLC v. Supernus Pharm., Inc., 2026 WL 2098302 (Del. Super. June 5, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The prior Opinion finding breach and no set-off right and awarding contract-rate interest and fees.",
+            "role": "background"
+          },
+          {
+            "authority": "Super. Ct. Civ. R. 59 and 60",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Supernus argued reconsideration was US WorldMeds' only route to revisit the principal amount; rejected.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In this letter decision following its June 5, 2026 Memorandum Opinion granting summary judgment to US WorldMeds, which held that Supernus improperly set off against a $30 million milestone payment and owed fees under the Agreement's prevailing party provision, the Superior Court (CCLD, Miller, J.) resolved the fee award, the allocation of a post-filing payment, and the form of final judgment. The Court read § 11.1 to cover only fees incurred \"in connection with\" the action and excluded pre-suit and Chancery-specific time, but allowed transferable Chancery work. It rejected Supernus's disparity, staffing and rate challenges to the merits fees, while denying Gibson Dunn's unitemized expenses and cutting its fees-on-fees by one-third. It also held the Opinion had not decided interest allocation, and that a money judgment cannot compel payment absent inadequate collection mechanisms.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 22
+        },
+        "core_legal_issue": "After summary judgment that Supernus breached the Agreement by setting off against a milestone payment, three questions: (1) what amount US WorldMeds may recover under § 11.1, which shifts fees \"incurred by the Seller in connection with such legal action\", including fees from pre-suit work, a voluntarily dismissed Court of Chancery action, and a supplemental fees-on-fees request first made in reply; (2) whether US WorldMeds may allocate the post-filing August 8 Payment partly to pre-judgment interest; and (3) whether a money judgment may direct the debtor to pay within a fixed time.",
+        "coverage_note": "",
+        "disposition": "granted in part and denied in part",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Fee Motion and Supplemental Fee Application granted in part. The total award is $2,053,663.60: $1,907,207.42 for Gibson Dunn and $146,456.18 for McCarter. Under § 11.1's \"in connection with such legal action\" language, the Court excluded Gibson Dunn's pre-suit communications ($80,732.29) and investor-communication time ($7,326). Chancery work transferable to this action was recoverable, but estimated Chancery-only time was cut ($8,000 for Gibson Dunn; $3,500 for McCarter). The Court rejected Supernus's hours-disparity, holiday-billing, overstaffing and hourly-rate objections, and found McCarter's time, rates and expenses reasonable. It denied Gibson Dunn's unsubstantiated expenses ($49,913.64 and $542.14). For the Supplemental Fee Application, first presented in reply, the Court declined to deny it outright but cut Gibson Dunn's $192,206.80 of fee-application-period fees by one-third for excessive hours and senior-heavy staffing, awarding $155,160.26 for that period. Supernus's objection to allocating part of the August 8 Payment to pre-judgment interest was overruled, because the Opinion had not decided allocation or interest and Supernus did not contest the calculation. Paragraphs 12 and 13 of the proposed order, which directed Supernus to pay (including within 14 days), must be deleted. A money judgment is enforced by execution, not compelled payment, and no inadequacy of collection mechanisms was suggested. The Court made no ruling on the execution process or on recording the judgment in the Prothonotary's Judgments Office. The proposed order must be revised to reflect the fee rulings. To eliminate the retained-jurisdiction paragraph 14, which conflicts with paragraph 15's finality language, US WorldMeds must provide its interest calculation to Supernus within 3 days. Any objection not resolved within 5 days may be presented in letters of up to 3 pages, and the Court will then resolve it and enter a final order.",
+        "key_facts_and_concessions": [
+          "Agreement § 11.1 requires Supernus, if the Seller pursues legal action over improper use of the set-off right and \"ultimately prevails,\" to reimburse \"the total cost of any legal fees, costs and expenses incurred by the Seller in connection with such legal action.\"",
+          "US WorldMeds first sued in the Court of Chancery on May 21, 2025. After Supernus moved to dismiss for lack of subject matter jurisdiction, the parties stipulated on July 15 to dismissal without prejudice, and this action was filed two weeks later. A redline showed the changes between the two complaints were de minimis.",
+          "The Fee Motion sought $1,848,105.45 in fees and $49,913.64 in expenses for Gibson Dunn (1,267.1 hours), and $118,737 in fees and $13,610.68 in expenses for McCarter (180.5 hours). Supernus's counsel billed 609.9 hours, and Supernus sought a reduction of $748,526.85 (fn. 19).",
+          "Gibson Dunn's merits staffing was 12% partners, 38% Mr. Mixon (Of Counsel) and 48% associates. In the supplemental period, of 111.70 hours on the Fee Motion, reply/supplemental application and proposed order, Messrs. Mixon and Fortney billed 92.8 hours (83%).",
+          "Gibson Dunn supported its expenses only by stating that they include \"legal research, specialized research services, and document retrieval,\" with no breakdown. McCarter listed its expenses by category and amount.",
+          "The Fee Motion expressly excluded fees for preparing the motion while reserving the right to seek them. US WorldMeds first sought $233,879.84 in that period's fees and expenses in its reply brief, so Supernus had no opportunity to assess those records.",
+          "Supernus paid $1,862,018.22 on August 8, 2025, after suit was filed. The June 5 Opinion recited a requested judgment of $25,843,223.58. The proposed judgment instead allocates $864,175.83 of the payment to pre-judgment interest, leaving principal of $26,707,399.41. Supernus did not argue the calculation was incorrect.",
+          "US WorldMeds sent Supernus a letter each month with updated interest calculations (fn. 58). Supernus did not challenge McCarter's rates (fn. 39)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Present fees-on-fees in the opening fee motion rather than first in reply, itemize expenses by category and amount, and push fee-application drafting and research down to associates. Under a fee clause tied to fees incurred \"in connection with\" the legal action, expect pre-suit dispute communications to be excluded. Expect work from a dismissed earlier forum to be recovered only to the extent shown to carry over, as the redline did here. Proposed money-judgment orders should not include payment-compelling directives unless collection mechanisms are shown to be inadequate.",
+        "standard_of_review": "Contractual fee-shifting provision is enforced and construed to execute the parties' intent. The amount is within the Court's broad discretion, guided by Del. Lawyers' Rules of Prof. Conduct 1.5. The movant bears the burden of showing reasonableness, and the Court excludes excessive, redundant or unnecessary hours without line-by-line review."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402650"
+    }
+  ],
+  "ny_date": "2026-10-27"
 }
