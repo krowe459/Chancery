@@ -73,7 +73,8 @@ Locally: `cd src && python preview.py 402160` writes `preview/`.
   when summarizing that same opinion. System prompts are cached across a run's calls.
 - After each summary, a second model (`VERIFY_MODEL`) checks its key facts, rejected
   arguments, holding and brief summary against the opinion text (`src/verify.py`), and what the
-  practical takeaway says about the case and the Court's reasoning (not its advice). Statements
+  practical takeaway says about the case and the Court's reasoning, including any advice the
+  Court's reasoning shows would not help (it does not judge whether advice is wise). Statements
   it finds unsupported or contradicted are flagged in the digest. For opinions too long for one
   request it checks chunk by chunk and flags only contradictions. Its tokens count toward
   `RUN_TOKEN_BUDGET`.

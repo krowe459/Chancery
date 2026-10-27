@@ -56,6 +56,8 @@ class PromptExampleTest(unittest.TestCase):
         rule = " ".join(summarize.SYSTEM_PROMPT.split())
         self.assertIn("Everything it says about this case", rule)
         self.assertIn("Do not label the case with a category the opinion does not use", rule)
+        self.assertIn("The advice must follow from the ground the Court actually decided on", rule)
+        self.assertIn("do not generalize the holding beyond the conditions", rule)
 
     def test_magistrate_status_is_described_in_the_reports_own_words(self):
         import summarize

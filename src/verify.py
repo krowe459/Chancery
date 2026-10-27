@@ -14,9 +14,12 @@ opinion text to a second, cheaper model (VERIFY_MODEL, default Claude Sonnet
 
 Claims checked: each key fact, each argument rejected or waived, the holding
 and the brief summary, plus the practical takeaway. The takeaway's advice is
-inference by design, so for it the model checks only what it says about the
-case and the Court's reasoning (the Oct. 26 Rushmore takeaway said the Court
-applies "the employee's home-state law"; it applied the § 188 default state's).
+inference by design, so for it the model checks what it says about the case
+and the Court's reasoning (the Oct. 26 Rushmore takeaway said the Court applies
+"the employee's home-state law"; it applied the § 188 default state's), and
+flags any recommended step the Court's reasoning shows would not have helped
+(the Oct. 27 preview's "put the forum clause in the document actually
+signed", when Oklahoma voids unnegotiated clauses wherever they appear).
 
 Opinions over the token ceiling are checked chunk by chunk. A chunk can only
 show that a claim is contradicted or supported by that excerpt, not that it
@@ -46,8 +49,9 @@ LIST_FIELDS = ("key_facts_and_concessions", "arguments_rejected_or_waived")
 TEXT_FIELDS = ("holding", "brief_summary", "practical_takeaway")
 # Prompt-only prefix for claims checked in part; the stored claim text (which
 # a flag's "assertion" must quote) is unchanged.
-CLAIM_NOTES = {"practical_takeaway": "[Practical takeaway: check only what it says about this "
-                                     "case and the Court's reasoning, not its advice] "}
+CLAIM_NOTES = {"practical_takeaway": "[Practical takeaway: check what it says about this case "
+                                     "and the Court's reasoning, and whether its advice fits "
+                                     "that reasoning] "}
 
 VERIFY_SYSTEM = """\
 You check a summary of a Delaware court opinion (Court of Chancery, Supreme \
@@ -62,9 +66,10 @@ run together, a date tied to the wrong event, or a detail added by inference.
 - contradicted: the text says something inconsistent with the claim.
 
 A claim marked "[Practical takeaway: ...]" is advice for practitioners. Do \
-not judge the advice itself; mark it unsupported or contradicted only if it \
-misstates the case's facts, the kind of dispute, or what the Court held or \
-why.
+not judge whether the advice is wise. Mark it unsupported or contradicted \
+only if it misstates the case's facts, the kind of dispute, or what the Court \
+held or why, or if it recommends a step that the Court's own reasoning shows \
+would not have changed the result (quote that step as the assertion).
 
 Judge substance, not wording. Paraphrase, defined-term shorthand and fair \
 characterizations of what the Court held are fine. Footnotes are part of the \
