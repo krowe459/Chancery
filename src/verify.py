@@ -13,8 +13,10 @@ opinion text to a second, cheaper model (VERIFY_MODEL, default Claude Sonnet
   contradicted  the opinion says otherwise
 
 Claims checked: each key fact, each argument rejected or waived, the holding
-and the brief summary. The practical takeaway is inference by design and is
-not checked.
+and the brief summary, plus the practical takeaway. The takeaway's advice is
+inference by design, so for it the model checks only what it says about the
+case and the Court's reasoning (the Oct. 26 Rushmore takeaway said the Court
+applies "the employee's home-state law"; it applied the § 188 default state's).
 
 Opinions over the token ceiling are checked chunk by chunk. A chunk can only
 show that a claim is contradicted or supported by that excerpt, not that it
@@ -41,7 +43,11 @@ from typing import Any, Callable
 VERIFY_MODEL = os.environ.get("VERIFY_MODEL", "").strip() or "claude-sonnet-5-5"
 VERIFY_MAX_TOKENS = 16_000
 LIST_FIELDS = ("key_facts_and_concessions", "arguments_rejected_or_waived")
-TEXT_FIELDS = ("holding", "brief_summary")
+TEXT_FIELDS = ("holding", "brief_summary", "practical_takeaway")
+# Prompt-only prefix for claims checked in part; the stored claim text (which
+# a flag's "assertion" must quote) is unchanged.
+CLAIM_NOTES = {"practical_takeaway": "[Practical takeaway: check only what it says about this "
+                                     "case and the Court's reasoning, not its advice] "}
 
 VERIFY_SYSTEM = """\
 You check a summary of a Delaware court opinion (Court of Chancery, Supreme \
@@ -55,6 +61,11 @@ wrong actor, the wrong act ("signed" when the text says "sent"), two events \
 run together, a date tied to the wrong event, or a detail added by inference.
 - contradicted: the text says something inconsistent with the claim.
 
+A claim marked "[Practical takeaway: ...]" is advice for practitioners. Do \
+not judge the advice itself; mark it unsupported or contradicted only if it \
+misstates the case's facts, the kind of dispute, or what the Court held or \
+why.
+
 Judge substance, not wording. Paraphrase, defined-term shorthand and fair \
 characterizations of what the Court held are fine. Footnotes are part of the \
 text; markers like "[^12]" point to lines starting "[^12]:".
@@ -63,15 +74,16 @@ Work through each claim in the order of the output fields, and decide the \
 verdict only after the evidence:
 1. "evidence": quote the passage of the opinion that bears on the claim \
 (under 30 words), or leave it empty if there is none.
-2. "opinion_says": state what the opinion says on the point, or that it says \
-nothing.
+2. "opinion_says": state, in one sentence, what the opinion itself says on \
+the point, or that it says nothing. Do not compare it with the claim here.
 3. "assertion": if part of the claim conflicts with or goes beyond what the \
 opinion says, copy those exact words from the claim; otherwise leave it empty. \
 If more than one part is wrong, copy the most significant one, the one most \
 likely to mislead a reader about what the Court decided or found, and mention \
 the others in "problem". A harmless or trivially true phrase is never the \
 most significant.
-4. "problem": explain the error in one sentence, or leave it empty.
+4. "problem": explain the error in one sentence without repeating \
+"opinion_says", or leave it empty.
 5. "verdict": now decide, consistently with what you wrote above.
 6. "confirmed": re-read fields 1-5. true only if the claim, as written, is \
 wrong or unsupported; false if your evidence or explanation shows the claim \
@@ -148,7 +160,8 @@ def collect_claims(summary: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def _prompt(claims: list[dict], source: str, note: str = "") -> str:
-    numbered = "\n".join(f"{c['id']}. {c['text']}" for c in claims)
+    numbered = "\n".join(f"{c['id']}. {CLAIM_NOTES.get(c['field'], '')}{c['text']}"
+                         for c in claims)
     return (f"{note}\n\n" if note else "") + (
         f"<claims>\n{numbered}\n</claims>\n\n<opinion>\n{source}\n</opinion>\n\n"
         "Return a verdict for every claim id as JSON matching the schema.")
