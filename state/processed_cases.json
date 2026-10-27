@@ -753,13 +753,34 @@
       "name": "Rickman v. Delaware Department of Justice",
       "processed_at": "2026-10-27T13:57:09-04:00",
       "status": "out_of_scope"
+    },
+    "de-402670": {
+      "court": "superior",
+      "docket": "S26A-09-001 CAK",
+      "name": "Haupt v. State of Delaware",
+      "processed_at": "2026-10-27T15:53:01-04:00",
+      "status": "out_of_scope"
+    },
+    "de-402680": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0756-LM",
+      "name": "Minnie Sarwal v. Nephrosant, Inc.",
+      "processed_at": "2026-10-27T15:53:01-04:00",
+      "status": "ok"
+    },
+    "de-402690": {
+      "court": "chancery",
+      "docket": "2025-0760-KSJM",
+      "name": "Wayne Barrow v. Faith Evans et al.",
+      "processed_at": "2026-10-27T15:53:01-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-27T13:57:09-04:00",
+  "last_checked_ny": "2026-10-27T15:53:01-04:00",
   "page_hashes": {
-    "chancery": "0f70081f325c30f74d39cb2f9845421b07703af24b3fdb3046e986a00569fc66",
-    "superior": "46a1c7321e1553a64be2f418fc4bca1117d8eed119ce8c7fa683d1b22168db15",
+    "chancery": "9dc21ffa142e7ff72b16c2833de7d7637b5641327e1c081bc8dc3f2ba485cb75",
+    "superior": "328653e13e1f6acd8e771e5eaa0f4941ac9046f1035e1f36cdffa2b1bda40d0a",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
