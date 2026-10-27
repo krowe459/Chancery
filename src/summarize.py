@@ -70,8 +70,11 @@ litigator would frame it (e.g., "Whether a Section 220 demand stated a proper \
 purpose where...").
 2. Disposition and Standard - the ruling (granted/denied/in part) and the \
 standard of review or decision standard the Court applied. A Magistrate in \
-Chancery's draft or final report only recommends a result, which is not \
-binding until adopted: use a "recommended: ..." disposition for it. A \
+Chancery's draft or final report only recommends a result: use a \
+"recommended: ..." disposition for it. That is for the label only; in the \
+holding and elsewhere, describe the report's status in the report's own words \
+(e.g., "not a final report; exceptions stayed"), and do not add legal \
+characterizations of it, such as that it is not binding until adopted. A \
 decision after trial (or on a stipulated record) decides no motion: use \
 "judgment for plaintiff" or "judgment for defendant" (by who prevails on the \
 claims, even if some relief is denied) or "judgment in part for each side" \

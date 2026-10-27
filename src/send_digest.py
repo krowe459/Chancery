@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import html
 import os
+import re
 import sys
 
 import requests
@@ -75,6 +76,22 @@ def _archive_link(ny_date: str) -> str:
     return f"<a href='{_e(url)}' style='color:#5c6b7a;'>{_e(path)}</a>"
 
 
+def _sentence(text: object) -> str:
+    """Trimmed text ending in exactly one full stop (no "..")."""
+    text = str(text or "").strip().rstrip(".").rstrip()
+    return f"{text}." if text else ""
+
+
+def _words(text: str) -> set[str]:
+    return set(re.findall(r"[a-z0-9']+", text.lower()))
+
+
+def _overlaps(a: str, b: str) -> bool:
+    """True when the shorter text's words are nearly all in the longer one."""
+    small, big = sorted((_words(a), _words(b)), key=len)
+    return bool(small) and len(small & big) >= 0.8 * len(small)
+
+
 def _capped(items: list, cap: int, keep: set[int]) -> tuple[list[tuple[int, object]], int]:
     """First `cap` items plus any beyond it in `keep` (flagged items stay
     visible); returns the (index, item) pairs shown and how many were hidden."""
@@ -118,11 +135,15 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
         marks: dict = {}
         for f in flags:
             if f.get("field") == field:
-                said = (f" &ldquo;{_e(f['assertion'])}&rdquo; &mdash; opinion: "
-                        f"{_e(f.get('opinion_says'))}." if f.get("assertion") else "")
+                says, problem = _sentence(f.get("opinion_says")), _sentence(f.get("problem"))
+                if _overlaps(says, problem):     # one restates the other: keep the fuller
+                    says, problem = (says, "") if len(says) >= len(problem) else ("", problem)
+                said = (f" &ldquo;{_e(f['assertion'])}&rdquo; &mdash; opinion: {_e(says)}"
+                        if f.get("assertion") and says else "")
                 marks[f.get("index")] = (
                     f"<div style='color:#8a1c1c;font-size:12px;margin-top:2px;'>&#9888; "
-                    f"Fact check ({_e(f.get('verdict'))}):{said} {_e(f.get('problem'))}</div>")
+                    f"Fact check ({_e(f.get('verdict'))}):{said}"
+                    f"{' ' + _e(problem) if problem else ''}</div>")
         return marks
 
     def more_line(n: int) -> str:
@@ -193,9 +214,6 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
             lis += more_line(hidden)
         return section(label, f"<ul style='margin:4px 0 0 18px;padding:0;'>{lis}</ul>")
 
-    def optional_text(label: str, key: str) -> str:
-        return section(label, _e(s[key])) if s.get(key) else ""
-
     def text_with_flags(key: str) -> str:
         return _e(s.get(key)) + "".join(flag_marks(key).values())
 
@@ -216,7 +234,8 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
                  f"<ul style='margin:4px 0 0 18px;padding:0;'>{auths}</ul>")}
         {section("Holding", text_with_flags("holding"))}
         {section("Brief Summary", text_with_flags("brief_summary"))}
-        {optional_text("Practical Takeaway (inference, not holding)", "practical_takeaway")}
+        {section("Practical Takeaway (inference, not holding)", text_with_flags("practical_takeaway"))
+         if s.get("practical_takeaway") else ""}
         {note}
       </td></tr>"""
     return head + body + _divider()

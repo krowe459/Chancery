@@ -14,13 +14,13 @@ SUMMARY = {
     "arguments_rejected_or_waived": ["Waiver: rejected for lack of knowledge."],
     "holding": "Judgment for Techno-X.",
     "brief_summary": "Techno-X sued Spartan Forge.",
-    "practical_takeaway": "Not checked: inference by design.",
+    "practical_takeaway": "Advice only: draft an express trigger.",
 }
 
 
 CLAIM_TEXT = {1: SUMMARY["key_facts_and_concessions"][0], 2: SUMMARY["key_facts_and_concessions"][1],
               3: SUMMARY["arguments_rejected_or_waived"][0], 4: SUMMARY["holding"],
-              5: SUMMARY["brief_summary"]}
+              5: SUMMARY["brief_summary"], 6: SUMMARY["practical_takeaway"]}
 
 
 def fake_call(verdicts):
@@ -44,15 +44,25 @@ def fake_call(verdicts):
 
 
 class CollectClaimsTest(unittest.TestCase):
-    def test_lists_and_text_fields_but_not_takeaway(self):
+    def test_lists_and_text_fields_including_takeaway(self):
         claims = collect_claims(SUMMARY)
         self.assertEqual([c["field"] for c in claims],
                          ["key_facts_and_concessions", "key_facts_and_concessions",
-                          "arguments_rejected_or_waived", "holding", "brief_summary"])
-        self.assertEqual([c["id"] for c in claims], [1, 2, 3, 4, 5])
+                          "arguments_rejected_or_waived", "holding", "brief_summary",
+                          "practical_takeaway"])
+        self.assertEqual([c["id"] for c in claims], [1, 2, 3, 4, 5, 6])
         self.assertEqual(claims[1]["index"], 1)
         self.assertIsNone(claims[3]["index"])
-        self.assertNotIn("inference by design", json.dumps(claims))
+
+    def test_takeaway_is_marked_in_the_prompt_but_not_in_the_claim(self):
+        # The Oct. 26 Rushmore takeaway misstated the Court's choice-of-law rule.
+        call, sent = fake_call([{6: "contradicted"}])
+        fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
+        self.assertIn("6. [Practical takeaway: check only what it says about this case",
+                      sent[0]["prompt"])
+        self.assertIn("Do not judge the advice itself", sent[0]["system"][0]["text"])
+        self.assertEqual([(f["field"], f["assertion"]) for f in fc["flags"]],
+                         [("practical_takeaway", "Advice only:")])
 
 
 class FactCheckTest(unittest.TestCase):
@@ -62,7 +72,7 @@ class FactCheckTest(unittest.TestCase):
         usage = []
         fc = fact_check(SUMMARY, text="opinion text", chunks=None, call=call, usage=usage)
         self.assertEqual(fc["coverage"], "full")
-        self.assertEqual(fc["checked"], 5)
+        self.assertEqual(fc["checked"], 6)
         self.assertEqual([(f["field"], f["index"], f["verdict"]) for f in fc["flags"]],
                          [("key_facts_and_concessions", 1, "unsupported"),
                           ("holding", None, "contradicted")])
@@ -89,7 +99,7 @@ class FactCheckTest(unittest.TestCase):
     def test_missing_verdicts_are_counted_as_unchecked(self):
         call, _ = fake_call([{1: "supported", 2: "supported"}])
         fc = fact_check(SUMMARY, text="t", chunks=None, call=call, usage=[])
-        self.assertEqual(fc["unchecked"], 3)
+        self.assertEqual(fc["unchecked"], 4)
         self.assertEqual(fc["flags"], [])
 
     def test_empty_summary_makes_no_call(self):
@@ -186,6 +196,31 @@ class DigestRenderingTest(unittest.TestCase):
         self.assertIn("Khanna v. Covad</strong> <em>(distinguished)</em>", html)
         self.assertNotIn("Extra v. Y", html)
         self.assertIn("+1 more in the full summary", html)
+
+    def test_flag_text_has_one_full_stop_and_no_restatement(self):
+        # The Oct. 26 Rancho Verde flag: opinion_says restated the problem and
+        # ended in "..".
+        says = ("The opinion does not say the ruling is non-binding until adopted; it states only "
+                "that it is not a final report and exceptions are stayed.")
+        flag = {"field": "holding", "index": None, "verdict": "unsupported",
+                "assertion": "not binding until adopted", "opinion_says": says,
+                "problem": "The opinion never says the ruling is non-binding until adopted; it "
+                           "says only it is not a final report and exceptions are stayed."}
+        html = self.render(self.entry(1, [flag]), "d")
+        self.assertNotIn("..", html.split("Fact check")[1].split("</div>")[0])
+        self.assertEqual(html.count("exceptions are stayed"), 1)
+        distinct = {**flag, "opinion_says": "PRADCO sent it.", "problem": "Wrong act."}
+        self.assertIn("&mdash; opinion: PRADCO sent it. Wrong act.</div>",
+                      self.render(self.entry(1, [distinct]), "d"))
+
+    def test_takeaway_flag_is_shown_under_the_takeaway(self):
+        entry = self.entry(1, [{"field": "practical_takeaway", "index": None,
+                                "verdict": "contradicted", "assertion": "home-state law",
+                                "opinion_says": "Oklahoma was the default state.",
+                                "problem": "Misstates the rule."}])
+        entry["summary"]["practical_takeaway"] = "Courts apply home-state law."
+        html = self.render(entry, "d")
+        self.assertIn("Courts apply home-state law.<div", html)
 
     def test_flag_on_text_field_and_old_entries_without_fact_check(self):
         flag = {"field": "holding", "index": None, "verdict": "contradicted", "problem": "Wrong party."}
