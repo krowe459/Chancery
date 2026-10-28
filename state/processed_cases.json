@@ -802,13 +802,27 @@
       "name": "In re R1 RCM Inc. Merger Litigation",
       "processed_at": "2026-10-28T13:57:58-04:00",
       "status": "ok"
+    },
+    "de-402740": {
+      "court": "superior",
+      "docket": "N25C-10-310 PAW CCLD",
+      "name": "Invitae Corporation v. Natera, Inc.",
+      "processed_at": "2026-10-28T15:58:13-04:00",
+      "status": "ok"
+    },
+    "de-402750": {
+      "court": "superior",
+      "docket": "N25C-03-253 PAW CCLD",
+      "name": "Fedelta Partners, LLC v. Aware360 Ltd., et al.",
+      "processed_at": "2026-10-28T15:58:13-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-28T13:57:58-04:00",
+  "last_checked_ny": "2026-10-28T15:58:13-04:00",
   "page_hashes": {
     "chancery": "a1024dde546abedb10c37720600caeb87b7cdc3b0a780ebd690c1d16d635956f",
-    "superior": "7fd590675adeb8c4a8726c0a36877af87e78e2ae9445a9e02f0fb0f195334dcd",
+    "superior": "1402c308ccca74579fd01eb8229756340769c49b6430c76a466bca9dc0cb7ccf",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
