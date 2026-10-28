@@ -33,6 +33,7 @@ from dataclasses import dataclass, field
 LINE_TOLERANCE = 4.0     # pt: words this close vertically share a line (markers sit ~2pt high)
 MARKER_RATIO = 0.80      # a number below 80% of its line's text size is a marker
 SMALL_RATIO = 0.97       # a line below 97% of body size is footnote-sized
+MIN_VISIBLE_SIZE = 3.0   # pt: smaller text is hidden (Word's "50F" footnote-anchor artifacts)
 HEADER_BAND = 0.12       # top/bottom fraction of the page searched for running headers
 MIN_KEPT_RATIO = 0.90    # fall back if we keep less than 90% of plain extraction's letters
 
@@ -265,10 +266,21 @@ def _letters(text: str) -> int:
     return sum(c.isalpha() for c in text)
 
 
+def visible(words: list[dict]) -> list[dict]:
+    """Drop hidden text. Superior Court PDFs carry a 1pt "50F"-style anchor
+    beside each footnote reference, which would otherwise land in the text."""
+    return [w for w in words if w.get("size", MIN_VISIBLE_SIZE) >= MIN_VISIBLE_SIZE]
+
+
 def _separator_top(page, words: list[dict]) -> float | None:
     """Top of the footnote separator: a thin horizontal rule, about 1.5 to 3.5
     inches long, starting at the left text margin, below the top quarter of
-    the page and with text beneath it (Word draws one above footnotes)."""
+    the page and with text beneath it (Word draws one above footnotes).
+
+    The rule must stand alone at its height: a table's cell borders come in
+    rows of segments, and one of them can pass the length and margin tests
+    (the fee table in the Oct. 26 US WorldMeds v. Supernus letter put the
+    rest of its page, and a section heading, inside footnote 50)."""
     if not words:
         return None
     # Candidate left margins: the leftmost text, and the most common left edge
@@ -280,9 +292,12 @@ def _separator_top(page, words: list[dict]) -> float | None:
              if r["height"] < 2] + \
             [(ln["top"], ln["x0"], ln["x1"]) for ln in getattr(page, "lines", [])
              if abs(ln["top"] - ln["bottom"]) < 2]
+    def alone(top: float, x0: float, x1: float) -> bool:
+        return not any(abs(t - top) <= 1.5 and (a, b) != (x0, x1) for t, a, b in rules)
+
     tops = [top for top, x0, x1 in rules
             if 100 <= x1 - x0 <= 260 and any(abs(x0 - m) <= 20 for m in margins)
-            and page.height * 0.25 < top < lowest]
+            and page.height * 0.25 < top < lowest and alone(top, x0, x1)]
     return min(tops) if tops else None
 
 
@@ -297,7 +312,7 @@ def pdf_to_text(data: bytes, plain_text: str) -> str | None:
         with pdfplumber.open(io.BytesIO(data)) as pdf:
             pages = []
             for p in pdf.pages:
-                words = p.extract_words(extra_attrs=["size"], use_text_flow=True)
+                words = visible(p.extract_words(extra_attrs=["size"], use_text_flow=True))
                 pages.append((p.width, p.height, words, _separator_top(p, words)))
     except Exception:  # noqa: BLE001 - any parser failure means "use plain text"
         return None

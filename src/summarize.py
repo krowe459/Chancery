@@ -78,7 +78,11 @@ characterizations of it, such as that it is not binding until adopted. A \
 decision after trial (or on a stipulated record) decides no motion: use \
 "judgment for plaintiff" or "judgment for defendant" (by who prevails on the \
 claims, even if some relief is denied) or "judgment in part for each side" \
-when each side wins a claim or counterclaim on the merits. A Supreme Court \
+when each side wins a claim or counterclaim on the merits. A party wins a \
+claim only if it gets relief on it: proving breach but no damages, or only \
+defeating the other side's counterclaim, is not a win (a plaintiff whose \
+claims are dismissed and who loses a counterclaim gets "judgment for \
+defendant"). A Supreme Court \
 decision gives its mandate: "affirmed", "reversed", "reversed and remanded" or \
 "affirmed in part and reversed in part" (remanded or not); its standard is the \
 appellate standard of review.

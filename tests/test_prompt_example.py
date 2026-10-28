@@ -59,6 +59,13 @@ class PromptExampleTest(unittest.TestCase):
         self.assertIn("The advice must follow from the ground the Court actually decided on", rule)
         self.assertIn("do not generalize the holding beyond the conditions", rule)
 
+    def test_a_claim_is_won_only_with_relief(self):
+        # Davenport v. Toro (Oct. 27): breach proved, no damages, deposit
+        # counterclaim lost; labeled "judgment in part for each side".
+        import summarize
+        rule = " ".join(summarize.SYSTEM_PROMPT.split())
+        self.assertIn("A party wins a claim only if it gets relief on it", rule)
+
     def test_magistrate_status_is_described_in_the_reports_own_words(self):
         import summarize
         rule = " ".join(summarize.SYSTEM_PROMPT.split())
