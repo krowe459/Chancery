@@ -1,4 +1,233 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402730",
+      "court": "chancery",
+      "date": "2026-10-28",
+      "docket": "C.A. No. 2025-1067",
+      "judge": "Laster V.C.",
+      "name": "In re R1 RCM Inc. Merger Litigation",
+      "ny_date": "2026-10-28",
+      "ny_processed_at": "2026-10-28T13:57:58-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' argument that the warrants count toward the One-Third Floor based on SEC beneficial-ownership disclosures: rejected. Under the common-law presumption and Aspen Advisors, unexercised warrants confer no \"ownership or control\" of voting power, and the SEC's Rule 13d-3 concept does not govern § 144.",
+          "Plaintiffs' argument that the TA Agreement's warrant-inclusive Ownership Percentage/Ownership Threshold shows TA's control: rejected. That definition scales TA's contract rights with its economic interest and confers no voting power. The Court left open whether parties could agree to treat particular securities as \"ownership or control\" of voting power.",
+          "Plaintiffs' timing argument that the One-Third Floor should be measured at closing, after TA exercised its warrants: rejected. By analogy to standing cases, the operative time is the point of alleged breach (pre-signing and signing), not when the injury manifested at the effective time. Appraisal's closing-date measure was contrasted.",
+          "TA's argument that the Election Requirement demands the ability to make election a fait accompli: the Court found the language ambiguous but held, based on the provision's evolution and the Moelis/Governance Agreement Statute history, that a majority-nomination right plus an efforts obligation suffices. Whether a nomination right alone suffices was expressly not decided (fn. 108).",
+          "TA's argument that only a transaction-specific power to elect a Board majority before the challenged vote counts: rejected. Majority control never required the ability to act immediately, and under this Charter a majority holder would also have had to wait for the next annual meeting. The legislative history forecloses transaction-specific control in both directions.",
+          "TA's argument that the Acceptability Condition defeats the Discretion Requirement: rejected on the plain language. The condition merely makes express the reasonableness the implied covenant would impose.",
+          "TA's argument that the Conditional Floor defeats the Discretion Requirement: rejected on the plain language. Any majority-nomination right paired with a majority-independent-board requirement forces at least one independent nominee, so TA's reading would make the trigger a nullity for most public companies. Nasdaq independence also does not meaningfully constrain TA's choice of nominees.",
+          "TA's argument that \"applicable law\" in the Conditional Floor imports Delaware disinterestedness (8 Del. C. § 144(e)(4)) and bars TA-affiliated nominees: rejected. Delaware disinterestedness is assessed transaction by transaction and cannot supply an abstract independence test. On TA's reading, directors could not even be compensated.",
+          "TA's argument that the Board-Majority Trigger is a dimmer switch requiring the plaintiffs also to plead common-law control: rejected. The three triggers are joined by \"or\" and parallel in structure, and the Stock-Majority and Non-Majority Triggers are toggle switches. Assuming arguendo ambiguity, contemporaneous RLF and Wilson Sonsini commentary confirms the bright-line reading.",
+          "TA's argument that a toggle-switch reading expands controller status beyond the common law: rejected. Pre-statute law on contractual control was unsettled, and the Board-Majority Trigger resolves it by counting only the right to elect directors, not other contract rights such as the Approval Requirements."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 144(e)(2)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Controller Definition with three disjunctive triggers: Stock-Majority, Board-Majority ((e)(2)(b)), and Non-Majority with the One-Third Floor ((e)(2)(c)).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Aspen Advisors LLC v. United Artists Theatre Co., 861 A.2d 1251 (Del. 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The convertibility feature of warrants does not impart stockholder status until exercise, so warrants confer no \"ownership or control\" of voting power.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "7547 P'rs v. Beck, 682 A.2d 160 (Del. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stock ownership relevant to fiduciary breach is measured when the challenged terms were set, not at consummation; applied to fix the time for testing controller status at the point of breach.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. S.B. 21, 153d Gen. Assem. (2025) (Initial Definition) and its amendment",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Council added the Board-Majority Trigger to the initial bill, evidencing intent to preserve a narrow form of contractual control.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "W. Palm Beach Firefighters' Pension Fund v. Moelis & Co., 311 A.3d 809 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A majority-nomination right plus an obligation to take all reasonable actions to elect the nominees prompted the Governance Agreement Statute; a similar package satisfies the Election Requirement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 122(18); Del. S.B. 313 syn., 152d Gen. Assem. (2024)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The Governance Agreement Statute authorized governance contracts without relieving stockholders of fiduciary duties, informing the reading of the Board-Majority Trigger.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson & Johnson v. Fortis Advisors LLC, 352 A.3d 229 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant imposes reasonableness on discretionary contract rights, so the Acceptability Condition only makes background law express.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nationwide Mut. Ins. Co. v. Krongold, 318 A.2d 606 (Del. 1974)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutes are not construed to produce absurd or unworkable results; reading the Conditional Floor to defeat discretion would nullify the trigger for public companies.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nasdaq R. 5605(b)(1), 5605(a)(2), 5615",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Listed companies need a majority-independent board absent narrow exceptions; Nasdaq independence turns on relationships with the company and does not meaningfully constrain TA's nominees.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(e)(4)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Disinterestedness is defined relative to a specific act or transaction, so it cannot supply the Conditional Floor's abstract independence test.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RLF and Wilson Sonsini contemporaneous memoranda on S.B. 21 (e.g., Corporate Law Advantage; Wilson Sonsini, Landmark Legislation)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Council-affiliated commentary described the Controller Definition as bright-line rules that bring clarity and predictability, supporting the toggle-switch reading.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RLF, Overview of Safe Harbors; Klinger-Wilensky et al., Corp. Governance Advisor (2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Controller Definition rejects transaction-specific control; the Court extended that reasoning from the Non-Majority Trigger to the Board-Majority Trigger.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "17 C.F.R. § 240.13d-3(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "SEC beneficial ownership is a different concept that does not govern the One-Third Floor.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Brigade Leveraged Cap. Structures Fund Ltd. v. Stillwater Mining Co., 240 A.3d 3 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The appraisal statute values shares at closing, unlike fiduciary-breach timing.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Simons v. Cogan, 549 A.2d 300 (Del. 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Convertible securities carry no rights of the underlying stock until conversion.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Smiledirectclub, Inc. Deriv. Litig., 2021 WL 2182827 (Del. Ch. May 28, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The time of the challenged transaction is when its terms were established.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. §§ 102(a)(4), 151(a), 212(a), 394",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The charter determines voting power; by default each share carries one vote.",
+            "role": "background"
+          },
+          {
+            "authority": "Moelis & Co. v. W. Palm Beach Firefighters' Pension Fund, 360 A.3d 215 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "None of the Moelis provisions was void; cited for the voidable status of the conflicting written-consent bylaw (fn. 109).",
+            "role": "background"
+          },
+          {
+            "authority": "Hamermesh, Jacobs & Strine, Optimizing the World's Leading Corporate Law, 77 Bus. Law. 321 (2022)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Source of the Initial Definition's stock-based, contract-excluding approach to control.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Cap. Hldgs. LLC, 27 A.3d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(6) reasonable-conceivability standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Salama v. Simon, 328 A.3d 356 (Del. Ch. 2024); In re Fox Corp./Snap Inc., 312 A.3d 636 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Legislative synopses and contemporaneous Council-member commentary are probative of legislative intent.",
+            "role": "background"
+          },
+          {
+            "authority": "Stiftel v. Malarkey, 384 A.2d 9 (Del. 1977) (Quillen, J., dissenting); State v. Botluck, 200 A.2d 424 (Del. 1964)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutory terms carry their common-law meaning, and the legislature acts against the backdrop of existing law.",
+            "role": "background"
+          },
+          {
+            "authority": "Indus. Rentals, Inc. v. New Castle Cty. Bd. of Adjustment, 776 A.2d 528 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutes must be read as a whole.",
+            "role": "background"
+          },
+          {
+            "authority": "Taylor v. Diamond State Port Corp., 14 A.3d 536 (Del. 2011); Jack Lingo Asset Mgmt., LLC v. Bd. of Adjustment, 282 A.3d 29 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A statute is ambiguous if it is susceptible of two reasonable interpretations, in which case courts consider legislative history.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Former R1 RCM stockholders challenged TA's take-private of the Company in the 2024 Merger, and the TA Defendants moved under Rule 12(b)(6) to dismiss Count I solely on the ground that TA was not a controlling stockholder under the 2025 Safe Harbor Statute's Controller Definition. Vice Chancellor Laster held that TA's 29.4% stake fell below the One-Third Floor, because warrants confer no ownership or control of voting power and status is tested at the time of breach, not at closing. The Court nevertheless held that TA's contractual right to nominate a Board majority, coupled with the Company's commercially reasonable efforts obligation, satisfied the Board-Majority Trigger despite the acceptability and independence limits. That trigger operates as a toggle switch that alone confers controller status, so no showing of common-law control is required.",
+        "citation_check": {
+          "not_checked": 4,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether, at the pleading stage, TA qualified as a \"controlling stockholder\" under the Controller Definition in 8 Del. C. § 144(e)(2). This turned on two questions: (1) whether TA cleared the Non-Majority Trigger's One-Third Floor by counting its unexercised warrants or measuring at closing; and (2) whether the Majority-Nomination Right plus the Company's Efforts Obligation satisfy the Board-Majority Trigger despite the Acceptability Condition and Conditional Floor, and if so, whether that trigger alone confers controller status (a \"toggle switch\") or also requires pleading common-law control (a \"dimmer switch\").",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion to dismiss Count I denied; the fiduciary-duty claim against the TA Defendants proceeds past the pleading stage. Non-Majority Trigger: not reasonably conceivable that TA met it, because TA held 29.4% of the outstanding voting power and unexercised warrants do not count. The One-Third Floor is measured at the time of the alleged breach, so TA's exercise of its warrants just before closing does not help the plaintiffs. (The section's closing sentence says \"The Stock-Majority Trigger does not apply,\" but the analysis addressed the One-Third Floor of the Non-Majority Trigger.) Board-Majority Trigger: adequately pled. The Election Requirement is ambiguous, but the statute's evolution and the Moelis/§ 122(18) backdrop show that the Majority-Nomination Right combined with the Efforts Obligation suffices. The Court did not decide whether a nomination right alone would suffice. A transaction-specific power to elect directors is not required. On the plain language of the Discretion Requirement, neither the Acceptability Condition nor the Conditional Floor negates TA's discretion. All three triggers are toggle switches: meeting one makes a person a controlling stockholder, and failing all three means it is not one unless a specific statute provides otherwise. The Court therefore did not reach whether TA was a common-law controller. Claims against the director defendants will be addressed in a separate decision (fn. 3).",
+        "key_facts_and_concessions": [
+          "The TA Defendants moved to dismiss Count I solely on the ground that TA was not a controlling stockholder; they sought dismissal on no other ground. Both sides accepted that the Controller Definition governs whether TA owed fiduciary duties.",
+          "Under the TA Agreement, while TA's Ownership Percentage exceeded 33%, TA was entitled to nominate a majority of the Board (the Majority-Nomination Right). The Ownership Percentage counts warrants on an as-exercised basis.",
+          "The Company committed to nominate the TA Designees and to \"use all commercially reasonable efforts to cause the [TA] Designees to be elected\" (the Efforts Obligation). It also committed that the Board would promptly elect a replacement TA Designee for any vacancy.",
+          "After the 2022 Merger, TA held 124,289,200 common shares, 29.4% of the 422,194,725 outstanding shares, plus warrants for 40,464,855 shares (about 35.7% fully diluted). Common stock was the only voting stock.",
+          "TA Designees had to be \"reasonably acceptable\" to the Nominating Committee (the Acceptability Condition). The 2023 proxy disclosed that three of the four Nominating Committee members, including the Chair, were TA Designees (fn. 115).",
+          "The Company was Nasdaq-listed with no exception to the majority-independent-board rule. Under the Conditional Floor, TA had to nominate enough independent directors to give the Board an independent majority.",
+          "The Charter eliminates action by written consent, and stockholders cannot call special meetings. Fn. 109 notes that the parallel bylaw provision conflicts with 8 Del. C. § 228 and, under Moelis Supreme, is voidable rather than void.",
+          "TA exercised its warrants just before the effective time of the 2024 Merger, which closed November 19, 2024. The merger was not conditioned on approval by a majority of the disinterested stockholders."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A sponsor whose governance agreement pairs a majority-nomination right with a company obligation to use efforts to elect its nominees should expect controller status under 8 Del. C. § 144(e)(2)(b), whatever its equity stake; reasonable-acceptability and listing-standard independence conditions will not avoid that result. Plaintiffs relying on the Non-Majority Trigger should count only outstanding voting stock actually held when the alleged breaches occurred, not warrants or other convertibles.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(6) reasonable conceivability (Central Mortgage). Statutory interpretation, including whether the statute is ambiguous and how an ambiguous statute is construed, treated as a pure question of law suitable for resolution at the pleading stage."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402730"
+    }
+  ],
+  "ny_date": "2026-10-28"
 }

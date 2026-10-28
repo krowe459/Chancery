@@ -795,12 +795,19 @@
       "name": "Macron, et al. v. Owens, et al.",
       "processed_at": "2026-10-28T10:11:17-04:00",
       "status": "out_of_scope"
+    },
+    "de-402730": {
+      "court": "chancery",
+      "docket": "C.A. No. 2025-1067",
+      "name": "In re R1 RCM Inc. Merger Litigation",
+      "processed_at": "2026-10-28T13:57:58-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-28T10:11:17-04:00",
+  "last_checked_ny": "2026-10-28T13:57:58-04:00",
   "page_hashes": {
-    "chancery": "9dc21ffa142e7ff72b16c2833de7d7637b5641327e1c081bc8dc3f2ba485cb75",
+    "chancery": "a1024dde546abedb10c37720600caeb87b7cdc3b0a780ebd690c1d16d635956f",
     "superior": "7fd590675adeb8c4a8726c0a36877af87e78e2ae9445a9e02f0fb0f195334dcd",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
