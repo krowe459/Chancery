@@ -1,0 +1,582 @@
+{
+  "entries": [
+    {
+      "case_id": "de-402730",
+      "court": "chancery",
+      "date": "2026-10-28",
+      "docket": "C.A. No. 2025-1067",
+      "judge": "Laster V.C.",
+      "name": "In re R1 RCM Inc. Merger Litigation",
+      "ny_date": "2026-10-28",
+      "ny_processed_at": "2026-10-28T13:57:58-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' argument that the warrants count toward the One-Third Floor based on SEC beneficial-ownership disclosures: rejected. Under the common-law presumption and Aspen Advisors, unexercised warrants confer no \"ownership or control\" of voting power, and the SEC's Rule 13d-3 concept does not govern § 144.",
+          "Plaintiffs' argument that the TA Agreement's warrant-inclusive Ownership Percentage/Ownership Threshold shows TA's control: rejected. That definition scales TA's contract rights with its economic interest and confers no voting power. The Court left open whether parties could agree to treat particular securities as \"ownership or control\" of voting power.",
+          "Plaintiffs' timing argument that the One-Third Floor should be measured at closing, after TA exercised its warrants: rejected. By analogy to standing cases, the operative time is the point of alleged breach (pre-signing and signing), not when the injury manifested at the effective time. Appraisal's closing-date measure was contrasted.",
+          "TA's argument that the Election Requirement demands the ability to make election a fait accompli: the Court found the language ambiguous but held, based on the provision's evolution and the Moelis/Governance Agreement Statute history, that a majority-nomination right plus an efforts obligation suffices. Whether a nomination right alone suffices was expressly not decided (fn. 108).",
+          "TA's argument that only a transaction-specific power to elect a Board majority before the challenged vote counts: rejected. Majority control never required the ability to act immediately, and under this Charter a majority holder would also have had to wait for the next annual meeting. The legislative history forecloses transaction-specific control in both directions.",
+          "TA's argument that the Acceptability Condition defeats the Discretion Requirement: rejected on the plain language. The condition merely makes express the reasonableness the implied covenant would impose.",
+          "TA's argument that the Conditional Floor defeats the Discretion Requirement: rejected on the plain language. Any majority-nomination right paired with a majority-independent-board requirement forces at least one independent nominee, so TA's reading would make the trigger a nullity for most public companies. Nasdaq independence also does not meaningfully constrain TA's choice of nominees.",
+          "TA's argument that \"applicable law\" in the Conditional Floor imports Delaware disinterestedness (8 Del. C. § 144(e)(4)) and bars TA-affiliated nominees: rejected. Delaware disinterestedness is assessed transaction by transaction and cannot supply an abstract independence test. On TA's reading, directors could not even be compensated.",
+          "TA's argument that the Board-Majority Trigger is a dimmer switch requiring the plaintiffs also to plead common-law control: rejected. The three triggers are joined by \"or\" and parallel in structure, and the Stock-Majority and Non-Majority Triggers are toggle switches. Assuming arguendo ambiguity, contemporaneous RLF and Wilson Sonsini commentary confirms the bright-line reading.",
+          "TA's argument that a toggle-switch reading expands controller status beyond the common law: rejected. Pre-statute law on contractual control was unsettled, and the Board-Majority Trigger resolves it by counting only the right to elect directors, not other contract rights such as the Approval Requirements."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 144(e)(2)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Controller Definition with three disjunctive triggers: Stock-Majority, Board-Majority ((e)(2)(b)), and Non-Majority with the One-Third Floor ((e)(2)(c)).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Aspen Advisors LLC v. United Artists Theatre Co., 861 A.2d 1251 (Del. 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The convertibility feature of warrants does not impart stockholder status until exercise, so warrants confer no \"ownership or control\" of voting power.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "7547 P'rs v. Beck, 682 A.2d 160 (Del. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Stock ownership relevant to fiduciary breach is measured when the challenged terms were set, not at consummation; applied to fix the time for testing controller status at the point of breach.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. S.B. 21, 153d Gen. Assem. (2025) (Initial Definition) and its amendment",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Council added the Board-Majority Trigger to the initial bill, evidencing intent to preserve a narrow form of contractual control.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "W. Palm Beach Firefighters' Pension Fund v. Moelis & Co., 311 A.3d 809 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A majority-nomination right plus an obligation to take all reasonable actions to elect the nominees prompted the Governance Agreement Statute; a similar package satisfies the Election Requirement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 122(18); Del. S.B. 313 syn., 152d Gen. Assem. (2024)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The Governance Agreement Statute authorized governance contracts without relieving stockholders of fiduciary duties, informing the reading of the Board-Majority Trigger.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson & Johnson v. Fortis Advisors LLC, 352 A.3d 229 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant imposes reasonableness on discretionary contract rights, so the Acceptability Condition only makes background law express.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nationwide Mut. Ins. Co. v. Krongold, 318 A.2d 606 (Del. 1974)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutes are not construed to produce absurd or unworkable results; reading the Conditional Floor to defeat discretion would nullify the trigger for public companies.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nasdaq R. 5605(b)(1), 5605(a)(2), 5615",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Listed companies need a majority-independent board absent narrow exceptions; Nasdaq independence turns on relationships with the company and does not meaningfully constrain TA's nominees.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(e)(4)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Disinterestedness is defined relative to a specific act or transaction, so it cannot supply the Conditional Floor's abstract independence test.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RLF and Wilson Sonsini contemporaneous memoranda on S.B. 21 (e.g., Corporate Law Advantage; Wilson Sonsini, Landmark Legislation)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Council-affiliated commentary described the Controller Definition as bright-line rules that bring clarity and predictability, supporting the toggle-switch reading.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "RLF, Overview of Safe Harbors; Klinger-Wilensky et al., Corp. Governance Advisor (2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Controller Definition rejects transaction-specific control; the Court extended that reasoning from the Non-Majority Trigger to the Board-Majority Trigger.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "17 C.F.R. § 240.13d-3(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "SEC beneficial ownership is a different concept that does not govern the One-Third Floor.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Brigade Leveraged Cap. Structures Fund Ltd. v. Stillwater Mining Co., 240 A.3d 3 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The appraisal statute values shares at closing, unlike fiduciary-breach timing.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Simons v. Cogan, 549 A.2d 300 (Del. 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Convertible securities carry no rights of the underlying stock until conversion.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Smiledirectclub, Inc. Deriv. Litig., 2021 WL 2182827 (Del. Ch. May 28, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The time of the challenged transaction is when its terms were established.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. §§ 102(a)(4), 151(a), 212(a), 394",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The charter determines voting power; by default each share carries one vote.",
+            "role": "background"
+          },
+          {
+            "authority": "Moelis & Co. v. W. Palm Beach Firefighters' Pension Fund, 360 A.3d 215 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "None of the Moelis provisions was void; cited for the voidable status of the conflicting written-consent bylaw (fn. 109).",
+            "role": "background"
+          },
+          {
+            "authority": "Hamermesh, Jacobs & Strine, Optimizing the World's Leading Corporate Law, 77 Bus. Law. 321 (2022)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Source of the Initial Definition's stock-based, contract-excluding approach to control.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Cap. Hldgs. LLC, 27 A.3d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(6) reasonable-conceivability standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Salama v. Simon, 328 A.3d 356 (Del. Ch. 2024); In re Fox Corp./Snap Inc., 312 A.3d 636 (Del. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Legislative synopses and contemporaneous Council-member commentary are probative of legislative intent.",
+            "role": "background"
+          },
+          {
+            "authority": "Stiftel v. Malarkey, 384 A.2d 9 (Del. 1977) (Quillen, J., dissenting); State v. Botluck, 200 A.2d 424 (Del. 1964)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutory terms carry their common-law meaning, and the legislature acts against the backdrop of existing law.",
+            "role": "background"
+          },
+          {
+            "authority": "Indus. Rentals, Inc. v. New Castle Cty. Bd. of Adjustment, 776 A.2d 528 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Statutes must be read as a whole.",
+            "role": "background"
+          },
+          {
+            "authority": "Taylor v. Diamond State Port Corp., 14 A.3d 536 (Del. 2011); Jack Lingo Asset Mgmt., LLC v. Bd. of Adjustment, 282 A.3d 29 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A statute is ambiguous if it is susceptible of two reasonable interpretations, in which case courts consider legislative history.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Former R1 RCM stockholders challenged TA's take-private of the Company in the 2024 Merger, and the TA Defendants moved under Rule 12(b)(6) to dismiss Count I solely on the ground that TA was not a controlling stockholder under the 2025 Safe Harbor Statute's Controller Definition. Vice Chancellor Laster held that TA's 29.4% stake fell below the One-Third Floor, because warrants confer no ownership or control of voting power and status is tested at the time of breach, not at closing. The Court nevertheless held that TA's contractual right to nominate a Board majority, coupled with the Company's commercially reasonable efforts obligation, satisfied the Board-Majority Trigger despite the acceptability and independence limits. That trigger operates as a toggle switch that alone confers controller status, so no showing of common-law control is required.",
+        "citation_check": {
+          "not_checked": 4,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether, at the pleading stage, TA qualified as a \"controlling stockholder\" under the Controller Definition in 8 Del. C. § 144(e)(2). This turned on two questions: (1) whether TA cleared the Non-Majority Trigger's One-Third Floor by counting its unexercised warrants or measuring at closing; and (2) whether the Majority-Nomination Right plus the Company's Efforts Obligation satisfy the Board-Majority Trigger despite the Acceptability Condition and Conditional Floor, and if so, whether that trigger alone confers controller status (a \"toggle switch\") or also requires pleading common-law control (a \"dimmer switch\").",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion to dismiss Count I denied; the fiduciary-duty claim against the TA Defendants proceeds past the pleading stage. Non-Majority Trigger: not reasonably conceivable that TA met it, because TA held 29.4% of the outstanding voting power and unexercised warrants do not count. The One-Third Floor is measured at the time of the alleged breach, so TA's exercise of its warrants just before closing does not help the plaintiffs. (The section's closing sentence says \"The Stock-Majority Trigger does not apply,\" but the analysis addressed the One-Third Floor of the Non-Majority Trigger.) Board-Majority Trigger: adequately pled. The Election Requirement is ambiguous, but the statute's evolution and the Moelis/§ 122(18) backdrop show that the Majority-Nomination Right combined with the Efforts Obligation suffices. The Court did not decide whether a nomination right alone would suffice. A transaction-specific power to elect directors is not required. On the plain language of the Discretion Requirement, neither the Acceptability Condition nor the Conditional Floor negates TA's discretion. All three triggers are toggle switches: meeting one makes a person a controlling stockholder, and failing all three means it is not one unless a specific statute provides otherwise. The Court therefore did not reach whether TA was a common-law controller. Claims against the director defendants will be addressed in a separate decision (fn. 3).",
+        "key_facts_and_concessions": [
+          "The TA Defendants moved to dismiss Count I solely on the ground that TA was not a controlling stockholder; they sought dismissal on no other ground. Both sides accepted that the Controller Definition governs whether TA owed fiduciary duties.",
+          "Under the TA Agreement, while TA's Ownership Percentage exceeded 33%, TA was entitled to nominate a majority of the Board (the Majority-Nomination Right). The Ownership Percentage counts warrants on an as-exercised basis.",
+          "The Company committed to nominate the TA Designees and to \"use all commercially reasonable efforts to cause the [TA] Designees to be elected\" (the Efforts Obligation). It also committed that the Board would promptly elect a replacement TA Designee for any vacancy.",
+          "After the 2022 Merger, TA held 124,289,200 common shares, 29.4% of the 422,194,725 outstanding shares, plus warrants for 40,464,855 shares (about 35.7% fully diluted). Common stock was the only voting stock.",
+          "TA Designees had to be \"reasonably acceptable\" to the Nominating Committee (the Acceptability Condition). The 2023 proxy disclosed that three of the four Nominating Committee members, including the Chair, were TA Designees (fn. 115).",
+          "The Company was Nasdaq-listed with no exception to the majority-independent-board rule. Under the Conditional Floor, TA had to nominate enough independent directors to give the Board an independent majority.",
+          "The Charter eliminates action by written consent, and stockholders cannot call special meetings. Fn. 109 notes that the parallel bylaw provision conflicts with 8 Del. C. § 228 and, under Moelis Supreme, is voidable rather than void.",
+          "TA exercised its warrants just before the effective time of the 2024 Merger, which closed November 19, 2024. The merger was not conditioned on approval by a majority of the disinterested stockholders."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A sponsor whose governance agreement pairs a majority-nomination right with a company obligation to use efforts to elect its nominees should expect controller status under 8 Del. C. § 144(e)(2)(b), whatever its equity stake; reasonable-acceptability and listing-standard independence conditions will not avoid that result. Plaintiffs relying on the Non-Majority Trigger should count only outstanding voting stock actually held when the alleged breaches occurred, not warrants or other convertibles.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(6) reasonable conceivability (Central Mortgage). Statutory interpretation, including whether the statute is ambiguous and how an ambiguous statute is construed, treated as a pure question of law suitable for resolution at the pleading stage."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402730"
+    },
+    {
+      "case_id": "de-402740",
+      "court": "superior",
+      "date": "2026-10-28",
+      "docket": "N25C-10-310 PAW CCLD",
+      "judge": "Winston J.",
+      "name": "Invitae Corporation v. Natera, Inc.",
+      "ny_date": "2026-10-28",
+      "ny_processed_at": "2026-10-28T15:58:13-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendant's standing argument (that rejection of the APA deprives the Plan Administrator of standing): rejected. Rejection is a breach, not a termination or rescission, and the plan expressly retained this cause of action under 11 U.S.C. § 1123(b)(3)(B).",
+          "Plaintiff's argument that the Milestone Payment was a vested pre-petition entitlement arising at Closing, leaving only its calculation open: rejected. The APA labels the payment contingent and ties it to post-Closing performance that could not be completed at Closing, so allegations contradicted by the integral APA need not be accepted.",
+          "Plaintiff's collateral estoppel argument: rejected on the second element. The Bankruptcy Court expressly abstained and so did not \"decide\" whether rejection and breach relieved Defendant of the Milestone Payment obligation.",
+          "Plaintiff's quasi-estoppel argument (adopting the Bankruptcy Court's reasoning): rejected. Defendant does not argue here that rejection extinguished Plaintiff's rights, which is the position the Bankruptcy Court rejected; it argues that Plaintiff's material breach excused Defendant's future performance.",
+          "Defendant's reliance on Lauter v. Citgo Petroleum Corp. for standing: distinguished. Lauter does not address the effect of causes of action expressly retained in the plan, although such causes were retained in that case (fn. 49).",
+          "Defendant's alternative request for a stay: not reached and moot because the motion to dismiss was granted (fn. 65)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "11 U.S.C. § 365(g)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Rejection of an executory contract constitutes a breach immediately before the petition date.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Invitae Corp., 671 B.R. 783 (Bankr. D.N.J. July 2, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Plaintiff's rejection of the APA constitutes a breach. The Bankruptcy Court abstained on the consequences for the Milestone Payment, and its quasi-estoppel ruling was limited to the extinguishment argument.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Level 4 Yoga, LLC v. CorePower Yoga, LLC, 2022 WL 601862 (Del. Ch. Mar. 1, 2022) (quoting Brasby v. Morris, 2007 WL 949485 (Del. Super. Mar. 29, 2007))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party's material breach excuses the non-breaching party's performance under Delaware law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "APA § 2.9",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Milestone Payment is \"Contingent Consideration\" payable only if post-Closing retention thresholds, measured over a 30-day period ending 120 days after Closing, are met.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "New Start Holdings, LLC v. Zhou, 2024 WL 4039440 (Del. Ch. Sept. 4, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contract headings, though not controlling, may support interpretation of substantive provisions.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Orman v. Cullman, 794 A.2d 5 (Del. Ch. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court need not accept an allegation unambiguously contradicted by an integral document incorporated into the complaint.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Cinicola v. Scharffenberger, 248 F.3d 110 (3d Cir. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rejection creates a pre-petition breach claim but does not affect the parties' substantive rights under the contract.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hipcricket, Inc. v. mGage, LLC, 2016 WL 3910837 (Del. Ch. July 15, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Applicable state law determines the legal ramifications of breaching a rejected contract.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "11 U.S.C. § 1123(b)(3)(B)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A chapter 11 plan may provide for retention and enforcement of claims by the debtor or an estate representative.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hercules Inc. v. AIU Ins. Co., 783 A.2d 1275 (Del. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Collateral estoppel applies to issues actually and necessarily determined by a court of competent jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Weber v. Weber, 2015 WL 1811228",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Elements of collateral estoppel: same issue, actually litigated and decided, and essential to the prior judgment.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pers. Decisions, Inc. v. Bus. Planning Sys., 2008 WL 1932404 (Del. Ch. May 5, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quasi-estoppel bars asserting a right inconsistent with a position previously taken where it would be unconscionable to do so.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lauter v. Citgo Petroleum Corp., 2018 WL 801601 (S.D. Tex. Feb. 8, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A trustee lacked standing to pursue post-petition breach claims on a rejected contract, but the decision did not analyze retained causes of action.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "In re Drexel Burnham Lambert Grp., Inc., 1992 WL 36294 (Bankr. S.D.N.Y. Feb. 26, 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rejection frees the estate from performing but does not make the contract disappear.",
+            "role": "background"
+          },
+          {
+            "authority": "Matter of Petrowax P.A., Inc., 1996 WL 544436 (Bankr. D. Del. July 31, 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A debtor lacked standing where it failed to satisfy the § 1123(b)(3)(B) retention requirement.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Invitae Corp., 2026 WL 1133800 (D.N.J. Apr. 27, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The District Court affirmed the Bankruptcy Court's decision in its entirety.",
+            "role": "background"
+          },
+          {
+            "authority": "Super. Ct. Civ. R. 12(b)(1) and 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Dismissal standards for lack of subject matter jurisdiction and failure to state a claim.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Capital Hldgs. LLC, 27 A.3d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reasonable conceivability pleading standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Windsor I, LLC v. CWCapital Asset Mgmt. LLC, 238 A.3d 863 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Conclusory allegations and unreasonable inferences are not credited.",
+            "role": "background"
+          },
+          {
+            "authority": "Appriva S'holder Litig. Co., LLC v. EV3, Inc., 937 A.2d 1275 (Del. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "On a Rule 12(b)(1) motion the Court may consider matters outside the pleadings.",
+            "role": "background"
+          },
+          {
+            "authority": "Schoon v. Smith, 953 A.2d 196 (Del. 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Definition of standing.",
+            "role": "background"
+          },
+          {
+            "authority": "Orloff v. Shulman, 2005 WL 3272355 (Del. Ch. Nov. 23, 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court may take judicial notice of pleadings in related bankruptcy proceedings (fn. 1).",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Invitae Corporation, a chapter 11 debtor acting through its Plan Administrator, sought a declaratory judgment from the Superior Court (CCLD) construing the Milestone Payment provision of its APA with Natera, Inc., after the Bankruptcy Court held that Invitae's plan rejection of the APA was a breach but abstained on its consequences; Natera moved to dismiss. The Court found that Invitae had standing because rejection is a breach rather than a termination and the plan retained the claim. It also held that neither collateral estoppel nor quasi-estoppel applied, because the Bankruptcy Court never decided the issue and Natera's material-breach theory is not the extinguishment theory that court rejected. Given Invitae's concession that rejection was a material breach, and because the contingent Milestone Payment depended on post-breach retention metrics, Natera's performance was excused and the complaint was dismissed.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 21
+        },
+        "core_legal_issue": "Whether a seller-debtor's rejection of an asset purchase agreement under 11 U.S.C. § 365, deemed a pre-petition breach that the seller conceded was material, relieved the buyer of its obligation to pay up to $22.5 million in contingent post-closing Milestone Payment consideration, where the retention measurement period that triggered the payment ran after the petition and breach dates. This dispositive question was reached only after the Court held that the debtor, through its Plan Administrator, had standing and that neither collateral estoppel nor quasi-estoppel barred the buyer's defense.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 17,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendant's motion to dismiss granted under Rule 12(b)(6). On standing, the Court held that the Plan Administrator may sue because rejection under § 365(g) is a breach, not a termination or rescission, and the plan expressly retained this cause of action. The Court rejected both estoppel theories: the Bankruptcy Court abstained and so never decided the effect of rejection on the Milestone Payment, and Defendant's material-breach argument differs from the extinguishment argument the Bankruptcy Court found barred by quasi-estoppel. On the merits, Plaintiff conceded material breach, and the Court found the Milestone Payment contingent, executory and post-petition: § 2.9 is titled \"Contingent Consideration,\" and its triggering measurement period (April 16 to May 16, 2024) ran after the February 12, 2024 deemed breach. Under Delaware law, Plaintiff's material breach therefore excused Defendant's contingent, future-facing performance, and it is not reasonably conceivable that Plaintiff can enforce the obligation. The Court resolved the question at the pleading stage as a legal issue on undisputed facts. Defendant's alternative stay request was deemed moot.",
+        "key_facts_and_concessions": [
+          "At oral argument, Plaintiff conceded that its rejection of the APA constitutes a material breach; it argued instead that its entitlement to the Milestone Payment arose at Closing.",
+          "APA § 2.9 is titled \"Contingent Consideration.\" It conditions the Milestone Payment (up to $22.5 million, payable in full if the Volume Retention Percentage is at least 90%) on a Retention Accession Amount measured over a 30-day period ending 120 days after Closing.",
+          "The APA closed January 17, 2024, so the measurement period ran from April 16 to May 16, 2024. Plaintiff filed its chapter 11 petition on February 13, 2024, and its rejection is deemed a breach as of February 12, 2024.",
+          "In an August 2024 plan supplement, Plaintiff listed the APA on Schedule C of rejected contracts. The plan expressly retained Plaintiff's claims against Defendant as a \"Retained Cause of Action\" \"notwithstanding the rejection or repudiation of any Executory Contract,\" and Defendant did not object.",
+          "In Defendant's adversary proceeding, the Bankruptcy Court held that the rejection constitutes a breach. It sua sponte abstained from deciding the parties' remaining obligations, including the Milestone Payment, in favor of the then-pending Delaware action, and invoked quasi-estoppel against Defendant's position that rejection extinguished Plaintiff's rights.",
+          "The District of New Jersey affirmed in April 2026, and Defendant appealed to the Third Circuit on May 27, 2026.",
+          "Defendant calculated the Milestone Payment at $0 and Plaintiff timely disputed at $22.5 million. The disputes concern the measurement period, an adjustment to the Retention Accession Amount and the exclusion of pre-existing tests; Plaintiff also alleges Defendant denied it books-and-records access.",
+          "Plaintiff's earlier, substantially similar Court of Chancery action was voluntarily dismissed without prejudice (fn. 22, 55)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A debtor-seller weighing whether to reject an APA with unearned contingent consideration should recognize that a plan clause retaining claims \"notwithstanding the rejection\" preserves standing but not the payment: where the earnout's triggering conditions post-date the deemed pre-petition breach, Delaware material-breach doctrine can excuse the buyer's performance, so consider assumption or a negotiated resolution before rejecting. Buyers should frame their defense as material breach excusing future performance rather than as rejection extinguishing the seller's rights, which is the distinction that defeated quasi-estoppel here.",
+        "standard_of_review": "Super. Ct. Civ. R. 12(b)(1) for standing: plaintiff bears the burden, and the Court may consider matters outside the pleadings without accepting the allegations as true. Super. Ct. Civ. R. 12(b)(6) for the merits: dismissal only if recovery is not reasonably conceivable, with no acceptance of conclusory allegations or allegations unambiguously contradicted by an integral incorporated document."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402740"
+    },
+    {
+      "case_id": "de-402750",
+      "court": "superior",
+      "date": "2026-10-28",
+      "docket": "N25C-03-253 PAW CCLD",
+      "judge": "Winston J.",
+      "name": "Fedelta Partners, LLC v. Aware360 Ltd., et al.",
+      "ny_date": "2026-10-28",
+      "ny_processed_at": "2026-10-28T15:58:13-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Anticipatory repudiation based on refusal to escrow the undisputed floor: rejected. Plaintiff failed to support the existence of any escrow obligation pending the § 2 dispute process. Granting the claim would require implying a term that sophisticated parties could have drafted but did not.",
+          "Plaintiff's reliance on the general Payment 3 provision (Deferred Payments Agreement § 1(c)(ii)(2)(b)) requiring remittance to an escrow agent once calculated: rejected. The reading assumes there is no dispute as to what Payment 3 is, or that any dispute has been resolved.",
+          "Characterization of Defendants' statement as an unequivocal, positive and unconditional refusal: the Court held Plaintiff failed to establish it, though it decided the point mainly by \"setting aside\" intent and resting on the absence of an escrow obligation.",
+          "Inclusion of Sutter and other Disputed Slow Pay Customers based on LBH's accrual accounting and its bad-debt practice: not resolved on summary judgment. The Court held a fuller factual record and more discovery on LBH's historical treatment of income are needed.",
+          "Defendants' arguments on the Disputed HHS Customers: deemed waived for failure to respond in opposition (Emerald Partners). The Court nonetheless denied the motion in full.",
+          "Defendants' post-closing-contract and Franciscan Alliance arguments: not decided. The Court treated them as factual issues warranting further inquiry."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "CitiSteel, USA, Inc. v. Connell Limited Partnership, 758 A.2d 928 (Del. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Repudiation is an outright refusal by a party to perform a contract or its conditions, entitling the other party to treat the contract as rescinded.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Carteret Bancorp, Inc. v. Home Grp., Inc., 1988 WL 3010 (Del. Ch. Jan. 13, 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Anticipatory repudiation requires an unequivocal statement that is positive and unconditional about the promisor's intent not to perform.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "AG Mobile Holdings, L.P. v. H.I.G. Mobile, L.P., 2025 WL 501088 (Del. Ch. Feb. 13, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Where sophisticated parties addressed a contractual issue, the court will not imply terms they failed to include but could have drafted.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Deferred Payments Agreement (SPA Ex. A) § 2",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Sets the Calculation Statement, objection, good-faith negotiation and accounting-firm process for disputed Deferred Payments Calculations, with no escrow requirement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Deferred Payments Agreement (SPA Ex. A) § 1(c)(ii)(2)(b)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "General Payment 3 provision requiring remittance to an escrow agent once Payment 3 is calculated; it does not reach amounts still in dispute.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ebersole v. Lowengrub, 180 A.2d 467 (Del. 1962)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment will not be granted where it seems desirable to inquire thoroughly into the facts to clarify the application of the law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Emerald P'rs v. Berlin, 726 A.2d 1215 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Failure to respond to an argument raised in a motion constitutes waiver.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sheehan v. Hepburn, 138 A.2d 810 (Del. Ch. 1958)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted within CitiSteel for the definition of repudiation.",
+            "role": "background"
+          },
+          {
+            "authority": "Super. Ct. Civ. R. 56(c)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Moore v. Sizemore, 405 A.2d 679 (Del. 1979)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Movant bears the initial burden on summary judgment.",
+            "role": "background"
+          },
+          {
+            "authority": "Brzoska v. Olson, 668 A.2d 1355 (Del. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Burden-shifting on summary judgment; the question is ripe where the facts permit only one inference.",
+            "role": "background"
+          },
+          {
+            "authority": "Wootten v. Kiger, 226 A.2d 238 (Del. Super. 1967)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Brzoska for the single-inference standard.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In this CCLD action between Fedelta Partners, LLC and Aware360 Ltd., et al. over Payment 3 under an SPA's Deferred Payments Agreement, Plaintiff moved for partial summary judgment on anticipatory repudiation and on the inclusion of certain disputed customers' income in the Payment 3 calculation. The Court held the repudiation theory depended on an escrow obligation for an undisputed floor amount that the contract does not contain, and declined to imply one. Although Defendants waived any response as to the Disputed HHS Customers, the Court denied the motion in full because the Slow Pay Customer issues, including LBH's historical accounting treatment of income, need a fuller record and further discovery.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 10
+        },
+        "core_legal_issue": "Whether the seller (Plaintiff) was entitled to partial summary judgment under the SPA's Deferred Payments Agreement on two questions. The first was an anticipatory repudiation claim premised on Defendants' refusal to escrow the undisputed $1,618,771 floor of Payment 3 while the parties disputed the rest. The second was whether income from Sutter and other Disputed Slow Pay Customers must be counted as \"Revenue\" in the Payment 3 calculation based on LBH's historical accounting practices.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 16,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Plaintiff's motion for partial summary judgment denied. On anticipatory repudiation, Plaintiff failed to establish an unequivocal, positive and unconditional refusal to pay. The claim rested on Defendants' refusal to escrow the undisputed floor, but the SPA's Deferred Payments Agreement contains no escrow obligation pending its § 2 dispute-resolution process. The general Payment 3 escrow provision presupposes a calculated, undisputed Payment 3, and the Court declined to imply a term sophisticated parties could have drafted. On the customer disputes, the Court found no genuine dispute of fact as to the Disputed HHS Customers because Defendants waived by not responding. It nonetheless denied summary judgment because the Disputed Slow Pay Customers raise factual issues warranting thorough inquiry. Those issues include LBH's historical treatment of income, which is central to the SPA's \"Revenue\" definition, and Defendants' post-closing-contract and Franciscan Alliance points. The Court also noted that the fourteen miscellaneous customers, a majority of the 26 Disputed Customers, were not before it, and that Defendants assert Plaintiff has produced no documents. The Court found further discovery would be helpful.",
+        "key_facts_and_concessions": [
+          "Plaintiff's repudiation claim rests on Defendants' refusal to deposit into escrow the lowest amount both parties accepted during pre-litigation negotiations ($1,618,771). The parties continued to dispute an additional $347,452.52.",
+          "The Deferred Payments Agreement (SPA Ex. A) § 2 sets a dispute process for Deferred Payments Calculations: Defendants submit a Calculation Statement; Plaintiff accepts or objects; the parties negotiate in good faith; and unresolved disputes go to an accounting firm. No provision requires Defendants to escrow any amount, even an agreed floor.",
+          "As characterized by the Court, Defendants' statement was that they would not be in a position to make Payment 3 at that time but intended to make Payment 3, including any applicable interest.",
+          "Defendants did not address the Disputed HHS Customers in their opposition. The Court found no genuine dispute of material fact as to those customers and treated the failure to respond as waiver, but still denied the motion as a whole.",
+          "Of the 26 Disputed Customers, six are Sutter/Slow Pay Customers, six are Disputed HHS Customers, and fourteen are \"miscellaneous customers.\" Plaintiff did not move as to the miscellaneous customers (fn. 20).",
+          "Defendants assert that Plaintiff \"has yet to produce any documents\" in discovery, including on how LBH historically treated income. The Court found LBH's historical treatment of income central to the SPA's definition of \"Revenue.\"",
+          "Defendants contend Sutter and two other Disputed Slow Pay Customers contracted after closing. They also contend Franciscan Alliance went out of business before Plaintiff invoiced it."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Parties to earnout or deferred-payment provisions who want undisputed amounts paid or escrowed while a calculation dispute proceeds through the contractual accounting process should draft that obligation expressly, because the Court will not imply it. Before moving for partial summary judgment on revenue issues that turn on a target's historical accounting practices, a movant should expect the Court to defer the issue until discovery on those practices has developed the record.",
+        "standard_of_review": "Super. Ct. Civ. R. 56(c) summary judgment: no genuine issue of material fact and movant entitled to judgment as a matter of law. Summary judgment is denied where it seems desirable to inquire thoroughly into the facts to clarify the application of the law (Ebersole)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402750"
+    }
+  ],
+  "ny_date": "2026-10-28"
+}
