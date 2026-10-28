@@ -5,7 +5,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
-from pdftext import assemble, pdf_to_text  # noqa: E402
+from types import SimpleNamespace  # noqa: E402
+
+from pdftext import _separator_top, assemble, pdf_to_text, visible  # noqa: E402
 
 W, H = 612.0, 792.0
 LEFT, RIGHT = 72.0, 540.0
@@ -112,6 +114,28 @@ class AssembleTest(unittest.TestCase):
         with_rule = assemble([(W, H, page, 630.0)])
         self.assertIn("reasons below[^1] and the case", with_rule)
         self.assertIn("[^1]: Dkt. 162.", with_rule)
+
+    def test_table_borders_are_not_a_separator(self):
+        # US WorldMeds v. Supernus (Oct. 26), page 16: a two-column fee table
+        # whose right-column borders (365-513pt) pass the length and margin
+        # tests, above the real separator at 658pt.
+        words = (line("Gibson Dunn Fee Motion Request $1,898,019.09", 76)
+                 + [w for top in range(92, 440, 17) for w in line("$80,732.29", top, x0=365, x1=420)]
+                 + line("^51 US WorldMeds, 2026 WL 2098302, at 4.", 666, size=12, x1=400))
+        def rules(top):   # one table row: the segments Word draws for its borders
+            return [{"top": top, "x0": a, "x1": b, "height": 0.5}
+                    for a, b in ((72, 72.5), (72, 364), (364, 365), (365, 513), (513, 513.5))]
+        rects = [r for top in range(72, 440, 17) for r in rules(top)]
+        rects.append({"top": 658.2, "x0": 72, "x1": 216, "height": 0.5})
+        page = SimpleNamespace(height=H, rects=rects, lines=[])
+        self.assertEqual(_separator_top(page, words), 658.2)
+        page.rects = rects[:-1]
+        self.assertIsNone(_separator_top(page, words))
+
+    def test_hidden_anchor_text_is_dropped(self):
+        words = [{"text": "paid", "size": 14.0}, {"text": "50F", "size": 1.0},
+                 {"text": "51", "size": 9.0}]
+        self.assertEqual([w["text"] for w in visible(words)], ["paid", "51"])
 
     def test_empty_document(self):
         self.assertIsNone(assemble([(W, H, [])]))
