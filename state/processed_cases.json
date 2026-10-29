@@ -838,25 +838,40 @@
       "processed_at": "2026-10-29T10:15:22-04:00",
       "status": "out_of_scope"
     },
+    "de-402790": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0193-PAF",
+      "name": "Keith Jones v. SBC Medical Group Holdings, Inc.",
+      "processed_at": "2026-10-29T13:59:32-04:00",
+      "status": "failed"
+    },
     "de-402800": {
       "court": "chancery",
       "docket": "C.A. No. 2026-0429-DH",
       "name": "Kyle Robertson v. Cerebral Inc.",
       "processed_at": "2026-10-29T12:07:19-04:00",
       "status": "ok"
+    },
+    "de-402810": {
+      "court": "superior",
+      "docket": "S26C-02-037 MHC",
+      "name": "Bachman v. Murphy",
+      "processed_at": "2026-10-29T13:59:32-04:00",
+      "status": "out_of_scope"
+    },
+    "de-402820": {
+      "court": "superior",
+      "docket": "N25C-08-119 CEB",
+      "name": "Wheeler v. Slowe-Freeman, et al.",
+      "processed_at": "2026-10-29T13:59:32-04:00",
+      "status": "out_of_scope"
     }
   },
-  "failures": {
-    "de-402790": {
-      "at": "2026-10-29T12:07:19-04:00",
-      "count": 2,
-      "error": "RuntimeError: Extracted text is empty or near-empty (likely a scanned PDF)."
-    }
-  },
-  "last_checked_ny": "2026-10-29T12:07:19-04:00",
+  "failures": {},
+  "last_checked_ny": "2026-10-29T13:59:32-04:00",
   "page_hashes": {
-    "chancery": "a1024dde546abedb10c37720600caeb87b7cdc3b0a780ebd690c1d16d635956f",
-    "superior": "72061d4a3e44afe32181a025ae5242812ab4b91e8f1d425e61bae97ad0255565",
+    "chancery": "2ebe5434bd5f9f91ec4d70aa20148c34fe60510b86c40900347f288ef118f9cf",
+    "superior": "ec59e941a7cc6b948e75b1628c3ef4591ac301e4532ad4c42394ef27c0715db0",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
