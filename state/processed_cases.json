@@ -823,13 +823,33 @@
       "name": "State v. Robinson",
       "processed_at": "2026-10-28T17:54:01-04:00",
       "status": "out_of_scope"
+    },
+    "de-402770": {
+      "court": "chancery",
+      "docket": "2024-0106-LWW",
+      "name": "Mudrick Capital Management L.P. et al. v. QuarterNorth Energy Inc.",
+      "processed_at": "2026-10-29T10:15:22-04:00",
+      "status": "ok"
+    },
+    "de-402780": {
+      "court": "superior",
+      "docket": "N24C-11-146 FJJ",
+      "name": "Blake v. Bayhealth Medical Center, Inc.",
+      "processed_at": "2026-10-29T10:15:22-04:00",
+      "status": "out_of_scope"
     }
   },
-  "failures": {},
-  "last_checked_ny": "2026-10-28T17:54:01-04:00",
+  "failures": {
+    "de-402790": {
+      "at": "2026-10-29T10:15:22-04:00",
+      "count": 1,
+      "error": "RuntimeError: Extracted text is empty or near-empty (likely a scanned PDF)."
+    }
+  },
+  "last_checked_ny": "2026-10-29T10:15:22-04:00",
   "page_hashes": {
     "chancery": "a1024dde546abedb10c37720600caeb87b7cdc3b0a780ebd690c1d16d635956f",
-    "superior": "229bd6adab10c8f3f102b618fa90d53bb6cf6909b7f4d67c49a78270e95d608d",
+    "superior": "72061d4a3e44afe32181a025ae5242812ab4b91e8f1d425e61bae97ad0255565",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
