@@ -837,16 +837,23 @@
       "name": "Blake v. Bayhealth Medical Center, Inc.",
       "processed_at": "2026-10-29T10:15:22-04:00",
       "status": "out_of_scope"
+    },
+    "de-402800": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0429-DH",
+      "name": "Kyle Robertson v. Cerebral Inc.",
+      "processed_at": "2026-10-29T12:07:19-04:00",
+      "status": "ok"
     }
   },
   "failures": {
     "de-402790": {
-      "at": "2026-10-29T10:15:22-04:00",
-      "count": 1,
+      "at": "2026-10-29T12:07:19-04:00",
+      "count": 2,
       "error": "RuntimeError: Extracted text is empty or near-empty (likely a scanned PDF)."
     }
   },
-  "last_checked_ny": "2026-10-29T10:15:22-04:00",
+  "last_checked_ny": "2026-10-29T12:07:19-04:00",
   "page_hashes": {
     "chancery": "a1024dde546abedb10c37720600caeb87b7cdc3b0a780ebd690c1d16d635956f",
     "superior": "72061d4a3e44afe32181a025ae5242812ab4b91e8f1d425e61bae97ad0255565",

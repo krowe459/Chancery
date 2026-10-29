@@ -227,6 +227,214 @@
         "standard_of_review": "Post-trial; each claim's proponent must prove its elements by a preponderance of the evidence. The contractual \"good faith\" requirement is a subjective standard (honesty in fact; subjective bad faith must be shown). \"Commercially reasonable manner\" is an independent, objective standard measured against commonly accepted commercial and valuation practice."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402770"
+    },
+    {
+      "case_id": "de-402800",
+      "court": "chancery",
+      "date": "2026-10-29",
+      "docket": "C.A. No. 2026-0429-DH",
+      "judge": "Hume, IV M.",
+      "name": "Kyle Robertson v. Cerebral Inc.",
+      "ny_date": "2026-10-29",
+      "ny_processed_at": "2026-10-29T12:07:19-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Robertson's nexus argument that DOJ references to his Cerebral conduct make SAC Counts VII-X advanceable: rejected. His Cerebral corporate powers were not \"used or necessary\" for the Zealthy misconduct, and background references do not transform Zealthy claims into Cerebral claims.",
+          "Reliance on Barr (post-separation conduct rooted in pre-separation responsibilities): rejected. There was \"no such connective tissue,\" and it is not alleged that Robertson used his former Cerebral position to commit misconduct at Zealthy.",
+          "Inextricably intertwined theory under Hyatt and Rizk: rejected. In those cases the claims required defense of acts in the covered capacity; here the counts are temporally distinct, and repeating similar misconduct does not intertwine the acts.",
+          "Pineiro's position that the Zealthy work would have been needed to defend Counts I-VI even without Counts VII-X: not accepted. The Court found the work roughly apportionable between Cerebral and Zealthy conduct.",
+          "Robertson's argument that TAC Count II's incorporation of the Cerebral background makes it advanceable: rejected under Charney. The Cerebral conduct may add \"color and background\" but was not necessary for the Zealthy violations; the Court also cited the DOJ's intent in the TAC to narrow the case to Zealthy.",
+          "Cerebral's argument that it assumed the defense and ended advancement: rejected. Robertson's counsel gave reasonable notice of a conflict of interest, and the March 28 letter was only prospective, so assumption could not have been perfected before July 27, 2026.",
+          "Cerebral's timeliness argument that it had no reason to assume the defense until billing clarity was lacking: rejected. Timeliness relates to the viability of the defense, and substitution more than two years and four complaints in, near the close of discovery, was too late.",
+          "Cerebral's asserted agreement between Bednar and Pineiro that MRPM would not bill Cerebral for Zealthy work: not resolved (fn. 71), because the work was roughly apportionable regardless."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Indemnity Agreement §§ 2(c), 6 and Bylaws Art. XI § 1(c)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Mandatory advancement for proceedings brought \"by reason of the fact\" that the indemnitee is or was a director or officer of Cerebral.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Indemnity Agreement § 8 (Assumption of Defense)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Cerebral may assume the defense with counsel reasonably acceptable to the indemnitee. Advancement continues if counsel gives written notice of a reasonably concluded potential conflict, or if Cerebral does not employ counsel within a reasonable time.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Krauss v. 180 Life Scis. Corp., 2022 WL 665323 (Del. Ch. Mar. 7, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Under mandatory advancement provisions, the company bears the ultimate burden of proving advancement is not required.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "White v. Curo, 2017 WL 1369332 (Del. Ch. Feb. 21, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Apportionment test: expenses are advanceable if they would have been incurred defending the covered proceeding even absent the non-covered one.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fasciana v. Elec. Data Sys. Corp., 829 A.2d 160 (Del. Ch. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Proving that some portion of a case is advanceable does not entitle a plaintiff to advancement of all expenses.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marino v. Patriot Rail Co., 131 A.3d 325 (Del. Ch. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The scope of advancement turns on the underlying pleadings; a plaintiff who prevails but not on all points receives fees on fees in proportion to success.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Homestore v. Taffeen, 888 A.2d 205 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A nexus or causal connection to official capacity makes a proceeding \"by reason of the fact,\" regardless of motivation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bernstein v. TractManager, Inc., 953 A.2d 1003 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Nexus exists if corporate powers were used or necessary for the alleged misconduct, and the conduct must occur while the person is an officer or director.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ahmed v. JPMorgan Chase & Co., 2026 WL 251542 (Del. Ch. Jan. 21, 2026) (quoting Mooney v. Echo Therapeutics, 2015 WL 3413272 (Del. Ch. May 28, 2015))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Advancement claims can be parsed where a bright-line temporal standard separates advanceable from non-advanceable claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Charney v. Am. Apparel, Inc., 2015 WL 5313769 (Del. Ch. Sept. 11, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts look to the underlying pleadings for causal connection. Former status that makes later violations more damaging, but is not necessary to them, does not establish nexus.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rose v. Berkeley Compute, Inc., 2026 WL 700385 (Del. Ch. Mar. 5, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Nexus requires that corporate powers were used or necessary; the Court looks to the substance of the claim, not the pleader's words.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Stifel Fin. Corp. v. Cochran, 809 A.2d 555 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A prevailing plaintiff in an advancement action is entitled to fees on fees.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hyatt v. Al Jazeera Am. Hldgs. II, LLC, 2016 WL 1301743 (Del. Ch. Mar. 31, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Advancement was required where defending the counterclaims necessarily required defending acts as a former officer and director; no such temporal overlap exists here.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Rizk v. TractManager, Inc., C.A. No. 9073-ML (Del. Ch. May 30, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Allegations of the plaintiff's conduct as CEO in the underlying complaint created causal connection; here the Cerebral references are mere background facts.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Barr v. Genesis CMG Hldgs., LLC, 2025 WL 3720720 (Del. Ch. Dec. 23, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Post-separation conduct can have nexus if rooted in pre-separation responsibilities, such as soliciting contacts gained in an official capacity; no such connection is alleged here.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Holley v. Nipro Diagnostics, Inc., 2015 WL 4880418 (Del. Ch. Aug. 14, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Apportionment review only where realistic without significant burden to the Court.",
+            "role": "background"
+          },
+          {
+            "authority": "Paolino v. Mace Sec. Int'l, Inc., 985 A.2d 392 (Del. Ch. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Indemnification and advancement are reviewed claim by claim.",
+            "role": "background"
+          },
+          {
+            "authority": "Underbrink v. Warrior Energy Servs. Corp., 2008 WL 2262316 (Del. Ch. May 30, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Advancement is subject to a reasonableness requirement.",
+            "role": "background"
+          },
+          {
+            "authority": "Brown v. LiveOps, Inc., 903 A.2d 324 (Del. Ch. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court determines whether a nexus exists between the charges and corporate capacity.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The report issues as a Final Report under this rule.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Former Cerebral, Inc. CEO Kyle Robertson sued for advancement of more than $800,000 in defense costs in a DOJ action that, through successive amendments, shifted from his Cerebral conduct to his conduct at his new company, Zealthy; the matter was tried before a Magistrate in Chancery after summary judgment and reargument were denied. The Court held that the Zealthy-only counts lack the required nexus to his Cerebral office despite the DOJ's background comparisons to Cerebral, and that the claims are temporally distinct and roughly apportionable rather than inextricably intertwined. Cerebral's attempt to assume the defense failed because of counsel's conflict notice and untimeliness, leaving advancement owed for the Cerebral counts plus proportional fees on fees.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 18
+        },
+        "core_legal_issue": "Whether Cerebral's former CEO is entitled to advancement for counts in a DOJ action (Florida Action) that target only his conduct at a later company (Zealthy and its affiliate Bruno Health), where the pleading uses his Cerebral conduct as background, comparison and notice. Also whether Cerebral cut off advancement by invoking the Indemnity Agreement's assumption-of-defense clause more than two years into the case.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 19,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "announcing a future intent, or invoking the clause after years of litigation and near the close of discovery, will not cut off advancement",
+              "evidence": "The DOJ’s background references do not transform Counts VII through X into Cerebral-related claims... It is too late to reasonably assume the defense.",
+              "field": "practical_takeaway",
+              "index": null,
+              "opinion_says": "The Court held background references don't extend coverage and that assumption was untimely and blunted by conflict notice.",
+              "problem": "The advice that retaining counsel early would suffice ignores the Court's independent conflict-of-interest ground, which would have blunted the assumption regardless of timing.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "In a Final Report pursuant to Court of Chancery Rule 144, the Magistrate in Chancery found Robertson entitled to advancement only in part. Advancement is owed for SAC Counts I-VI, as conceded, and for TAC Count I to the extent \"by reason of the fact\" of his Cerebral role, as the parties agreed. It is not owed for SAC Counts VII-X or TAC Count II (or TAC Count III, as agreed). A bright-line temporal standard separates Cerebral-era from Zealthy-era conduct, and the expenses are roughly apportionable. Robertson's Cerebral powers were not used or necessary for the Zealthy misconduct, and the DOJ's Cerebral references are background that does not create nexus or intertwine the claims. Cerebral failed to assume the defense under Indemnity Agreement § 8. Robertson's counsel gave reasonable notice of a conflict, and the attempt was untimely: assumption was not perfected until July 27, 2026, more than two years and four complaints into the case with discovery closing in December 2026, which risked the viability of the defense. Robertson is awarded fees on fees in proportion to his success, here for SAC Counts I-VI; fn. 143 notes that advancement already provided for those counts may reduce the proportion.",
+        "key_facts_and_concessions": [
+          "Robertson's Florida counsel, Pineiro, testified that SAC Counts VII through X \"only pertain to Zealthy.\" He maintained the Zealthy work was nonetheless needed to defend the Cerebral counts, given the DOJ's incorporated background allegations.",
+          "The parties agree the Florida Action is a \"proceeding\" under the Indemnity Agreement and that Robertson is entitled to advancement for SAC Counts I-VI. They also agree there is no advancement for TAC Count III, and advancement for TAC Count I only to the extent it is \"by reason of the fact\" of his Cerebral role.",
+          "Cerebral terminated Robertson in May 2022 and Zealthy was incorporated on December 15, 2022. The Court found the roles temporally distinct with \"no overlap between the positions.\"",
+          "The SAC shifts from Cerebral to Zealthy conduct at Section VII, ¶ 201. Counts VII-X never mention Cerebral; Cerebral appears only in comparisons (chargeback rates, fake reviews) and notice allegations (¶¶ 266, 279, 295, 297).",
+          "Cerebral was not a party to the TAC. The language of TAC Count II addresses only Zealthy conduct and Zealthy customers, though it incorporates the entire TAC, including the \"Unlawful Business Activities at Cerebral\" section.",
+          "Cerebral's March 28, 2026 letter said it \"has decided to identify counsel to assume the defense.\" Only its July 27, 2026 letter invoked the right and identified Jason Hernandez of Stearns Weaver as proposed counsel.",
+          "Robertson's counsel objected by letter on July 29, 2026 on untimeliness grounds. The letter also stated a reasonably concluded potential conflict, because Cerebral appeared committed to defending only part of the proceeding.",
+          "The DOJ sued in April 2024. Discovery is scheduled to close in December 2026 and trial to begin April 19, 2027. Cerebral's trial representative, Kniska, testified that \"practically speaking\" Cerebral had not assumed the defense."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where an indemnitee's later-company conduct is pleaded in separate counts, the company can confine advancement to covered counts: background references to the covered tenure, without use of the former office, will not extend coverage. A company that wants to rely on an assumption-of-defense clause should retain and identify counsel early in the case; announcing a future intent, or invoking the clause after years of litigation and near the close of discovery, will not cut off advancement.",
+        "standard_of_review": "Post-trial final report. Under mandatory advancement provisions the company carries the ultimate burden of proving advancement is not required (Krauss). Apportionment test: would the disputed expenses have been incurred defending the covered proceeding even absent the non-covered one (White v. Curo). Claims are assessed claim-by-claim for a nexus or causal connection to official capacity, based on the underlying pleadings."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402800"
     }
   ],
   "ny_date": "2026-10-29"
