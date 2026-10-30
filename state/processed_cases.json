@@ -865,13 +865,20 @@
       "name": "Wheeler v. Slowe-Freeman, et al.",
       "processed_at": "2026-10-29T13:59:32-04:00",
       "status": "out_of_scope"
+    },
+    "de-402840": {
+      "court": "superior",
+      "docket": "N25C-03-078 PAW CCLD",
+      "name": "The Estate of Ewell E. Long v. Wells Fargo Bank, N.A., et al.",
+      "processed_at": "2026-10-30T12:01:49-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-29T13:59:32-04:00",
+  "last_checked_ny": "2026-10-30T12:01:49-04:00",
   "page_hashes": {
     "chancery": "2ebe5434bd5f9f91ec4d70aa20148c34fe60510b86c40900347f288ef118f9cf",
-    "superior": "ec59e941a7cc6b948e75b1628c3ef4591ac301e4532ad4c42394ef27c0715db0",
+    "superior": "eda9f82748aa25ca5361c50254d896ddd2e596574d0a8dabaee0f1757531c086",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }

@@ -1,4 +1,219 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-402840",
+      "court": "superior",
+      "date": "2026-10-30",
+      "docket": "N25C-03-078 PAW CCLD",
+      "judge": "Winston J.",
+      "name": "The Estate of Ewell E. Long v. Wells Fargo Bank, N.A., et al.",
+      "ny_date": "2026-10-30",
+      "ny_processed_at": "2026-10-30T12:01:49-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "\"But-for\" nexus under 10 Del. C. § 3104(c)(1)-(3): rejected. The Long-Arm Statute requires that the act be a \"source\" of the claim, not a but-for cause. Under LVI, executing the form did not itself effect collection of the death benefit, and Wells Fargo and Perlino took no part in the 2007 procurement.",
+          "Conspiracy theory of jurisdiction: rejected on the first two Istituto Bancario elements. Wells Fargo and Perlino could have had a meeting of the minds only if they knew the Policy was an illegal wager rather than a legal secondary-market policy. The knowledge allegations were conclusory or on information and belief, and nothing suggested the 2020 purchase was other than arm's-length or that Defendants acted on the prior owners' behalf, at their direction, or for their benefit.",
+          "Section 3104(c)(4) is not coextensive with Daimler: rejected. Subsection (c)(4) is \"canonized as the general jurisdiction statute,\" so the result is the same whether Daimler limits (c)(4) or applies as a separate due process step. Plaintiff's cases (LaNuova, Round Rock) predate Daimler.",
+          "Section 3104(c)(3) tortious injury: rejected. No breach of a duty to anyone was alleged, because a § 2704(b) claim is not based on a violation of the claimant's rights. Any injury likely would have been felt in Florida.",
+          "Alter ego jurisdiction through Jade Mountain: abandoned and waived. Plaintiff did not respond after Defendants showed, through Jade Mountain's SEC filings, that it owns about 0% of Perlino and lacks discretionary authority over it (fn. 94).",
+          "Estate of Oristano bench ruling sustaining a STOLI conspiracy claim: not followed. That ruling did not squarely address whether secondary liability exists under § 2704(b), and it did not address Frank.",
+          "Distinguishing Edgewater because DUFTA derives from a uniform act: rejected. The uniform-act point was additional, not necessary, support, and the reasoning that statutory causes of action do not carry implied secondary liability applies equally to § 2704(b) (fn. 190).",
+          "Refusing secondary liability would gut the insurable-interest regime: rejected. Section 2704(b) reaches \"any\" beneficiary or other payee that received benefits, including transferees, and insurers may refuse payment under § 2704(a). Any expansion is for the General Assembly.",
+          "Conspiracy claim broader than a § 2704(b) violation: rejected. No facts were pled supporting an emotional distress or invasion of privacy tort, and Plaintiff did not argue that a private right of action exists to enforce § 2704(a) or secondary liability under it (fn. 197).",
+          "Edwards v. Concord EFS (conspiracy based on Title VII and § 1981): distinguished. Those statutes remedy violations of the plaintiff's private rights, whereas § 2704(b) does not."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "18 Del. C. § 2704(a)-(b)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Subsection (a) codifies the insurable-interest requirement. Subsection (b) gives the insured or executor an action to recover benefits from the beneficiary, assignee or other payee \"so receiving them.\" The statute defines who may sue, against whom, and for what remedy, and says nothing of secondary liability.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "10 Del. C. § 3104(c)(1)-(4)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Subsections (c)(1)-(3) confer specific jurisdiction only over claims \"arising from\" the enumerated Delaware acts. Subsection (c)(3) requires both a Delaware act and a tortious injury in Delaware. Subsection (c)(4) confers general jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "GWG DLP Master Tr. v. Est. of Frank, 361 A.3d 31 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An estate's right to recover a STOLI death benefit did not exist at common law. It is a statutorily created \"new right\" under § 2704(b), and estates have other tools against STOLI actors.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Wells Fargo Bank, N.A. v. Est. of Malkin, 278 A.3d 53 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "STOLI policies are void ab initio. A § 2704(b) claim rests on violation of the Delaware Constitution and public policy, not on a \"violation of the rights of the claimant.\"",
+            "role": "relied_on"
+          },
+          {
+            "authority": "PHL Variable Ins. Co. v. Price Dawe 2006 Ins. Tr., 28 A.3d 1059 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Insurable interest is tested at inception. The secondary market is legal, and STOLI status turns on who in fact procured the policy, so knowledge that a policy is an illegal wager is not obvious.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lavastone Cap. LLC v. Est. of Berland, 266 A.3d 964 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Section 2704(b) lets the estate recover the death benefit from the recipient. Nonrecourse premium funding is not dispositive of STOLI status.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "LVI Grp. Invs., LLC v. NCM Grp. Hldgs., LLC, 2017 WL 3912632 (Del. Ch. Sept. 7, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Long-Arm Statute's nexus requires that the Delaware act form a source of the claim. An antecedent act that did not itself effect the challenged transaction is insufficient.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Est. of Daher v. LSH CO., 2021 WL 184394 (D. Del. Jan. 19, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A downstream purchaser of an alleged STOLI is not subject to long-arm jurisdiction merely because the policy is governed by Delaware law or was held by Delaware entities. Conspiracy jurisdiction fails absent non-conclusory allegations of the purchaser's involvement in procurement or a meeting of the minds.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Daimler AG v. Bauman, 571 U.S. 117 (2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "General jurisdiction over a foreign entity requires affiliations so continuous and systematic as to render it essentially at home in the forum.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Istituto Bancario Italiano SpA v. Hunter Eng'g Co., 449 A.2d 210 (Del. 1982)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Five-element conspiracy theory of jurisdiction; it is a strict test.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Edgewater Growth Cap. P'rs, L.P. v. H.I.G. Cap., Inc., 2010 WL 720150 (Del. Ch. Mar. 3, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No implied aiding-and-abetting or conspiracy claim exists under a statute (DUFTA) that specifies the parties liable and the remedies; creating one is for the General Assembly.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "SpecialtyCare, Inc. v. MedCost, LLC, 2026 WL 432302 (Del. Ch. Feb. 16, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Where a statute expressly provides particular remedies, a court must be chary of reading others into it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Reylek v. Albence, 2023 WL 8850074 (Del. Super. Dec. 21, 2023); Rays Plumbing & Heating Serv., Inc. v. Stover Homes, L.L.C., 2011 WL 3329384 (Del. Super. July 26, 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Implied private remedies require strong evidence of legislative intent; Delaware tracks federal law on implied rights of action.",
+            "role": "background"
+          },
+          {
+            "authority": "Edwards v. GigAcquisitions2, LLC, 2025 WL 2092832 (Del. Ch. July 25, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Allegations resting solely on information and belief do not satisfy the conspiracy-jurisdiction showing.",
+            "role": "background"
+          },
+          {
+            "authority": "Hercules Inc. v. Leu Tr. & Banking (Bah.) Ltd., 611 A.2d 476 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Jurisdictional agency includes co-conspirators; conspiracy jurisdiction rests on agency principles.",
+            "role": "background"
+          },
+          {
+            "authority": "Restatement (Third) of Agency §§ 1.01, 8.01",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "An agent acts on the principal's behalf, subject to its control and for its benefit.",
+            "role": "background"
+          },
+          {
+            "authority": "Ultragenyx Pharm., Inc. v. Catalent Md., Inc., 2025 WL 4667818 (Del. Super. Dec. 16, 2025); VTB Bank v. Navitron Projects Corp., 2014 WL 1691250 (Del. Ch. Apr. 28, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Failure to brief a jurisdictional theory waives it.",
+            "role": "background"
+          },
+          {
+            "authority": "Genuine Parts Co. v. Cepec, 137 A.3d 123 (Del. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "General jurisdiction permits suit on any claim; it requires being at home in the forum.",
+            "role": "background"
+          },
+          {
+            "authority": "NACCO Indus., Inc. v. Applica Inc., 997 A.2d 1 (Del. Ch. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Its statement that a conspiracy may rest on a \"statutory violation\" was not a holding that any statutory cause of action supports conspiracy; no statutory violation was at issue there.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Am. Gen. Life Ins. v. Goldstein, 741 F. Supp. 2d 604 (D. Del. 2010); Ohio Nat'l Life Assurance Corp. v. Davis, 13 F. Supp. 3d 876 (N.D. Ill. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Both were insurer suits; Goldstein's conspiracy claim rested on intentional misrepresentation, and Davis applied Illinois law, which lacks an analogue to § 2704(b).",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Est. of Oristano v. Westgate Del. LLC, C.A. No. N23C-04-258 EMD CCLD (Del. Super. June 18, 2026) (TRANSCRIPT)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Its bench ruling sustaining a STOLI conspiracy claim did not squarely address whether secondary liability exists under § 2704(b) and did not address Frank.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Rule 12(b)(2); Rule 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Dismissal for lack of personal jurisdiction and for failure to state a claim.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "The Estate of Ewell E. Long sued Perlino, the downstream purchaser of an alleged STOLI Policy, its securities intermediary Wells Fargo, and investment advisor Jade Mountain to recover the death benefit under 18 Del. C. § 2704(b), adding civil conspiracy and aiding-and-abetting counts; Defendants moved to dismiss the amended complaint under Rules 12(b)(2) and 12(b)(6). The Court held that Wells Fargo's Delaware signing of a change-in-beneficiary form was not a \"source\" of the § 2704(b) claim, that neither foreign defendant was at home in Delaware, and that conspiracy jurisdiction failed for lack of specific facts showing the downstream buyers knew the Policy was an illegal wager. Relying on Frank's holding that the estate's recovery right is a statutory creation, and on Edgewater, the Court held that § 2704(b) carries no implied secondary liability against non-recipients such as Jade Mountain.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 21
+        },
+        "core_legal_issue": "Two questions. First, whether the Superior Court has personal jurisdiction over Wells Fargo and Perlino, a foreign securities intermediary and the downstream purchaser of an alleged STOLI Policy, where their only alleged Delaware act was Wells Fargo's execution in Delaware of a change-of-owner-and-beneficiary form. Second, whether 18 Del. C. § 2704(b) supports claims for civil conspiracy or aiding and abetting a wager on human life against Jade Mountain, an investment advisor that did not receive the death benefit.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion granted. Under Rule 12(b)(2), the claims against Wells Fargo and Perlino are dismissed without prejudice to Plaintiff's right to assert them in a court of competent jurisdiction. Because a § 2704(b) claim is a creature of statute, its \"sources\" are the procurement of a policy lacking an insurable interest and, arguably, the collection of the death benefit. Wells Fargo's Delaware execution of the change-in-beneficiary form was neither, because procurement occurred 13 years earlier without these Defendants and collection occurred in Minnesota. A but-for connection is insufficient. Section 3104(c)(3) also failed because no tortious injury was pled. General jurisdiction under (c)(4) failed under Daimler. Conspiracy jurisdiction failed for lack of specific facts showing a meeting of the minds or membership, and because the arm's-length relationship with prior owners could not be stretched into agency. Under Rule 12(b)(6), the conspiracy and aiding-and-abetting counts against Jade Mountain are dismissed with prejudice. Section 2704(b) expressly defines who may sue, the recipients who may be sued, and the remedy, so the Court would not imply secondary liability against non-recipients seeking additional damages, particularly after Frank held the right is new rather than codified common law. The Court did not reach: whether the form signing was a ministerial or de minimis act (fn. 125); Defendants' additional conspiracy-jurisdiction arguments (fn. 169); Defendants' due process arguments (fn. 170); Defendants' remaining arguments against Counts II and III; or Florida law (fn. 212).",
+        "key_facts_and_concessions": [
+          "The only Delaware act identified by Plaintiff was Wells Fargo's execution in Delaware, through an Assistant Vice President, of a \"Change of Non-Individual Owner and Beneficiary Form\" in 2020; WSFS also signed the form in Delaware.",
+          "The undisputed record shows that Wells Fargo received the death benefit from the insurer in March 2022 and credited it to Perlino's account in Minnesota.",
+          "The Policy was procured in 2007 through Ocean Gate. Perlino was formed in May 2020 and acquired the Policy in June 2020. Plaintiff did not dispute that Defendants were not involved at the Policy's inception (fn. 154).",
+          "Wells Fargo is a South Dakota citizen and Perlino is a Florida LP with its principal place of business in Texas. Plaintiff did not argue that Daimler's \"essentially at home\" test was satisfied.",
+          "Allegations that Wells Fargo and Perlino knew the Policy was an illegal wager were conclusory. The allegation that Perlino had data-room access to the Policy documents was pled \"[u]pon information and belief,\" and Wells Fargo was not alleged to have had such access at all (fn. 158).",
+          "Count I (recovery of proceeds) was asserted only against Wells Fargo and Perlino. Jade Mountain faced only the conspiracy and aiding-and-abetting counts and did not receive the death benefit.",
+          "Plaintiff's secondary-liability counts sought damages beyond the death benefit, for \"dignitary and emotional harm\" and intrusion on Long's privacy.",
+          "Plaintiff confirmed its Florida law arguments were made only if Delaware law did not apply. No party argued against Delaware law, so the Court applied Delaware law (fn. 212)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Estates pursuing STOLI proceeds should sue the recipients and transferees of the death benefit directly under § 2704(b), in a forum where those defendants are at home or where procurement or collection occurred. Conspiracy or aiding-and-abetting counts against non-recipient advisors will not survive in Delaware. Anyone invoking conspiracy jurisdiction over downstream purchasers needs specific, non-information-and-belief facts showing that they knew the policy was an illegal wager, not merely that they bought it on the secondary market.",
+        "standard_of_review": "Rule 12(b)(2): Plaintiff bears the burden to show a statutory basis for service and that jurisdiction comports with due process, as to each defendant. With no evidentiary hearing, a prima facie showing suffices, the record is construed in Plaintiff's favor, and allegations are accepted unless contradicted by affidavit. Conspiracy jurisdiction is a \"strict test\" requiring specific factual evidence, not conclusory allegations. Rule 12(b)(6): reasonable conceivability; conclusory allegations and unreasonable inferences are not credited."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402840"
+    }
+  ],
+  "ny_date": "2026-10-30"
 }
