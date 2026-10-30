@@ -30,7 +30,8 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from common import ACCUMULATION_PATH, ARCHIVE_DIR, ROOT, env_int, load_json, today_ny
-from scrape import COURTS, CaseRow, extract_text, get_with_retry, http_session, parse_listing
+from scrape import (COURTS, CaseRow, add_note, get_with_retry, http_session, opinion_text,
+                    parse_listing)
 
 OUT_DIR = ROOT / "preview"
 DOWNLOAD_URL = "https://courts.delaware.gov/opinions/download.aspx?id={id}"
@@ -101,8 +102,10 @@ def preview(opinions: list[str]) -> int:
         print(f"Summarizing {row.name} ({row.docket or 'docket unknown'})")
         entry = {**asdict(row), "ny_date": today_ny()}
         try:
-            result = summarize_opinion(extract_text(session, url), row)
-            tokens += result.pop("_input_tokens", 0)
+            text, used, note = opinion_text(session, url)
+            result = summarize_opinion(text, row)
+            tokens += used + result.pop("_input_tokens", 0)
+            add_note(result, note)
             entry["summary"] = result
         except Exception as exc:  # noqa: BLE001 - show the failure in the preview
             entry["error"] = f"Summary failed: {type(exc).__name__}: {exc}"[:500]

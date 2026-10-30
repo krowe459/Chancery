@@ -86,7 +86,11 @@ opinion says, copy those exact words from the claim; otherwise leave it empty. \
 If more than one part is wrong, copy the most significant one, the one most \
 likely to mislead a reader about what the Court decided or found, and mention \
 the others in "problem". A harmless or trivially true phrase is never the \
-most significant.
+most significant. Copy only words that are themselves wrong: never quote a \
+clause that the opinion supports, even if it sits next to the error. When \
+the problem is advice that the Court's reasoning shows would not work, copy \
+the words of that advice (e.g., "retain and identify counsel early"), not a \
+neighbouring accurate statement.
 4. "problem": explain the error in one sentence without repeating \
 "opinion_says", or leave it empty.
 5. "verdict": now decide, consistently with what you wrote above.
