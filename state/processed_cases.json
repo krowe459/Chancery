@@ -893,12 +893,19 @@
       "name": "Freeman v. H.I.G Capital et al.",
       "processed_at": "2026-10-30T15:56:23-04:00",
       "status": "out_of_scope"
+    },
+    "de-402900": {
+      "court": "chancery",
+      "docket": "C.A. No. 2024-1337-PAF",
+      "name": "In re Illumina, Inc. Consolidated Derivative Stockholder Litigation",
+      "processed_at": "2026-10-30T17:51:25-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-30T15:56:23-04:00",
+  "last_checked_ny": "2026-10-30T17:51:25-04:00",
   "page_hashes": {
-    "chancery": "a90392775c1d506415e7ce4c020ef2494750dfb337d5bb10bdd338fae0eca437",
+    "chancery": "6856102f9a494575a4da7ed80c915e0c99ef465b9d95e4feda8d7ed5a1a34698",
     "superior": "b66f76562a351af38e21c7544b2c364f0efd23d4f87a4ef77d447da65055df7d",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }

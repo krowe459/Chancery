@@ -508,6 +508,248 @@
         "standard_of_review": "Not stated (motion to compel; response deadlines under Ct. Ch. R. 33(b)(3), 34(b) and 36(a))."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402870"
+    },
+    {
+      "case_id": "de-402900",
+      "court": "chancery",
+      "date": "2026-10-30",
+      "docket": "C.A. No. 2024-1337-PAF",
+      "judge": "Fioravanti V.C.",
+      "name": "In re Illumina, Inc. Consolidated Derivative Stockholder Litigation",
+      "ny_date": "2026-10-30",
+      "ny_processed_at": "2026-10-30T17:51:25-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Argument that the Court may not consider the post-closing ECJ Judgment: rejected. Caremark/Massey claims function as indemnification claims, and the ECJ did not change the law but held the EC never had jurisdiction. There was therefore no valid standstill for Illumina to violate.",
+          "Argument that Eagle Force Holdings v. Campbell requires treating the standstill like a status quo order violated while a jurisdictional challenge was pending: rejected. The EC is a regulator, not a court; the ECJ annulled its acts with retroactive effect; and the EU dispute concerned the EC's statutory authority under the EUMR, not personal jurisdiction.",
+          "Argument that dismissal would contradict the Court's July 16, 2024 bench ruling in the Pavers 220 Action, which said the standstill was positive law the board 'knowingly appears to have violated': rejected (fn. 133). Preliminary observations made on an expedited record under the credible-basis test do not bind the Court in the plenary action.",
+          "Argument that the closing violated the Clayton Act even absent a legal impediment or final ruling: rejected. No final determination of a violation exists, and the Court declined to expand its jurisdiction by adjudicating the Clayton Act to find Massey liability.",
+          "Argument that the FTC withdrew its injunction application on the assumption Illumina would honor the standstill: rejected. Knowing the FTC did not want the merger to close is 'a far cry' from a court order restricting closing.",
+          "Argument that demand futility should be measured by the board in place when the Omaha Police Action was filed in February 2024, ignoring later events: not preserved. Plaintiffs pleaded the Demand Board as of the Pavers filing in the designated operative complaint, and Defendants relied on that pleading.",
+          "Argument that the ruling lets fiduciaries 'pick and choose' which regulatory directives to follow, or lets later jurisdictional outcomes justify knowing violations: rejected. The argument wrongly assumes the law applied to Illumina and GRAIL at closing, and the Court expressly disclaimed creating either rule.",
+          "Reliance on Kandell v. Niv: rejected. Kandell involved a business model built on a clear violation of a federal regulation, whereas EU enforcement here rested on a new, untested interpretation. Kandell itself warned against liability where a regulator rejects a rationally compliant position.",
+          "Reliance on Lebanon County Employees' Retirement Fund v. Collis: rejected. Collis rested on a plethora of red flags (investigations, subpoenas, lawsuits) showing awareness of compliance deficiencies, and none exists here.",
+          "Futility as to Count II against deSouza: rejected (fn. 152). That theory depended on increasing the Director Defendants' exposure on Count I, and they face no substantial likelihood of liability on Count I."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "United Food & Com. Workers Union & Participating Food Indus. Emps. Tri-State Pension Fund v. Zuckerberg, 262 A.3d 1034 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Three-part universal test for demand futility, applied director by director; demand is excused if at least half the demand board is compromised.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Massey Energy Co., 2011 WL 2176479 (Del. Ch. May 30, 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fiduciaries cannot loyally cause a Delaware corporation to seek profit by knowingly violating the law; Massey's facts involved a recidivist record of violations.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re TransUnion Deriv. S'holder Litig., 324 A.3d 869 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Massey claim requires that the corporation broke the law, that fiduciaries purposely caused it to do so, and that they did so in pursuit of greater profits; Massey is not a claim separate from Caremark.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Firefighters' Pension Sys. of City of Kansas City v. Found. Bldg. Materials, Inc., 318 A.3d 1105 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Massey claim cannot be asserted preemptively; the Court typically requires a prior adjudication of violation, a fine or penalty, or a settlement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "South v. Baker, 62 A.3d 1 (Del. Ch. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Caremark claim operates as a tag-along indemnification action.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "L.A. City Emps.' Ret. Sys. v. Sanford, 352 A.3d 276 (Del. Ch. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Derivative suits are a form of indemnification claim that ripens when the triggering loss is established; plaintiffs must plead a substantial likelihood of Massey liability for a majority of the demand board.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ont. Provincial Council of Carpenters' Pension Tr. Fund v. Walton, 2023 WL 3093500 (Del. Ch. Apr. 26, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Bad faith under Massey requires an intentional decision to cause a violation of law. Its two lawyer-advice paradigms distinguish a protected business judgment made under some regulatory doubt from a conscious decision to stay out of compliance.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Melb. Mun. Firefighters' Pension Tr. Fund v. Jacobs, 2016 WL 4076369 (Del. Ch. Aug. 1, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No bad faith where the board believed its conduct was lawful, appealed the regulatory findings and proclaimed the company's innocence.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ritchie v. Baker, 2025 WL 2048014 (Del. Ch. July 22, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Massey is an extreme version of Caremark; corporate recovery absent fines or penalties for the alleged misconduct defies common sense; futility folds into the merits.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Plug Power Inc. S'holder Deriv. Litig., 2025 WL 1277166 (Del. Ch. May 2, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The demand board is the one in place when claims are validly in litigation; an argument for a different demand board not pleaded in the amended complaint is not preserved; futility folds into the merits of the claim.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Asteris v. Commission of the European Communities (Apr. 26, 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An annulment by the EU court has retroactive effect.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "AmerisourceBergen Corp. v. Lebanon Cty. Emps.' Ret. Fund, 243 A.3d 417 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Section 220 proceeding under the credible-basis test is not a merits assessment, so observations made there do not bind the plenary action.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Eagle Force Holdings, LLC v. Campbell, 187 A.3d 1209 (Del. 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Delaware court may punish violations of its status quo order even if it later finds it lacked personal jurisdiction. Inapposite here because the EC is a regulator, its acts were annulled, and the dispute concerned statutory authority.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Kandell v. Niv, 2017 WL 4334149 (Del. Ch. Sep. 29, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Massey claim was sustained where the business model depended on a clear violation of CFTC Regulation 5.16; directors are not liable when a regulator rejects a rationally compliant position.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Lebanon Cty. Emps.' Ret. Fund v. Collis, 311 A.3d 773 (Del. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited for intent to violate positive law as a loyalty breach and for limiting the futility analysis to what the demand board knew; distinguished because its reversal rested on a plethora of red flags absent here.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Brewer v. Turner, 2025 WL 2769895 (Del. Ch. Sep. 29, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Caremark claim was sustained where the general counsel had advised that a policy did not comply with federal regulation; no comparable advice was alleged here.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "IBEW Loc. Union 481 Defined Contribution Plan & Tr. v. Winborne, 301 A.3d 596 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Bad faith may be pleaded through scienter, meaning actual or constructive knowledge that the conduct was legally improper.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Caremark Int'l Inc. Deriv. Litig., 698 A.2d 959 (Del. Ch. 1996); Stone v. Ritter, 911 A.2d 362 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Oversight liability requires a sustained or systematic failure of oversight reflecting bad faith.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 23.1",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A derivative plaintiff must make demand or plead particularized facts showing futility.",
+            "role": "background"
+          },
+          {
+            "authority": "Braddock v. Zimmerman, 906 A.2d 776 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Demand is assessed as to the board in place when the claims are validly in litigation.",
+            "role": "background"
+          },
+          {
+            "authority": "Aronson v. Lewis, 473 A.2d 805 (Del. 1984)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Directors, not stockholders, manage the corporation's affairs.",
+            "role": "background"
+          },
+          {
+            "authority": "Desimone v. Barrows, 924 A.2d 908 (Del. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Directors have no authority knowingly to cause the corporation to become a rogue.",
+            "role": "background"
+          },
+          {
+            "authority": "15 U.S.C. § 18 (Clayton Act § 7)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Prohibits acquisitions that may substantially lessen competition; the alleged U.S. law violation.",
+            "role": "background"
+          },
+          {
+            "authority": "EUMR Articles 7 and 22",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Article 22 referral mechanism and the Article 7 standstill (suspension) obligation.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 220",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Pavers obtained books and records before suing, and those documents were incorporated by reference.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Cap. Hldgs. LLC, 27 A.3d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(6) reasonable-conceivability standard.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Illumina stockholders derivatively sued Illumina's directors and former CEO deSouza, asserting a Massey loyalty claim for closing the GRAIL acquisition while an EC standstill was in effect and while the FTC was challenging the deal under Clayton Act § 7. Defendants moved to dismiss under Rules 23.1 and 12(b)(6), and Vice Chancellor Fioravanti granted dismissal with prejudice under Rule 23.1. The Court held that the ECJ's later ruling that the EC lacked jurisdiction meant no EU law was violated, and that no U.S. law was violated absent any bar to closing or final Clayton Act adjudication. A Board acting on extensive legal advice amid uncertain regulatory risk did not act in bad faith, so no Demand Board member faced a substantial likelihood of liability.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 25
+        },
+        "core_legal_issue": "Whether demand on Illumina's board was excused under the Zuckerberg universal test, where plaintiffs' only futility theory was that a majority of the Demand Board faced a substantial likelihood of liability on a Massey claim for authorizing the August 2021 closing of the GRAIL merger. Plaintiffs said the closing violated (i) the EC's Article 7 EUMR standstill, imposed after an Article 22 referral that the ECJ later annulled for lack of EC jurisdiction, and (ii) Section 7 of the Clayton Act, although no court ever finally adjudicated a violation.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion granted under Rule 23.1, and the Amended Complaint is dismissed with prejudice; the Court resolved the case on the 'gating question of demand futility.' The Demand Board was fixed as of the Pavers filing on December 23, 2024, because plaintiffs pleaded it that way and did not preserve an earlier-board theory. No EU law was violated: the ECJ held that the EC never had jurisdiction, and annulment of the referrals (retroactive under EU law) meant the standstill never validly applied. The Court said it need not consider the EC's post-ECJ withdrawal decisions to reach that conclusion (fn. 139). No U.S. law was violated: no legal bar to closing existed, no final Clayton Act adjudication occurred, and the Court declined to adjudicate the Clayton Act itself. With no violation of positive law, plaintiffs could not plead bad faith. The minutes also showed an informed Board acting on counsel's advice that the EC lacked jurisdiction and that no U.S. barrier existed, while preserving compliance through hold-separate arrangements and continued litigation; that places the case in Walton's protected business-judgment paradigm. The Court did not reach Defendants' alternative 'legal risk' argument (fn. 130). Demand was also not futile as to Count II against deSouza, because that theory depended on Count I (fn. 152).",
+        "key_facts_and_concessions": [
+          "The Board resolved on August 17, 2021 to close the merger while the EC standstill was in effect. It did so after advice from Cravath, Slaughter and May, Paul Hastings, Monckton Chambers and Covington. Monckton Chambers (with Slaughter and May concurring) advised that Illumina had strong arguments the EC lacked jurisdiction, though 'the EU court favors the EC agencies, making the outcome uncertain.'",
+          "On September 3, 2024 the ECJ held that the EC lacked jurisdiction over the merger and annulled the EC's acceptance of the member-state referral requests that triggered the standstill. The EC then withdrew all of its merger decisions, including the approximately €432 million fine, and described the withdrawal as ex tunc.",
+          "Plaintiffs acknowledged that the HSR waiting periods had expired and conceded that no U.S. court order barred closing. The FTC voluntarily withdrew its preliminary injunction application and imposed no fine.",
+          "No final Clayton Act determination exists. The ALJ ruled for the merger, the FTC Commissioners reversed, and the Fifth Circuit vacated and remanded for applying the wrong legal standard. Illumina divested GRAIL before the remand was heard.",
+          "Plaintiffs did not argue that any Demand Board member received a material personal benefit or lacked independence (fn. 125). Futility rested solely on substantial likelihood of liability for the seven Director Defendants on the eleven-member Demand Board.",
+          "The Amended Complaint, designated as the operative pleading by agreement in the consolidation, pleaded the Demand Board as the board in place when the Pavers Action was filed on December 23, 2024. It did not plead the board in place when the Omaha Police Action was filed in February 2024.",
+          "Counsel warned the Board of possible EC fines of up to 10% of annual revenues. The Board was also told the EC process could not finish before GRAIL could terminate after December 20, 2021, and was advised on the $300 million reverse break fee.",
+          "At closing the Board adopted Hold Separate Commitments, which ultimately cost $3.09 billion. It also continued the EU jurisdictional challenge and publicly committed to abide by the final EU and U.S. outcomes."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A Massey claim premised on breach of a regulator's directive can fail outright if a court later holds the regulator lacked jurisdiction. Absent a prior adjudication, fine or settlement, the claim may also be unripe, and Section 220 bench observations will not carry the plenary case. Plaintiffs consolidating derivative actions should plead the demand board they intend to rely on in the designated operative complaint, because an earlier-board theory not pleaded there is not preserved.",
+        "standard_of_review": "Ct. Ch. R. 23.1 demand futility under United Food & Commercial Workers Union v. Zuckerberg, applied director by director. Plaintiffs needed particularized facts supporting a reasonable inference that at least six of eleven Demand Board members faced a substantial likelihood of liability. Because futility rested on the merits of the claim, the inquiry 'folds into' the strength of the underlying Massey claim. The Court also recited the Rule 12(b)(6) reasonable-conceivability standard but resolved the motion solely on Rule 23.1."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402900"
     }
   ],
   "ny_date": "2026-10-30"
