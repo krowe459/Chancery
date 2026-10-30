@@ -213,6 +213,301 @@
         "standard_of_review": "Rule 12(b)(2): Plaintiff bears the burden to show a statutory basis for service and that jurisdiction comports with due process, as to each defendant. With no evidentiary hearing, a prima facie showing suffices, the record is construed in Plaintiff's favor, and allegations are accepted unless contradicted by affidavit. Conspiracy jurisdiction is a \"strict test\" requiring specific factual evidence, not conclusory allegations. Rule 12(b)(6): reasonable conceivability; conclusory allegations and unreasonable inferences are not credited."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402840"
+    },
+    {
+      "case_id": "de-402860",
+      "court": "chancery",
+      "date": "2026-10-30",
+      "docket": "C.A. No. 2023-0601-LM (KSJM)",
+      "judge": "McCormick, C.",
+      "name": "Joseph W. C. Murray, Jr., et al. v. Nikola Preradovic, et al.",
+      "ny_date": "2026-10-30",
+      "ny_processed_at": "2026-10-30T13:53:35-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Preradovics' argument that subdividing the disputed area was error: no legal error, because Justice v. McGinn and out-of-state common law authority permit awarding title only to the portion where the elements are met. The Court nonetheless declined to subdivide as a factual matter because the area forms a physically cohesive whole and the Murrays proved every element as to all of it, which defeats the Preradovics' aim of denying any award.",
+          "Preradovics' argument that the Murrays failed to establish the elements of adverse possession even for the fenced area: rejected; the fence \"easily\" satisfies continuity and makes possession obvious, hostile and exclusive.",
+          "Preradovics' exception that the Magistrate relied on improper or speculative testimony: resolved by the Court citing only record portions containing competent evidence (fn. 113).",
+          "Preradovics' argument that possession was not open and notorious because Zeljka never saw the Murrays maintaining the planter on neighborhood walks: rejected; constant presence is not how owners use a backyard and is not required, and the trimmed ivy, controlled bamboo and mowed grass would have been obvious to an observer.",
+          "The Magistrate's conclusion that overgrown ivy showed diminished, non-continuous maintenance of the planter: rejected; the law does not require meticulously manicured landscaping, the photographs show trimmed ivy and mowed grass, and there was no abandonment or exclusion between 1998 and 2018.",
+          "The Magistrate's conclusion that mowing the grass strip does not communicate ownership and that others' access defeated exclusivity and hostility: rejected. Until late 2022, residents of 234 South Dillwyn did not use the planter or mow around it, and the Murrays maintained the features marking the practical boundary.",
+          "Late-2022 maintenance by the Preradovics as an interruption: rejected as immaterial, because any interruption came after twenty years of continuous possession and title once acquired is not lost by a later break in possession."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "10 Del. C. § 7901",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Codifies the common law cause of action for adverse possession.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Justice v. McGinn, 2001 WL 1088760 (Del. Ch. Aug. 29, 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "This court has subdivided a disputed tract and entered adverse possession judgment only for the portion where the elements were met, so the Magistrate's subdivision was not legal error.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Tumulty v. Schreppler, 132 A.3d 4 (Del. Ch. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the elements of adverse possession (continuous for twenty years, open and notorious, hostile and adverse, exclusive, actual) and the preponderance burden; defines open and notorious and exclusive possession; actual possession largely overlaps with open and notorious possession.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lewes Tr. Co. v. Grindle, 170 A.2d 280 (Del. 1961)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Continuous use need not be constant, and temporary breaks do not destroy continuity absent intent to abandon; hostile use is shown by use to the exclusion of others without any declaration of intent.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marvel v. Barley Mill Rd. Homes, 104 A.2d 908 (Del. Ch. 1954)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Adverse possession creates a new legal title that is not lost by later cessation of possession; whether possession is open and notorious depends on the nature of the land and whether the possessor behaves as an owner would.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Acierno v. Goldstein, 2004 WL 1488673 (Del. Ch. June 25, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The true owner interrupts the possession period only by ousting the possessor, entering the property in a way that excludes the possessor.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ayers v. Pave It, LLC, 2006 WL 2052377 (Del. Ch. July 11, 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A hostile claim goes against the ownership claims of all others, including the record owner; preponderance burden.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lisiewski v. Seidel, 899 A.2d 59 (Conn. App. Ct. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Common law courts award adverse possession title to only the portion of a parcel where the elements are satisfied.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "HSBC Bank (USA) v. Nefedova, 2013 WL 6870025 (Mass. Land Ct. Dec. 31, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An adverse possession claim was allowed in part and denied in part, with title awarded to a subsection of the disputed land.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A master's factual and legal findings are reviewed de novo.",
+            "role": "background"
+          },
+          {
+            "authority": "Acierno v. Goldstein, 2005 WL 3111993 (Del. Ch. Nov. 16, 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The common law adverse possession claim is codified at 10 Del. C. § 7901.",
+            "role": "background"
+          },
+          {
+            "authority": "Agilent Techs., Inc. v. Kirkland, 2010 WL 610725 (Del. Ch. Feb. 18, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Preponderance means more likely than not.",
+            "role": "background"
+          },
+          {
+            "authority": "Walker v. Five N. Corp., 2007 WL 2473278 (Del. Super. Aug. 31, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Tumulty for the definitions of open and notorious and exclusive possession.",
+            "role": "background"
+          },
+          {
+            "authority": "Mitchell v. Dorman, 2004 WL 117580 (Del. Ch. Jan. 16, 2004), aff'd, 860 A.2d 810 (Del. 2004) (TABLE)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Ayers for the definition of a hostile claim.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "The Murrays sued their self-represented neighbors, the Preradovics, to quiet title by adverse possession to a triangular strip of the Preradovics' lot. After trial, the Magistrate's final report recommended title only to the fenced-in portion and not to the adjoining stone planter and grass strip, and both sides took exceptions. Reviewing de novo and after a site visit, Chancellor McCormick held that subdivision is legally permissible under Justice v. McGinn but factually inappropriate here, because the planter and the retaining wall inside the fence form one contiguous feature with a shared drainage system. The Court found that the Murrays' consistent maintenance from 1998 to late 2022, without permission and without any use by the neighbors, satisfied every element of adverse possession for the whole area.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 14
+        },
+        "core_legal_issue": "Whether, on de novo review of a Magistrate's post-trial final report, neighbors who proved adverse possession of a fenced-in triangular strip of the adjoining lot also acquired by adverse possession the unfenced remainder (a stone planter and a grass strip running to Halifax Road), or whether the disputed area should be subdivided and title to the unfenced portion denied.",
+        "coverage_note": "",
+        "disposition": "judgment for plaintiff",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Murrays' exceptions are granted and the Preradovics' exceptions are denied, and judgment is entered for the Murrays on all issues. The Magistrate committed no legal error in subdividing the disputed land. The Court, however, had walked the property and found that the planter, retaining wall, fence and grass form one physically connected landscaping feature, so it declined to subdivide. It found that the Murrays proved each element as to the entire triangle. Possession was continuous for over twenty years from December 1998 through their own and their landscapers' maintenance, and occasional overgrowth did not break continuity. It was open and notorious because they maintained the features marking the practical boundary as any owner would. It was hostile and exclusive because they had no permission and no 234 South Dillwyn resident used or maintained the area before late 2022. Actual possession overlaps with open and notorious possession. The case is remanded to the Magistrate to implement an order defining the exact boundaries of the disputed area and awarding title over it to the Murrays.",
+        "key_facts_and_concessions": [
+          "The planter outside the fence is made of the same stone as the retaining wall inside the fence, and the two share a drainage system; on the Court's site visit they appeared as \"effectively one contiguous landscaping feature\" extending into the grassy area.",
+          "Between 1998 and late 2022, the Murrays or people they hired were the only people to undertake maintenance or landscaping in the disputed area. That work included trimming ivy, planting in and removing vegetation from the planter, removing bamboo, trimming the Japanese Maple, and mowing. Martin Foster mowed and weed-whacked around the planter continuously, except in winter, from May 2007.",
+          "A 1998 Zebley & Associates inspection showed the fence encroaching nearly nine feet into 234 South Dillwyn, and a fence has stood in substantially the same location since at least December 1998.",
+          "Orth, Burkert and the Murrays all testified that they regarded the line formed by the fence and planter as the border between the properties; Orth believed the planter was on 23 Pinedale's property, and the Orths maintained grass only up to the back of the planter.",
+          "No resident of 234 South Dillwyn gave the Murrays permission to use the disputed area.",
+          "The only evidence against continuity was occasional overgrowth in and behind the planter. The Murrays credibly testified that they welcomed it as a privacy screen while still trimming the ivy and mowing. Some of the overgrowth came from trees behind the planter that the Murrays did not consider exclusively theirs.",
+          "The Preradovics first mowed and cut back vegetation in the planter in late 2022, after the twenty-year period had run.",
+          "The Murrays discovered that the Preradovics knew of the fence issue and had negotiated $3,000 off their purchase price. A later settlement under which the Murrays would buy the disputed area fell through and was held unenforceable."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where an adverse possession claim extends past a fence, build a record that the unfenced area is physically integrated with the enclosed area (shared materials or drainage) and that the claimant alone maintained it for the full twenty years, including landscaper payment records and testimony from prior owners on both sides. Because exceptions are reviewed de novo, consider requesting a site visit to show that integration firsthand.",
+        "standard_of_review": "De novo review of the Magistrate's factual and legal findings on exceptions (DiGiacobbe v. Sestak), with the record augmented by the Court's own site visit; Plaintiffs had to prove each element of adverse possession by a preponderance of the evidence."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402860"
+    },
+    {
+      "case_id": "de-402870",
+      "court": "chancery",
+      "date": "2026-10-29",
+      "docket": "2026-0861-MAA",
+      "judge": "Adams J.",
+      "name": "Aldercrest Health-Edmonds, LLC et al v. Salt Creek Beach, LLC et al",
+      "ny_date": "2026-10-30",
+      "ny_processed_at": "2026-10-30T13:53:35-04:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Service never occurred because no signed green card was returned: rejected as a \"counterfactual\" and \"litigation-driven\" theory. Defendants cited no case law and did not refute Plaintiffs' authority. Under Applied Bank, certified mailing, delivery tracking and actual knowledge suffice, and a green card return is not required to perfect service (fn. 19).",
+          "Objection to Plaintiffs' requested remedy: waived. Defendants' opposition addressed only the lack-of-service argument and did not respond to Plaintiffs' remedy argument (fn. 25).",
+          "Failure to meet and confer: rejected (fn. 24). Unlike the Superior Court CCLD Rules, the Court of Chancery rules do not mandate meeting and conferring, though the Guidelines suggest it and best practice is for Delaware counsel to join the call. In any event, the emails attached to the Motion show the parties did meet and confer.",
+          "Removal to federal court tolled the response time: raised in correspondence but dropped in the opposition (fn. 13).",
+          "Complaint that Plaintiffs did not provide the green cards until their reply: called \"nonsensical\" because Defendants knew since July that discovery was outstanding and a green card is not required (fn. 19).",
+          "Good cause for failing to make timely objections to the requests for admission: none shown, and none could exist where Defendants recognized the need to respond, requested an extension and then did an \"about-face\" on service (fn. 27)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Applied Bank v. JHL Brighton Design and Décor Center, LLC, 2018 WL 501473 (Del. Super. Jan. 17, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Service by certified mail was deemed perfected where no executed green card came back but the package was not returned, USPS tracking showed it was sent, and the defendant had actual knowledge of the suit.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 33(b)(3); Ct. Ch. R. 34(b); Ct. Ch. R. 36(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Discovery served with the complaint must be answered within 45 rather than 30 days. Measured from July 20 delivery, responses were due September 3, 2026.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Delaware Public Schools Litig., 317 A.3d 251 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party that fails to assert a proper, timely objection to a discovery request risks waiver of its objections; the same applies to requests for admission (n.51).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bocock v. Innovate Corp., 2023 WL 8453525 (Del. Ch. Dec. 6, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Deficient objections were held waived but privilege was preserved; the Court found Defendants' conduct more egregious and imposed the same remedy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "James Wm. Moore et al., Moore's Federal Practice § 36.11[5][c] (2024)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Cited through Delaware Public Schools: objections to requests for admission not raised in a timely objection are waived absent good cause.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Murphy v. State, 632 A.2d 1150 (Del. 1993)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Failure to raise a legal issue in the text of the opening brief generally waives it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Emerald Partners v. Berlin, 726 A.2d 1215 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Issues not briefed are deemed waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 88",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Governs the fee submissions due within 14 days absent agreement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Court of Chancery Guidelines (meet and confer)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Parties \"should\" meet and confer before raising discovery disputes; this is a best practice, not a mandate under the Chancery rules.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Superior Court CCLD Rules",
+            "check": "not_checked",
+            "kind": "rule",
+            "proposition": "Unlike the Chancery rules, they mandate a meet-and-confer requirement.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "10 Del. C. § 3104; Super. Ct. Civ. R. 4(f)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The service procedures under which Applied Bank deemed service perfected.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. Const. art. IV § 13(2)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Basis for Judge Adams sitting as a Vice Chancellor by designation.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Plaintiffs Aldercrest Health-Edmonds, LLC et al. moved to compel discovery responses from Defendants Salt Creek Beach, LLC et al., who argued they were never served because no signed green return-receipt card came back from the certified mailing. Judge Adams, sitting as a Vice Chancellor by designation, rejected this \"gamesmanship.\" Defendants had acknowledged the requests, asked for an extension, and only after taking it unilaterally raised a service defense; under Applied Bank, tracking and actual knowledge establish service without a returned green card. The Court ordered responses with all objections other than privilege waived, declined to deem the requests for admission admitted, and awarded fees and costs.",
+        "citation_check": {
+          "not_checked": 4,
+          "not_found": 0,
+          "verified": 8
+        },
+        "core_legal_issue": "Whether Defendants could avoid responding to discovery requests mailed by certified mail on the theory that service was never perfected because no signed green return-receipt card came back, where USPS tracking showed delivery and Defendants' counsel had acknowledged the requests and sought an extension to respond; and, if not, what sanction applied to the overdue responses.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 17,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion to compel granted. The Court found the discovery requests were properly served, consistent with Delaware caselaw, relying on certified mailing, USPS tracking showing July 20 delivery, the signed green cards and counsel's acknowledgment of the requests. Giving Defendants the benefit of the doubt, it set the response deadline at September 3, 2026, 45 days after July 20 delivery. Defendants waived any objection to the remedy by not addressing it. The Court ordered four remedies: (1) Defendants must produce all responsive documents within 30 days, with no objection other than privilege, or risk further sanctions; (2) if not already done, Defendants must give complete written interrogatory responses within 7 days of the order, with no objection other than privilege; (3) \"in the interests of trying this case on the merits,\" the requests for admission are not deemed admitted, but complete written responses are due within 7 days, with no objection other than privilege; and (4) Plaintiffs are awarded reasonable attorneys' fees and costs, with Rule 88 submissions due within 14 days absent agreement, which the Court encouraged.",
+        "key_facts_and_concessions": [
+          "Plaintiffs sent the discovery requests by Certified Mail, return receipt requested, on July 15, 2026. The Court personally reviewed USPS tracking showing each package \"served on July 20, 2026 in Rocklin, CA\", and Plaintiffs later produced green cards signed \"D. Funk\" showing receipt on July 20 (fn. 18-19).",
+          "Defendants' counsel discussed the outstanding discovery with Plaintiffs' counsel by phone on July 22 or 23. Defendants' counsel did not contradict the July 24 email memorializing that call, which noted the pending requests and stated, \"I anticipate that discovery will be illuminating\" (fn. 20).",
+          "By email on August 26, Defendants' counsel acknowledged the August 31 deadline and asked for an extension to September 11. Plaintiffs' counsel did not agree.",
+          "After September 11 passed and Plaintiffs' counsel followed up, Defense counsel first raised the theory that the discovery had not been properly served and so was not yet due.",
+          "In their opposition, Defendants represented they would serve responses on or before the October 28 hearing. They missed that self-imposed deadline, and responses were not filed until after the hearing.",
+          "Plaintiffs did not file the return of service until September 10. Plaintiffs' counsel represented at argument that filing it seemed unnecessary because Defendants had indicated they received the requests (fn. 5). The tracking numbers listed in the return for Cardiff Beach, LLC and Wailea Beach, LLC were erroneous (fn. 18).",
+          "The Complaint was served the same way, by Certified Mail, and Defendants never objected to that service (fn. 23).",
+          "Defendants removed the action to the District of Delaware on August 7, and it was voluntarily remanded on September 10."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Once counsel has acknowledged discovery requests and sought an extension, do not later contest service of those requests or treat an unconsented extension as granted; serve timely objections, because missing the deadline without good cause risks waiver of everything but privilege, plus fees. Opposition briefs on a motion to compel should also address the requested remedy, since silence waives any objection to it.",
+        "standard_of_review": "Not stated (motion to compel; response deadlines under Ct. Ch. R. 33(b)(3), 34(b) and 36(a))."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402870"
     }
   ],
   "ny_date": "2026-10-30"

@@ -872,12 +872,26 @@
       "name": "The Estate of Ewell E. Long v. Wells Fargo Bank, N.A., et al.",
       "processed_at": "2026-10-30T12:01:49-04:00",
       "status": "ok"
+    },
+    "de-402860": {
+      "court": "chancery",
+      "docket": "C.A. No. 2023-0601-LM (KSJM)",
+      "name": "Joseph W. C. Murray, Jr., et al. v. Nikola Preradovic, et al.",
+      "processed_at": "2026-10-30T13:53:35-04:00",
+      "status": "ok"
+    },
+    "de-402870": {
+      "court": "chancery",
+      "docket": "2026-0861-MAA",
+      "name": "Aldercrest Health-Edmonds, LLC et al v. Salt Creek Beach, LLC et al",
+      "processed_at": "2026-10-30T13:53:35-04:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-30T12:01:49-04:00",
+  "last_checked_ny": "2026-10-30T13:53:35-04:00",
   "page_hashes": {
-    "chancery": "2ebe5434bd5f9f91ec4d70aa20148c34fe60510b86c40900347f288ef118f9cf",
+    "chancery": "a90392775c1d506415e7ce4c020ef2494750dfb337d5bb10bdd338fae0eca437",
     "superior": "eda9f82748aa25ca5361c50254d896ddd2e596574d0a8dabaee0f1757531c086",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
