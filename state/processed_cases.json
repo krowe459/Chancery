@@ -886,13 +886,20 @@
       "name": "Aldercrest Health-Edmonds, LLC et al v. Salt Creek Beach, LLC et al",
       "processed_at": "2026-10-30T13:53:35-04:00",
       "status": "ok"
+    },
+    "de-402890": {
+      "court": "superior",
+      "docket": "N24C-12-212 PRW",
+      "name": "Freeman v. H.I.G Capital et al.",
+      "processed_at": "2026-10-30T15:56:23-04:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-30T13:53:35-04:00",
+  "last_checked_ny": "2026-10-30T15:56:23-04:00",
   "page_hashes": {
     "chancery": "a90392775c1d506415e7ce4c020ef2494750dfb337d5bb10bdd338fae0eca437",
-    "superior": "eda9f82748aa25ca5361c50254d896ddd2e596574d0a8dabaee0f1757531c086",
+    "superior": "b66f76562a351af38e21c7544b2c364f0efd23d4f87a4ef77d447da65055df7d",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
