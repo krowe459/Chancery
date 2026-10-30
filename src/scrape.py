@@ -267,6 +267,21 @@ def fingerprint(rows: list[CaseRow]) -> str:
 
 # ------------------------------------------------------------- text extraction
 
+SCANNED_NOTE = ("Scanned PDF with no text layer: Claude transcribed the opinion from its page "
+                "images before summarizing, so quotations and citations rest on that "
+                "transcription.")
+
+
+class ScannedPDF(RuntimeError):
+    """A PDF with no usable text layer (an image scan). Carries the bytes so
+    the caller can have Claude transcribe it (the Oct. 28 Jones v. SBC letter
+    was a three-page scan that produced no summary)."""
+
+    def __init__(self, data: bytes):
+        super().__init__("Extracted text is empty or near-empty (likely a scanned PDF).")
+        self.data = data
+
+
 def _download(session: requests.Session, url: str) -> tuple[bytes, str]:
     resp = get_with_retry(session, url, stream=True)
     buf = io.BytesIO()
@@ -293,8 +308,9 @@ def caption_text(session: requests.Session, url: str) -> str:
 
 def extract_text(session: requests.Session, url: str) -> str:
     data, ctype = _download(session, url)
+    is_pdf = data[:5] == b"%PDF-" or "pdf" in ctype
 
-    if data[:5] == b"%PDF-" or "pdf" in ctype:
+    if is_pdf:
         from pypdf import PdfReader
 
         from pdftext import pdf_to_text
@@ -312,8 +328,29 @@ def extract_text(session: requests.Session, url: str) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     if len(text) < 200:
-        raise RuntimeError("Extracted text is empty or near-empty (likely a scanned PDF).")
+        if is_pdf:
+            raise ScannedPDF(data)
+        raise RuntimeError("Extracted text is empty or near-empty.")
     return text
+
+
+def opinion_text(session: requests.Session, url: str) -> tuple[str, int, str]:
+    """(text, input tokens spent getting it, coverage note). A scanned PDF is
+    transcribed by Claude, which reads its page images; that costs one extra
+    request and is noted on the summary."""
+    try:
+        return extract_text(session, url), 0, ""
+    except ScannedPDF as scan:
+        from summarize import transcribe_pdf
+
+        print("  scanned PDF: transcribing with Claude")
+        text, used = transcribe_pdf(scan.data)
+        return text, used, SCANNED_NOTE
+
+
+def add_note(result: dict, note: str) -> None:
+    if note:
+        result["coverage_note"] = " ".join(x for x in (note, result.get("coverage_note")) if x)
 
 
 # ------------------------------------------------------------------ pipeline
@@ -556,9 +593,11 @@ def main() -> int:
         print(f"Processing {row.case_id}: {row.name} ({row.docket})")
         entry = {**asdict(row), "ny_processed_at": stamp, "ny_date": today_ny()}
         try:
-            text = extract_text(session, row.url)
+            text, used, note = opinion_text(session, row.url)
+            tokens_used += used
             result = summarize_opinion(text, row)
             tokens_used += result.pop("_input_tokens", 0)
+            add_note(result, note)
             entry["summary"] = result
             status = "ok"
         except fatal as exc:

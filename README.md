@@ -68,6 +68,10 @@ Locally: `cd src && python preview.py 402160` writes `preview/`.
 - PDFs are read with `src/pdftext.py`, which separates footnotes from body text by font size
   and places each footnote, as `[^n]: ...`, after the paragraph that cites it. If an opinion's
   layout doesn't fit (or text would be lost), it falls back to plain pypdf extraction.
+- A PDF with no text layer (an image scan) is sent to Claude as a document, which transcribes
+  it from the page images; the transcript then goes through the normal summary and checks,
+  and the digest notes that the summary rests on a transcription. This costs one extra request
+  (counted toward `RUN_TOKEN_BUDGET`) and is limited to PDFs under about 23 MB and 600 pages.
 - The final summary call includes one worked example (`src/prompt_example.json`) to set the
   standard. Edit that file to change it, and keep it accurate to its opinion. It is skipped
   when summarizing that same opinion. System prompts are cached across a run's calls.
