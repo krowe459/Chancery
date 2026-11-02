@@ -956,12 +956,19 @@
       "name": "Manna Academy v. Spud Cleaning and Rest",
       "processed_at": "2026-11-02T13:06:01-05:00",
       "status": "out_of_scope"
+    },
+    "de-403010": {
+      "court": "chancery",
+      "docket": "C.A. No. 2023-0612-LWW",
+      "name": "Jordan Darga v. Hycroft Mining Holding Corporation, et al.,",
+      "processed_at": "2026-11-02T18:37:22-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-02T13:06:01-05:00",
+  "last_checked_ny": "2026-11-02T18:37:22-05:00",
   "page_hashes": {
-    "chancery": "45455be5e16d4106b22dbbc0f1ed54ef09bfa524438c7cfbf4f0f0079354045a",
+    "chancery": "b1df169d7ed32ddabc216856106eaf6bca1bc5555eb84a7599c0e491a6f7a014",
     "superior": "e364663baad5de74a099ca6dca6d6c57f9e84e300430f52d42c5631d2695ed30",
     "supreme": "4a35e46fca9b1a921390087b7ce7e4f4166e583d99149fcbb4d34e9d4c870263"
   }

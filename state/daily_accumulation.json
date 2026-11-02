@@ -343,6 +343,132 @@
         "standard_of_review": "Not stated as a standard of review. The Court noted that Ct. Ch. R. 37(e)(2) requires a finding that the party acted \"recklessly or with the intent to deprive another party of the information's use in the litigation\" before an adverse inference may be drawn."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402980"
+    },
+    {
+      "case_id": "de-403010",
+      "court": "chancery",
+      "date": "2026-11-02",
+      "docket": "C.A. No. 2023-0612-LWW",
+      "judge": "Will V.C.",
+      "name": "Jordan Darga v. Hycroft Mining Holding Corporation, et al.,",
+      "ny_date": "2026-11-02",
+      "ny_processed_at": "2026-11-02T18:37:22-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Use of letters to supplement the record or add unpleaded theories: rejected. A plaintiff may not supplement the factual record or amend his pleading through letters to the court, and a Rule 12(b)(6) motion is decided on the complaint and documents it incorporates.",
+          "Characterization of the letters as context relevant to remedy rather than liability: rejected as a basis for filing. By his own admission the letters were irrelevant to the pending motion.",
+          "Settlement demands filed on the docket: stricken as immaterial and impertinent. They have no bearing on the motion to dismiss, and filing them is inappropriate.",
+          "Whistleblower threat in letter ten: stricken as scandalous. Using the docket to leverage such threats in pursuit of a settlement is an abuse of the judicial process.",
+          "Pro se status as an excuse: rejected. The Court affords reasonable leniency to pro se litigants, but that leniency does not excuse non-compliance with the court's rules and expectations."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 12(f)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The Court may, on its own initiative, strike from any pleading or filing material that is redundant, scandalous, immaterial, or not pertinent.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Icahn P'rs LP v. deSouza, 2024 WL 180952 (Del. Ch. Jan. 16, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court's power to strike information from a pleading or other filing is not limited to a strict application of Rule 12(f).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "395 Assocs., LLC v. New Castle Cnty., 2005 WL 3194566 (Del. Super. Nov. 28, 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Superior Court Civil Rule 12(f) was invoked sua sponte to strike irrelevant and prejudicial commentary from a brief.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Wal-Mart Stores, Inc. v. Indiana Elec. Workers Pension Tr. Fund IBEW, 95 A.3d 1264 (Del. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Affirmed the Court's exercise of equitable discretion in ordering the return of improperly obtained documents and striking references to them.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Gen. Motors (Hughes) S'holder Litig., 897 A.2d 162 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The complaint generally defines the universe of facts the trial court may consider on a Rule 12(b)(6) motion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 7(d)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Cited for the point that a plaintiff may not supplement the factual record or amend his pleading through letters to the court.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Standard Gen. L.P. v. Charney, 2017 WL 6498063 (Del. Ch. Dec. 19, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "It is impermissible to attempt to amend a pleading through a brief.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Draper v. Med. Ctr. of Del., 767 A.2d 796 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "There is no different set of rules for pro se plaintiffs, and orderly administration of justice should not be sacrificed to accommodate an unrepresented plaintiff.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A motion to dismiss is confined to the complaint's well-pleaded allegations and documents incorporated by reference.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In a pro se individual action against Hycroft Mining Holding Corporation and others, Vice Chancellor Will issued a letter order addressing ten unsolicited letters the plaintiff filed after briefing on the defendants' Rule 12(b)(6) motion. Acting sua sponte under Rule 12(f) and its inherent authority, the Court struck all ten letters and their exhibits. It reasoned that the letters impermissibly sought to supplement the record and amend the pleading, were admittedly irrelevant to the motion, and contained settlement demands. It further found that the final letter's threat of an SEC whistleblower submission unless the defendants settled was scandalous and an abuse of process. The motion was taken under advisement on the pleadings and formal briefs.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 9
+        },
+        "core_legal_issue": "Whether the Court should, on its own initiative under Ct. Ch. R. 12(f) and its inherent docket-management authority, strike ten unsolicited letters and exhibits that a pro se plaintiff filed after briefing on a Rule 12(b)(6) motion to dismiss. The letters supplemented the record, advanced unpleaded theories and settlement demands, and threatened an SEC whistleblower submission unless the defendants settled.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 14,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "ten unsolicited letters the plaintiff filed after briefing on the defendants' Rule 12(b)(6) motion",
+              "evidence": "Just before the defendants’ reply brief was filed and continuing for months after, Mr. Darga repeatedly attempted to supplement the record",
+              "field": "brief_summary",
+              "index": null,
+              "opinion_says": "The letters began just before the reply brief was filed and continued afterward, so some were filed before briefing concluded.",
+              "problem": "The letters began just before the reply brief, so not all were filed after briefing.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Exercising its inherent authority to manage the docket and acting consistent with Rule 12(f), the Court struck all ten letters and their exhibits, including from the docket of the related Pope putative class action. Letters one through nine were stricken as immaterial and impertinent: they improperly sought to supplement the record and advance unpleaded theories, Mr. Darga admitted they were irrelevant to the motion, and they pressed settlement demands. Letter ten was stricken as scandalous because using the docket to leverage a whistleblower threat to obtain a settlement abuses the judicial process. The defendants' motion to dismiss was deemed fully briefed without the letters and taken under advisement on the operative pleadings and the formal briefing.",
+        "key_facts_and_concessions": [
+          "Mr. Darga, pro se, submitted ten unsolicited letters with exhibits between February 2, 2026 and October 7, 2026 (Dkts. 105-106, 112-116, 118-120). They began just before the defendants' reply brief on their motion to dismiss and continued for months after briefing concluded.",
+          "Mr. Darga acknowledged that the letters were \"unrelated to the merits of [the] pending motion to dismiss\" and \"intended solely to provide contextual information relevant to remedy, not liability.\" The Court treated this as an admission that the letters were irrelevant to the complaint's viability.",
+          "Letters one through nine included dozens of pages of extraneous materials, valuation and tax models, unpleaded theories and unsolicited settlement demands.",
+          "The October 7, 2026 letter (Dkt. 120) threatened that, if the defendants did not accede to his settlement demands, Mr. Darga would submit materials from this litigation to the SEC Whistleblower Program. It highlighted a potential 10% to 30% reward and warned of \"massive job losses\" and substantial capital withdrawal.",
+          "Letter ten also attached a \"final settlement proposal,\" student loan records, sleep logs and refeeding syndrome logs, which the Court found entirely immaterial to the claims (fn. 9).",
+          "Mr. Darga pursues only an individual action but cross-filed the submissions in the related putative class action, Travus Pope v. Hycroft Mining Holding Corporation, C.A. No. 2023-0563-LWW. They were stricken from that docket as well (fn. 1)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Defendants facing a stream of post-briefing pro se letters can expect the Court to strike them on its own initiative under Rule 12(f) and its inherent authority, especially where the filer admits they are irrelevant to the pending motion or uses the docket for settlement demands or threats. A plaintiff who wants to add facts or theories must amend the pleading through the rules, not through letters.",
+        "standard_of_review": "Not stated as a standard of review. The Court acted sua sponte under Ct. Ch. R. 12(f), which permits striking material that is \"redundant, scandalous, immaterial, or not pertinent,\" and under its inherent authority to manage its docket. It noted that a Rule 12(b)(6) motion is confined to the complaint's well-pleaded allegations and documents incorporated by reference."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403010"
     }
   ],
   "ny_date": "2026-11-02"
