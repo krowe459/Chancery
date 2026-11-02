@@ -900,13 +900,34 @@
       "name": "In re Illumina, Inc. Consolidated Derivative Stockholder Litigation",
       "processed_at": "2026-10-30T17:51:25-04:00",
       "status": "ok"
+    },
+    "de-402910": {
+      "court": "superior",
+      "docket": "2505009470",
+      "name": "State v. Lopez",
+      "processed_at": "2026-11-02T09:28:30-05:00",
+      "status": "out_of_scope"
+    },
+    "de-402920": {
+      "court": "superior",
+      "docket": "2509003913",
+      "name": "State v. Merritt",
+      "processed_at": "2026-11-02T09:28:30-05:00",
+      "status": "out_of_scope"
+    },
+    "de-402930": {
+      "court": "superior",
+      "docket": "N24C-12-073 CLS",
+      "name": "Kalil v. Kalil",
+      "processed_at": "2026-11-02T09:28:30-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-10-30T17:51:25-04:00",
+  "last_checked_ny": "2026-11-02T09:28:30-05:00",
   "page_hashes": {
     "chancery": "6856102f9a494575a4da7ed80c915e0c99ef465b9d95e4feda8d7ed5a1a34698",
-    "superior": "b66f76562a351af38e21c7544b2c364f0efd23d4f87a4ef77d447da65055df7d",
+    "superior": "c80b80749b440fd00be0aa5918e95b3b8b345f1da0f4a075eb9a74b75eb45436",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
 }
