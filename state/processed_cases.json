@@ -921,12 +921,19 @@
       "name": "Kalil v. Kalil",
       "processed_at": "2026-11-02T09:28:30-05:00",
       "status": "out_of_scope"
+    },
+    "de-402950": {
+      "court": "chancery",
+      "docket": "2023-0887-LWW",
+      "name": "Accelerant Twister, LLC et al. v. Marjo, LLC and John T. Sullivan",
+      "processed_at": "2026-11-02T11:15:46-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-02T09:28:30-05:00",
+  "last_checked_ny": "2026-11-02T11:15:46-05:00",
   "page_hashes": {
-    "chancery": "6856102f9a494575a4da7ed80c915e0c99ef465b9d95e4feda8d7ed5a1a34698",
+    "chancery": "bf3674c0c10a49c4a8641f3ed9cd0901e4358914bac9fb01bbb948d2d912d45e",
     "superior": "c80b80749b440fd00be0aa5918e95b3b8b345f1da0f4a075eb9a74b75eb45436",
     "supreme": "20f28ed4e27271146a5d2fa34940e7978d9658f1d78faa35c256297e6614e7a1"
   }
