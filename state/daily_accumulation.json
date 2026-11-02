@@ -241,6 +241,108 @@
         "standard_of_review": "Post-trial; each proponent bore the burden of proving its claims by a preponderance of the evidence. Entire fairness (burden on the Founders) applied to the Revolving Credit Agreement and the CFG Bank guaranty because the Founders stood on both sides."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=402950"
+    },
+    {
+      "case_id": "de-402980",
+      "court": "chancery",
+      "date": "2026-11-02",
+      "docket": "2024-0097-LWW",
+      "judge": "Will V.C.",
+      "name": "US INFRA SVCS Buyer, LLC et al v. JDB Capital Partners, LLC et al.",
+      "ny_date": "2026-11-02",
+      "ny_processed_at": "2026-11-02T13:06:01-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' request for a pretrial hearing to impose adverse inferences: denied. The Rule 37(e)(2) state-of-mind assessment is typically made after hearing the evidence at trial and could not be made on the paper record.",
+          "Implicit premise that prejudice and remedy can be fixed pretrial: rejected. The complete trial record will let the Court evaluate any resulting prejudice and tailor a proportionate remedy.",
+          "Need for pre-merits evidentiary rulings: rejected. In a bench trial the Court need not issue preliminary evidentiary instructions to itself and can decide any adverse inference or burden shift while deciding the merits."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 37(e)(2)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "An adverse inference requires a finding that the party acted recklessly or with intent to deprive another party of the information's use in the litigation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Beard Rsch., Inc. v. Kates, 981 A.2d 1175 (Del. Ch. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Negligent destruction does not warrant an adverse inference. Spoliation remedies must be tailored to culpability and prejudice, and consideration of additional adverse inferences may be deferred to post-trial briefing and argument.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sears, Roebuck & Co. v. Midcap, 893 A.2d 542 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Beard: an adverse inference requires a preliminary finding of intentional or reckless destruction of evidence.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fortis Advisors, LLC v. Johnson & Johnson, C.A. No. 2020-0881-LWW (Del. Ch. June 5, 2023) (TRANSCRIPT)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court could not make credibility determinations or assess an alleged spoliator's state of mind pretrial.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Goldstein v. Denner, 310 A.3d 548 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "If a motion turns on evidentiary issues the court will evaluate at trial, it makes sense to defer the motion until trial.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gener8, LLC v. Castanon, 2023 WL 6381635 (Del. Ch. Sept. 29, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Rule 37(e) motion was resolved in a post-trial opinion, with tailored adverse inferences drawn after live evaluation of witness credibility.",
+            "role": "relied_on"
+          }
+        ],
+        "brief_summary": "Six weeks before trial, Plaintiffs (US INFRA SVCS Buyer, LLC et al.) moved for Rule 37(e)(2) adverse inferences against Defendants (JDB Capital Partners, LLC et al.). They alleged that a defendant's trustee failed to disable auto-delete, failed to preserve phone data during upgrades, and deleted texts, and they asked for a pretrial hearing. Vice Chancellor Will denied the hearing request and deferred the Motion to the post-trial decision. The Court observed a growing influx of pre-merits spoliation motions and reasoned that the required recklessness-or-intent finding and the assessment of prejudice and remedy depend on credibility and the full trial record. It added that a bench-trial court need not instruct itself in advance.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 6
+        },
+        "core_legal_issue": "Whether the Court should convene a pretrial hearing to impose Ct. Ch. R. 37(e)(2) adverse inferences for alleged spoliation in a bench-tried case, or defer the spoliation motion to the post-trial decision, where the predicate state-of-mind finding (recklessness or intent to deprive) cannot be made on the paper record.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 11,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "The case will be tried to the bench, so no preliminary evidentiary instruction is needed.",
+              "evidence": "In a bench trial, the court need not issue preliminary evidentiary instructions to itself.",
+              "field": "key_facts_and_concessions",
+              "index": 3,
+              "opinion_says": "The letter says bench-trial courts need not issue preliminary instructions to themselves, but does not say the case will be tried to the bench or that no instruction is needed here.",
+              "problem": "The opinion states a general principle about bench trials but never says this case is a bench trial.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Court denied Plaintiffs' request for a pretrial hearing to impose adverse inferences and deferred the Motion to the post-trial decision. Whether the trustee's conduct was negligent, reckless or intentional cannot be determined on the paper record. The full trial record will allow the Court to assess prejudice and tailor a proportionate remedy. In a bench trial, the Court can decide any adverse inference or burden shift together with the merits. The parties may complete their stipulated pretrial briefing, but they should present evidence on the alleged spoliation at trial and address the requested relief in post-trial briefing.",
+        "key_facts_and_concessions": [
+          "Plaintiffs moved on October 16, 2026 for adverse inferences due to spoliation (Dkt. 351), with trial six weeks away, and asked the Court to convene a pretrial hearing to impose them.",
+          "Plaintiffs assert that a defendant's trustee failed to disable cell phone auto-delete settings, failed to preserve data during phone upgrades, and deleted text messages.",
+          "The Court found it could not resolve on the existing paper record whether that conduct reflects negligence, recklessness or intentional spoliation.",
+          "The case will be tried to the bench, so no preliminary evidentiary instruction is needed.",
+          "The parties have stipulated pretrial briefing on the Motion."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "In Chancery bench trials, expect Rule 37(e)(2) adverse-inference motions that turn on the alleged spoliator's state of mind to be deferred to the post-trial decision. Develop the spoliation evidence, especially live testimony on intent or recklessness and on prejudice, for presentation at trial, and brief the requested remedy post-trial rather than relying on a pretrial ruling.",
+        "standard_of_review": "Not stated as a standard of review. The Court noted that Ct. Ch. R. 37(e)(2) requires a finding that the party acted \"recklessly or with the intent to deprive another party of the information's use in the litigation\" before an adverse inference may be drawn."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=402980"
     }
   ],
   "ny_date": "2026-11-02"
