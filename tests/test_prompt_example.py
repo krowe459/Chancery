@@ -59,6 +59,17 @@ class PromptExampleTest(unittest.TestCase):
         self.assertIn("The advice must follow from the ground the Court actually decided on", rule)
         self.assertIn("do not generalize the holding beyond the conditions", rule)
 
+    def test_arguments_are_limited_to_ones_a_party_made(self):
+        # Nov. 2 US INFRA and Darga letters: the Court's own reasoning was
+        # listed as "rejected" arguments no party had made.
+        import summarize
+        import verify
+        rule = " ".join(summarize.SYSTEM_PROMPT.split())
+        self.assertIn("List only arguments the opinion says a party (or an amicus) actually made", rule)
+        self.assertIn("leave the list short or empty", rule)
+        self.assertIn("the Court's own reasoning recast as a rejected argument",
+                      " ".join(verify.VERIFY_SYSTEM.split()))
+
     def test_a_claim_is_won_only_with_relief(self):
         # Davenport v. Toro (Oct. 27): breach proved, no damages, deposit
         # counterclaim lost; labeled "judgment in part for each side".

@@ -97,7 +97,12 @@ concession a party made (including concessions that limit what was decided, \
 e.g., a defendant conceding permissive but not mandatory relief).
 4. Arguments Rejected, Waived or Preserved - each argument the Court rejected, \
 held waived or forfeited, or expressly declined to treat as waived, with the \
-reason.
+reason. List only arguments the opinion says a party (or an amicus) actually \
+made, and name that party. The Court's own reasoning, points it raises on its \
+own (e.g., leniency for a pro se litigant, or acting sua sponte), and premises \
+it attributes to no one belong in the holding, not here. A short procedural \
+order may have few such arguments or none; leave the list short or empty \
+rather than recasting the reasoning as rejected arguments.
 5. Authorities - statutes (cite DGCL as "8 Del. C. § ___"; other Delaware \
 statutes such as DRULPA or the LLC Act at 6 Del. C.; non-Delaware statutes by \
 their own citation), court and evidence rules, and cases or doctrines the Court \
