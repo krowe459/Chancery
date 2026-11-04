@@ -1012,13 +1012,27 @@
       "name": "Brian Rose v. Talkdesk, Inc.",
       "processed_at": "2026-11-04T15:09:08-05:00",
       "status": "skipped_old"
+    },
+    "de-403050": {
+      "court": "superior",
+      "docket": "K26C-08-009 JJC",
+      "name": "Motley v. Bayhealth Medical Center, INC, et al.",
+      "processed_at": "2026-11-04T16:59:34-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403060": {
+      "court": "superior",
+      "docket": "N26C-01-107 KMM CCLC",
+      "name": "Bryan Park Education LLC v. Masters Academy International, LLC and Cognita Limited",
+      "processed_at": "2026-11-04T16:59:34-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-04T15:09:08-05:00",
+  "last_checked_ny": "2026-11-04T16:59:34-05:00",
   "page_hashes": {
     "chancery": "91d923750064454d1825d1af1c450b7b0dcbea1ee8e6872c502076408e5ced55",
-    "superior": "e364663baad5de74a099ca6dca6d6c57f9e84e300430f52d42c5631d2695ed30",
+    "superior": "206c1b5c3149fc169b9871fa0ec543cbbcf71836b2ce81935e9d52e537ef94ff",
     "supreme": "fd4c0a738038f8577c41cf925eb8a5b91de5d3ebe6d3fd59b1dc3b2e036dedbd"
   }
 }
