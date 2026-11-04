@@ -1005,12 +1005,19 @@
       "name": "In re Cloudflare, Inc. Stockholder Litigation",
       "processed_at": "2026-11-04T11:07:34-05:00",
       "status": "ok"
+    },
+    "de-403040": {
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2026-0116-LM",
+      "name": "Brian Rose v. Talkdesk, Inc.",
+      "processed_at": "2026-11-04T15:09:08-05:00",
+      "status": "skipped_old"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-04T13:02:25-05:00",
+  "last_checked_ny": "2026-11-04T15:09:08-05:00",
   "page_hashes": {
-    "chancery": "a94e8ef1d5f31b777d61357f382b670f9ba565452c38112de3a881bf7f597463",
+    "chancery": "91d923750064454d1825d1af1c450b7b0dcbea1ee8e6872c502076408e5ced55",
     "superior": "e364663baad5de74a099ca6dca6d6c57f9e84e300430f52d42c5631d2695ed30",
     "supreme": "fd4c0a738038f8577c41cf925eb8a5b91de5d3ebe6d3fd59b1dc3b2e036dedbd"
   }
