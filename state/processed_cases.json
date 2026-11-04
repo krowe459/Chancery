@@ -936,12 +936,33 @@
       "processed_at": "2026-11-02T09:28:30-05:00",
       "status": "out_of_scope"
     },
+    "de-402940": {
+      "court": "supreme",
+      "docket": "158, 2026",
+      "name": "Watson v. State",
+      "processed_at": "2026-11-04T13:02:25-05:00",
+      "status": "out_of_scope"
+    },
     "de-402950": {
       "court": "chancery",
       "docket": "2023-0887-LWW",
       "name": "Accelerant Twister, LLC et al. v. Marjo, LLC and John T. Sullivan",
       "processed_at": "2026-11-02T11:15:46-05:00",
       "status": "ok"
+    },
+    "de-402960": {
+      "court": "supreme",
+      "docket": "86, 2026",
+      "name": "Miller, Micheal, et al. vs. Mary Miller Paschal, et al.",
+      "processed_at": "2026-11-04T13:02:25-05:00",
+      "status": "out_of_scope"
+    },
+    "de-402970": {
+      "court": "supreme",
+      "docket": "241, 2026",
+      "name": "Logan v. State",
+      "processed_at": "2026-11-04T13:02:25-05:00",
+      "status": "out_of_scope"
     },
     "de-402980": {
       "court": "chancery",
@@ -955,6 +976,13 @@
       "docket": "N25A-02-007 SSA",
       "name": "Manna Academy v. Spud Cleaning and Rest",
       "processed_at": "2026-11-02T13:06:01-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403000": {
+      "court": "supreme",
+      "docket": "80, 2026",
+      "name": "Roten v. State",
+      "processed_at": "2026-11-04T13:02:25-05:00",
       "status": "out_of_scope"
     },
     "de-403010": {
@@ -980,10 +1008,10 @@
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-04T11:07:34-05:00",
+  "last_checked_ny": "2026-11-04T13:02:25-05:00",
   "page_hashes": {
     "chancery": "a94e8ef1d5f31b777d61357f382b670f9ba565452c38112de3a881bf7f597463",
     "superior": "e364663baad5de74a099ca6dca6d6c57f9e84e300430f52d42c5631d2695ed30",
-    "supreme": "a77d34a99d366953e1461ee3656dcaf6fafd6ae948cdf61fcc1cd0e5c47697b1"
+    "supreme": "fd4c0a738038f8577c41cf925eb8a5b91de5d3ebe6d3fd59b1dc3b2e036dedbd"
   }
 }
