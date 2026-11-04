@@ -963,13 +963,27 @@
       "name": "Jordan Darga v. Hycroft Mining Holding Corporation, et al.,",
       "processed_at": "2026-11-02T18:37:22-05:00",
       "status": "ok"
+    },
+    "de-403020": {
+      "court": "supreme",
+      "docket": "26, 2026",
+      "name": "Lewis v. State",
+      "processed_at": "2026-11-04T11:07:34-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403030": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0772-JTL",
+      "name": "In re Cloudflare, Inc. Stockholder Litigation",
+      "processed_at": "2026-11-04T11:07:34-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-02T18:37:22-05:00",
+  "last_checked_ny": "2026-11-04T11:07:34-05:00",
   "page_hashes": {
-    "chancery": "b1df169d7ed32ddabc216856106eaf6bca1bc5555eb84a7599c0e491a6f7a014",
+    "chancery": "a94e8ef1d5f31b777d61357f382b670f9ba565452c38112de3a881bf7f597463",
     "superior": "e364663baad5de74a099ca6dca6d6c57f9e84e300430f52d42c5631d2695ed30",
-    "supreme": "4a35e46fca9b1a921390087b7ce7e4f4166e583d99149fcbb4d34e9d4c870263"
+    "supreme": "a77d34a99d366953e1461ee3656dcaf6fafd6ae948cdf61fcc1cd0e5c47697b1"
   }
 }

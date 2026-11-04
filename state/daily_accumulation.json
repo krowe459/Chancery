@@ -1,4 +1,251 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403030",
+      "court": "chancery",
+      "date": "2026-11-03",
+      "docket": "C.A. No. 2026-0772-JTL",
+      "judge": "Laster, V.C.",
+      "name": "In re Cloudflare, Inc. Stockholder Litigation",
+      "ny_date": "2026-11-04",
+      "ny_processed_at": "2026-11-04T11:07:34-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "The argument that the Safe Harbor Statute adopts a unique definition of good faith was waived under Supr. Ct. R. 8. The defendants cited pre-statute case law below and argued at oral argument that \"[w]e have a lot of cases that talk about what bad faith is.\" It also fails on the merits: the statute defines other terms but not \"good faith,\" the S.B. 21 synopsis and legislative testimony preserve the common law, and § 144(d)(5)(b) mirrors § 102(b)(7)(ii), so the defendants' reading would make \"not in good faith\" surplusage.",
+          "The argument that the defendants should prevail because good faith requires an individualized, member-by-member analysis was held waived because it was never argued below. It is also not an issue of first impression: Unitrin, Unocal, Revlon, Mercier, Dollar Thrifty and Blasius analyze good faith collectively in the transactional-justification setting. The Court nonetheless certified the collective-versus-individual question as warranting a renewed look after the Safe Harbor Statute.",
+          "The asserted first impression on the evidence needed to overcome the safe harbor at the injunction stage was rejected as technically correct but trivial. The settled reasonable-probability standard applies, and the statute says nothing about injunction-stage evidentiary standards.",
+          "The claim that the Injunction Opinion held a trial necessary to obtain § 144's benefits was rejected as a mischaracterization. The holding was case-specific, and summary judgment (Rule 56) and pleading-stage dismissal (Rules 12(b)(6), 12(c)) remain available.",
+          "The challenge to the sufficiency of the injunction-stage record was rejected. Rule 42 focuses on questions of law, and preliminary-injunction rulings are reviewed for abuse of discretion. Reversal would not end the case, because the Status-Quo Commitment keeps the status quo and the plaintiffs could still go to trial and seek an adverse inference from the destroyed Signal messages.",
+          "The asserted trial-court conflict over the \"controlled mindset\" was rejected. Trade Desk, Viacom, CBS and Fishel recognize that a controlled mindset can contribute to a bad-faith inference within a broader constellation of facts, and the Injunction Opinion neither equated a controlled mindset with bad faith nor treated it as a term of art. The Court agreed that latent deference alone is not bad faith if directors subjectively pursue the corporation's best interests.",
+          "The asserted conflict among trial courts on the good-faith standard was rejected. Dodiya expressly recognized the Disney Standard. Ayers mentioned only malice and conscious lawbreaking but did not reject the Disney Standard or call for overruling it.",
+          "The argument that a potentially case-dispositive ruling alone warrants certification was rejected, because it \"would validate routine appeals.\" The Court noted that the Supreme Court refused the appeal in UniSuper, which the defendants cited, and that the Application did not cite that order.",
+          "The defendants' framing about the \"showing required\" to make the safe harbor available, and about \"second-guessing\" a committee's negotiations, was called \"wide of the mark.\" The Court called the controlled-mindset argument a red herring."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Certification requires a substantial issue of material importance meriting pre-judgment review, assessed under the eight factors and the trial court's own efficiency and cost-benefit analysis; interlocutory appeals should be exceptional, and the trial court's ruling is only a recommendation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 8",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Only questions fairly presented below may be raised on appeal; the basis for finding the unique-definition and member-by-member arguments waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The General Controller Safe Harbor requires that the committee act \"in good faith and without gross negligence.\"",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(e); 8 Del. C. § 144(d)(5)(b); 8 Del. C. § 102(b)(7)(ii)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The statute defines other terms but not \"good faith,\" and the controller-exculpation carve-out tracks § 102(b)(7)(ii); both show the common-law meaning was retained, and the defendants' reading would create surplusage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. S.B. 21 syn., 153d Gen. Assem. (2025)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The synopsis confirms that the good-faith and gross-negligence requirements preserve the common-law requirements regarding core fiduciary conduct.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Walt Disney Co. Deriv. Litig., 906 A.2d 27 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Bad faith includes a fiduciary intentionally acting with a purpose other than advancing the corporation's best interests (the Disney Standard), alongside malice and intentional dereliction of duty.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dodiya v. Franklin, 2026 WL 2517931 (Del. Ch. Aug. 26, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Section 144 adopts the common-law meanings of good faith and gross negligence; committee approval is necessary but not sufficient; a board may act with care yet in bad faith by consciously advancing other interests.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lyondell Chem. Co. v. Ryan, 970 A.2d 235 (Del. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Because no court can tell directors exactly how to obtain the best transaction, conscious lawbreaking generally cannot rest on breach of fiduciary duty; so rejecting the Disney Standard would leave the plaintiffs without a viable theory.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Unitrin, Inc. v. Am. Gen. Corp., 651 A.2d 1361 (Del. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Distinguishes the transactional-justification setting from the personal-liability setting; supports collective analysis of good faith for transaction-level relief.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Cornerstone Therapeutics Inc. S'holder Litig., 115 A.3d 1173 (Del. 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "In the personal-liability setting each director has a right to be considered individually, and a plaintiff must plead a non-exculpated claim against each director.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Trade Desk Deriv. Litig., 2025 WL 503015 (Del. Ch. Feb. 14, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A controlled mindset alone is at most a care breach but can support bad faith when combined with a broader constellation of facts; no conflict with the Injunction Opinion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "US Dominion, Inc. v. Fox News Network, LLC, 2022 WL 100820 (Del. Super. Jan. 10, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A potentially case-dispositive ruling alone cannot justify certification, or routine appeals would follow.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Stone v. Ritter, 911 A.2d 362 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Reaffirms the Disney Standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Guttman v. Huang, 823 A.2d 492 (Del. Ch. 2003); Kahn v. Portnoy, 2008 WL 5197164 (Del. Ch. Dec. 11, 2008); In re RJR Nabisco, Inc. S'holders Litig., 1989 WL 7036 (Del. Ch. Jan. 31, 1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Court of Chancery lineage for the principle that conscious action for a purpose other than the corporation's best interests, whatever the motive, is bad faith.",
+            "role": "background"
+          },
+          {
+            "authority": "In re S. Peru Copper Corp. S'holder Deriv. Litig., 52 A.3d 761 (Del. Ch. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Used \"controlled mindset\" to describe good-faith fiduciaries who nonetheless approved an unfair deal; this does not make the concept incompatible with a bad-faith finding.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Ayers v. Foley, 362 A.3d 355 (Del. Ch. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A pleading-stage decision that referenced only malice and lawbreaking without rejecting the Disney Standard; no genuine conflict.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "UniSuper Ltd. v. News Corp., 2006 WL 207505 (Del. Ch. Jan. 19, 2006), appeal refused (Del. Jan. 27, 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Certification there was based on case-dispositive potential, but the Supreme Court refused the appeal.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Unocal; Revlon; Mercier v. Inter-Tel; In re Dollar Thrifty; Blasius",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Injunction-stage and transactional decisions assessing board or committee good faith collectively.",
+            "role": "background"
+          },
+          {
+            "authority": "United Food & Com. Workers Union v. Zuckerberg, 262 A.3d 1034 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Director-by-director analysis governs demand futility under Rule 23.1.",
+            "role": "background"
+          },
+          {
+            "authority": "SI Mgmt. L.P. v. Wininger, 707 A.2d 37 (Del. 1998)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Preliminary injunctions are reviewed for abuse of discretion, with legal conclusions reviewed without deference.",
+            "role": "background"
+          },
+          {
+            "authority": "Shawe v. Elting, 157 A.3d 152 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rationale for Rule 8 waiver: it is unfair to fault the trial court on an issue never presented to it.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Caremark Int'l Inc. Deriv. Litig., 698 A.2d 959 (Del. Ch. 1996); In re Massey Energy Co., 2011 WL 2176479 (Del. Ch. May 31, 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Conscious lawbreaking has mattered chiefly where statutory or regulatory violations are at issue.",
+            "role": "background"
+          },
+          {
+            "authority": "Dodge v. Ford Motor Co., 170 N.W. 668 (Mich. 1919)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Acting for a purpose other than stockholders' interests, without malice, breached loyalty; this strain of bad faith is not unique to Delaware.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(6), 12(c), 56",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Safe-harbor protection can be obtained by dismissal or summary judgment, so a trial is not always required.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Defendants Cloudflare, Inc., its directors, and Founders Matthew Prince and Michelle Zatlyn applied to certify an interlocutory appeal from the Court's preliminary injunction against the Recapitalization. The injunction found a reasonable probability that the Committee failed the good-faith requirement of the General Controller Safe Harbor under the Disney Standard. Vice Chancellor Laster held that most of the Application's issues were waived, mischaracterized the Injunction Opinion, or challenged preliminary factual assessments. The Court nonetheless certified two questions as timely after enactment of the Safe Harbor Statute: whether the Disney Standard survives, and whether good faith must be assessed member-by-member in the transactional-justification setting. It reasoned that reversal on Disney would be case-dispositive and that the defendants' rejection of an expedited safe-harbor trial removed any trial schedule to disrupt.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 23
+        },
+        "core_legal_issue": "Whether, under Supreme Court Rule 42, the Court of Chancery should certify an interlocutory appeal from its preliminary injunction against the Recapitalization. The injunction rested on the Good Faith Ruling: applying the Disney Standard, the Court found a reasonable probability that the Committee did not act \"in good faith\" under the General Controller Safe Harbor (8 Del. C. § 144(b)(1)). The certification question turned on (i) whether the defendants' challenge, which the Court treated as an attempt to limit bad faith to malice and conscious lawbreaking, presents a substantial issue of material importance, and (ii) whether that issue merits review before final judgment.",
+        "coverage_note": "",
+        "disposition": "granted in part and denied in part",
+        "fact_check": {
+          "checked": 20,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "Unitrin, Unocal, Revlon, Mercier, Dollar Thrifty and Blasius analyze good faith collectively in the transactional-justification setting",
+              "evidence": "The Delaware Supreme Court’s injunction-stage decisions in Unocal and Revlon analyzed the board’s good faith collectively. Then-Vice Chancellor Strine... Mercier and Dollar Thrifty. Chancellor Allen’s decision in Blasius",
+              "field": "arguments_rejected_or_waived",
+              "index": 1,
+              "opinion_says": "The opinion lists Unocal, Revlon, Mercier, Dollar Thrifty and Blasius as analyzing good faith collectively; Unitrin is cited only for distinguishing the transactional-justification and personal-liability settings.",
+              "problem": "Unitrin is not cited as a case analyzing good faith collectively; it is cited only for the distinction between the two settings.",
+              "verdict": "unsupported"
+            },
+            {
+              "assertion": "here both were held waived under Supr. Ct. R. 8 and certified only on the Court's timing rationale",
+              "evidence": "The defendants’ newly embraced position that the Safe Harbor Statute adopts a unique definition of good faith does not provide grounds for interlocutory review.",
+              "field": "practical_takeaway",
+              "index": null,
+              "opinion_says": "The statute-specific definition argument was waived and not certified, while only the collective-versus-individual issue (also waived) was certified.",
+              "problem": "The statute-specific good-faith definition argument was not certified at all; only the member-by-member issue was certified despite waiver.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Certification granted on two issues and denied on all others; the Court recommends that the Supreme Court accept the interlocutory appeal. The first issue is the continuing vitality of the Disney Standard, under which a fiduciary fails to act in good faith by consciously acting for a purpose other than the best interests of the corporation and all its stockholders. The second is whether, in the transactional-justification setting, Safe Harbor Statute good faith may be assessed for the committee collectively or must be assessed member-by-member. The Court held the Application's other framings (a statute-specific definition of good faith, an injunction-stage evidentiary standard, a trial requirement, record sufficiency, and the controlled mindset) are waived, trivial, mischaracterizations or factual, and present no substantial issue. Although the Disney challenge attacks settled law and the collective-analysis argument was waived and is not novel, the Court found both substantial because the Injunction Opinion is among the first to apply § 144's good-faith requirement; \"if there were a time\" to revisit them, \"it would be now.\" Reversal on the Disney Standard would be practically case-dispositive. On timing, the defendants rejected the expedited safe-harbor trial, which removed any near-term trial to disrupt and showed they are not meaningfully harmed by delay, and the Status-Quo Commitment makes the appeal irrelevant to closing. An answer on collective versus individual analysis would also shape trial if Disney survives. The Vice Chancellor stated a personal view that the Disney Standard remains critical to the integrity of Delaware law and noted that the ruling is only a recommendation.",
+        "key_facts_and_concessions": [
+          "Relying on Disney, RJR Nabisco and Guttman, the Injunction Opinion (Oct. 16, 2026) found a reasonable probability that the Committee acted \"to placate the founders and give them what they wanted.\" It relied on contemporaneous evidence, conflicts between that evidence and the directors' testimony, auto-deleted Signal messages, and the defendants' reneging on the Status-Quo Commitment.",
+          "The Court found that if the Disney Standard is no longer good law, the plaintiffs have no reasonable probability of showing malice or conscious lawbreaking. Under Lyondell the conscious-lawbreaking reframing \"does not seem viable,\" and the plaintiffs do not contend the Committee consciously violated a statute or regulation. Reversal would therefore be case-dispositive, and the defendants could likely obtain summary judgment.",
+          "The Injunction Opinion offered an expedited bifurcated trial, ideally in about ninety days, limited to the General Controller Safe Harbor. On October 24 the defendants rejected it, offering to accept only if the appeal were certified. The Court treated that counteroffer as a rejection, so no near-term trial would be disrupted.",
+          "The Application does not challenge the irreparable-harm finding, the balancing of hardships, the statutory safe-harbor rulings decided in the defendants' favor, the gross-negligence ruling, or the entire fairness analysis.",
+          "The Company committed not to close the Recapitalization until the Court rules in this action and in the charter-based Kaul action. It reneged in August 2026, then recanted, and reaffirmed the commitment on October 28 after the Kaul plaintiff's letter. Fn. 22: the appeal therefore does not affect the defendants' ability to close.",
+          "In the trial court, the defendants addressed the plaintiffs' bad-faith arguments by referring to the Committee members collectively, but answered interestedness member-by-member (Dkt. 82 at 43-52).",
+          "Fn. 20: the Injunction Opinion's discussion of two directors who made up a majority of the Committee would suffice for a director-specific reasonable probability. Both back-channeled with the Founders and their allies, were targets of a Founder's tirade and could be seen as modifying their behavior in response, and used Signal without retaining messages.",
+          "Fn. 27-28: the Court said the Application misstated the Injunction Opinion as finding that the Committee acted with due care and as holding the plaintiffs \"likely to prove\" bad faith. The Injunction Opinion made no findings of fact and found only a reasonable probability of success, which can be below 51%."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Defendants relying on § 144 should raise any statute-specific good-faith definition or member-by-member argument in the trial court; here both were held waived under Supr. Ct. R. 8 and certified only on the Court's timing rationale. Pending the Supreme Court's answer, committees and their counsel should assume the Disney Standard applies. Contemporaneous records showing a process designed to reach a controller's preferred result, and loss of auto-deleted messages after litigation was anticipated, can support a reasonable probability of bad faith even where the committee's process otherwise appears sound.",
+        "standard_of_review": "Supr. Ct. R. 42(b): the order must decide a substantial issue of material importance that merits appellate review before final judgment. The Court weighed the non-exclusive Rule 42(b)(iii)(A)-(H) factors and made its own assessment of the most efficient and just schedule. Certification is \"generally not favored\" and requires \"strict analysis\"; if the balance is uncertain, the trial court should refuse to certify."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403030"
+    }
+  ],
+  "ny_date": "2026-11-04"
 }
