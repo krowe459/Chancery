@@ -1026,13 +1026,27 @@
       "name": "Bryan Park Education LLC v. Masters Academy International, LLC and Cognita Limited",
       "processed_at": "2026-11-04T16:59:34-05:00",
       "status": "out_of_scope"
+    },
+    "de-403070": {
+      "court": "superior",
+      "docket": "N24C-06-145 KMM",
+      "name": "Charles B. Sanders v. Centurion of Delaware, LLC",
+      "processed_at": "2026-11-05T09:28:11-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403080": {
+      "court": "supreme",
+      "docket": "63, 2026",
+      "name": "Miller v. State",
+      "processed_at": "2026-11-05T09:28:11-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-04T16:59:34-05:00",
+  "last_checked_ny": "2026-11-05T09:28:11-05:00",
   "page_hashes": {
     "chancery": "91d923750064454d1825d1af1c450b7b0dcbea1ee8e6872c502076408e5ced55",
-    "superior": "206c1b5c3149fc169b9871fa0ec543cbbcf71836b2ce81935e9d52e537ef94ff",
-    "supreme": "fd4c0a738038f8577c41cf925eb8a5b91de5d3ebe6d3fd59b1dc3b2e036dedbd"
+    "superior": "790889cc03fd3fed8cf3e2022216d02b290af1e1c27327532c0fdb2d7576aa93",
+    "supreme": "406a0a1675078b9ce1a053a881a296e668859a216f87372eb09735c76bc79a7d"
   }
 }
