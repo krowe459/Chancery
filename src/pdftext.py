@@ -34,7 +34,7 @@ LINE_TOLERANCE = 4.0     # pt: words this close vertically share a line (markers
 MARKER_RATIO = 0.80      # a number below 80% of its line's text size is a marker
 SMALL_RATIO = 0.97       # a line below 97% of body size is footnote-sized
 MIN_VISIBLE_SIZE = 3.0   # pt: smaller text is hidden (Word's "50F" footnote-anchor artifacts)
-HEADER_BAND = 0.12       # top/bottom fraction of the page searched for running headers
+HEADER_BAND = 0.15       # top/bottom fraction of the page searched for running headers
 MIN_KEPT_RATIO = 0.90    # fall back if we keep less than 90% of plain extraction's letters
 
 
@@ -280,7 +280,14 @@ def _separator_top(page, words: list[dict]) -> float | None:
     The rule must stand alone at its height: a table's cell borders come in
     rows of segments, and one of them can pass the length and margin tests
     (the fee table in the Oct. 26 US WorldMeds v. Supernus letter put the
-    rest of its page, and a section heading, inside footnote 50)."""
+    rest of its page, and a section heading, inside footnote 50).
+
+    It must not run through or just under a line of text: strike-throughs in
+    a quoted redline and a heading's underline are not separators (the
+    Nov. 2 Darga letter's "Letters One Through Nine" underline put body text
+    in a footnote). After the first page, a long footnote can push the rule
+    above the top quarter (page 47 of the Nov. 3 Cloudflare opinion), so only
+    page 1, where letterhead rules sit, keeps that limit."""
     if not words:
         return None
     # Candidate left margins: the leftmost text, and the most common left edge
@@ -292,12 +299,18 @@ def _separator_top(page, words: list[dict]) -> float | None:
              if r["height"] < 2] + \
             [(ln["top"], ln["x0"], ln["x1"]) for ln in getattr(page, "lines", [])
              if abs(ln["top"] - ln["bottom"]) < 2]
+    floor = page.height * (0.25 if getattr(page, "page_number", 1) == 1 else 0.10)
+
+    def clear(top: float, x0: float, x1: float) -> bool:
+        return not any(w["top"] - 2 <= top <= w.get("bottom", w["top"] + w["size"]) + 2
+                       and w["x0"] < x1 and w["x1"] > x0 for w in words)
+
     def alone(top: float, x0: float, x1: float) -> bool:
         return not any(abs(t - top) <= 1.5 and (a, b) != (x0, x1) for t, a, b in rules)
 
     tops = [top for top, x0, x1 in rules
             if 100 <= x1 - x0 <= 260 and any(abs(x0 - m) <= 20 for m in margins)
-            and page.height * 0.25 < top < lowest and alone(top, x0, x1)]
+            and floor < top < lowest and alone(top, x0, x1) and clear(top, x0, x1)]
     return min(tops) if tops else None
 
 
