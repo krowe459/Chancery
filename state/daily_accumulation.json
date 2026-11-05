@@ -1,4 +1,209 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403110",
+      "court": "chancery",
+      "date": "2026-11-05",
+      "docket": "C.A. No. 2023-1099-NAC",
+      "judge": "Cook V.C.",
+      "name": "Invictus Special Situations Master I, L.P. v. Invictus Global Management, LLC, et al.,",
+      "ny_date": "2026-11-05",
+      "ny_processed_at": "2026-11-05T15:04:45-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Delano, Patel and Invictus GP's argument that the Books and Records Order must be limited to IGM because only IGM was party to the Management Agreement: rejected. The argument was not raised at trial and was waived, it is subject to exceptions to the signatory rule, Defendants' own proposed order used the same language, and no clear error was shown given the control stipulation.",
+          "Delano's argument that the non-signatory point is \"not a procedural technicality subject to waiver—it is a substantive limitation on liability\": rejected as incorrect, because the argument can be waived (fn. 51, citing Medicalgorithmics).",
+          "Defendants' request to amend the Retained Funds Order: rejected. The form was negotiated and agreed to without objection, and the order mentions only IGM.",
+          "Delano's reliance on Frederick-Conaway v. Baird for clarifying \"sloppy\" language: distinguished. Here the two judgments are not clearly in error and use language similar, if not identical, to language the parties submitted or agreed to.",
+          "Delano's supplemental argument that the Supreme Court's corrected opinion is a new and material addition to the law of the case that forecloses any fiduciary-duty basis for reaching non-signatories: rejected as meritless. The Supreme Court said little about the earlier judgments, nothing suggests it meant to upend non-advancement rulings, and the Fund's claims were always grounded in the Management Agreement. The Court addressed it on the merits for completeness because the Fund had a chance to respond (fn. 61).",
+          "Patel, IGM and Invictus GP's Motion for Leave to vacate the Retained Funds Order and reopen discovery because delayed advancement prevented them from presenting evidence and expert testimony: rejected. The remedy is unheard of and, even if available, inappropriate given years of litigation with sophisticated Delaware counsel, largely self-inflicted delay, and no stay request or Rule 56(d) affidavit.",
+          "Movants' contention that new evidence and an expert affidavit would have tipped the scales: merits not reached, but fn. 68 notes, as the Fund points out, that the \"new\" evidence was in the summary judgment record. It also notes that the relevance of expert testimony on debtor-in-possession lending market practice to IGM's post-termination withholding is unclear."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 54(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "An order adjudicating fewer than all claims may be revised at any time before final judgment.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Tornetta v. Musk, 326 A.3d 1203 (Del. Ch. 2024), aff'd in part, rev'd in part on other grounds sub nom. In re Tesla, Inc. Deriv. Litig., 351 A.3d 1005 (Del. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The law-of-the-case doctrine supplies the Rule 54(b) revision standard and promotes finality and efficiency; litigants should not, without good reason, be permitted to battle again for a decision.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Zirn v. VLI Corp., 1994 WL 548938 (Del. Ch. Sept. 23, 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A matter once addressed in a procedurally appropriate way will not be disturbed absent a compelling reason.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sullivan v. Mayor of Town of Elsmere, 23 A.3d 128 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Compelling reasons to depart from the law of the case include clear error, a need to prevent injustice, or an important change of circumstances.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hamilton v. State, 831 A.2d 881 (Del. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with Sullivan for the same exceptions to the law of the case.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Medicalgorithmics S.A. v. AMI Monitoring, Inc., 2016 WL 4401038 (Del. Ch. Aug. 18, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A non-signatory's argument that it cannot be held liable under a contract it did not sign can be waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Emerald P'rs v. Berlin, 726 A.2d 1215 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An argument that could have been raised earlier and was not is waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Frederick-Conaway v. Baird, 159 A.3d 285 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court may clarify erroneous or unclear judgments that materially prejudice a party, but that does not reach judgments that are not clearly in error and track language the parties submitted or agreed to.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(d)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Defendants never submitted an affidavit asserting a lack of facts essential to their summary judgment opposition, undercutting their claim of prejudice.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Invictus Glob. Mgmt., LLC v. Invictus Special Situations Master I, L.P., 362 A.3d 297 (Del. Apr. 13, 2026, revised May 4, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Supreme Court resolved advancement in Defendants' favor, and its correction of the \"fiduciary duty\" phrasing did not disturb the non-advancement rulings.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Invictus Special Situations Master I, L.P. v. Invictus Glob. Mgmt., LLC, 2024 WL 1646093 (Del. Ch. Apr. 17, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The post-trial opinion found the Fund's claims grounded in the Management Agreement and recorded the stipulation that Patel and Delano controlled IGM.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gotham P'rs, L.P. v. Hallwood Realty P'rs, L.P., 817 A.2d 160 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Generally only a party to a contract may be sued for its breach.",
+            "role": "background"
+          },
+          {
+            "authority": "Flores v. Strauss Water Ltd., 2016 WL 5243950 (Del. Ch. Sept. 22, 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Exceptions exist to the rule that only contract parties may be sued for breach.",
+            "role": "background"
+          },
+          {
+            "authority": "Westendorf v. Gateway 2000, Inc., 2000 WL 307369 (Del. Ch. Mar. 16, 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Exceptions exist to the rule that only contract parties may be sued for breach.",
+            "role": "background"
+          },
+          {
+            "authority": "Perryman v. Stimwave Techs. Inc., 2020 WL 2465720 (Del. Ch. May 13, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delay in recognizing advancement rights can prejudice the indemnitee.",
+            "role": "background"
+          },
+          {
+            "authority": "Perry v. Neupert, 2019 WL 719000 (Del. Ch. Feb. 15, 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Tornetta: law of the case fills Rule 54(b)'s gap.",
+            "role": "background"
+          },
+          {
+            "authority": "U.S. Tobacco Coop. Inc. v. Big S. Wholesale of Va., LLC, 899 F.3d 236 (4th Cir. 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Tornetta on limits to revisiting earlier rulings.",
+            "role": "background"
+          },
+          {
+            "authority": "Sciabacucchi v. Malone, 2021 WL 3662394 (Del. Ch. Aug. 18, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The law of the case prevents serial relitigation of decided issues.",
+            "role": "background"
+          },
+          {
+            "authority": "State v. Wright, 131 A.3d 310 (Del. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The law of the case is a self-imposed restriction promoting efficiency, finality and stability (quoting Cede & Co. v. Technicolor, Inc., 884 A.2d 26 (Del. 2005)).",
+            "role": "background"
+          },
+          {
+            "authority": "Dinkevich v. Deutsche Telekom AG, 2025 WL 1752098 (Del. Ch. June 20, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with Zirn on the compelling-reason standard.",
+            "role": "background"
+          },
+          {
+            "authority": "29 U.S.C. § 1110",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "ERISA provision this Court had held barred advancement, which the Supreme Court reversed.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In the Fund's expedited suit against its removed manager IGM, its former general partner Invictus GP and principals Patel and Delano, Vice Chancellor Cook, in a letter decision, denied Defendants' Rule 54(b) motion to amend the Books and Records Order and Retained Funds Order. The Court also denied a motion by Patel, IGM and Invictus GP to supplement that motion and vacate the Retained Funds Order on the ground that advancement was delayed until the Supreme Court's April 2026 ruling. Applying the law of the case, the Court held that the argument that only IGM, as sole signatory to the Management Agreement, could be bound was waived because it was not raised at trial and contradicted Defendants' own proposed order, and that the Retained Funds Order was agreed to and names only IGM. Delano's reliance on the Supreme Court's corrected opinion was rejected as meritless, and the do-over request failed given Defendants' self-inflicted delay and their failure to seek a stay or Rule 56(d) relief.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 21
+        },
+        "core_legal_issue": "Whether, under Ct. Ch. R. 54(b) and the law-of-the-case doctrine, the Court should revise (i) the Books and Records Order and Retained Funds Order to run only against IGM, the sole signatory to the Management Agreement, on a non-signatory argument first raised after those orders were entered, and (ii) vacate the Retained Funds Order and reopen discovery because IGM did not receive advancement until after the Supreme Court's April 2026 ruling.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Both the Motion to Amend and the Motion for Leave are denied, and Delano's supplemental submissions are rejected on the merits. The Court held that the Motion to Amend identified no clear error, injustice or changed circumstances that would overcome the law of the case. The non-signatory argument could have been raised in early 2024 and was waived; Defendants' own proposed order used the challenged \"Defendants\" language; and the agreed Retained Funds Order names only IGM. Allowing the argument now would reward a strategic decision to hold back arguments in bifurcated proceedings and then claim legal error under Rule 54(b). The Supreme Court's corrected wording did not change the law of the case on the non-advancement rulings, because the Fund's claims were always grounded in the Management Agreement. On the Motion for Leave, the Court called the requested vacatur and reopened discovery \"extraordinary\" and unheard of. It declined to decide how a remedy for delayed advancement interacts with the law of the case, holding instead that the remedy would be inappropriate even if available: Defendants had sophisticated counsel, caused much of the delay themselves, and never sought a stay or filed a Rule 56(d) affidavit. The Court expressed hope that the ruling closes the book on the merits of each side's claims and counterclaims at the trial court level, and asked the parties to bring the rest of the proceeding to an orderly close.",
+        "key_facts_and_concessions": [
+          "Defendants did not raise the non-signatory argument at the February 2024 Books and Records trial. Their own proposed order, filed with their post-trial brief, would have compelled \"Defendants . . . to turn over to the Fund\" documents \"in the possession and control of Invictus Global Management, LLC,\" the language they now attack.",
+          "The Retained Funds Order was a form of order \"agreed-to\" by the parties, and nobody objected at the time. Its operative clauses mention only IGM.",
+          "The parties stipulated that Patel and Delano \"controlled IGM at all relevant times\" (fn. 53).",
+          "The Management Agreement was signed only by IGM, and the parties always knew Patel and Delano did not sign it individually (fn. 58).",
+          "Much of the delay was self-inflicted. Defendants removed the case to federal court on a Saturday five days before the January 2024 trial, counsel did not appear at the pre-trial conference two days later, and the District Court remanded, finding the removal untimely and meritless. Defendants' discovery positions had already narrowed that trial.",
+          "During summary judgment briefing on the Retained Funds issue, Defendants did not request a stay, submit a Rule 56(d) affidavit, or otherwise suggest they could not mount a defense without the evidence they now say was necessary.",
+          "The Supreme Court's interlocutory appeal resolved advancement in Defendants' favor (ERISA § 1110 no bar) but did not include either order in its scope (fn. 34). Its corrected opinion changed \"state-law fiduciary duty claims in state court\" to \"state-law claims in state court.\"",
+          "Patel, IGM and Invictus GP conceded they were \"unaware of any decision by this Court related to amending a judgment as an equitable remedy to correct the injustices that results from a wrongful failure to advance fees and expenses.\""
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Raise any objection to which defendants an implementing order binds, including non-signatory defenses, during the relevant bifurcated phase and before the form of order is entered, and do not propose or agree to order language you may later attack. A party claiming that unpaid advancement leaves it unable to defend on summary judgment should seek a stay or file a Rule 56(d) affidavit at the time rather than ask later for vacatur.",
+        "standard_of_review": "Ct. Ch. R. 54(b) revision of interlocutory orders, governed at a minimum by the law-of-the-case standard: a ruling will not be disturbed absent a compelling reason, such as clear error, a sufficient equitable concern of preventing injustice, or an important change of circumstances."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403110"
+    }
+  ],
+  "ny_date": "2026-11-05"
 }
