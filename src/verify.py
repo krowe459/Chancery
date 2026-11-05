@@ -71,6 +71,10 @@ only if it misstates the case's facts, the kind of dispute, or what the Court \
 held or why, or if it recommends a step that the Court's own reasoning shows \
 would not have changed the result (quote that step as the assertion).
 
+An argument the claim attributes to a party is unsupported if the opinion \
+does not say that party made it (for example, the Court's own reasoning \
+recast as a rejected argument).
+
 Judge substance, not wording. Paraphrase, defined-term shorthand and fair \
 characterizations of what the Court held are fine. Footnotes are part of the \
 text; markers like "[^12]" point to lines starting "[^12]:".
