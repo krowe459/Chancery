@@ -1047,12 +1047,26 @@
       "name": "Invictus Special Situations Master I, L.P. v. Invictus Global Management, LLC, et al.,",
       "processed_at": "2026-11-05T15:04:45-05:00",
       "status": "ok"
+    },
+    "de-403120": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0801-VCC",
+      "name": "In re WideOpenWest, Inc. Stockholders' Litigation",
+      "processed_at": "2026-11-05T16:58:50-05:00",
+      "status": "ok"
+    },
+    "de-403130": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0824-TJF",
+      "name": "Melissa Brandao v. HerdDogg Inc",
+      "processed_at": "2026-11-05T16:58:50-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-05T15:04:45-05:00",
+  "last_checked_ny": "2026-11-05T16:58:50-05:00",
   "page_hashes": {
-    "chancery": "e5da72f573579eca578a8a3c5ff585fb745b7248d939758be94b90145c5eee1a",
+    "chancery": "6662b0253bf2a30788cf6df6485dd2c3f57a609edae0caea22c7426e5e00efa9",
     "superior": "790889cc03fd3fed8cf3e2022216d02b290af1e1c27327532c0fdb2d7576aa93",
     "supreme": "406a0a1675078b9ce1a053a881a296e668859a216f87372eb09735c76bc79a7d"
   }
