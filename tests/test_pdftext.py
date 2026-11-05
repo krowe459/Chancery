@@ -132,6 +132,35 @@ class AssembleTest(unittest.TestCase):
         page.rects = rects[:-1]
         self.assertIsNone(_separator_top(page, words))
 
+    def test_rule_high_on_a_later_page_counts_but_not_on_page_one(self):
+        # Cloudflare (Nov. 3), page 47: a long footnote fills the page, so the
+        # rule sits at 176pt, above the top quarter (198pt).
+        words = (line("injunction-stage decisions in Unocal and Revlon analyzed", 132)
+                 + line("the question of the directors' personal liability for these", 198, x1=400)
+                 + line("^113 See Unocal Corp. v. Mesa Petroleum Co.", 471))
+        rule = [{"top": 176.0, "x0": 72, "x1": 216, "height": 0.6}]
+        page = SimpleNamespace(height=H, rects=rule, lines=[], page_number=47)
+        self.assertEqual(_separator_top(page, words), 176.0)
+        page.page_number = 1      # letterhead rules sit high on the first page
+        self.assertIsNone(_separator_top(page, words))
+
+    def test_underline_and_strike_through_are_not_separators(self):
+        # Darga (Nov. 2), page 2: the "Letters One Through Nine" heading is
+        # underlined at 397pt, under text ending at 398pt; the real rule is at 588.
+        words = (line("Letters One Through Nine", 384, x1=260)
+                 + line("The resolution of a motion to dismiss", 417, x0=108)
+                 + line("^3 Ct. Ch. R. 12(f); see also 395 Assocs.", 597, size=13))
+        for w in words:
+            w["bottom"] = w["top"] + 14
+        rules = [{"top": 397.0, "x0": 72, "x1": 220, "height": 0.5},
+                 {"top": 588.3, "x0": 72, "x1": 216, "height": 0.5}]
+        page = SimpleNamespace(height=H, rects=rules, lines=[], page_number=2)
+        self.assertEqual(_separator_top(page, words), 588.3)
+        # A strike-through runs through the middle of a quoted line.
+        strike = [{"top": 424.0, "x0": 108, "x1": 300, "height": 0.5}]
+        self.assertIsNone(_separator_top(SimpleNamespace(height=H, rects=strike, lines=[],
+                                                         page_number=2), words))
+
     def test_hidden_anchor_text_is_dropped(self):
         words = [{"text": "paid", "size": 14.0}, {"text": "50F", "size": 1.0},
                  {"text": "51", "size": 9.0}]
