@@ -1,4 +1,100 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403170",
+      "court": "supreme",
+      "date": "2026-11-06",
+      "docket": "235, 2026",
+      "judge": "Seitz C.J.",
+      "name": "826 Capital Holdings, LLC v. Zama Capital Master Fund, LP",
+      "ny_date": "2026-11-06",
+      "ny_processed_at": "2026-11-06T12:57:41-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [],
+        "authorities_cited": [
+          {
+            "authority": "Del. Supr. Ct. R. 42",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Compliance is required for the Supreme Court's review of an interlocutory appeal; without it the Court lacks jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Julian v. State, 440 A.2d 990 (Del. 1982)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Interlocutory appeal dismissed because the appellants failed to comply with Rule 42 (footnote citation).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "11 U.S.C. § 362",
+            "check": "not_found",
+            "check_detail": "§362",
+            "kind": "statute",
+            "proposition": "The automatic stay from 826 Capital's Chapter 11 filing was why the Court earlier stayed, rather than dismissed, the appeal as to 826 Capital.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Zama Capital Master Fund, LP, plaintiff below in a Court of Chancery action (C.A. No. 2025-1302), moved to lift the stay of the remaining defendants' appeal. That appeal had already been dismissed as to the two SpringOwl entities for noncompliance with Rule 42 and stayed as to 826 Capital because of its Chapter 11 filing. With the bankruptcy court having granted stay relief and 826 Capital not responding, the Supreme Court (Seitz, C.J.) lifted the stay. It dismissed the appeal as to 826 Capital for lack of jurisdiction, given the same Rule 42 failure.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 1,
+          "verified": 2
+        },
+        "core_legal_issue": "Whether, once the bankruptcy court granted relief from the automatic stay, the Supreme Court could proceed with 826 Capital Holdings, LLC's appeal of an interlocutory Court of Chancery order that it had taken without complying with Supreme Court Rule 42.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 7,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "By order dated September 22, 2026, the bankruptcy court granted relief from the automatic stay for all parties to this appeal.",
+              "evidence": "Zama Capital argued that a stay was no longer necessary because the ... Bankruptcy Court ... had issued an order, dated September 22, 2026, granting relief from the automatic stay for all the parties to this appeal.",
+              "field": "key_facts_and_concessions",
+              "index": 2,
+              "opinion_says": "Zama Capital argued that the bankruptcy court issued a September 22, 2026 order granting stay relief for all parties; the Court did not independently find this.",
+              "problem": "The opinion reports this only as Zama Capital's argument, not as a fact found by the Court; the claim states it as established.",
+              "verdict": "unsupported"
+            },
+            {
+              "assertion": "The bankruptcy court's September 22, 2026 order granted relief from the automatic stay for all parties, so the stay was lifted.",
+              "evidence": "The stay of this appeal is lifted. Because 826 Capital failed to comply with Rule 42 in appealing the interlocutory order, the Court lacks jurisdiction over this appeal and it must be dismissed.",
+              "field": "holding",
+              "index": null,
+              "opinion_says": "The Court lifted the stay and dismissed the appeal as to 826 Capital for lack of jurisdiction due to the Rule 42 failure; it recites the bankruptcy order only as Zama's argument.",
+              "problem": "The Court did not state that the bankruptcy order was the basis for lifting the stay; it only noted Zama's argument and simply lifted the stay.",
+              "verdict": "unsupported"
+            },
+            {
+              "assertion": "With the bankruptcy court having granted stay relief and 826 Capital not responding, the Supreme Court (Seitz, C.J.) lifted the stay.",
+              "evidence": "Zama Capital argued that a stay was no longer necessary because the ... Bankruptcy Court ... had issued an order ... 826 Capital did not respond to the motion. (3) The stay of this appeal is lifted.",
+              "field": "brief_summary",
+              "index": null,
+              "opinion_says": "The Court lifted the stay and dismissed as to 826 Capital for lack of jurisdiction, but does not say it did so because stay relief was granted and 826 did not respond.",
+              "problem": "The opinion does not state that these two facts were the reason for lifting the stay, and the stay relief is only Zama's argument.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Stay lifted and appeal dismissed as to 826 Capital. The bankruptcy court's September 22, 2026 order granted relief from the automatic stay for all parties, so the stay was lifted. Because 826 Capital failed to comply with Rule 42 in appealing the interlocutory order, the Court lacks jurisdiction and the appeal must be dismissed.",
+        "key_facts_and_concessions": [
+          "On August 18, 2026, the Court held the appeal was interlocutory and that all three appellants (SpringOwl Asset Management LLC, SpringOwl Special Opportunities Fund LP, and 826 Capital) failed to comply with Supreme Court Rule 42, as interlocutory review requires.",
+          "The Court then dismissed the appeal only as to the two SpringOwl entities and stayed it as to 826 Capital, because 826 Capital had filed a Chapter 11 petition in the U.S. Bankruptcy Court for the Southern District of Florida and was subject to the 11 U.S.C. § 362 automatic stay.",
+          "By order dated September 22, 2026, the bankruptcy court granted relief from the automatic stay for all parties to this appeal.",
+          "On September 25, 2026, Zama Capital moved to lift the stay, arguing a stay was no longer necessary; 826 Capital did not respond."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A party appealing an interlocutory Court of Chancery order must comply with Supreme Court Rule 42. A bankruptcy automatic stay only defers, and does not cure, a Rule 42 defect, and the appeal will be dismissed once stay relief is granted.",
+        "standard_of_review": "Not stated (a jurisdictional determination on a motion to lift stay)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403170"
+    }
+  ],
+  "ny_date": "2026-11-06"
 }

@@ -1041,6 +1041,20 @@
       "processed_at": "2026-11-05T09:28:11-05:00",
       "status": "out_of_scope"
     },
+    "de-403090": {
+      "court": "supreme",
+      "docket": "335, 2026",
+      "name": "Lindenberger v. State",
+      "processed_at": "2026-11-06T12:57:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403100": {
+      "court": "supreme",
+      "docket": "362, 2026",
+      "name": "Reed v. State",
+      "processed_at": "2026-11-06T12:57:41-05:00",
+      "status": "out_of_scope"
+    },
     "de-403110": {
       "court": "chancery",
       "docket": "C.A. No. 2023-1099-NAC",
@@ -1082,13 +1096,20 @@
       "name": "Massey v. State",
       "processed_at": "2026-11-06T11:00:35-05:00",
       "status": "out_of_scope"
+    },
+    "de-403170": {
+      "court": "supreme",
+      "docket": "235, 2026",
+      "name": "826 Capital Holdings, LLC v. Zama Capital Master Fund, LP",
+      "processed_at": "2026-11-06T12:57:41-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-06T11:00:35-05:00",
+  "last_checked_ny": "2026-11-06T12:57:41-05:00",
   "page_hashes": {
-    "chancery": "fc39767bfe02f4196df7414a82389af2bff1afc96365801eefe018b44638df5c",
+    "chancery": "a6dc7e7a90c240062b9dc2c143a7b4a7d79a805fdd7e18844504eeae2b43f013",
     "superior": "5d318c26bdcb6aae999384e523cdc2355f70f2d39170e43f72638cfdb7874197",
-    "supreme": "325ba0cec4b70efbed4c51701eee7079f8c8569ac69e54115e7f30bd49d3eb5e"
+    "supreme": "d371a998cb0586fc55bdb4b8fba73b166e76fd6d6d2de995767fd6aee58ce323"
   }
 }
