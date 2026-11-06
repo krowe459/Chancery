@@ -1061,13 +1061,34 @@
       "name": "Melissa Brandao v. HerdDogg Inc",
       "processed_at": "2026-11-05T16:58:50-05:00",
       "status": "ok"
+    },
+    "de-403140": {
+      "court": "superior",
+      "docket": "S26A-07-002 MHC",
+      "name": "Mulberry Knoll Associates, LLC and J.G. Townsend, Jr. & Co. v. Sussex County Council",
+      "processed_at": "2026-11-06T11:00:35-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403150": {
+      "date": "2026-10-23",
+      "docket": "C.A. No. 2025-0770-DG",
+      "name": "Gimco, Inc., et al. v. Capone Holdco, LLC",
+      "processed_at": "2026-11-06T11:00:35-05:00",
+      "status": "skipped_old"
+    },
+    "de-403160": {
+      "court": "supreme",
+      "docket": "43, 2026",
+      "name": "Massey v. State",
+      "processed_at": "2026-11-06T11:00:35-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-05T16:58:50-05:00",
+  "last_checked_ny": "2026-11-06T11:00:35-05:00",
   "page_hashes": {
-    "chancery": "6662b0253bf2a30788cf6df6485dd2c3f57a609edae0caea22c7426e5e00efa9",
-    "superior": "790889cc03fd3fed8cf3e2022216d02b290af1e1c27327532c0fdb2d7576aa93",
-    "supreme": "406a0a1675078b9ce1a053a881a296e668859a216f87372eb09735c76bc79a7d"
+    "chancery": "fc39767bfe02f4196df7414a82389af2bff1afc96365801eefe018b44638df5c",
+    "superior": "5d318c26bdcb6aae999384e523cdc2355f70f2d39170e43f72638cfdb7874197",
+    "supreme": "325ba0cec4b70efbed4c51701eee7079f8c8569ac69e54115e7f30bd49d3eb5e"
   }
 }
