@@ -47,7 +47,7 @@ import os
 import re
 import sys
 import time
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from datetime import date, datetime, timedelta
 from urllib.parse import parse_qs, urljoin, urlparse
 
@@ -292,9 +292,9 @@ def _download(session: requests.Session, url: str) -> tuple[bytes, str]:
     return buf.getvalue(), resp.headers.get("Content-Type", "").lower()
 
 
-def caption_text(session: requests.Session, url: str) -> str:
-    """The start of page 1 (the caption), for scope checks. Plain extraction
-    only: this runs for every new Supreme and Superior row."""
+def caption_text(session: requests.Session, url: str, chars: int = CAPTION_CHARS) -> str:
+    """The start of page 1 (the caption), for scope checks and case numbers.
+    Plain extraction only: this runs for every new Supreme and Superior row."""
     data, ctype = _download(session, url)
     if data[:5] == b"%PDF-" or "pdf" in ctype:
         from pypdf import PdfReader
@@ -303,7 +303,7 @@ def caption_text(session: requests.Session, url: str) -> str:
         text = (reader.pages[0].extract_text() or "") if reader.pages else ""
     else:
         text = BeautifulSoup(data, "html.parser").get_text("\n")
-    return re.sub(r"\s+", " ", text)[:CAPTION_CHARS]
+    return re.sub(r"\s+", " ", text)[:chars]
 
 
 def extract_text(session: requests.Session, url: str) -> str:
@@ -346,6 +346,60 @@ def opinion_text(session: requests.Session, url: str) -> tuple[str, int, str]:
         print("  scanned PDF: transcribing with Claude")
         text, used = transcribe_pdf(scan.data)
         return text, used, SCANNED_NOTE
+
+
+# Case numbers in an opinion's caption. Chancery and Superior numbers are a
+# year-and-sequence or N25C-style core plus the judge's initials; the court's
+# listing sometimes gets the initials wrong (the Nov. 5 WideOpenWest letter is
+# "2026-0801-NAC" in its caption but was listed as "2026-0801-VCC").
+CAPTION_CHARS_FOR_DOCKET = 4000
+CHANCERY_CAPTION_RE = re.compile(r"C\.\s?A\.\s*Nos?\.?:?\s*(\d{4}-\d{3,5})(?:-([A-Z]{2,6}))?\b")
+SUPERIOR_CAPTION_RE = re.compile(r"\b([A-Z]\d{2}[A-Z]-\d{2}-\d{3,5})\s+([A-Z]{2,4}(?:\s+CCLD)?)\b")
+LISTED_CHANCERY_RE = re.compile(r"(\d{4}-\d{3,5})(?:-([A-Z]{2,6}))?")
+LISTED_SUPERIOR_RE = re.compile(r"([A-Z]\d{2}[A-Z]-\d{2}-\d{3,5})(?:\s+([A-Z]{2,4}(?:\s+CCLD)?))?")
+
+
+def caption_docket(text: str, docket: str) -> str:
+    """The listing's docket, corrected from the opinion's caption.
+
+    Only the judge's initials are taken from the caption, and only for the
+    case number the listing gives (a caption can also name related cases).
+    Initials the listing leaves out are added. With no docket at all (a
+    preview of an unlisted opinion), the caption's first case number is used.
+    The Supreme Court's "No. 251, 2026" form is left alone."""
+    head = text[:CAPTION_CHARS_FOR_DOCKET]
+    for listed_re, caption_re, sep in ((LISTED_SUPERIOR_RE, SUPERIOR_CAPTION_RE, " "),
+                                      (LISTED_CHANCERY_RE, CHANCERY_CAPTION_RE, "-")):
+        listed = listed_re.search(docket or "")
+        found = [(m.group(1), re.sub(r"\s+", " ", m.group(2) or "")) for m in caption_re.finditer(head)]
+        if not docket.strip() and found and found[0][1]:
+            return f"C.A. No. {found[0][0]}{sep}{found[0][1]}"
+        if not listed:
+            continue
+        number, initials = listed.group(1), re.sub(r"\s+", " ", listed.group(2) or "")
+        match = next((m for m in found if m[0] == number and m[1]), None)
+        if match is None or match[1] == initials:
+            return docket
+        old = listed.group(0)
+        return docket.replace(old, f"{number}{sep}{match[1]}", 1)
+    return docket
+
+
+def has_case_number(text: str) -> bool:
+    head = text[:CAPTION_CHARS_FOR_DOCKET]
+    return bool(CHANCERY_CAPTION_RE.search(head) or SUPERIOR_CAPTION_RE.search(head))
+
+
+def opinion_docket(session: requests.Session, url: str, text: str, docket: str) -> str:
+    """caption_docket() on the opinion text, or on page 1's plain text when
+    the footnote-aware text has no case number near its start (a letter that
+    repeats "C.A. No. ..." as its running header loses it from page 1 too)."""
+    if not has_case_number(text):
+        try:
+            text = caption_text(session, url, CAPTION_CHARS_FOR_DOCKET)
+        except Exception:  # noqa: BLE001 - the listing's docket is still usable
+            return docket
+    return caption_docket(text, docket)
 
 
 def add_note(result: dict, note: str) -> None:
@@ -595,6 +649,11 @@ def main() -> int:
         try:
             text, used, note = opinion_text(session, row.url)
             tokens_used += used
+            docket = opinion_docket(session, row.url, text, row.docket)
+            if docket != row.docket:
+                print(f"  docket from caption: {row.docket!r} -> {docket!r}")
+                row = replace(row, docket=docket)
+                entry["docket"] = docket
             result = summarize_opinion(text, row)
             tokens_used += result.pop("_input_tokens", 0)
             add_note(result, note)

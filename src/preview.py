@@ -25,13 +25,13 @@ import json
 import os
 import re
 import sys
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from common import ACCUMULATION_PATH, ARCHIVE_DIR, ROOT, env_int, load_json, today_ny
-from scrape import (COURTS, CaseRow, add_note, get_with_retry, http_session, opinion_text,
-                    parse_listing)
+from scrape import (COURTS, CaseRow, add_note, get_with_retry, http_session, opinion_docket,
+                    opinion_text, parse_listing)
 
 OUT_DIR = ROOT / "preview"
 DOWNLOAD_URL = "https://courts.delaware.gov/opinions/download.aspx?id={id}"
@@ -103,6 +103,10 @@ def preview(opinions: list[str]) -> int:
         entry = {**asdict(row), "ny_date": today_ny()}
         try:
             text, used, note = opinion_text(session, url)
+            docket = opinion_docket(session, url, text, row.docket)
+            if docket != row.docket:
+                row = replace(row, docket=docket)
+                entry["docket"] = docket
             result = summarize_opinion(text, row)
             tokens += used + result.pop("_input_tokens", 0)
             add_note(result, note)
