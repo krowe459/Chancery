@@ -1103,12 +1103,19 @@
       "name": "826 Capital Holdings, LLC v. Zama Capital Master Fund, LP",
       "processed_at": "2026-11-06T12:57:41-05:00",
       "status": "ok"
+    },
+    "de-403180": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0824-TJF",
+      "name": "Melissa Brandao v. HerdDogg Inc",
+      "processed_at": "2026-11-06T15:00:06-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-06T12:57:41-05:00",
+  "last_checked_ny": "2026-11-06T15:00:06-05:00",
   "page_hashes": {
-    "chancery": "a6dc7e7a90c240062b9dc2c143a7b4a7d79a805fdd7e18844504eeae2b43f013",
+    "chancery": "7f728b7b052d3ba08ec900aff8a28c41cf16bb5f411ece7dfb2d127ab348f8ff",
     "superior": "5d318c26bdcb6aae999384e523cdc2355f70f2d39170e43f72638cfdb7874197",
     "supreme": "d371a998cb0586fc55bdb4b8fba73b166e76fd6d6d2de995767fd6aee58ce323"
   }

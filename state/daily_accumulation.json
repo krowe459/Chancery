@@ -94,6 +94,258 @@
         "standard_of_review": "Not stated (a jurisdictional determination on a motion to lift stay)."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403170"
+    },
+    {
+      "case_id": "de-403180",
+      "court": "chancery",
+      "date": "2026-11-06",
+      "docket": "C.A. No. 2026-0824-TJF",
+      "judge": "Fox M.",
+      "name": "Melissa Brandao v. HerdDogg Inc",
+      "ny_date": "2026-11-06",
+      "ny_processed_at": "2026-11-06T15:00:06-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Petitioner's effort to defend the Petition with facts first raised in her answering brief: rejected. A petitioner cannot amend through briefing, had to stand or amend under Ct. Ch. R. 15(a)(5)(A), and Rule 15(d) supplementation would not reach pre-petition events.",
+          "Petitioner's argument that the denial of her § 220 inspection rights should relax the pleading standard: rejected. Filing a plenary action certifies sufficient information, and she failed to pursue the 'tools at hand.'",
+          "Petitioner's argument (citing Mott v. State) that the 'same cause of action' and 'adverse decision' elements of res judicata are not met: rejected. It depends on matters outside the Petition; the Uden/Cattlytx issue does not matter because the Petition pleads no standalone or derivative claim on it.",
+          "Petitioner's argument for dividing claims between the Colorado Litigation (if her Rule 60(b) motion succeeds) and this case: rejected. It relies on matters outside the Petition, and under Fed. R. Civ. P. 60(c)(2) a pending Rule 60 motion does not affect finality.",
+          "Petitioner's argument that counsel's abandonment denied her a full and fair opportunity to litigate (relying on Hughes v. Trans World Airlines): rejected. Under Rule 41(b) a penalty dismissal is an adjudication on the merits; Trans World is distinguished because that court expressly reserved non-federal claims; her remedies are appeal or a malpractice claim.",
+          "Petitioner's argument that Savage v. Himes is distinguishable: rejected. Both cases involve failure-to-prosecute dismissals, where the remedy is appeal, not a collateral second suit.",
+          "Respondent's argument that the Petition was frivolous because Petitioner knew it was precluded: rejected. Given her asserted reliance on counsel, there was no clear and convincing showing that she lacked an objective good-faith belief; ASB Allegiance is distinguished.",
+          "Respondent's argument that the shareholder-letter mischaracterization and omission were bad-faith misrepresentations (citing Beck): rejected. Beck concerned Rule 37; the statement was not 'extremely probative'; the Court was not misled; and the conduct falls far short of Arbitrium.",
+          "Respondent's request for an anti-filing restriction based on bad faith and unclean hands: rejected. The record does not support a prophylactic restriction, and the corroboration precludes clear and convincing proof of bad faith or intent to harass.",
+          "Respondent's reliance on 10 Del. C. § 5106 for attorneys' fees: rejected in fn. 276. Section 5106 covers costs, not fees."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 291",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Receivership requires insolvency when the petition is filed, proved by clear and convincing evidence, plus need and a favorable balance of benefit over harm.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Geneius Biotech, Inc., 2017 WL 6209593 (Del. Ch. Dec. 8, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets the elements and clear-and-convincing insolvency burden for a § 291 receiver.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "LaPoint v. AmerisourceBergen Corp., 970 A.2d 185 (Del. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Five-part res judicata test; transactional, common-nucleus approach; bar extends to issues that might have been raised.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "PVP Aston, LLC v. Fin. Structures Ltd., 2023 WL 2728775 (Del. Super. Ct. Mar. 31, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts may take judicial notice of other courts' decisions and resolve collateral estoppel on a motion to dismiss; supplies the four-part issue-preclusion test.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hughes v. Trans World Airlines, Inc., 336 A.2d 572 (Del. 1975)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A Rule 41(b) dismissal operates as an adjudication on the merits unless the order specifies otherwise; distinguished on its facts because that court reserved non-federal claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fed. R. Civ. P. 60(c)(2)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A pending Rule 60(b) motion does not affect the judgment's finality or suspend preclusion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Savage v. Himes, 2010 WL 2006573 (Del. Super. Ct. May 18, 2010), aff'd, 9 A.3d 476 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A with-prejudice failure-to-prosecute dismissal bars a second suit; the remedy is appeal.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 15(a)(5)(A)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A plaintiff facing a 12(b)(6) motion must amend by the answering-brief deadline or stand on the pleading.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 23.1",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The dual-role, waste and self-dealing allegations could proceed as standalone derivative claims only if pleaded with demand particularity, which Petitioner did not do.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Shanik v. White Sewing Mach. Corp., 19 A.2d 831 (Del. 1941)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Laches may support dismissal on a motion to dismiss where the complainant sat on known facts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 11",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Certification standard for filings, evaluated objectively; sanctions limited to what suffices to deter.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Franklin v. Glenhill Advisors LLC, 2023 WL 569192 (Del. Ch. Jan. 27, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sanctions require reasonable confidence of no objective good-faith belief and 'outrageous and abusive conduct.'",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Reid v. Spazio, 970 A.2d 176 (Del. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Laches standard ('unusual conditions or extraordinary circumstances'); distinguished because that plaintiff vigorously pursued appellate review, while Petitioner did not appeal.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "ASB Allegiance Real Estate Fund v. Scion Breckenridge Managing Member, LLC, 2013 WL 5152295 (Del. Ch. Sept. 16, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Bad-faith fee shifting for filing suits whose core allegations were known to be false; distinguished because it rests on equitable fee-shifting powers and knowing falsity across three jurisdictions.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Arbitrium (Cayman Is.) Handels AG v. Johnston, 705 A.2d 225 (Del. Ch. 1997)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fee shifting requires clear evidence of bad faith; the altered testimony and reversed positions there far exceed Petitioner's conduct.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Beck v. Atl. Coast PLC, 868 A.2d 840 (Del. Ch. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Concerned denying the court 'extremely probative information' under Rule 37, not Rule 11.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Scion Breckenridge Managing Member, LLC v. ASB Allegiance Real Estate Fund, 68 A.3d 665 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "10 Del. C. § 5106 'costs' exclude attorneys' fees; identifies the equitable fee-shifting grounds.",
+            "role": "background"
+          },
+          {
+            "authority": "Vance v. Irwin, 619 A.2d 1163 (Del. 1993)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Litigants bear the consequences of their chosen attorneys' conduct and must look to those attorneys for redress.",
+            "role": "background"
+          },
+          {
+            "authority": "PXP Producing Co. LLC v. MitEnergy Upstream LLC, 342 A.3d 402 (Del. Ch. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Speculation cannot support a receivership inference; a party cannot amend its pleading through a brief.",
+            "role": "background"
+          },
+          {
+            "authority": "Thornton v. Bernard Techs., Inc., 2009 WL 426179 (Del. Ch. Feb. 20, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Mismanagement and waste claims of the kind pleaded are derivative.",
+            "role": "background"
+          },
+          {
+            "authority": "Houseman v. Sagerman, 2015 WL 7307323 (Del. Ch. Nov. 19, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Tactical forum choices and unexplained delay after a foreign dismissal have laches consequences.",
+            "role": "background"
+          },
+          {
+            "authority": "Bizzari v. Suburban Waste Servs., 2016 WL 4540292 (Del. Ch. Aug. 30, 2016); Seinfeld v. Verizon Commc'ns, Inc., 909 A.2d 117 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Filing a plenary action concedes sufficient information; stockholders should use § 220 before suing.",
+            "role": "background"
+          },
+          {
+            "authority": "Malpiede v. Townson, 780 A.2d 1075 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Conclusory allegations need not be accepted, and a plaintiff cannot expand the pleading on a motion to dismiss.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 11(c)(5)(A)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Bar on monetary sanctions against a represented party for Rule 11(b)(2) violations; treated as 'merely informative' because Petitioner is pro se but the Petition was drafted by counsel.",
+            "role": "background"
+          },
+          {
+            "authority": "Crumplar v. Superior Court ex rel. New Castle Cnty., 56 A.3d 1000 (Del. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Objective Rule 11 standard; trial courts lack independent jurisdiction to enforce the Rules of Professional Conduct; no evidentiary hearing required in every case.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Governs exceptions to the Magistrate's final report.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "HerdDogg, Inc.'s founder and stockholder, proceeding pro se, petitioned under 8 Del. C. § 291 for a receiver; HerdDogg moved to dismiss and for Rule 11 sanctions, and a Magistrate in Chancery issued a final report. The Court found the Petition failed to plead insolvency beyond conclusory reliance on stale 2024 data. It held the Petition precluded by Petitioner's earlier D. Colo. action, which sought the same receivership on the same facts and was dismissed with prejudice for failure to prosecute without appeal, and also barred by laches. Sanctions were denied because Petitioner's claimed reliance on former counsel defeated a clear and convincing showing of objective bad faith or knowing falsity.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 26
+        },
+        "core_legal_issue": "Whether a stockholder's 8 Del. C. § 291 receivership petition against HerdDogg, Inc. survives a Rule 12(b)(6) motion where it pleads insolvency only from stale third-quarter 2024 financials and repackages a receivership claim Petitioner already asserted in a federal action dismissed with prejudice for failure to prosecute; and whether Petitioner's filing and litigation conduct warrant Rule 11 or bad-faith fee-shifting sanctions and an anti-filing restriction.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "should invoke the bad-faith exception expressly (not 10 Del. C. § 5106)",
+              "evidence": "because Respondent advances various bad faith arguments, the Court will address the application of equitable fee shifting infra Section II.D.2.",
+              "field": "practical_takeaway",
+              "index": null,
+              "opinion_says": "The Court noted Respondent did not cite equitable fee-shifting powers but analyzed bad-faith fee shifting anyway and denied sanctions on the merits (reliance on counsel, no clear evidence).",
+              "problem": "The Court's reasoning shows express invocation would not have changed the result, since it addressed bad-faith fee shifting anyway and denied sanctions on the evidence.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "In a report it styles a final report, with exceptions governed by Rule 144 and due 11 days after entry, the Magistrate concluded the Motion to Dismiss should be granted with prejudice and denied the Motion for Sanctions. There are three independent grounds for dismissal. First, the Petition fails to state a § 291 claim: insolvency rests on conclusory inferences from Q3 2024 data, which Respondent's continued existence two years later undercuts. Petitioner could not cure this with briefing because she elected to stand on the Petition. The governance and dual-role allegations state no standalone claim absent Rule 23.1 compliance. Second, res judicata and collateral estoppel bar the Petition. The D. Colo. penalty dismissal is a final adjudication on the merits under Rule 41(b), between the same parties, on the same nucleus of facts and the same requested receivership, and the pending Rule 60(b) motion does not affect finality. Third, laches applies on these 'unusual conditions': Petitioner knew the facts, let the dismissal go unappealed, waited five months to refile, and imposed duplicative costs on Respondent. The dismissal bars any further filing relying on the Q3 2024 financials 'and other earlier financial status and transactions' as a basis for insolvency. Sanctions were denied: given Petitioner's asserted reliance on Oleske's representations, Respondent offered no clear and convincing showing that she knew the Petition was barred or false. The shareholder-letter characterization was 'at most a purposeful mischaracterization' that did not mislead the Court. No anti-filing restriction is warranted. The Court resolved sanctions on the papers without an evidentiary hearing, left any consequences for Oleske to disciplinary authorities, and strongly urged Petitioner to retain counsel for any future litigation.",
+        "key_facts_and_concessions": [
+          "In the Colorado Litigation (D. Colo. No. 25-cv-02254), Petitioner sued Respondent and others and sought appointment of a permanent receiver on the same insolvency, insider self-dealing and forged-patent-assignment allegations; it was dismissed with prejudice on January 23, 2026 'as a sanction for Plaintiff's noncompliance' after she failed to respond to four motions and an Order to Show Cause.",
+          "Petitioner did not appeal the Colorado dismissal; the time to appeal lapsed February 23, 2026. Her Rule 60(b) motion, filed August 5, 2026, remains pending.",
+          "The Petition, filed June 23, 2026 (five months after the dismissal), relies on a third-quarter 2024 financial disclosure that it does not attach. In her answering brief Petitioner conceded that Respondent's characterization of that data as stale and 'nearly two years old' 'was accurate as to the four corners of the Petition.'",
+          "Petitioner chose to defend the Petition rather than amend it by the answering-brief deadline, and instead sought to inject new facts through briefing.",
+          "The Petition names only HerdDogg, does not identify the board or any demand, and seeks no standalone relief on the self-dealing, disclosure or Cattlytx dual-role allegations; its prayer is confined to a receiver.",
+          "At oral argument Petitioner conceded the Petition was drafted by her former Colorado counsel, Mr. Oleske, who moved to withdraw on July 23, 2026; the withdrawal was granted July 29, 2026.",
+          "Petitioner contends Oleske told her the Colorado case remained 'still valid' and encouraged the Delaware receivership. Fn. 266 notes she did learn of the with-prejudice dismissal from Respondent, but 'it is unclear on this record as to what effect Petitioner understood that to have.'",
+          "Petitioner's Notice of Supplemental Evidence characterized a January 26, 2026 CEO shareholder letter as showing HerdDogg 'is structurally insolvent.' At the July 20, 2026 Hearing the Court found the letter said no such thing and noted Petitioner omitted that the dismissal the letter referenced was her own Colorado action."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A with-prejudice federal penalty dismissal precludes refiling the same receivership theory in Chancery, and a pending Rule 60(b) motion will not suspend preclusion, so the client's protection lies in a timely appeal, not a new forum. Movants seeking fees for preclusion-barred filings should invoke the bad-faith exception expressly (not 10 Del. C. § 5106) and be ready to rebut a reliance-on-counsel defense, which here defeated sanctions.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(6) reasonable conceivability, with conclusory allegations not accepted. § 291 requires clear and convincing proof of insolvency when the petition is filed, plus a showing that a receiver would produce benefit or avoid harm that outweighs potential harm. Rule 11 is judged objectively, with sanctions only where the Court is reasonably confident there is no objective good-faith belief. Equitable fee shifting requires 'clear evidence' of bad faith."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403180"
     }
   ],
   "ny_date": "2026-11-06"
