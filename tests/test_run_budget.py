@@ -32,7 +32,8 @@ class RunTimeBudgetTest(unittest.TestCase):
         rows = [scrape.CaseRow(f"de-{i}", f"Case {i}", f"2026-{i:04d}-X", "2026-10-20", "J",
                                "Civil", f"u{i}") for i in (1, 2, 3)]
         saved = {k: getattr(scrape, k) for k in ("PROCESSED_PATH", "ACCUMULATION_PATH",
-                                                 "fetch_listing", "extract_text", "now_ny")}
+                                                 "fetch_listing", "extract_text", "now_ny",
+                                                 "caption_text")}
         saved_monotonic, saved_summarize = scrape.time.monotonic, sys.modules.get("summarize")
         try:
             scrape.PROCESSED_PATH, scrape.ACCUMULATION_PATH = tmp / "p.json", tmp / "a.json"
@@ -44,6 +45,7 @@ class RunTimeBudgetTest(unittest.TestCase):
                       for k, n in (("supreme", 8), ("superior", 9))}
             scrape.fetch_listing = lambda session, retries, wait, court: others.get(court.key, rows)
             scrape.extract_text = lambda session, url: "text"
+            scrape.caption_text = lambda session, url, chars=0: ""   # no network in tests
             scrape.now_ny = lambda: datetime(2026, 10, 20, 11, 50, tzinfo=common.NY)
             scrape.time.monotonic = lambda: clock[0]
             sys.modules["summarize"] = types.SimpleNamespace(summarize_opinion=summarize)
