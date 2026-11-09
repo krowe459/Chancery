@@ -161,6 +161,21 @@ class AssembleTest(unittest.TestCase):
         self.assertIsNone(_separator_top(SimpleNamespace(height=H, rects=strike, lines=[],
                                                          page_number=2), words))
 
+    def test_page_number_lines_are_dropped_even_in_short_documents(self):
+        # Nov. 6 Supreme Court order (two pages): page 2's centered "2" at the
+        # bottom was read first and split "11 U.S.C. § 362".
+        page1 = (line("IN THE SUPREME COURT OF THE STATE OF DELAWARE", 74, x0=126, x1=480)
+                 + line("and was subject to the automatic stay under 11 U.S.C. §", 686))
+        page2 = (line("2", 728, x0=303, x1=312)
+                 + line("362, the Court only dismissed the appeal as to SpringOwl Asset", 74)
+                 + line("Management LLC.", 106, x1=200))
+        text = build(page1, page2)
+        self.assertIn("11 U.S.C. § 362, the Court", text)
+        for label in ("- 3 -", "Page 4 of 9"):
+            self.assertNotIn(label, build(page1 + line(label, 740, x0=290, x1=330)))
+        # A number inside the body band is text, not a page number.
+        self.assertIn("2026", build(page1 + line("2026", 400, x0=72, x1=110)))
+
     def test_hidden_anchor_text_is_dropped(self):
         words = [{"text": "paid", "size": 14.0}, {"text": "50F", "size": 1.0},
                  {"text": "51", "size": 9.0}]

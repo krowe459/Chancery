@@ -56,6 +56,7 @@ from bs4 import BeautifulSoup
 
 from common import (
     ACCUMULATION_PATH,
+    ARCHIVE_DIR,
     NY,
     PROCESSED_PATH,
     env_int,
@@ -402,6 +403,68 @@ def opinion_docket(session: requests.Session, url: str, text: str, docket: str) 
     return caption_docket(text, docket)
 
 
+# Reissues: the court sometimes posts a corrected version of a decision under
+# a new listing id (the Nov. 6 Brandao final report fixed the title of the
+# Nov. 5 one, "no substantive changes", and restarted the exceptions clock).
+REISSUE_LOOKBACK_DAYS = 45
+REISSUE_SAME = 0.90       # shingle overlap at or above which the text is unchanged
+REISSUE_REVISED = 0.60    # at or above this, a revised version of the same decision
+REISSUE_NOTE_RE = re.compile(
+    r"(?:^|[.*\n])\s*([^.*\n]*\b(?:earlier|prior|previous|original)\s+version\b[^.]*\.(?:[^.]*\.){0,2})",
+    re.I)
+
+
+def docket_key(docket: str) -> str:
+    """The case-number core used to match two listings of one case."""
+    for pattern in (LISTED_SUPERIOR_RE, LISTED_CHANCERY_RE):
+        m = pattern.search(docket or "")
+        if m:
+            return m.group(1)
+    return re.sub(r"\s+", " ", (docket or "").strip().lower())
+
+
+def _shingles(text: str, k: int = 5) -> set[int]:
+    words = re.findall(r"\w+", text.lower())
+    return {hash(tuple(words[i:i + k])) for i in range(max(len(words) - k + 1, 0))}
+
+
+def text_overlap(a: str, b: str) -> float:
+    sa, sb = _shingles(a), _shingles(b)
+    return len(sa & sb) / len(sa | sb) if sa and sb else 0.0
+
+
+def recent_entries(accum: dict, today: date) -> list[dict]:
+    """Summarized entries from the last REISSUE_LOOKBACK_DAYS of archives plus
+    the pending accumulation."""
+    cutoff = (today - timedelta(days=REISSUE_LOOKBACK_DAYS)).isoformat()
+    entries = list(accum.get("entries", []))
+    for path in sorted(ARCHIVE_DIR.glob("*.json")):
+        if path.stem >= cutoff:
+            entries += load_json(path, {}).get("entries", [])
+    return [e for e in entries if e.get("summary") and e.get("url")]
+
+
+def find_reissue(session, row, text: str, entries: list[dict]) -> dict | None:
+    """The recent entry this opinion repeats or revises, if any: same case
+    number and much of the same text. Returns {"of": earlier entry fields,
+    "overlap": float, "note": the court's reissue note or ""}."""
+    key = docket_key(row.docket)
+    for earlier in reversed(entries):
+        if earlier.get("case_id") == row.case_id or docket_key(earlier.get("docket", "")) != key:
+            continue
+        try:
+            earlier_text = extract_text(session, earlier["url"])
+        except Exception:  # noqa: BLE001 - an unreadable earlier copy is just no match
+            continue
+        overlap = text_overlap(text, earlier_text)
+        if overlap >= REISSUE_REVISED:
+            note = REISSUE_NOTE_RE.search(text[:6000])
+            return {"of": {k: earlier.get(k, "") for k in ("case_id", "name", "ny_date", "url")},
+                    "overlap": round(overlap, 3),
+                    "note": re.sub(r"\s+", " ", note.group(1)).strip(" *")[:600] if note else ""}
+    return None
+
+
 def add_note(result: dict, note: str) -> None:
     if note:
         result["coverage_note"] = " ".join(x for x in (note, result.get("coverage_note")) if x)
@@ -654,11 +717,23 @@ def main() -> int:
                 print(f"  docket from caption: {row.docket!r} -> {docket!r}")
                 row = replace(row, docket=docket)
                 entry["docket"] = docket
-            result = summarize_opinion(text, row)
-            tokens_used += result.pop("_input_tokens", 0)
-            add_note(result, note)
-            entry["summary"] = result
-            status = "ok"
+            reissue = find_reissue(session, row, text, recent_entries(accum, now_ny().date()))
+            if reissue and reissue["overlap"] >= REISSUE_SAME:
+                # Same text as a decision already summarized: no new summary.
+                print(f"  reissue of {reissue['of']['case_id']} "
+                      f"({reissue['overlap']:.0%} overlap); not re-summarized")
+                entry["reissue_of"] = reissue
+                status = "ok"
+            else:
+                result = summarize_opinion(text, row)
+                tokens_used += result.pop("_input_tokens", 0)
+                add_note(result, note)
+                if reissue:
+                    add_note(result, f"Revised version of a decision summarized in the "
+                                     f"{reissue['of']['ny_date']} digest "
+                                     f"({reissue['overlap']:.0%} of its text unchanged).")
+                entry["summary"] = result
+                status = "ok"
         except fatal as exc:
             save_json(PROCESSED_PATH, state)
             set_github_output("changed", "true")

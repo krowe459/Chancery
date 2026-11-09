@@ -68,6 +68,11 @@ Locally: `cd src && python preview.py 402160` writes `preview/`.
 - PDFs are read with `src/pdftext.py`, which separates footnotes from body text by font size
   and places each footnote, as `[^n]: ...`, after the paragraph that cites it. If an opinion's
   layout doesn't fit (or text would be lost), it falls back to plain pypdf extraction.
+- The court sometimes posts a corrected version of a decision under a new listing id. When
+  a new opinion has the same case number as one summarized in the last 45 days and at least 90%
+  of the same text, it is not summarized again: the digest shows a short "corrected reissue"
+  entry pointing to the earlier summary, with the court's reissue note if it has one (such as
+  a new exceptions date). Between 60% and 90%, it is summarized and noted as a revised version.
 - A PDF with no text layer (an image scan) is sent to Claude as a document, which transcribes
   it from the page images; the transcript then goes through the normal summary and checks,
   and the digest notes that the summary rests on a transcription. This costs one extra request
