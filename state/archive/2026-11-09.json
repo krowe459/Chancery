@@ -1,0 +1,524 @@
+{
+  "entries": [
+    {
+      "case_id": "de-403250",
+      "court": "supreme",
+      "date": "2026-11-06",
+      "docket": "468, 2026",
+      "judge": "Griffiths J.",
+      "name": "IN RE Cloudflare, Inc. Stockholders Litigation",
+      "ny_date": "2026-11-09",
+      "ny_processed_at": "2026-11-09T18:26:15-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' opposition to certification: rejected. The Preliminary Injunction Opinion decided a substantial issue (gating and case-dispositive questions of law) presenting first-impression questions of statutory construction that should be settled before an appeal from a final order.",
+          "Plaintiffs' opposition to expedition: rejected. Having accepted the appeal and considered the parties' positions, the Court found good cause for expedition."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42(b)(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The order must decide a substantial issue; satisfied because the Preliminary Injunction Opinion decided gating and case-dispositive questions of law on the merits.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(iii)(A), (C), (G)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Certification criteria met: questions of law resolved for the first time in Delaware, and a question of statutory construction not yet but which should be settled by the Supreme Court before an appeal from a final order.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(d)(v)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Applications for interlocutory review are addressed to the Supreme Court's sound discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Safe harbor invoked by Defendants based on Special Committee approval; its construction is the subject of the accepted appeal.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Walt Disney Co. Deriv. Litig., 906 A.2d 27 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Good-faith standard the Court of Chancery applied in finding the Special Committee likely did not act in good faith.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Cloudflare, Inc. S'holders Litig., 2026 WL 3093369 (Del. Ch. Oct. 16, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Preliminary Injunction Opinion under review.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Cloudflare, Inc. S'holders Litig., 2026 WL 3333685 (Del. Ch. Nov. 3, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Court of Chancery's recommendation of certification as to certain issues.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Defendants (Cloudflare's Founders and other directors) sought interlocutory review of the Court of Chancery's October 16, 2026 Preliminary Injunction Opinion enjoining Cloudflare's dual-class recapitalization, which held that 8 Del. C. § 144(b)(1)'s safe harbor likely did not apply because the Special Committee likely lacked good faith under Disney and acted with a \"controlled mindset\"; the Court of Chancery recommended certification as to certain issues. The Supreme Court (Griffiths, J., for a panel of Legrow, Griffiths and Zurn, JJ.) accepted the appeal, finding the ruling decided gating, case-dispositive, first-impression questions of statutory construction under Rule 42(b), and stated the parties are not limited to the issues as framed below. Over Plaintiffs' opposition, it found good cause to expedite and set briefing to close December 16, 2026.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 7
+        },
+        "core_legal_issue": "Whether the Supreme Court should accept, under Supr. Ct. R. 42(b), an interlocutory appeal from the Court of Chancery's preliminary injunction against Cloudflare's dual-class recapitalization, where the Court of Chancery held that 8 Del. C. § 144(b)(1) likely did not provide a safe harbor because the Special Committee likely did not act in good faith under Disney and acted with a \"controlled mindset,\" and whether to expedite that appeal.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 13,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Interlocutory appeal ACCEPTED and motion for expedited proceedings GRANTED. Exercising its discretion and giving due weight to the Court of Chancery's view, the Court found Rule 42(b)'s strict standards met: the Preliminary Injunction Opinion decided gating and case-dispositive questions of law, resolved for the first time in Delaware, presenting a question of statutory construction that should be settled before an appeal from a final order. The parties are not limited to the issues as framed by the Court of Chancery. Briefing schedule: opening brief and appendix by November 18, 2026; answering brief and appendix by December 9, 2026; reply brief by December 16, 2026. The Court will notify the parties of the oral argument date.",
+        "key_facts_and_concessions": [
+          "On October 16, 2026, the Court of Chancery granted Plaintiffs' preliminary injunction motion, finding a reasonable probability Plaintiffs could show the Special Committee did not approve the recapitalization in good faith under Disney and acted with a \"controlled mindset\" by pursuing what the Founders wanted over what was best for Cloudflare and all its stockholders.",
+          "Defendants had invoked the safe harbor provisions of 8 Del. C. § 144, arguing the Special Committee of independent directors approved the recapitalization; the Court of Chancery's ruling meant Defendants would likely bear the burden of proving entire fairness at trial.",
+          "Defendants sought certification of \"whether a 'controlled mindset' premised on controller influence can satisfy the individualized finding of bad faith as to otherwise independent, disinterested, and careful directors under the statute.\"",
+          "The Court of Chancery recommended certification as to certain issues (2026 WL 3333685, at *22).",
+          "The Court of Chancery stated that a stay would be appropriate if the Supreme Court accepted the interlocutory appeal.",
+          "The Court of Chancery had offered Defendants either an initial trial limited to Section 144's applicability within about 90 days or a prompt full trial.",
+          "Plaintiffs opposed expedition but agreed to Defendants' proposed briefing schedule if the appeal was accepted and expedition granted.",
+          "Plaintiffs, Cloudflare stockholders, challenged the recapitalization as unfair and designed to let the Founders (Matthew Prine and Michelle Zatlyn) liquidate large amounts of stock while keeping voting control."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "The Supreme Court will decide on an expedited basis whether a special committee's \"controlled mindset\" can defeat Section 144(b)(1)'s safe harbor for otherwise independent directors; until it rules, parties relying on special-committee approval of controller transactions should treat the Court of Chancery's good-faith analysis as live. Appellants should note that the order frees the parties from the issues as framed by the Court of Chancery, so briefing need not be confined to the certified question.",
+        "standard_of_review": "Applications for interlocutory review are addressed to the sound discretion of the Supreme Court (Supr. Ct. R. 42(d)(v)), giving due weight to the Court of Chancery's view, under Rule 42(b)'s strict certification standards; expedition granted on a finding of good cause."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403250"
+    },
+    {
+      "case_id": "de-403200",
+      "court": "chancery",
+      "date": "2026-11-09",
+      "docket": "2026-0579-DG(LWW)",
+      "judge": "Will V.C.",
+      "name": "Stephen M. Esposito, et al. v. Drivers History Information Sales LLC, et al.",
+      "ny_date": "2026-11-09",
+      "ny_processed_at": "2026-11-09T14:58:01-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendants' argument that the § 3.12(d) proviso (\"provided that such Person is entitled to exculpation under Section 3.12(a), 3.12(b) or 3.12(c)\") limits coverage to official-capacity conduct: rejected. Sections 3.12(a)-(c) address only internal liability to the Company, Members or Managers, not third-party claims. The parenthetical expressly covers proceedings unrelated to official status, so the proviso imposes only merits-based conduct standards that cannot be adjudicated at the advancement stage.",
+          "Defendants' alternative argument that advancement obligations ended when Information Sales and the TransUnion entities settled and were dismissed with prejudice: rejected (fn. 53). An entity codefendant's dismissal does not extinguish an indemnitee's contractual advancement rights while the indemnitee is left to defend the same conduct. By Defendants' own description, the trial issues against Esposito and Nichols arise from and relate to Information Sales and Investments.",
+          "Plaintiffs' claim that Esposito is entitled to advancement from TransUnion under Bylaws § 7.01: rejected; the exception was sustained. The New Jersey Action does not arise from any exercise of corporate power by Esposito during his post-closing service at TransUnion's request.",
+          "Plaintiffs' characterizations of the New Jersey Complaint (that Esposito signed the Consulting Agreement on behalf of Investments, that DHI acting through Nichols terminated it, and that Esposito failed as an Investments officer to cause post-closing payments): not credited. As Defendants observed, these depart from the New Jersey Complaint's text and reflect inaccurate paraphrasing and bracket usage."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Information Sales LLC Agreement and Investments LLC Agreement § 3.12(a)-(d), (f)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Indemnification extends to proceedings \"arising from or relating to the Company,\" subject only to conduct-based exculpation standards. Advancement under § 3.12(f) is mandatory, conditioned only on an undertaking.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "TransUnion Fifth Amended and Restated Bylaws §§ 7.01-7.03",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Indemnification and advancement cover proceedings brought \"by reason of the fact\" of officer service or service at TransUnion's request. TransUnion bears the burden of proving non-entitlement.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 18-108",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The LLC Act gives parties broad freedom to define indemnification and advancement rights by contract.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "DeLucca v. KKAT Mgmt., L.L.C., 2006 WL 224058 (Del. Ch. Jan. 23, 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "LLC agreements need not adopt Section 145's \"by reason of the fact\" standard. \"Arising from or relating to\" language does not require official-capacity conduct.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Morgan v. Grace, 2003 WL 22461916 (Del. Ch. Oct. 29, 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "§ 18-108 is broadly enabling. Merits-based conduct conditions are not adjudicated at the advancement stage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Homestore, Inc. v. Tafeen, 888 A.2d 204 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The \"by reason of the fact\" causal-nexus test is met where corporate powers were used or necessary for the challenged acts. Allegations of self-interested conduct do not defeat advancement, and merits issues are deferred to indemnification.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Mooney v. Echo Therapeutics, Inc., 2015 WL 3413272 (Del. Ch. May 28, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Covered allegations intertwined with the defense support advancement. An entity codefendant's dismissal does not end advancement where the indemnitee still defends the same conduct.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bernstein v. TractManager, Inc., 953 A.2d 1003 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The causal-nexus requirement applies, and advancement extends only to acts after the individual took on the covered position.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marino v. Patriot Rail Co., 131 A.3d 325 (Del. Ch. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Coverage extends to actions taken while serving in a covered capacity.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Stifel Fin. Corp. v. Cochran, 809 A.2d 555 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Successful advancement plaintiffs are entitled to fees on fees.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fasciana v. Elec. Data Sys. Corp., 829 A.2d 178 (Del. Ch. 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees on fees are proportionate to success, but a plaintiff achieving substantial relief should not be reduced for failing on every contention.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 2301(a)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Prejudgment interest runs from the date of the advancement demands and undertakings.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Citadel Hldg. Corp. v. Roven, 603 A.2d 818 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited for prejudgment interest on advancement.",
+            "role": "background"
+          },
+          {
+            "authority": "Holley v. Nipro Diagnostics, Inc., 2014 WL 7336411 (Del. Ch. Dec. 23, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited for advancement where covered claims are intertwined with the defense.",
+            "role": "background"
+          },
+          {
+            "authority": "Charney v. Am. Apparel, Inc., 2015 WL 5313769 (Del. Ch. Sept. 11, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with Bernstein and Marino on temporal limits to coverage.",
+            "role": "background"
+          },
+          {
+            "authority": "Lillis v. AT&T Corp., 904 A.2d 325 (Del. Ch. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited on the scope of \"arising from or relating to\" language.",
+            "role": "background"
+          },
+          {
+            "authority": "OrbiMed Advisors LLC v. Symbiomix Therapeutics, LLC, 2024 WL 747567 (Del. Ch. Feb. 23, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited on TransUnion LLC's succession to Investments' obligations.",
+            "role": "background"
+          },
+          {
+            "authority": "Reddy v. Elec. Data Sys. Corp., 2002 WL 1358761 (Del. Ch. June 18, 2002); Perconti v. Thornton Oil Corp., 2002 WL 982419 (Del. Ch. May 3, 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Allegations of structuring transactions or withholding payments for personal gain do not defeat advancement.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 145",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Source of the \"by reason of the fact\" standard the Magistrate erroneously applied to the LLC Agreements.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(b)(2), 144(e); DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Exceptions are reviewed de novo on the record before the Magistrate unless expanded for good cause.",
+            "role": "background"
+          },
+          {
+            "authority": "Bako Pathology LP v. Bakotic, 288 A.3d 252 (Del. 2022); Ct. Ch. R. 56(i)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No new hearing is needed where exceptions turn on law applied to an undisputed paper record.",
+            "role": "background"
+          },
+          {
+            "authority": "Danenberg v. Fitracks, Inc., 58 A.3d 991 (Del. Ch. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited for the directive to submit a proposed order with procedures for resolving ongoing advancement disputes.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Esposito and Nichols, co-founders and former managers of Information Sales and Investments, sought advancement for their defense of Poe's New Jersey action. A Magistrate in Chancery's Final Report granted them summary judgment on all counts, and Defendants took exceptions, which Vice Chancellor Will resolved de novo on an emergency basis before the New Jersey trial. The Court held that the LLC Agreements' \"arising from or relating to the Company\" language is broader than § 145's \"by reason of the fact\" test and covers the New Jersey Action, and that the entity defendants' settlement and dismissal did not end advancement. The Court separately held that TransUnion's Bylaws require a causal nexus to Esposito's 2014-2017 service at TransUnion's request, which the New Jersey Complaint does not supply.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether two former managers and officers were entitled to advancement for their defense of a third-party New Jersey action (1) under LLC agreements covering proceedings \"arising from or relating to the Company,\" which the Magistrate had read as importing the 8 Del. C. § 145 \"by reason of the fact\" standard, and (2) under TransUnion's Bylaws, which require a causal nexus between the claims and Esposito's post-closing service at TransUnion's request.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 15,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendants' exceptions were overruled as to Counts I, II and IV and sustained as to Count III. The Magistrate erred by applying the \"by reason of the fact\" standard to the LLC Agreements. Section 3.12(d) covers proceedings \"arising from or relating to the Company\" without an official-capacity requirement, and the exculpation proviso imposes only merits-based conduct standards not adjudicable at the advancement stage. The New Jersey Action arises from and relates to both Information Sales (a named defendant) and Investments (the holding company and Acquisition party). Even if an official-capacity nexus were required, Counts I and II of the New Jersey Complaint challenge the 2009 transfer, Information Sales' commission underpayments, and the 2014 Acquisition closing certificate the plaintiffs signed as Investments managers. Esposito and Nichols are therefore entitled to advancement from Information Sales and from TransUnion LLC as successor to Investments, and the August 2024 dismissal of the entity defendants did not end those obligations. Under Bylaws § 7.01, even accepting arguendo that Esposito served at TransUnion's request from November 2014 to December 2017, the challenged acts either predate that service or do not involve Esposito, so there is no causal nexus. The Final Report was reversed on Count III and judgment entered for TransUnion. Plaintiffs receive reasonable fees on fees without reduction, because Count III sought only an additional source of payment for the same expenses, plus prejudgment interest from the dates of their demands and undertakings. Within five business days, the parties must meet and confer on the amount of fees on fees and interest and submit a proposed order that includes procedures for resolving ongoing advancement disputes.",
+        "key_facts_and_concessions": [
+          "Section 3.12(d) of both the Information Sales LLC Agreement and the Investments LLC Agreement covers proceedings \"arising from or relating to the Company,\" with a proviso tied to exculpation and a parenthetical reaching proceedings that do not relate to the person's status as a Member, Manager or Officer. The Magistrate omitted the second half of § 3.12(d) and applied the corporate \"by reason of the fact\" standard.",
+          "Information Sales was named as a defendant in the New Jersey Complaint. Investments held the membership interests in Information Sales and was a party to the 2014 Acquisition, in which Esposito and Nichols executed the closing certificate as managers of Investments.",
+          "Defendants do not dispute that Esposito and Nichols are \"Indemnitees\" under § 3.12(d) of both LLC Agreements. Defendants also concede they \"have never disputed that TransUnion LLC succeeded to Investments.\"",
+          "Esposito's possible service at TransUnion's request ran from the November 2014 closing until his employment ended in December 2017; the Court accepted this arguendo. Every challenged pre-closing act (the 2007 Consulting Agreement, the 2009 asset transfer, and the structuring of the 2014 Acquisition) predates that service.",
+          "The New Jersey Complaint's post-closing allegations about unpaid commissions and the August 2020 accounting demand do not mention Esposito. The 2020 demand postdates his employment by nearly three years. The post-closing claim against Esposito is a veil-piercing theory directed at DHIS Corp.",
+          "The plaintiffs' Complaint here misparaphrased the New Jersey Complaint, including through bracketed substitutions of \"[Drivers History]\" and \"[DHI]\" for \"DHIS Corp.\" The Final Report relied on those statements; the Court did not credit them and evaluated Poe's allegations as pleaded.",
+          "Plaintiffs concede that Poe advances no claim based on the September 2009 termination letter (fn. 34).",
+          "In August 2024, Information Sales and the TransUnion entities settled with Poe and were dismissed with prejudice. Only Esposito, Nichols and DHIS Corp. remain defendants, and trial was set for November 9, 2026, so the Court ruled on an emergency basis."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "In LLC advancement disputes, read the operative contract's coverage language in full, since \"arising from or relating to the Company\" can reach claims a \"by reason of the fact\" provision would not. For bylaw claims, map each underlying allegation to conduct within the covered service period. Quote underlying pleadings accurately: the Court disregarded bracketed paraphrases that the Final Report had relied on.",
+        "standard_of_review": "De novo review of a Magistrate in Chancery's Final Report on exceptions (Ct. Ch. R. 144(b)(2)), on the record before the Magistrate (Ct. Ch. R. 144(e)). No new hearing was held because the exceptions turned on questions of law applied to an undisputed paper record on cross-motions for summary judgment."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403200"
+    },
+    {
+      "case_id": "de-403210",
+      "court": "chancery",
+      "date": "2026-11-09",
+      "docket": "2026-0301-DH (LWW)",
+      "judge": "Will V.C.",
+      "name": "Nikita Bernstein v. MyJoVE Corporation",
+      "ny_date": "2026-11-09",
+      "ny_processed_at": "2026-11-09T14:58:01-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "MyJoVE's argument that Section 8.13 entitles it to fees as the prevailing party: rejected. Read with the preceding notice-and-cure sentence, \"any dispute arising hereunder\" reaches disputes over alleged breaches, and this Section 220 action is not one.",
+          "MyJoVE's reliance on Manti Holdings, LLC v. Authentix Acquisition Co.: distinguished. Manti's provision covered any proceeding involving \"the interpretation\" of the contract or \"enforcement of the rights or obligations\" of the parties, and the petitioners there had promised to refrain from exercising appraisal rights.",
+          "MyJoVE's reliance on Leistner, GB-SP Holdings and Navient: distinguished. Those cases involved breach claims under the agreements containing the fee provisions, or contractual inspection rights with a broader \"arising out of or relating to\" fee provision (fn. 53).",
+          "MyJoVE's assertion that Bernstein waived his textual arguments on Section 8.13 by raising them first in his exceptions answering brief: rejected, because the trial transcript shows Bernstein's counsel quoted Section 8.13 and addressed its applicability.",
+          "The waiver contention the opinion attributes to \"the parties\" as to MyJoVE's fee request: rejected, because MyJoVE preserved the request in its answer, the Pre-Trial Order, its pre-trial briefs and at trial.",
+          "Any challenge by Bernstein to the Final Report's release ruling: waived under Rule 144 because he took no exception (fn. 30)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Redemption Agreement § 8.13 (with § 8.9)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Notice-and-cure for breach paired with prevailing-party fee-shifting for \"any dispute arising hereunder\"; although § 8.9 says headings do not affect interpretation, the first sentence frames the provision around breach.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Redemption Agreement § 5.2",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Release is a present discharge of claims Bernstein \"ever had or now has\" and does not mention Section 220 or books and records.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sunline Com. Carriers, Inc. v. CITGO Petroleum Corp., 206 A.3d 836 (Del. 2019)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A contract is read as a whole, giving meaning to each term; the fee claimant must show the provision covers the dispute.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Osborn ex rel. Osborn v. Kemp, 991 A.2d 1153 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A contract is read as a whole without rendering any provision surplusage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bako Pathology LP v. Bakotic, 288 A.3d 252 (Del. 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contractual fee-shifting provisions are interpreted de novo; the party seeking fees bears the burden.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "New Enterprise Assocs. 14, L.P. v. Rich, 295 A.3d 520 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A release discharges liability on execution, unlike a covenant not to sue, which is executory and contemplates ongoing performance.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Juul Labs, Inc. v. Grove, 238 A.3d 904 (Del. Ch. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The American Rule applies in Section 220 actions; it applied Kortum's \"clearly and affirmatively expressed\" standard while leaving open whether an express private waiver of Section 220 rights is enforceable under Delaware public policy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Kortum v. Webasto Sunroofs, Inc., 769 A.2d 113 (Del. Ch. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Any contractual waiver of statutory inspection rights must be \"clearly and affirmatively expressed\"; this was the basis for the Court's refusal to endorse the release ruling.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(c)(2)(A), (d)(2)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A party that takes no exception to a Magistrate's final report waives any challenge to it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "SIGA Techs., Inc. v. PharmAthene, Inc., 67 A.3d 330 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "In contract litigation where the contract contains a fee-shifting provision, the provision will be enforced.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sternberg v. Nanticoke Mem'l Hosp., Inc., 62 A.3d 1212 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contract litigation involving a fee-shifting provision is an exception to the American Rule.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Manti Hldgs., LLC v. Authentix Acquisition Co., 261 A.3d 1199 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees were awarded under a provision covering litigation involving interpretation of the contract or enforcement of the parties' rights or obligations, after the petitioners had waived appraisal rights and promised to refrain from exercising them.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Leistner v. Red Mud Enters. LLC, 2023 WL 11196881 (Del. Ch. Apr. 26, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees were awarded in an LLC books-and-records action involving contractual inspection rights and an \"arising out of or relating to\" fee provision.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "GB-SP Hldgs., LLC v. Walker, 2024 WL 4799490 (Del. Ch. Nov. 15, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees were awarded where the plaintiff proved breach of a stockholders agreement.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Navient Sols., LLC v. BPG Off. P'rs XIII Iron Hill LLC, 2023 WL 3120644 (Del. Super. Apr. 27, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Addressed a claim for breach of a commercial lease.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Gotham P'rs, L.P. v. Hallwood Realty P'rs, L.P., 714 A.2d 96 (Del. Ch. 1998)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The scope and purpose of a Section 220 proceeding is narrow.",
+            "role": "background"
+          },
+          {
+            "authority": "Namdar v. Fried, 340 A.3d 1184 (Del. Ch. 2025); Carlyle Inv. Mgmt. L.L.C. v. Moonmouth Co. S.A., 2015 WL 5278913 (Del. Ch. Sept. 10, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Asserting a released claim can conceivably support a pleaded claim or counterclaim for breach of contract damages.",
+            "role": "background"
+          },
+          {
+            "authority": "Schoon v. Troy Corp., 2006 WL 1851481 (Del. Ch. June 27, 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Applied Kortum to hold a stock purchase agreement did not abridge Section 220 rights absent a clear and affirmative waiver.",
+            "role": "background"
+          },
+          {
+            "authority": "Peneff Hldgs. LLC v. Nurture Life, Inc., 2024 WL 3964006 (Del. Ch. Aug. 28, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Even assuming statutory inspection rights can be waived by contract, the waiver must be clear.",
+            "role": "background"
+          },
+          {
+            "authority": "Cowan v. Furlow, 2024 WL 4362264 (Del. Sept. 30, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Challenges to a Magistrate's final report not asserted in Rule 144 exceptions are not preserved for appeal.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144(b)(2), (e); DiGiacobbe v. Sestak, 743 A.2d 180 (Del. 1999)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Exceptions are reviewed de novo on the record before the Magistrate absent good cause to expand it.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 220",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The statutory inspection right at issue; the Court had no occasion to review the demand under the recently amended statute (fn. 32).",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Bernstein, a minority stockholder and co-founder of MyJoVE Corporation, sued under Section 220. A Magistrate in Chancery's post-trial Final Report recommended judgment for MyJoVE on the ground that a general release in a partial stock redemption agreement barred the demand, without reaching MyJoVE's fee request. Bernstein took no exception, and Vice Chancellor Will, reviewing MyJoVE's fee exception de novo, held that Section 8.13's prevailing-party fee clause, read with its notice-and-cure sentence, covers only disputes over alleged breaches; successfully asserting a present-discharge release as an affirmative defense did not establish a breach. The Court adopted the judgment for MyJoVE as unchallenged but declined to endorse the release ruling, citing precedent requiring a clear and affirmative waiver of Section 220 rights.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 20
+        },
+        "core_legal_issue": "Whether a prevailing defendant in a Section 220 action, which defeated inspection by asserting a general release in a stock redemption agreement as an affirmative defense, is entitled to attorneys' fees under the agreement's Section 8.13. That section pairs a notice-and-cure procedure for breaches with fee-shifting to the prevailing party \"in the event of any dispute arising hereunder.\"",
+        "coverage_note": "",
+        "disposition": "judgment for defendant",
+        "fact_check": {
+          "checked": 17,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "MyJoVE's sole exception is overruled and it is denied fees. Section 8.13, read as a whole, establishes a notice-and-cure procedure for alleged breaches and shifts fees for \"any\" such dispute. This Section 220 action is not a dispute over a breach: MyJoVE neither pleaded breach nor invoked notice-and-cure, and because the Release is a present discharge rather than a covenant not to sue, enforcing it as an affirmative defense did not establish that Bernstein breached the agreement by suing. Fn. 49 notes that asserting a released claim can conceivably support a pleaded breach claim or counterclaim, but none was brought in this summary proceeding. The Final Report's recommendation of judgment for MyJoVE is adopted as unchallenged because Bernstein waived any challenge under Rule 144. The Court expressly does not endorse the conclusion that the Release extinguished Bernstein's statutory inspection rights, noting the Kortum line's requirement that any such waiver be \"clearly and affirmatively expressed\" and that the Release does not mention Section 220. Fn. 32 states the Court had no occasion to review whether the demand met the substantive requirements of amended Section 220. Each party bears its own attorneys' fees and expenses.",
+        "key_facts_and_concessions": [
+          "Section 8.13 of the Redemption Agreement, titled \"Breach,\" provides that on one party's breach the other party \"shall give notice\" and the breaching party has ten business days to cure. Its second sentence awards attorney's fees \"to the prevailing party in the event of any dispute arising hereunder.\"",
+          "MyJoVE did not plead a breach of the Redemption Agreement or invoke Section 8.13's notice-and-cure procedure. Its October 7, 2025 response raised the Release as an objection, offered a partial production and invited a meet and confer, \"without declaring a breach, invoking Section 8.13, or demanding a cure within ten business days\" (fn. 45).",
+          "The Release in Section 5.2 is phrased as a present discharge (Bernstein \"hereby fully, forever, irrevocably and unconditionally releases, remises and discharges\" MyJoVE), not as an executory covenant not to sue.",
+          "MyJoVE asserted the Release as an affirmative defense in its answer and requested fees under the Redemption Agreement; the Final Report enforced the Release as a bar to inspection but did not reach the fee request or the substantive Section 220 elements.",
+          "Bernstein took no exception to the Final Report and stated that he \"does not ask the Court to revisit the Final Report's disposition of his Section 220 claim\" (fn. 30).",
+          "The Release makes no mention of Section 220, statutory information rights, or books and records, and neither party presented the Magistrate with precedent on contractual waivers of Section 220 rights.",
+          "Under the Redemption Agreement (dated July 17, 2025; stipulated as executed July 27, 2025), Bernstein sold 889,679 of his 4,800,000 Class A shares back to MyJoVE for $2.5 million and kept nearly 4 million shares.",
+          "Bernstein's September 30, 2025 demand sought nine categories of documents on the nomination, selection and independence of directors installed by majority stockholder written consent after his April 2025 request about more than $7 million in insider loans to Pritsker and Korak."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A company wanting fees for defeating claims covered by a release should draft fee-shifting that expressly reaches proceedings involving interpretation or enforcement of the agreement's rights (as in Manti), or a covenant not to sue, rather than a breach-framed clause tied to notice-and-cure. Drafters seeking to curtail Section 220 rights should reference them expressly, recognizing that Juul Labs left open whether even an express private waiver is enforceable. Defendants relying on a general release to defeat a Section 220 claim should expect the Kortum line to be raised against them.",
+        "standard_of_review": "De novo review of exceptions to a Magistrate in Chancery's final report on the record before the Magistrate (Ct. Ch. R. 144(b)(2), (e)); no new hearing was needed because the exception turned on contract interpretation applied to a stipulated paper record. The contractual fee-shifting provision was interpreted de novo, with MyJoVE as fee claimant bearing the burden to show the text covers the dispute and any conditions are satisfied."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403210"
+    }
+  ],
+  "ny_date": "2026-11-09"
+}
