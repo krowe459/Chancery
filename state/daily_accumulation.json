@@ -417,6 +417,107 @@
         "standard_of_review": "De novo review of a Magistrate in Chancery's Final Report on exceptions (Ct. Ch. R. 144(b)(2)), on the record before the Magistrate (Ct. Ch. R. 144(e)). No new hearing was held because the exceptions turned on questions of law applied to an undisputed paper record on cross-motions for summary judgment."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403200"
+    },
+    {
+      "case_id": "de-403250",
+      "court": "supreme",
+      "date": "2026-11-06",
+      "docket": "468, 2026",
+      "judge": "Griffiths J.",
+      "name": "IN RE Cloudflare, Inc. Stockholders Litigation",
+      "ny_date": "2026-11-09",
+      "ny_processed_at": "2026-11-09T18:26:15-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Plaintiffs' opposition to certification: rejected. The Preliminary Injunction Opinion decided a substantial issue (gating and case-dispositive questions of law) presenting first-impression questions of statutory construction that should be settled before an appeal from a final order.",
+          "Plaintiffs' opposition to expedition: rejected. Having accepted the appeal and considered the parties' positions, the Court found good cause for expedition."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42(b)(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The order must decide a substantial issue; satisfied because the Preliminary Injunction Opinion decided gating and case-dispositive questions of law on the merits.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(iii)(A), (C), (G)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Certification criteria met: questions of law resolved for the first time in Delaware, and a question of statutory construction not yet but which should be settled by the Supreme Court before an appeal from a final order.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(d)(v)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Applications for interlocutory review are addressed to the Supreme Court's sound discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 144(b)(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Safe harbor invoked by Defendants based on Special Committee approval; its construction is the subject of the accepted appeal.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Walt Disney Co. Deriv. Litig., 906 A.2d 27 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Good-faith standard the Court of Chancery applied in finding the Special Committee likely did not act in good faith.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Cloudflare, Inc. S'holders Litig., 2026 WL 3093369 (Del. Ch. Oct. 16, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Preliminary Injunction Opinion under review.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Cloudflare, Inc. S'holders Litig., 2026 WL 3333685 (Del. Ch. Nov. 3, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Court of Chancery's recommendation of certification as to certain issues.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Defendants (Cloudflare's Founders and other directors) sought interlocutory review of the Court of Chancery's October 16, 2026 Preliminary Injunction Opinion enjoining Cloudflare's dual-class recapitalization, which held that 8 Del. C. § 144(b)(1)'s safe harbor likely did not apply because the Special Committee likely lacked good faith under Disney and acted with a \"controlled mindset\"; the Court of Chancery recommended certification as to certain issues. The Supreme Court (Griffiths, J., for a panel of Legrow, Griffiths and Zurn, JJ.) accepted the appeal, finding the ruling decided gating, case-dispositive, first-impression questions of statutory construction under Rule 42(b), and stated the parties are not limited to the issues as framed below. Over Plaintiffs' opposition, it found good cause to expedite and set briefing to close December 16, 2026.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 7
+        },
+        "core_legal_issue": "Whether the Supreme Court should accept, under Supr. Ct. R. 42(b), an interlocutory appeal from the Court of Chancery's preliminary injunction against Cloudflare's dual-class recapitalization, where the Court of Chancery held that 8 Del. C. § 144(b)(1) likely did not provide a safe harbor because the Special Committee likely did not act in good faith under Disney and acted with a \"controlled mindset,\" and whether to expedite that appeal.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 13,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Interlocutory appeal ACCEPTED and motion for expedited proceedings GRANTED. Exercising its discretion and giving due weight to the Court of Chancery's view, the Court found Rule 42(b)'s strict standards met: the Preliminary Injunction Opinion decided gating and case-dispositive questions of law, resolved for the first time in Delaware, presenting a question of statutory construction that should be settled before an appeal from a final order. The parties are not limited to the issues as framed by the Court of Chancery. Briefing schedule: opening brief and appendix by November 18, 2026; answering brief and appendix by December 9, 2026; reply brief by December 16, 2026. The Court will notify the parties of the oral argument date.",
+        "key_facts_and_concessions": [
+          "On October 16, 2026, the Court of Chancery granted Plaintiffs' preliminary injunction motion, finding a reasonable probability Plaintiffs could show the Special Committee did not approve the recapitalization in good faith under Disney and acted with a \"controlled mindset\" by pursuing what the Founders wanted over what was best for Cloudflare and all its stockholders.",
+          "Defendants had invoked the safe harbor provisions of 8 Del. C. § 144, arguing the Special Committee of independent directors approved the recapitalization; the Court of Chancery's ruling meant Defendants would likely bear the burden of proving entire fairness at trial.",
+          "Defendants sought certification of \"whether a 'controlled mindset' premised on controller influence can satisfy the individualized finding of bad faith as to otherwise independent, disinterested, and careful directors under the statute.\"",
+          "The Court of Chancery recommended certification as to certain issues (2026 WL 3333685, at *22).",
+          "The Court of Chancery stated that a stay would be appropriate if the Supreme Court accepted the interlocutory appeal.",
+          "The Court of Chancery had offered Defendants either an initial trial limited to Section 144's applicability within about 90 days or a prompt full trial.",
+          "Plaintiffs opposed expedition but agreed to Defendants' proposed briefing schedule if the appeal was accepted and expedition granted.",
+          "Plaintiffs, Cloudflare stockholders, challenged the recapitalization as unfair and designed to let the Founders (Matthew Prine and Michelle Zatlyn) liquidate large amounts of stock while keeping voting control."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "The Supreme Court will decide on an expedited basis whether a special committee's \"controlled mindset\" can defeat Section 144(b)(1)'s safe harbor for otherwise independent directors; until it rules, parties relying on special-committee approval of controller transactions should treat the Court of Chancery's good-faith analysis as live. Appellants should note that the order frees the parties from the issues as framed by the Court of Chancery, so briefing need not be confined to the certified question.",
+        "standard_of_review": "Applications for interlocutory review are addressed to the sound discretion of the Supreme Court (Supr. Ct. R. 42(d)(v)), giving due weight to the Court of Chancery's view, under Rule 42(b)'s strict certification standards; expedition granted on a finding of good cause."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403250"
     }
   ],
   "ny_date": "2026-11-09"

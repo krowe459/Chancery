@@ -1131,13 +1131,34 @@
       "name": "Nikita Bernstein v. MyJoVE Corporation",
       "processed_at": "2026-11-09T14:58:01-05:00",
       "status": "ok"
+    },
+    "de-403250": {
+      "court": "supreme",
+      "docket": "468, 2026",
+      "name": "IN RE Cloudflare, Inc. Stockholders Litigation",
+      "processed_at": "2026-11-09T18:26:15-05:00",
+      "status": "ok"
+    },
+    "de-403260": {
+      "court": "superior",
+      "docket": "N25C-06-114 SSA",
+      "name": "Edwards v. Integon Indemnity Corporation",
+      "processed_at": "2026-11-09T18:26:15-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403270": {
+      "court": "superior",
+      "docket": "N24C-05-002 MAH",
+      "name": "Matthews v. Amazon Fulfillment Center",
+      "processed_at": "2026-11-09T18:26:15-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-09T14:58:01-05:00",
+  "last_checked_ny": "2026-11-09T18:26:15-05:00",
   "page_hashes": {
     "chancery": "6df0d8ee727321e3674dbf1601afe11f12ef5b127244aabf69f96c75046c9510",
-    "superior": "5d318c26bdcb6aae999384e523cdc2355f70f2d39170e43f72638cfdb7874197",
-    "supreme": "f1b91379fec87fef9fa8a14e46f53645d7a7cd102258993e96479e532e7f0649"
+    "superior": "011a12da50c9be3ca82cf75b242403b4f293a30b03b3f8583929d916cfea007a",
+    "supreme": "605a5d94a509109e701fc6df76ec8587364ab99e6a37f35ebdf048d138e712e4"
   }
 }
