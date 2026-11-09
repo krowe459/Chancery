@@ -1110,13 +1110,34 @@
       "name": "Melissa Brandao v. HerdDogg Inc",
       "processed_at": "2026-11-06T15:00:06-05:00",
       "status": "ok"
+    },
+    "de-403190": {
+      "court": "supreme",
+      "docket": "374, 2026",
+      "name": "Silva, Wanda vs. Delaware Department of Labor",
+      "processed_at": "2026-11-09T14:58:01-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403200": {
+      "court": "chancery",
+      "docket": "2026-0579-DG(LWW)",
+      "name": "Stephen M. Esposito, et al. v. Drivers History Information Sales LLC, et al.",
+      "processed_at": "2026-11-09T14:58:01-05:00",
+      "status": "ok"
+    },
+    "de-403210": {
+      "court": "chancery",
+      "docket": "2026-0301-DH (LWW)",
+      "name": "Nikita Bernstein v. MyJoVE Corporation",
+      "processed_at": "2026-11-09T14:58:01-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-06T15:00:06-05:00",
+  "last_checked_ny": "2026-11-09T14:58:01-05:00",
   "page_hashes": {
-    "chancery": "7f728b7b052d3ba08ec900aff8a28c41cf16bb5f411ece7dfb2d127ab348f8ff",
+    "chancery": "6df0d8ee727321e3674dbf1601afe11f12ef5b127244aabf69f96c75046c9510",
     "superior": "5d318c26bdcb6aae999384e523cdc2355f70f2d39170e43f72638cfdb7874197",
-    "supreme": "d371a998cb0586fc55bdb4b8fba73b166e76fd6d6d2de995767fd6aee58ce323"
+    "supreme": "f1b91379fec87fef9fa8a14e46f53645d7a7cd102258993e96479e532e7f0649"
   }
 }
