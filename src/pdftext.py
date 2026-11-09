@@ -34,6 +34,11 @@ LINE_TOLERANCE = 4.0     # pt: words this close vertically share a line (markers
 MARKER_RATIO = 0.80      # a number below 80% of its line's text size is a marker
 SMALL_RATIO = 0.97       # a line below 97% of body size is footnote-sized
 MIN_VISIBLE_SIZE = 3.0   # pt: smaller text is hidden (Word's "50F" footnote-anchor artifacts)
+# A line that is only a page number ("2", "- 2 -", "Page 2 of 3"). Dropped in the
+# header/footer band on any page, even in documents too short for running-header
+# detection: in the Nov. 6 two-page Supreme Court order, page 2's "2" landed
+# inside "11 U.S.C. § 362" and the citation check could not find the statute.
+PAGE_NUMBER_RE = re.compile(r"(?:page\s+)?[-\u2013\u2014]?\s*\d{1,4}\s*[-\u2013\u2014]?(?:\s+of\s+\d{1,4})?", re.I)
 HEADER_BAND = 0.15       # top/bottom fraction of the page searched for running headers
 MIN_KEPT_RATIO = 0.90    # fall back if we keep less than 90% of plain extraction's letters
 
@@ -171,7 +176,8 @@ def assemble(pages: list[tuple]) -> str | None:
         lines = [ln for ln in lines if ln.text or ln.markers]
         lines = [ln for ln in lines
                  if not ((ln.top < height * HEADER_BAND or ln.top > height * (1 - HEADER_BAND))
-                         and _header_key(ln.text) in headers)]
+                         and (_header_key(ln.text) in headers
+                              or (not ln.markers and PAGE_NUMBER_RE.fullmatch(ln.text.strip()))))]
         # Footnote area: trailing run of lines smaller than body text, or
         # everything below the footnote separator rule, whichever starts first.
         # Some opinions set footnote text at body size; only the rule (and the

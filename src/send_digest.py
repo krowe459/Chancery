@@ -118,6 +118,20 @@ def render_entry(entry: dict, ny_date: str = "", full_summary_ref: str | None = 
         <div style="font-size:12px;color:#5c6b7a;margin-top:4px;">{meta}</div>
       </td></tr>"""
 
+    reissue = entry.get("reissue_of")
+    if reissue and not s:
+        earlier = reissue.get("of") or {}
+        quote = (f" The court's note: &ldquo;{_e(reissue['note'])}&rdquo;"
+                 if reissue.get("note") else "")
+        body = f"""
+      <tr><td style="padding:10px 24px 20px 24px;font-size:14px;color:#1d2731;line-height:1.5;">
+        Corrected reissue of <a href="{_e(earlier.get('url'))}">{_e(earlier.get('name'))}</a>,
+        summarized in the {_e(earlier.get('ny_date'))} digest
+        ({_archive_link(str(earlier.get('ny_date') or ''))}); the text is substantively unchanged,
+        so it was not summarized again.{quote}
+      </td></tr>"""
+        return head + body + _divider()
+
     if entry.get("error"):
         body = f"""
       <tr><td style="padding:10px 24px 20px 24px;font-size:14px;color:#8a1c1c;">
