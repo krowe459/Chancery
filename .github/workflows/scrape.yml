@@ -2,10 +2,10 @@ name: chancery-scrape
 
 on:
   schedule:
-    # Every 2 hours, Mon-Fri, 11:17-23:17 UTC
-    #   = 7:17am-7:17pm EDT (summer) / 6:17am-6:17pm EST (winter).
-    # Minute :17 avoids the top-of-hour queue where GitHub delays scheduled runs.
-    - cron: "17 11-23/2 * * 1-5"
+    # Every 2 hours, Mon-Fri, 11:18-23:18 UTC
+    #   = 7:18am-7:18pm EDT (summer) / 6:18am-6:18pm EST (winter).
+    # Minute :18 avoids the top-of-hour queue where GitHub delays scheduled runs.
+    - cron: "18 11-23/2 * * 1-5"
   workflow_dispatch:
     inputs:
       backfill:
