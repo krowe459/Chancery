@@ -1187,13 +1187,27 @@
       "name": "Hugh Edmundson v. Theorem Technology, Inc.",
       "processed_at": "2026-11-10T16:49:03-05:00",
       "status": "ok"
+    },
+    "de-403320": {
+      "court": "superior",
+      "docket": "2506008056",
+      "name": "State v. Williams",
+      "processed_at": "2026-11-10T18:31:42-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403330": {
+      "court": "superior",
+      "docket": "K26C-03-004 JJC",
+      "name": "Lapin v. White Collar Media LLC",
+      "processed_at": "2026-11-10T18:31:42-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-10T16:49:03-05:00",
+  "last_checked_ny": "2026-11-10T18:31:42-05:00",
   "page_hashes": {
     "chancery": "4bed5420603df67aab7ef12072acfe929d20d34ae0f9101bee45bd4776249619",
-    "superior": "011a12da50c9be3ca82cf75b242403b4f293a30b03b3f8583929d916cfea007a",
+    "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
     "supreme": "5912764d37929a279cfc5d799dad8e5d45d25ff622585e0800c2ee991514e0f3"
   }
 }
