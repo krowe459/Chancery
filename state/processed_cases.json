@@ -1132,6 +1132,27 @@
       "processed_at": "2026-11-09T14:58:01-05:00",
       "status": "ok"
     },
+    "de-403220": {
+      "court": "supreme",
+      "docket": "44, 2026",
+      "name": "Hogan v. State",
+      "processed_at": "2026-11-10T12:54:23-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403230": {
+      "court": "supreme",
+      "docket": "401, 2026",
+      "name": "IMO the Petition of Melissa Guzman for a Writ of Mandamus",
+      "processed_at": "2026-11-10T12:54:23-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403240": {
+      "court": "supreme",
+      "docket": "402, 2026",
+      "name": "IMO the Petition of Douglas Graham for a Writ of Mandamus",
+      "processed_at": "2026-11-10T12:54:23-05:00",
+      "status": "out_of_scope"
+    },
     "de-403250": {
       "court": "supreme",
       "docket": "468, 2026",
@@ -1162,10 +1183,10 @@
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-10T10:51:25-05:00",
+  "last_checked_ny": "2026-11-10T12:54:23-05:00",
   "page_hashes": {
     "chancery": "cd66d5b7b9cd34df33bc676abf7413d548175cc73da551750f8566a71a0fd416",
     "superior": "011a12da50c9be3ca82cf75b242403b4f293a30b03b3f8583929d916cfea007a",
-    "supreme": "605a5d94a509109e701fc6df76ec8587364ab99e6a37f35ebdf048d138e712e4"
+    "supreme": "5912764d37929a279cfc5d799dad8e5d45d25ff622585e0800c2ee991514e0f3"
   }
 }
