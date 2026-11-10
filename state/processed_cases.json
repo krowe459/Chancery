@@ -1152,12 +1152,19 @@
       "name": "Matthews v. Amazon Fulfillment Center",
       "processed_at": "2026-11-09T18:26:15-05:00",
       "status": "out_of_scope"
+    },
+    "de-403290": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-1264-BWD",
+      "name": "George Assad v. Carine S. Clark, et al.",
+      "processed_at": "2026-11-10T10:51:25-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-09T18:26:15-05:00",
+  "last_checked_ny": "2026-11-10T10:51:25-05:00",
   "page_hashes": {
-    "chancery": "6df0d8ee727321e3674dbf1601afe11f12ef5b127244aabf69f96c75046c9510",
+    "chancery": "cd66d5b7b9cd34df33bc676abf7413d548175cc73da551750f8566a71a0fd416",
     "superior": "011a12da50c9be3ca82cf75b242403b4f293a30b03b3f8583929d916cfea007a",
     "supreme": "605a5d94a509109e701fc6df76ec8587364ab99e6a37f35ebdf048d138e712e4"
   }

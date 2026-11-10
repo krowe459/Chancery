@@ -1,4 +1,241 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403290",
+      "court": "chancery",
+      "date": "2026-11-10",
+      "docket": "C.A. No. 2026-1264-BWD",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "George Assad v. Carine S. Clark, et al.",
+      "ny_date": "2026-11-10",
+      "ny_processed_at": "2026-11-10T10:51:25-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendants' reading that § 4 is only an \"equal treatment provision\" governing distributions \"if and when the Company determines to make a distribution\": rejected as unreasonable. Section 4 lacks § 2.1's \"when, as and if declared by the Board\" qualifier. Defendants' reading would make § 4 largely repeat § 2.1. Section 4 also stands alone as \"Liquidation Rights\" rather than under § 2, \"Identical Rights\" (fn. 3).",
+          "Defendants' argument that Plaintiff seeks nothing more than a dividend: turned against them, because under their reading § 4 would then do no additional work (fn. 3).",
+          "Defendants' argument that a mandatory distribution would \"serve no conceivable commercial purpose\" and that unhappy stockholders can sell: rejected. Mandating a distribution that stops the Company from investing in an entirely new sector is not irrational. The shares trade below cash held, and Defendants' outcome (a cash-and-NOL shell with no business plan) is equally strange.",
+          "Defendants' argument that Plaintiff's reading yields irrational results in other Liquidation Events (e.g., a stock-for-stock merger leaving the Company with a minority stake): rejected. Hypotheticals do not make the plain reading unreasonable, and, as Plaintiff argued, the Company could amend the Charter or forgo such a transaction.",
+          "Defendants' argument that § 4 cannot require distribution of all net cash before providing for claims under DGCL Section 281: rejected. Section 4 reaches only assets \"legally available for distribution,\" and Defendants did not explain any conflict with Section 281. Determining what is legally available is for the Board in the first instance.",
+          "Defendants' laches argument that Plaintiff should have sued after the July 22 announcement: rejected. It was reasonable to wait until the sale closed and proceeds were actually withheld, and suit came two days after closing. Defendants' authorities involved longer delays in suits seeking to enjoin transactions, whereas Plaintiff does not challenge the Asset Sale.",
+          "Defendants' laches prejudice argument that earlier suit would have allowed alternative transactions or structures valuing the NOLs: rejected. The Board and majority holders had approved the sale before announcement, the consent eliminated termination rights, and the forbearance deadline was nine days away. Defendants were also on notice of their own Charter.",
+          "Plaintiff's reliance on other companies' charters and Defendants' response that \"market precedent\" is irrelevant: not reached because the Charter is unambiguous (fn. 7)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Huckleberry.ai Charter art. V, §§ 1.3, 1.10, 2, 2.1, 4",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "A Liquidation Event includes an Asset Transfer. Section 4 mandates that legally available assets \"shall be distributed,\" in contrast to § 2.1's board-discretionary dividend language.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Alta Berkeley VI C.V. v. Omneon, Inc., 41 A.3d 381 (Del. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Charters are contracts between the corporation and its stockholders; a term is ambiguous only if fairly or reasonably susceptible to more than one meaning.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Osborn ex rel. Osborn v. Kemp, 991 A.2d 1153 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Clear and unambiguous contract terms are given their plain meaning.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Williams Cos., Inc. v. Energy Transfer LP, 2020 WL 3581095 (Del. Ch. July 2, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Different language in different sections suggests an intended difference in meaning.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "O'Brien v. Progressive N. Ins. Co., 785 A.2d 281 (Del. 2001)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Interpretations giving effect to each term are preferred over readings that make terms uselessly repetitive.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "West Willow-Bay Ct., LLC v. Robino-Bay Ct. Plaza, LLC, 2007 WL 3317551 (Del. Ch. Nov. 2, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts avoid constructions that render terms repetitive or surplusage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Zurich Am. Ins. Co. v. St. Paul Surplus Lines, Inc., 2009 WL 4895120 (Del. Ch. Dec. 10, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "\"Shall\" makes an act mandatory.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bergonzi v. Rite Aid Corp., 2003 WL 22407303 (Del. Ch. Oct. 20, 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contra proferentem: ambiguity in a charter is construed against the corporation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bank of New York Mellon v. Commerzbank Cap. Funding Tr. II, 65 A.3d 539 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Contracts creating rights in public securities investors are read to give effect to investors' reasonable expectations.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Quill v. Malizia, 2005 WL 578975 (Del. Ch. Mar. 4, 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Laches requires prejudice from unreasonable delay after at least inquiry notice.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gradient OC Master, Ltd. v. NBC Universal, Inc., 930 A.2d 104 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "It is not unreasonable to wait until certain a transaction will proceed before suing.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Deputy v. Deputy, 2020 WL 1018554 (Del. Ch. Mar. 2, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "There is no laches prejudice where defendants could not reasonably have been unaware of possible future claims (quoting Stewart v. Wilm. Tr. SP Servs., Inc., 112 A.3d 271 (Del. Ch. 2015)).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bacine v. Scharffenberger, 1984 WL 21128 (Del. Ch. Dec. 11, 1984)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Laches for delay in suing to prevent consummation of a transaction; inapplicable because Plaintiff challenges only the withholding of proceeds.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(a), 56(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard; cross-motions without a material fact dispute may be deemed a stipulation for decision on the record.",
+            "role": "background"
+          },
+          {
+            "authority": "XO Commc'ns, LLC v. Level 3 Commc'ns, Inc., 948 A.2d 1111 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Summary judgment is appropriate for an unambiguous contract.",
+            "role": "background"
+          },
+          {
+            "authority": "Baring v. Condrell, 2004 WL 2340047 (Del. Ch. Oct. 18, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The same standard applies to each cross-motion.",
+            "role": "background"
+          },
+          {
+            "authority": "Kaiser Aluminum Corp. v. Matheson, 681 A.2d 392 (Del. 1996)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Governing documents are interpreted under contract principles.",
+            "role": "background"
+          },
+          {
+            "authority": "Kuhn Constr., Inc. v. Diamond State Port Corp., 990 A.2d 393 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A contract is read as a whole, avoiding surplusage.",
+            "role": "background"
+          },
+          {
+            "authority": "Rhone-Poulenc Basic Chems. Co. v. Am. Motorists Ins. Co., 616 A.2d 1192 (Del. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Disagreement over construction does not create ambiguity.",
+            "role": "background"
+          },
+          {
+            "authority": "City Investing Co. Liquidating Tr. v. Cont'l Cas. Co., 624 A.2d 1191 (Del. 1993)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A plain writing is the sole source of intent.",
+            "role": "background"
+          },
+          {
+            "authority": "GC Broadway, LLC v. AN SM 1925 Broadway Hldgs., LLC, 2026 WL 539233 (Del. Ch. Feb. 26, 2026); Pacira BioSciences, Inc. v. Fortis Advisors LLC, 2021 WL 4949179 (Del. Ch. Oct. 25, 2021); Deluxe Ent. Servs. Inc. v. DLX Acq. Corp., 2021 WL 1169905 (Del. Ch. Mar. 29, 2021); Hampton v. Turner, 2015 WL 1947067 (Del. Ch. Apr. 29, 2015); MicroStrategy Inc. v. Acacia Rsch. Corp., 2010 WL 5550455 (Del. Ch. Dec. 30, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Parties who use different language elsewhere show they knew how to say something when they intended it (fn. 2).",
+            "role": "background"
+          },
+          {
+            "authority": "Whittington v. Dragon Grp., L.L.C., 991 A.2d 1 (Del. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Laches rests on the maxim that equity aids the vigilant.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 271",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Stipulated that the Asset Sale is a sale of all or substantially all assets under § 271.",
+            "role": "background"
+          },
+          {
+            "authority": "8 Del. C. § 281",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Defendants' argument that a mandatory distribution conflicts with claim-provision requirements; the Court found no conflict explained.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Class B stockholder George Assad sued Huckleberry.ai, Inc. (f/k/a Domo, Inc.) and its directors after the Company sold substantially all its assets to Progress for about $400 million (netting about $221 million) and announced it would not liquidate but would redeploy the cash to monetize its NOLs. On expedited cross-motions for summary judgment directed to a stipulated question, Vice Chancellor David held that the Charter's Liquidation Rights provision, triggered by the stipulated Asset Transfer, mandates distribution of legally available assets. The Court reasoned from the contrast with the board-discretionary dividend clause and the anti-surplusage canon, with contra proferentem as a fallback. The Court also rejected Defendants' laches defense for lack of both unreasonable delay and prejudice.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 23
+        },
+        "core_legal_issue": "Whether Article V, Section 4 of the Charter, which provides that \"[i]n the event of a Liquidation Event\" (defined to include an \"Asset Transfer\" of all or substantially all assets) \"the assets of the Corporation legally available for distribution to stockholders shall be distributed\" pro rata to common holders, mandates a distribution after a controller-approved sale of substantially all assets, or merely governs equal treatment if and when the Board elects to distribute; and whether laches bars the claim.",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 19,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "After the Asset Sale, the Company announced and stated in its Information Statement",
+              "evidence": "The same day, the Company publicly announced that it had entered into the APA... “The Company does not intend to liquidate following the Closing.”",
+              "field": "key_facts_and_concessions",
+              "index": 2,
+              "opinion_says": "The non-liquidation statement was made in the July 22 announcement and the August 24 Information Statement, both before the September 22 closing.",
+              "problem": "The announcement and Information Statement came before the closing (July 22 and August 24), not after the Asset Sale.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "On the stipulated question, the Court held that the Asset Sale obligates the Company to distribute all legally available assets under Charter art. V, § 4. Section 4 unambiguously mandates distribution in a Liquidation Event: \"shall\" is mandatory, § 4 lacks § 2.1's board-discretion language, and Defendants' equal-treatment reading would make § 4 surplusage. Even if Defendants' reading were reasonable, contra proferentem would resolve the ambiguity against the corporation, so Plaintiff's reading controls either way. What assets are \"legally available for distribution\" is for the Board to determine in the first instance; the parties agree the NOLs are not distributable. Laches does not apply. Suing two days after closing was not unreasonable delay, because Plaintiff challenges the withholding of proceeds, not the sale. There was no prejudice, because the sale was locked up by Board and majority approval and the forbearance deadline, and Defendants were on notice of their own Charter. The opinion resolves the Cross-Motions on the stipulated issue in Plaintiff's favor. It does not separately state the grant or denial of each motion, address Count II, order relief, or set follow-up deadlines.",
+        "key_facts_and_concessions": [
+          "The parties stipulated that the Asset Sale is a sale of \"all or substantially all\" of the Company's assets under DGCL Section 271. It is therefore an \"Asset Transfer\" (Charter art. V, § 1.3) and a \"Liquidation Event\" (§ 1.10).",
+          "Charter art. V, § 4 states that legally available assets \"shall be distributed\" in a Liquidation Event. By contrast, § 2.1 entitles holders to dividends only \"when, as and if declared by the Board.\"",
+          "After the Asset Sale, the Company announced and stated in its Information Statement that it \"does not intend to liquidate.\" The Board would instead evaluate uses of the proceeds, including acquisitions \"without limitation as to industry\"; stockholders would not receive proceeds.",
+          "The Asset Sale to Progress Software Corporation was approved by the Board and by written consent of James and Cocolalla, LLC (75.7% of voting power through the Class A stock). That consent, delivered within one hour of signing, eliminated the Company's ability to terminate the APA.",
+          "The Company received about $221 million at the September 22, 2026 closing after debt repayment. It retained over $900 million of NOLs and no other material non-cash assets, and it is bound by a three-year non-compete (fn. 5).",
+          "The parties agree the NOLs are not available for distribution (fn. 6). Defendants acknowledged that net cash per share exceeds the trading price (fn. 4).",
+          "Timeline: announcement July 22, 2026; Information Statement August 24; closing September 22; suit filed September 24. The forbearance agreement required a definitive agreement by July 31, failing which the Company would likely need to file for bankruptcy.",
+          "Plaintiff moved only on Count I; Defendants moved on Counts I and II (fn. 1)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Companies whose charters define \"Liquidation Event\" to include asset transfers and say legally available assets \"shall be distributed\" should treat that clause as a mandatory payout. Before closing a sale meant to redeploy cash, they should amend the Charter, as the Court noted the Company could, rather than rely on board discretion. Stockholders challenging only the post-closing withholding of proceeds can wait until the sale closes and the proceeds are actually withheld without risking laches.",
+        "standard_of_review": "Ct. Ch. R. 56(a) summary judgment on cross-motions directed to a stipulated question (Dkt. 15). The Court noted that under Rule 56(i) it may deem cross-motions with no material factual dispute a stipulation for decision on the record, and that summary judgment suits an unambiguous contract. Unambiguous charter terms are given their plain meaning; any ambiguity in a charter is construed against the corporation (contra proferentem)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403290"
+    }
+  ],
+  "ny_date": "2026-11-10"
 }
