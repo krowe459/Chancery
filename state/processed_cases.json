@@ -1180,12 +1180,19 @@
       "name": "George Assad v. Carine S. Clark, et al.",
       "processed_at": "2026-11-10T10:51:25-05:00",
       "status": "ok"
+    },
+    "de-403300": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0647-CDW (NAC)",
+      "name": "Hugh Edmundson v. Theorem Technology, Inc.",
+      "processed_at": "2026-11-10T16:49:03-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-10T12:54:23-05:00",
+  "last_checked_ny": "2026-11-10T16:49:03-05:00",
   "page_hashes": {
-    "chancery": "cd66d5b7b9cd34df33bc676abf7413d548175cc73da551750f8566a71a0fd416",
+    "chancery": "4bed5420603df67aab7ef12072acfe929d20d34ae0f9101bee45bd4776249619",
     "superior": "011a12da50c9be3ca82cf75b242403b4f293a30b03b3f8583929d916cfea007a",
     "supreme": "5912764d37929a279cfc5d799dad8e5d45d25ff622585e0800c2ee991514e0f3"
   }
