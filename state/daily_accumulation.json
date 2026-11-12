@@ -144,6 +144,95 @@
         "standard_of_review": "Ct. Ch. R. 56 summary judgment (no genuine issue of material fact; movant entitled to judgment as a matter of law). The proponent of substantial compliance must prove by a preponderance of the evidence that (1) the account owner intended the change to take effect and (2) did all that was reasonably possible or necessary to effect it."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403340"
+    },
+    {
+      "case_id": "de-403350",
+      "court": "chancery",
+      "date": "2026-11-12",
+      "docket": "2024-0705-KSJM",
+      "judge": "McCormick, C.",
+      "name": "My Carrier, LLC v. Project 44, LLC",
+      "ny_date": "2026-11-12",
+      "ny_processed_at": "2026-11-12T11:10:09-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "MyCarrier's argument that it \"entirely prevailed\" at arbitration on the issues litigated before the Court, and that the Final Award \"confirmed\" that win and entitled it to fee shifting: rejected. The Court did not read the Final Award so narrowly; the all-or-nothing provision does not permit parsing, and the panel found that no party prevailed.",
+          "MyCarrier's argument that the Final Award \"can only be read as a stinging rebuke\" of Project 44's theory and conduct: rejected for the same reason, because the panel concluded that no party prevailed on the merits.",
+          "MyCarrier's earlier argument that this litigation should be treated as a separate proceeding for prevailing-party purposes: rejected in the Letter Decision and not revived. Substantial overlap still dictates evaluating the proceedings as a whole."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "MyCarrier, LLC v. Project 44, LLC, 2026 WL 191698 (Del. Ch. Jan. 21, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The prevailing-party provision is all-or-nothing, and because there is no clean delineation between this action and the arbitration, its binary nature cautions against awarding fees before the arbitration concludes.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Parties' prevailing-party fee-shifting provision",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "An all-or-nothing fee-shifting clause that does not call for parsing or allocating prevailing-party fees.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Arbitration panel's Final Award (Aug. 24, 2026)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Results were mixed, no party prevailed on the merits, each party bears its own fees and costs, and the Award did not distinguish this proceeding from the arbitration.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "L&W Ins., Inc. v. Harrington, 2007 WL 1756540 (Del. Ch. June 6, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through the Letter Decision for the point that the arbitrator is best positioned to award fees after a final ruling on the merits.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After the Court stayed MyCarrier, LLC's fee motion against Project 44, LLC pending arbitration of the parties' underlying dispute, the arbitration panel issued a mixed Final Award and directed each side to bear its own fees, and MyCarrier renewed its motion, arguing that it entirely prevailed on the issues litigated in Chancery. The Chancellor denied the motion by letter decision. The Chancellor held that the all-or-nothing prevailing-party clause does not permit parsing fees, that the substantial overlap between the proceedings requires assessing them as a whole, and that the panel's conclusion that no party prevailed, reached without distinguishing the two proceedings, left no basis to declare a prevailing party here.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 2
+        },
+        "core_legal_issue": "Whether MyCarrier, LLC was entitled to prevailing-party fees and costs for this Court of Chancery action under an all-or-nothing fee-shifting provision, where the action substantially overlapped with a related arbitration whose Final Award produced mixed results and directed each side to bear its own fees and costs.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 12,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "and not revived",
+              "evidence": "MyCarrier argued previously that this litigation should be treated as a separate proceeding... I held in the Letter Decision, however, that... no clean delineation",
+              "field": "arguments_rejected_or_waived",
+              "index": 2,
+              "opinion_says": "MyCarrier previously argued for separate treatment; the Court held otherwise in the Letter Decision and says the proceedings still substantially overlap and must be assessed as a whole.",
+              "problem": "The opinion does not say whether MyCarrier revived the argument; it only says it argued this 'previously'.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "MyCarrier's renewed motion for attorneys' fees and costs denied. Because the prevailing-party provision is all-or-nothing and this action substantially overlapped with the arbitration without clean delineation, the prevailing-party assessment evaluates the proceedings as a whole. The arbitration panel already concluded that no party prevailed on the merits and did not distinguish between this proceeding and the arbitration in doing so. Given the substantial overlap, the Court found no basis to declare a prevailing party in this action.",
+        "key_facts_and_concessions": [
+          "The arbitration panel's August 24, 2026 Final Award was mixed, with each party prevailing on some issues and losing on others; the panel concluded each party should bear its own fees and costs and denied both sides' fee requests.",
+          "The prevailing-party provision MyCarrier relies on is an all-or-nothing fee-shifting provision that does not call for parsing or allocating prevailing-party fees.",
+          "This proceeding and the arbitration substantially overlapped, with no clean delineation between them, as the Court had held in the Letter Decision.",
+          "The Final Award did not distinguish between this proceeding and the arbitration in concluding that no party prevailed on the merits.",
+          "MyCarrier acknowledged that the Final Award's results were \"mixed,\" but contended they were \"mixed only insofar as no monetary damages were awarded.\"",
+          "The Court's January 21, 2026 Letter Decision stayed MyCarrier's April 8, 2025 fee motion pending the arbitration, reasoning that the arbitrator would be best positioned to award fees after a final merits ruling; MyCarrier renewed the motion on September 4, 2026."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where an all-or-nothing prevailing-party clause governs a Chancery action that substantially overlaps a related arbitration, expect the Court to assess prevailing-party status across both proceedings as a whole. The Court will not carve out a win on the Chancery-litigated issues from an arbitral award that finds no party prevailed, so fee positions should be built around the overall arbitral outcome.",
+        "standard_of_review": "Not stated"
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403350"
     }
   ],
   "ny_date": "2026-11-12"
