@@ -1222,13 +1222,27 @@
       "name": "My Carrier, LLC v. Project 44, LLC",
       "processed_at": "2026-11-12T11:10:09-05:00",
       "status": "ok"
+    },
+    "de-403360": {
+      "court": "supreme",
+      "docket": "121, 2025",
+      "name": "Martin v. State",
+      "processed_at": "2026-11-12T16:54:56-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403370": {
+      "court": "chancery",
+      "docket": "C.A. No. 2023-0222-BWD",
+      "name": "Minnie Sarwal v. Nephrosant, Inc.",
+      "processed_at": "2026-11-12T16:54:56-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-12T12:59:10-05:00",
+  "last_checked_ny": "2026-11-12T16:54:56-05:00",
   "page_hashes": {
-    "chancery": "1b7175f819568154cca0e0ed3bbb3d97ccdbf87c2e54e2115df9bafb1067516c",
+    "chancery": "42f8cb8225fb7a756faa02fdfbec1557f5844b8ebe1201854fbc505e5038695b",
     "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
-    "supreme": "d72d0df42c05a038a1de13b2dfac5d3ca06ad90e4306d743af6d4e05e6b1af77"
+    "supreme": "24bd6229e11668fa67d4c3094cebaf7892098029f9f67a5f5cfa4062cde81538"
   }
 }
