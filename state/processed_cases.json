@@ -1201,12 +1201,19 @@
       "name": "Lapin v. White Collar Media LLC",
       "processed_at": "2026-11-10T18:31:42-05:00",
       "status": "out_of_scope"
+    },
+    "de-403340": {
+      "court": "chancery",
+      "docket": "C.A. No. 2025-1320-CDW",
+      "name": "IN RE TRUST UNDER AGREEMENT OF WILLIAM F. HARKINS & MARIE V. HARKINS DATED 12/3/2013, AS AMENDED",
+      "processed_at": "2026-11-12T09:25:00-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-10T18:31:42-05:00",
+  "last_checked_ny": "2026-11-12T09:25:00-05:00",
   "page_hashes": {
-    "chancery": "4bed5420603df67aab7ef12072acfe929d20d34ae0f9101bee45bd4776249619",
+    "chancery": "5a8b3853d982fa26c4498e788af880f1f69f5a993c9c41c94ea8e34bdc46a123",
     "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
     "supreme": "5912764d37929a279cfc5d799dad8e5d45d25ff622585e0800c2ee991514e0f3"
   }

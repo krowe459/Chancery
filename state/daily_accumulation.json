@@ -1,4 +1,150 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403340",
+      "court": "chancery",
+      "date": "2026-11-12",
+      "docket": "C.A. No. 2025-1320-CDW",
+      "judge": "Wright M.",
+      "name": "IN RE TRUST UNDER AGREEMENT OF WILLIAM F. HARKINS & MARIE V. HARKINS DATED 12/3/2013, AS AMENDED",
+      "ny_date": "2026-11-12",
+      "ny_processed_at": "2026-11-12T09:25:00-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Tom and Jaclyn's argument that Decedent would have named the special needs trusts on the form itself had he intended them to take: rejected as reading the form in isolation. The form expressly directed Fidelity to the attached letter, which unambiguously designated the Article 8-B trusts, and fn. 70 notes the language likely could not fit on the form.",
+          "Tom and Jaclyn's argument that the form names the Trust and Fidelity's records (naming the Trust without f/b/o language) control: rejected. The substantial compliance inquiry focuses on Decedent's intent and the steps Decedent took, not solely on how Fidelity recorded the designation, and Fidelity's omission does not negate those steps.",
+          "Tom and Jaclyn's argument that the instructions reflect Article 8, ¶ A, and that Article 8's opening equal-division sentence shows intent for the 4 Share Option: rejected. Reading the opening sentence in isolation obscures the distinct terms of ¶¶ A and B, and the letter unambiguously named \"Article 8-B.\"",
+          "Jaclyn's reliance on general trust-interpretation principles (the settlor's intent as expressed in the trust instrument): rejected. Under 12 Del. C. § 602(1), a beneficiary designation is a separate instrument from a trust, and Jaclyn did not address the separate form and letter."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Travelers Life & Annuity Co. v. Desiderio, 2007 WL 2019795 (Del. Ch. July 3, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Equity may give effect to an intended beneficiary change despite failure to comply strictly with formalities. The two-element substantial compliance test applies, and expressly instructing an agent to change a beneficiary is an affirmative step.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Blansfield v. Alumni Ass'n of Ariz. State Univ., 2015 WL 4600802 (Del. Ch. July 31, 2015)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The substantial compliance doctrine applies to IRA beneficiary designations and exists to effectuate a decedent's intent where strict enforcement may work an inequity. Contrasted in fn. 51, where summary judgment was denied because the decedent never signed or returned the form.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Greene v. Conn. Mut. Life Ins. Co., 1977 WL 5189 (Del. Ch. May 25, 1977)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the elements of substantial compliance. Strict compliance protects institutions from multiple payments and provides certainty about the proper beneficiary.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Emmert v. Prade, 711 A.2d 1217 (Del. Ch. 1997)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An unambiguous beneficiary designation expresses the owner's intent and controls.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "12 Del. C. § 602(1)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A beneficiary designation is an instrument or contract naming the beneficiary of specified property, distinct from an instrument creating a trust.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Trust Agreement art. 8 and art. 8, ¶¶ A-B",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Principal is divided equally, but ¶ A governs Kim's and Tom's shares and ¶ B holds Marie's and Ruth's shares in special needs trusts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Fidelity Beneficiary Form and Decedent's Instruction Letter (May 20, 2023)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Read together, these documents manifest Decedent's intent to direct 50% of the IRA to the Article 8-B special needs trusts.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Metro. Life Ins. Co. v. O'Donnell, 102 A. 163 (Del. 1917)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Recognizes the substantial compliance doctrine for life insurance beneficiary changes.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Peierls Family Inter Vivos Trs., 77 A.3d 249 (Del. 2013) (quoting Annan v. Wilm. Tr. Co., 559 A.2d 1289 (Del. 1989))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The settlor's intent controls trust interpretation. Cited in describing Jaclyn's argument, which the Court found did not reach the separate designation instruments.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 56",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Summary judgment standard.",
+            "role": "background"
+          },
+          {
+            "authority": "12 Del. C. § 3547",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Virtual representation in trust matters.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Jeremy Paradise Dynasty Tr., 2021 WL 5564086 (Del. Ch. Nov. 29, 2021) (citing Roos v. Roos, 203 A.2d 140 (Del. Ch. 1964))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Beneficiaries whose interests may be adversely affected are necessary parties to trust actions.",
+            "role": "background"
+          },
+          {
+            "authority": "10 Del. C. § 350; Ct. Ch. R. 144(b)(2), 144(d)(1), 144(g)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Govern Final Report status, the exceptions deadline and consent to final decision by a Magistrate.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Kim, as successor trustee and executor, petitioned for instructions on whether the 50% of Decedent's Fidelity IRA payable to the Trust should go to Marie's and Ruth's special needs trusts or be split equally among all four children. Tom and his daughter Jaclyn opposed, and Kim moved for summary judgment on undisputed facts. The Magistrate in Chancery held that Delaware's substantial compliance doctrine applies to IRA beneficiary designations and that Decedent's signed form, which expressly incorporated a letter naming the \"Article 8-B Trusts f/b/o\" Ruth and Marie, established both intent and the affirmative steps required. Fidelity's incomplete transcription did not change the result.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 11
+        },
+        "core_legal_issue": "Whether, under the substantial compliance doctrine, a decedent's Fidelity IRA beneficiary designation form (designating 50% to an \"Other Entity\" with \"SEE ATTACHED INSTRUCTIONS\") and the attached letter naming the \"Article 8-B Trusts f/b/o Ruth Anne Harkins and Marie J. Harkins\" effectively directed that 50% share to Marie's and Ruth's special needs trusts (the SNT Option), even though Fidelity recorded the beneficiary only as the Trust, which would otherwise require equal division among all four children (the 4 Share Option).",
+        "coverage_note": "",
+        "disposition": "recommended: granted",
+        "fact_check": {
+          "checked": 15,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Magistrate recommended that Kim's motion for summary judgment be granted and that Decedent's \"for the benefit of\" language be honored, so the 50% share passes to Marie's and Ruth's special needs trusts (the SNT Option). Both elements of substantial compliance were satisfied. First, the form and letter, read together, manifest Decedent's intent to direct that share to the Article 8-B trusts. Second, Decedent took affirmative steps: Decedent used Fidelity's prescribed form, followed its formatting instructions, signed, dated and returned it, and cross-referenced a letter identifying Marie, Ruth and the governing Trust provision. Fidelity apparently processed the letter even though it was not entirely in capitals, and no facts suggest incapacity or undue influence. Fidelity's failure to record the full designation does not negate Decedent's intent or steps. This is a Final Report under Rule 144(b)(2), and any notice of exceptions is due by November 23, 2026. The Court issued a Final Report rather than a Memorandum Opinion because not all interested parties joined the § 350/Rule 144(g) stipulation.",
+        "key_facts_and_concessions": [
+          "On May 20, 2023, Decedent signed and submitted Fidelity's beneficiary designation form designating 25% to Kim, 25% to Tom, and 50% to an \"Other Entity\" with \"SEE ATTACHED INSTRUCTIONS\" in the Name field, following the form's black-ink and capital-letter instructions.",
+          "The attached letter, also dated May 20, directed Fidelity to \"[p]lease [c]hange the third beneficiary to read\" the \"Revocable Trust of William F. Harkins and Marie V. Harkins, U/A 12/3/2013, as amended, Article 8-B Trusts f/b/o Ruth Anne Harkins and Marie J. Harkins.\" It addressed administration and distributions and invited Fidelity to contact Decedent with questions.",
+          "The parties do not dispute the contents of the form and letter, Fidelity's receipt of both, or Fidelity's incomplete transcription. Kim's April 20, 2026 letter stated the facts are not in dispute, only the application of law.",
+          "Fidelity's March 14, 2025 letter identified the third beneficiary as \"Rev Tru Of William Marie Harkins U/A 12/[sic].\" After the error was brought to its attention, Fidelity changed the name to the Trust's full name and date but omitted the \"for the benefit of\" language.",
+          "Trust Article 8 divides principal into equal shares for the children, but ¶ A governs Kim's and Tom's shares while ¶ B establishes special needs trusts for Marie and Ruth, of which Supportive Care Solutions, LLC is trustee.",
+          "Fidelity distributed 25% outright each to Kim and Tom and holds the remaining 50% for transfer to an Inherited IRA in the Trust's name. The IRA held about $437,798.63 at death, and the dispute is worth about $55,000 per child.",
+          "Fn. 70: the Court found it likely impossible to fit the letter's beneficiary language in the form's name field and could not do so using Fidelity's current online fillable form.",
+          "Fn. 73: Kim, Tom and Eric Merlino (as SNT trustee) stipulated to a final decision under 10 Del. C. § 350 and Rule 144(g), but Jaclyn and the three Rizzo interested parties did not. Because it was unclear the requirements were met, the Court issued a Final Report rather than a Memorandum Opinion."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where a custodian mistranscribes a beneficiary designation, a petition invoking substantial compliance can succeed on summary judgment if the owner's signed form expressly incorporates written instructions that unambiguously name the intended beneficiary and identify the governing trust provision. Petitioners seeking a final Magistrate decision should have all potentially adversely affected interested parties join the § 350/Rule 144(g) stipulation.",
+        "standard_of_review": "Ct. Ch. R. 56 summary judgment (no genuine issue of material fact; movant entitled to judgment as a matter of law). The proponent of substantial compliance must prove by a preponderance of the evidence that (1) the account owner intended the change to take effect and (2) did all that was reasonably possible or necessary to effect it."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403340"
+    }
+  ],
+  "ny_date": "2026-11-12"
 }
