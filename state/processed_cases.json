@@ -1174,6 +1174,13 @@
       "processed_at": "2026-11-09T18:26:15-05:00",
       "status": "out_of_scope"
     },
+    "de-403280": {
+      "court": "supreme",
+      "docket": "377, 2026",
+      "name": "Barnett II v. State",
+      "processed_at": "2026-11-12T12:59:10-05:00",
+      "status": "out_of_scope"
+    },
     "de-403290": {
       "court": "chancery",
       "docket": "C.A. No. 2026-1264-BWD",
@@ -1218,10 +1225,10 @@
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-12T11:10:09-05:00",
+  "last_checked_ny": "2026-11-12T12:59:10-05:00",
   "page_hashes": {
     "chancery": "1b7175f819568154cca0e0ed3bbb3d97ccdbf87c2e54e2115df9bafb1067516c",
     "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
-    "supreme": "5912764d37929a279cfc5d799dad8e5d45d25ff622585e0800c2ee991514e0f3"
+    "supreme": "d72d0df42c05a038a1de13b2dfac5d3ca06ad90e4306d743af6d4e05e6b1af77"
   }
 }
