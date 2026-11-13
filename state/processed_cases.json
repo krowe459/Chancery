@@ -1236,12 +1236,19 @@
       "name": "Minnie Sarwal v. Nephrosant, Inc.",
       "processed_at": "2026-11-12T16:54:56-05:00",
       "status": "ok"
+    },
+    "de-403380": {
+      "court": "chancery",
+      "docket": "C.A. No. 2020-0373-BWD",
+      "name": "Holmwood Capital Advisors, LLC, and Holmwood Capital, LLC v. HC Government Realty Holdings, L.P., et al.",
+      "processed_at": "2026-11-13T12:57:05-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-12T16:54:56-05:00",
+  "last_checked_ny": "2026-11-13T12:57:05-05:00",
   "page_hashes": {
-    "chancery": "42f8cb8225fb7a756faa02fdfbec1557f5844b8ebe1201854fbc505e5038695b",
+    "chancery": "ede7a04381a67dea5794c04832200ee9226b9ab302cfef392f4d5cb9c12601ae",
     "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
     "supreme": "24bd6229e11668fa67d4c3094cebaf7892098029f9f67a5f5cfa4062cde81538"
   }
