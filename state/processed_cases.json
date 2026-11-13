@@ -1243,13 +1243,34 @@
       "name": "Holmwood Capital Advisors, LLC, and Holmwood Capital, LLC v. HC Government Realty Holdings, L.P., et al.",
       "processed_at": "2026-11-13T12:57:05-05:00",
       "status": "ok"
+    },
+    "de-403390": {
+      "court": "superior",
+      "docket": "N22C-07-166 ASB",
+      "name": "Snavely, et al v. RCH Newco II, LLC, et al.",
+      "processed_at": "2026-11-13T15:00:31-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403400": {
+      "court": "superior",
+      "docket": "N26C-08-289 FJJ",
+      "name": "King, et al. v. Pabian Ventures, et al.",
+      "processed_at": "2026-11-13T15:00:31-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403410": {
+      "court": "superior",
+      "docket": "1201018253; 120200640; 1402013417",
+      "name": "State v. Yarborough",
+      "processed_at": "2026-11-13T15:00:31-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-13T12:57:05-05:00",
+  "last_checked_ny": "2026-11-13T15:00:31-05:00",
   "page_hashes": {
     "chancery": "ede7a04381a67dea5794c04832200ee9226b9ab302cfef392f4d5cb9c12601ae",
-    "superior": "4cf0363b1a815273090938257fa9ab0bf5c48eceed60a063cbe3e2d23c0d44ac",
+    "superior": "b875812dc4368cbcd767195bfc5739cb53c05da1e6e03ec33f13e98ab6e7c1ba",
     "supreme": "24bd6229e11668fa67d4c3094cebaf7892098029f9f67a5f5cfa4062cde81538"
   }
 }
