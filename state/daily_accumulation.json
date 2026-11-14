@@ -227,6 +227,186 @@
         "standard_of_review": "Post-trial; each claimant and counterclaimant had to prove every element, including damages, by a preponderance of the evidence. Contracts were read under Delaware's objective theory and plain meaning. Ambiguous provisions (held ambiguous on summary judgment) were construed by contra proferentem rather than by extrinsic evidence."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403380"
+    },
+    {
+      "case_id": "de-403420",
+      "court": "chancery",
+      "date": "2026-11-13",
+      "docket": "2025-0426-CDW",
+      "judge": "Will V.C.",
+      "name": "Kevin Leiske, et al. v. Robert Gregory Kidd, et al.",
+      "ny_date": "2026-11-13",
+      "ny_processed_at": "2026-11-13T19:59:32-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Rollo's January 29 contention that defendants' counsel should have met and conferred before raising the GenAI errors with the Court: rejected. It misstates the purpose of the meet-and-confer requirement; there is nothing to negotiate when false citations or fabricated quotations are presented to a tribunal, and opposing counsel was fully justified in going directly to the Court.",
+          "Rollo's insistence that the cited authorities \"are real\" and \"support the arguments advanced\": rejected. Real cases and propositions arguably consistent with general law do not excuse fabricated quotations or mischaracterized holdings. Once errors are detected, counsel must review the authorities and correct them; removing quotation marks while leaving a fabricated legal synthesis in place is not enough.",
+          "Rollo's January 28 attribution of the errors to a paralegal's cite-check oversight: rejected. The Rule 11 inquiry and the duty of candor are personal and nondelegable, so a signing senior attorney cannot disclaim responsibility for unverified GenAI output. Rollo later disavowed blaming others.",
+          "Defendants' August 4, 2026 request (letter from M. DiBianca) for leave to present billing records and information about plaintiffs' counsel's time records: denied (fn. 36). Fees are unavailable under Rule 11(c)(4) because the inquiry was initiated sua sponte rather than on motion. The Court credited the sworn affidavits, so probing billing discrepancies would serve no useful purpose."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 11(b)(2)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A signer certifies after reasonable inquiry that legal contentions are warranted by existing law; presenting unverified GenAI output, including fake quotations or fabricated legal synthesis, violates the rule.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 11(c)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A firm must be held jointly responsible for its lawyers' violations absent exceptional circumstances; the Court may sanction any attorney who violated Rule 11(b) or is responsible for the violation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 11(c)(4)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "A sanction must be limited to what suffices to deter; attorneys' fees are unavailable in a sua sponte Rule 11 proceeding.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. Lawyers' Rules of Prof. Conduct R. 5.1(a)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Firm leadership must make reasonable efforts to have measures giving reasonable assurance of compliance; used as guidance on whether to relieve a firm of joint Rule 11 responsibility.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "ABA Comm. on Ethics & Prof. Resp., Formal Op. 512 (2024)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Managerial lawyers should set clear GenAI policies and supervisory lawyers should ensure compliance; a lawyer may not delegate professional judgment to GenAI and must verify work product before filing.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson v. Dunn, 792 F. Supp. 3d 1241 (N.D. Ala. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A firm that warned of hallucination risks and required verification is not sanctioned for a partner's GenAI misuse; no sanctions discount because real authorities support the bogus citations' propositions; sanctions aim at deterrence and vindicating judicial authority.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Mata v. Avianca, Inc., 678 F. Supp. 3d 443 (S.D.N.Y. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A fake opinion is not \"existing law\"; Rule 11 obligations continue when later advocating a filing; a fine serves deterrence rather than punishment or compensation; fees are unavailable sua sponte; additional mandatory CLE is redundant where training already exists.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hill v. Workday, Inc., 2026 WL 1146289 (N.D. Cal. Apr. 28, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No separate sanctions hearing is needed when counsel can respond in writing; the duty to check filings is nondelegable to other attorneys or technology; upon detection counsel must personally review and correct; a sanctioned partner must pay personally.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Lexos Media IP, LLC v. Overstock.com, Inc., 2026 WL 265581 (D. Kan. Feb. 2, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fabricated quotations attributed to real cases and misstated law violate Rule 11(b); the reasonable-inquiry duty is nondelegable; downplaying errors as mostly human-drafted is rejected.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Pavelic & LeFlore v. Marvel Ent. Grp., 493 U.S. 120 (1989)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 11 brings home to the individual signer a personal, nondelegable responsibility.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Del. Lawyers' Rules of Prof. Conduct R. 3.3(a)(1), 5.3",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Rule 11's certification reinforces the duty of candor to the tribunal and the duty to supervise nonlawyer assistants.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Gill v. Everyday Dose, Inc., 2026 WL 3390881 (D. Del. Nov. 9, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Comparator for the monetary penalty: $3,000 fines on attorneys who submitted AI-hallucinated authorities and deflected responsibility.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Kenney, 422 So. 3d 905 (La. Ct. App. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sanctions affirmed where counsel relied on paralegals and did not independently verify AI-generated authorities.",
+            "role": "background"
+          },
+          {
+            "authority": "Noland v. Land of the Free, L.P., 336 Cal. Rptr. 3d 897 (Ct. App. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No filing should contain citations the responsible attorney has not personally read and verified.",
+            "role": "background"
+          },
+          {
+            "authority": "Crumplar v. Superior Ct. ex rel. New Castle Cnty., 56 A.3d 1000 (Del. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An attorney's signature is a certification to the tribunal.",
+            "role": "background"
+          },
+          {
+            "authority": "Cooter & Gell v. Hartmarx Corp., 496 U.S. 384 (1990)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Deterrence is Rule 11's central purpose.",
+            "role": "background"
+          },
+          {
+            "authority": "Jimenez-Fogarty v. Fogarty, 831 F. Supp. 3d 253 (S.D.N.Y. 2026); Wadsworth v. Walmart Inc., 348 F.R.D. 489 (D. Wyo. 2025); Mattox v. Prod. Innovations Rsch., LLC, 807 F. Supp. 3d 1341 (E.D. Okla. 2025); Benjamin v. Costco Wholesale Corp., 779 F. Supp. 3d 341 (E.D.N.Y. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Range of monetary penalties ($1,000 to $3,000) in comparable GenAI and Rule 11 proceedings.",
+            "role": "background"
+          },
+          {
+            "authority": "Wilson v. Kipp Texas, Inc., 2025 WL 3030444 (N.D. Tex. Oct. 29, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "GenAI fabricates plausible verbatim quotations.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After the merits of an advancement dispute were resolved, Vice Chancellor Will issued a sua sponte Order to Show Cause to plaintiffs' signing counsel, Richard Rollo, and his firm, RLF, over an answering brief containing GenAI-fabricated quotations and mischaracterized authorities. The corrected version of that brief stripped the quotation marks but kept the inaccurate case descriptions. The Court held that RLF's pre-existing GenAI policy, verification requirements and training were exceptional circumstances excusing the firm from joint responsibility. It held that Rollo violated Rule 11(b)(2) because the reasonable-inquiry duty is nondelegable, real cases and arguably correct propositions do not excuse fabricated quotations or holdings, and opposing counsel need not meet and confer before reporting fabrications. Rollo was fined $2,500, payable personally.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 17
+        },
+        "core_legal_issue": "Whether Court of Chancery Rule 11 sanctions should issue, on a sua sponte Order to Show Cause, against the partner who signed an answering brief containing GenAI-fabricated quotations and mischaracterized authorities, and against his firm, Richards, Layton & Finger, P.A. (\"RLF\"); and whether RLF's GenAI policies and training were \"exceptional circumstances\" relieving it of joint responsibility under Rule 11(c)(1).",
+        "coverage_note": "",
+        "disposition": "other",
+        "fact_check": {
+          "checked": 15,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "RLF is released from the proceeding without sanction. The Court found that RLF showed exceptional circumstances under Rule 11(c)(1): its pre-filing ban on unapproved tools, its GenAI working group, its Board-adopted verification policy and its accredited mandatory training were reasonable efforts to prevent GenAI misuse, so it should not be sanctioned for an individual lawyer bypassing those controls. Rollo violated Rule 11(b)(2). He introduced unverified GenAI output into the brief, relied on others for cite-checking although the inquiry duty is personal and nondelegable, and, after the errors were flagged, removed quotation marks while leaving mischaracterized holdings in place. The Court treated his initial blame-shifting and retained mischaracterizations as aggravating. It weighed against them his sworn acceptance of full responsibility, his sincere contrition and his distinguished practice before the Court. Additional mandatory CLE would be redundant given his completed GenAI ethics CLE and his training role. Citing the range of fines in similar sua sponte proceedings, the Court fined Rollo $2,500 under Rule 11. Because the verification duty is nondelegable, he must pay it personally to the Court within 14 days and file an affidavit confirming payment. Defendants' request to present billing records was denied (fn. 36) because fees are unavailable in a sua sponte Rule 11 proceeding. The matter was resolved on the papers without an evidentiary hearing.",
+        "key_facts_and_concessions": [
+          "Plaintiffs' lead counsel, Richard Rollo, Esq., signed the January 22, 2026 answering brief opposing exceptions to a Magistrate in Chancery's final report on advancement. Defendants' reply identified fabricated quotations, inaccurate citations, and hallucinated legal propositions in it.",
+          "As Chair of RLF's AI Subcommittee, Rollo was leading a pilot evaluation of Perplexity Enterprise, a tool not approved for general firm use. He used it to help draft and condense arguments, which introduced fabricated quotations, flawed citations, and a mischaracterized case holding.",
+          "Rollo delegated cite-checking to a junior attorney and a paralegal. He filed the brief without personally verifying the authorities or checking the citations and quotations after that review.",
+          "Rollo's January 28 letter attributed the errors to an oversight in a paralegal's cite-check. The corrected brief he filed removed the quotation marks around the nonexistent quotes but retained the inaccurate descriptions of the underlying cases.",
+          "Rollo's January 29 letter faulted defendants' counsel for not meeting and conferring before alerting the Court, and insisted the cited authorities \"are real\" and \"support the arguments advanced.\"",
+          "RLF's safeguards were in place before the brief was filed: it barred unapproved GenAI tools in March 2023 and formed a GenAI working group in 2024. Its Board adopted a GenAI policy in July 2025 requiring an experienced lawyer to review GenAI output. Its CLE-accredited ethics training on GenAI had been completed by over 200 RLF employees by January 2026.",
+          "In his affidavit, Rollo acknowledged the Rule 11 violation under oath, accepted full responsibility, disavowed any suggestion that others were to blame, and expressed sincere contrition. He has completed multiple CLE courses on GenAI ethics and leads internal training efforts.",
+          "On February 2, 2026, the Court overruled the exceptions and affirmed the Magistrate's final report on the merits, retaining jurisdiction over the GenAI errors. It entered the Order to Show Cause on July 1, 2026 under Rule 11(c) and its inherent authority."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "The signing attorney must personally confirm that every quotation and characterization drawn from GenAI-assisted drafting matches the actual authority. Once errors are flagged, rewrite or withdraw every inaccurate proposition rather than merely stripping quotation marks, and do not deflect blame to cite-checkers or opposing counsel. A firm can avoid joint Rule 11 responsibility by having a written GenAI policy requiring lawyer verification, together with enforced training, in place before the filing.",
+        "standard_of_review": "Ct. Ch. R. 11(b)(2) (legal contentions must be warranted by existing law after an inquiry reasonable under the circumstances); Ct. Ch. R. 11(c)(1) (firm jointly responsible absent exceptional circumstances); Ct. Ch. R. 11(c)(4) (sanction limited to what suffices to deter). Decided on the affidavits without a separate evidentiary hearing."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403420"
     }
   ],
   "ny_date": "2026-11-13"

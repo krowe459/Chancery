@@ -1264,12 +1264,19 @@
       "name": "State v. Yarborough",
       "processed_at": "2026-11-13T15:00:31-05:00",
       "status": "out_of_scope"
+    },
+    "de-403420": {
+      "court": "chancery",
+      "docket": "2025-0426-CDW",
+      "name": "Kevin Leiske, et al. v. Robert Gregory Kidd, et al.",
+      "processed_at": "2026-11-13T19:59:32-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-13T15:00:31-05:00",
+  "last_checked_ny": "2026-11-13T19:59:32-05:00",
   "page_hashes": {
-    "chancery": "ede7a04381a67dea5794c04832200ee9226b9ab302cfef392f4d5cb9c12601ae",
+    "chancery": "eb7b68ffec8abe779a7f65eac466dbf22c0dd7a30db9bb2434305cd0662a278d",
     "superior": "b875812dc4368cbcd767195bfc5739cb53c05da1e6e03ec33f13e98ab6e7c1ba",
     "supreme": "24bd6229e11668fa67d4c3094cebaf7892098029f9f67a5f5cfa4062cde81538"
   }
