@@ -1271,13 +1271,34 @@
       "name": "Kevin Leiske, et al. v. Robert Gregory Kidd, et al.",
       "processed_at": "2026-11-13T19:59:32-05:00",
       "status": "ok"
+    },
+    "de-403430": {
+      "date": "2026-11-11",
+      "docket": "C.A. No. 2025-0404-JTL",
+      "name": "DBMP LLC, et al. v. Delaware Claims Processing Facility, LLC, et al.",
+      "processed_at": "2026-11-16T16:01:28-05:00",
+      "status": "skipped_old"
+    },
+    "de-403440": {
+      "date": "2026-11-10",
+      "docket": "1007020527",
+      "name": "State v. Walker",
+      "processed_at": "2026-11-16T16:01:28-05:00",
+      "status": "skipped_old"
+    },
+    "de-403450": {
+      "court": "supreme",
+      "docket": "217, 2026",
+      "name": "StarTop Investments, LLC vs. NICbyte LLC, et al. and Wishon Row, LLC, et al.",
+      "processed_at": "2026-11-16T16:01:28-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-13T19:59:32-05:00",
+  "last_checked_ny": "2026-11-16T16:01:28-05:00",
   "page_hashes": {
-    "chancery": "eb7b68ffec8abe779a7f65eac466dbf22c0dd7a30db9bb2434305cd0662a278d",
-    "superior": "b875812dc4368cbcd767195bfc5739cb53c05da1e6e03ec33f13e98ab6e7c1ba",
-    "supreme": "24bd6229e11668fa67d4c3094cebaf7892098029f9f67a5f5cfa4062cde81538"
+    "chancery": "a809d71af453f80b8141c3d4876dc7d82922091e6face5560957c86ffdea8161",
+    "superior": "e2961605eb7d78cef28be245e149be06837c9208fb549498135aa68dbacf5c97",
+    "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
   }
 }
