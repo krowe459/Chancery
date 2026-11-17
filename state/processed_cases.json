@@ -1313,12 +1313,19 @@
       "name": "State v. Horsey",
       "processed_at": "2026-11-16T22:51:59-05:00",
       "status": "out_of_scope"
+    },
+    "de-403500": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0228-JTL",
+      "name": "Glazer Enhanced Fund, L.P., et al. v. Integral Ad Science Holding Corp.",
+      "processed_at": "2026-11-17T14:50:49-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-16T22:51:59-05:00",
+  "last_checked_ny": "2026-11-17T14:50:49-05:00",
   "page_hashes": {
-    "chancery": "a809d71af453f80b8141c3d4876dc7d82922091e6face5560957c86ffdea8161",
+    "chancery": "b2ef7da1f6bb2f3d74e84fa1d16baae1f939a8c5716b57cd41f5d9100de4ff4a",
     "superior": "edd2322c76d7b59249eafad94d65e16a468725930793d0afa14beeca617e1bd5",
     "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
   }
