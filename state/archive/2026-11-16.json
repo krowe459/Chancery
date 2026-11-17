@@ -1,0 +1,66 @@
+{
+  "entries": [
+    {
+      "case_id": "de-403450",
+      "court": "supreme",
+      "date": "2026-11-16",
+      "docket": "217, 2026",
+      "judge": "Traynor J.",
+      "name": "StarTop Investments, LLC vs. NICbyte LLC, et al. and Wishon Row, LLC, et al.",
+      "ny_date": "2026-11-16",
+      "ny_processed_at": "2026-11-16T16:01:28-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [],
+        "authorities_cited": [
+          {
+            "authority": "Nicbyte LLC v. Startop Invs., 2026 WL 948519 (Del. Ch. Apr. 8, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery's post-trial memorandum opinion, whose reasons the Supreme Court adopted as the basis for affirmance.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Court of Chancery transcript ruling of February 19, 2025 (App. to Opening Br. at A1199–1241)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Earlier bench ruling whose reasons the Supreme Court also adopted as a basis for affirmance.",
+            "role": "relied_on"
+          }
+        ],
+        "brief_summary": "StarTop Investments, LLC, defendant and counterclaim plaintiff below, appealed the Court of Chancery's judgment in C.A. No. 2023-0637 for NICbyte LLC and affiliated entities. That judgment rested on an April 8, 2026 Post-Trial Memorandum Opinion and a February 19, 2025 transcript ruling; the order does not name the trial judge. After briefing and oral argument, the Supreme Court, en banc, affirmed by order on the basis of and for the reasons stated in those two rulings.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 1
+        },
+        "core_legal_issue": "Whether the Court of Chancery's judgment in C.A. No. 2023-0637, resting on its April 8, 2026 Post-Trial Memorandum Opinion and February 19, 2025 transcript ruling, should be affirmed on StarTop Investments, LLC's appeal. The order does not identify the issues raised on appeal.",
+        "coverage_note": "",
+        "disposition": "affirmed",
+        "fact_check": {
+          "checked": 9,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The judgment of the Court of Chancery is affirmed. The Supreme Court, en banc, adopted the reasons stated in the Court of Chancery's April 8, 2026 Post-Trial Memorandum Opinion and February 19, 2025 transcript ruling without independent analysis. The order does not describe the claims, the issues on appeal or the rulings below.",
+        "key_facts_and_concessions": [
+          "The Supreme Court, sitting en banc, affirmed \"on the basis of and for the reasons stated in\" the Court of Chancery's April 8, 2026 Post-Trial Memorandum Opinion, Nicbyte LLC v. Startop Invs., 2026 WL 948519 (Del. Ch. Apr. 8, 2026).",
+          "The affirmance also rests on the Court of Chancery's February 19, 2025 transcript ruling (App. to Opening Br. at A1199–1241).",
+          "Appellant StarTop Investments, LLC, a Wyoming LLC, was defendant and counterclaim plaintiff below.",
+          "Appellees NICbyte LLC, NIC Wise RE LLC, 1701 18th Street, LLC, 1715 18th Street, LLC, 1723 18th Street, LLC and 747 R Street, LLC were plaintiffs and counterclaim defendants below.",
+          "Wishon Row, LLC, BW Industries Inc. and Bitwise Industries, Inc. are captioned as \"Defendants Below\" and are not designated appellees.",
+          "The appeal was decided after briefing and oral argument. It was submitted November 4, 2026 and decided November 16, 2026."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Because the Supreme Court affirmed expressly on the Court of Chancery's reasoning, both the April 8, 2026 post-trial opinion (2026 WL 948519) and the February 19, 2025 transcript ruling now carry appellate endorsement. Cite and analyze those rulings directly, since the order itself supplies no independent reasoning.",
+        "standard_of_review": "Not stated."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403450"
+    }
+  ],
+  "ny_date": "2026-11-16"
+}
