@@ -1292,13 +1292,34 @@
       "name": "StarTop Investments, LLC vs. NICbyte LLC, et al. and Wishon Row, LLC, et al.",
       "processed_at": "2026-11-16T16:01:28-05:00",
       "status": "ok"
+    },
+    "de-403460": {
+      "court": "superior",
+      "docket": "N22C-11-145 SKR",
+      "name": "LG Electronics Inc. v. Invention Investment Fund I, L.P., et al",
+      "processed_at": "2026-11-16T22:51:59-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403470": {
+      "court": "superior",
+      "docket": "2508010938",
+      "name": "State v. Hicks",
+      "processed_at": "2026-11-16T22:51:59-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403480": {
+      "court": "superior",
+      "docket": "2402004666, 2405010706",
+      "name": "State v. Horsey",
+      "processed_at": "2026-11-16T22:51:59-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-16T16:01:28-05:00",
+  "last_checked_ny": "2026-11-16T22:51:59-05:00",
   "page_hashes": {
     "chancery": "a809d71af453f80b8141c3d4876dc7d82922091e6face5560957c86ffdea8161",
-    "superior": "e2961605eb7d78cef28be245e149be06837c9208fb549498135aa68dbacf5c97",
+    "superior": "edd2322c76d7b59249eafad94d65e16a468725930793d0afa14beeca617e1bd5",
     "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
   }
 }
