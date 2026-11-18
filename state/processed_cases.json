@@ -1320,13 +1320,48 @@
       "name": "Glazer Enhanced Fund, L.P., et al. v. Integral Ad Science Holding Corp.",
       "processed_at": "2026-11-17T14:50:49-05:00",
       "status": "ok"
+    },
+    "de-403510": {
+      "court": "superior",
+      "docket": "2510004337A",
+      "name": "State v. Roy",
+      "processed_at": "2026-11-17T21:53:48-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403520": {
+      "court": "superior",
+      "docket": "N26J-01514",
+      "name": "Spectrum Medical Partners Holdings, Inc. v. Krishnan Nagda",
+      "processed_at": "2026-11-17T21:53:48-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403530": {
+      "court": "superior",
+      "docket": "2606002385",
+      "name": "State v. Rose",
+      "processed_at": "2026-11-17T21:53:48-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403540": {
+      "court": "superior",
+      "docket": "S26C-02-037 MHC",
+      "name": "Bachman v. Murphy",
+      "processed_at": "2026-11-17T21:53:48-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403550": {
+      "court": "superior",
+      "docket": "S23C-04-022 RHR",
+      "name": "Chappell v. Association of Owners for Ocean View Condominium, et al.",
+      "processed_at": "2026-11-17T21:53:48-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-17T14:50:49-05:00",
+  "last_checked_ny": "2026-11-17T21:53:48-05:00",
   "page_hashes": {
     "chancery": "b2ef7da1f6bb2f3d74e84fa1d16baae1f939a8c5716b57cd41f5d9100de4ff4a",
-    "superior": "edd2322c76d7b59249eafad94d65e16a468725930793d0afa14beeca617e1bd5",
+    "superior": "388bb9c3f71e15a0503c4f7217b25ec1904039329568ae8eda1de88fd58f77ed",
     "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
   }
 }
