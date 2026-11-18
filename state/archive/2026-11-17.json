@@ -1,0 +1,230 @@
+{
+  "entries": [
+    {
+      "case_id": "de-403500",
+      "court": "chancery",
+      "date": "2026-11-17",
+      "docket": "C.A. No. 2026-0228-JTL",
+      "judge": "Laster V.C.",
+      "name": "Glazer Enhanced Fund, L.P., et al. v. Integral Ad Science Holding Corp.",
+      "ny_date": "2026-11-17",
+      "ny_processed_at": "2026-11-17T14:50:49-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Company's argument, relying on Technicolor, that Count II must be dismissed because a plenary claim cannot be joined with an appraisal claim in one pleading: rejected as \"overly technical.\" Technicolor reviewed denial of leave to amend for abuse of discretion, so the Court has discretion to allow a single pleading, and nearly forty years of experience show no practical difference from separate filings later consolidated.",
+          "Company's attempt to distinguish Nagy as a fiduciary duty case rather than an interest claim: rejected. An interest claim is if anything better suited to joinder, because interest calculations have long been part of appraisal proceedings and the court hearing the appraisal should resolve disputes over interest on withdrawn shares.",
+          "Company's argument that the Funds failed to expressly plead unjust enrichment or breach of contract: rejected. Delaware's notice-pleading regime rejects the \"theory of the pleadings,\" and the petition put the Company on notice that the Funds sought interest.",
+          "Funds' claim to statutory interest under Section 262: rejected. Sections 262(e) and (k) entitle a withdrawing holder only to the \"terms offered upon the merger\" and say nothing of interest, and the Court may not engraft interest onto a silent statute (Meade).",
+          "Funds' argument that because the appraisal right \"shall cease\" on withdrawal under § 262(k), payment was immediately due and delay requires interest (by analogy to § 203(b)(5)): rejected. The right to appraisal ceases immediately, but it does not follow that payment is due immediately; the statute, dating to eras when immediate payment was impossible, contemplates reasonably prompt payment.",
+          "Funds' unjust enrichment theory: rejected. Unlike Mehta and Chertok, the Company imposed no improper conditions and did not hold the funds for an extended period. Any impoverishment was justified by the need to clarify the discrepancy and to fund the payment through a capital call.",
+          "Funds' breach of contract theory (an implied reasonable-time term in the charter or the Merger Agreement): rejected. Assuming such a term exists, it is not reasonably conceivable that the Company delayed unreasonably.",
+          "Funds' request for all expenses, including attorneys' fees: rejected. Under the American Rule, § 262(j) taxable costs exclude attorneys' fees, the pro rata expense provision does not shift fees to the surviving corporation, and the Funds offered no evidence of bad faith."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "8 Del. C. § 262(e), (k)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A withdrawing holder accepts the \"terms offered upon the merger\" and the appraisal right \"shall cease\"; neither subsection mentions interest or an accrual date, rate or compounding method.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Merger Agreement §§ 2.7(a)(ii), 2.7(c)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Withdrawn shares are treated as converted at the Effective Time into the right to receive $10.30 per share without interest.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 262(h)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Interest is provided for as part of a fair value award, including the statutory rate and prepayment mechanics, in contrast to the silence on withdrawn shares.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Meade v. Pac. Gamble Robinson Co., 58 A.2d 415 (Del. 1948)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Where the appraisal statute makes no mention of interest, the judiciary cannot award it.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nagy v. Bistricer, 770 A.2d 43 (Del. Ch. 2000)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A single complaint may combine appraisal and plenary claims; requiring separate pleadings disserves efficiency without justification.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Cede & Co. v. Technicolor, Inc., 542 A.2d 1182 (Del. 1988)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Review of denial of leave to amend an appraisal petition for abuse of discretion shows the Court of Chancery has discretion to permit joinder; the Court found its rationale for denying amendment no longer makes sense.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Mehta v. Smurfit-Stone Container Corp., 2014 WL 5438534 (Del. Ch. Oct. 20, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Interest was awarded on an unjust enrichment theory where the company withheld merger consideration for years and conditioned withdrawal on a settlement.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Chertok v. OnSolve LLC, 2021 WL 1714938 (Del. Ch. Apr. 29, 2021); 2026 WL 986602 (Del. Ch. Apr. 13, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An unjust enrichment claim was stated, and judgment with prejudgment interest entered, where the company unlawfully conditioned payment on a broad release.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Garfield v. Allen, 277 A.3d 296 (Del. Ch. 2022); State v. Monsanto Co., 299 A.3d 372 (Del. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Unjust enrichment requires an unjustified benefit connected to invasion of the plaintiff's rights; impoverishment is not strictly required, and Monsanto abrogated Nemec's statement of the elements.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Comet Sys., Inc. S'holders' Agent v. MIVA, Inc., 980 A.2d 1024 (Del. Ch. 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Every contract implies a duty to perform with reasonable expediency; a stockholder recovers interest by showing payment was unreasonably withheld after the right to it vested.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "HOMF II Inv. Corp. v. Altenberg, 2020 WL 2529806 (Del. Ch. May 19, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delaware notice pleading rejects the \"theory of the pleadings\" doctrine.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 262(j)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Costs may be taxed equitably, and expenses may be charged pro rata against shares entitled to appraisal; neither shifts attorneys' fees to the surviving corporation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Appraisal of Shell Oil Co., 1992 WL 321250 (Del. Ch. Oct. 30, 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The § 262(j) pro rata expense provision does not contemplate fee shifting against the surviving corporation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Cellular Tel. P'ship Litig., 2022 WL 698112 (Del. Ch. Mar. 9, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The bad-faith exception to the American Rule applies only in extraordinary circumstances on clear evidence.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 203(b)(5)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "The Funds' analogy to an interested stockholder's immediate freedom after divestiture did not establish a right to immediate payment.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Martin v. Star Publ'g Co., 126 A.2d 238 (Del. 1956)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Where no time for performance is fixed, a reasonable time is implied.",
+            "role": "background"
+          },
+          {
+            "authority": "Scion Breckenridge Managing Member, LLC v. ASB Allegiance Real Estate Fund, 68 A.3d 665 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Taxable costs do not include attorneys' fees.",
+            "role": "background"
+          },
+          {
+            "authority": "Montgomery Cellular Hldg. Co. v. Dobler, 880 A.2d 206 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "American Rule.",
+            "role": "background"
+          },
+          {
+            "authority": "Harris v. Harris FRC Corp., 2021 WL 57021 (Del. Ch. Jan. 7, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Leave was granted to amend an appraisal petition to assert plenary claims.",
+            "role": "background"
+          },
+          {
+            "authority": "Ala. By-Prods. Corp. v. Neal, 588 A.2d 255 (Del. 1991)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Evidence of fiduciary breaches is relevant to credibility of valuation contentions in appraisal.",
+            "role": "background"
+          },
+          {
+            "authority": "Dell, Inc. v. Magnetar Global Event Driven Master Fund Ltd., 177 A.3d 1 (Del. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Post-Dell appraisals often focus on sale process.",
+            "role": "background"
+          },
+          {
+            "authority": "Fed. United Corp. v. Havender, 11 A.2d 331 (Del. 1940); Boilermakers Local 154 Ret. Fund v. Chevron Corp., 73 A.3d 934 (Del. Ch. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The charter is a contract into which DGCL provisions are written.",
+            "role": "background"
+          },
+          {
+            "authority": "Taylor v. Am. Specialty Retailing Gp., Inc., 2003 WL 21753752 (Del. Ch. July 25, 2003)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Interest compensates for lost use of money and disgorges the benefit of retention.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(c); Desert Equities, Inc. v. Morgan Stanley Leveraged Equity Fund, II, L.P., 624 A.2d 1199 (Del. 1993)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Judgment on the pleadings standard.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Appraisal petitioners (the Funds) withdrew their demand as to 6,205,127 Integral Ad Science Holding Corp. shares and sued (Count II) for interest from their February 5, 2026 withdrawal notice until the Company paid about $64 million on February 20; the Company moved for judgment on the pleadings. Vice Chancellor Laster rejected the Company's Technicolor-based objection to joining a plenary claim with appraisal, following Nagy, and rejected its argument that the Funds' legal theories were unpled. On the merits, the Court held that Section 262 provides no interest on withdrawn shares, which receive the merger terms (here expressly without interest). Unjust enrichment and implied-term contract theories also failed because payment eight business days after the Funds' corrected notice, delayed by a sponsor capital call, was reasonable and unlike the conditioned or prolonged withholding in Mehta and Chertok.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 23
+        },
+        "core_legal_issue": "Whether appraisal petitioners who withdrew their demand for most of their shares could recover interest on the merger consideration from their initial (erroneous) withdrawal notice through payment, under 8 Del. C. § 262, unjust enrichment or breach of contract, where the Merger Agreement provided for payment \"without interest\" and the Company paid eight business days after the corrected notice. A threshold question was whether such a plenary interest claim may be joined in the appraisal petition.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The Company's motion for partial judgment on the pleadings is granted as to Count II; Count I (appraisal of 776,700 shares) remains pending. The Court first rejected the Company's procedural objections. Under Nagy, and given Technicolor's abuse-of-discretion review, the Court has discretion to allow a plenary interest claim in the appraisal petition and found a single pleading appropriate. Notice pleading also excused the Funds' failure to name their legal theories. On the merits: (1) Section 262 provides no interest on withdrawn shares. A withdrawing holder receives the terms of the merger, which here expressly excluded interest, and the statute contemplates reasonably prompt rather than immediate payment. (2) Unjust enrichment fails because the Company reasonably sought to clarify the Funds' discrepant notice, explained the need for a sponsor capital call, and paid within eight business days of the corrected notice, so any impoverishment was justified. (3) For breach of contract, the Court assumed without deciding that the charter or Merger Agreement implies a reasonable-time payment term. It also left open whether the Merger Agreement's no-interest provision would reach an exceptional case. Even so, no unreasonable delay is reasonably conceivable. The Court noted that equity could award interest in an appropriate case, such as one where payment is improperly conditioned or unreasonably delayed. The Funds' request for expenses and attorneys' fees was denied under the American Rule and § 262(j), with no evidence of bad faith. The parties must submit an agreed form of order within ten days, or else a joint letter of no more than 3,000 words stating their positions with competing forms of order.",
+        "key_facts_and_concessions": [
+          "Merger Agreement § 2.7(a)(ii) set the Per Share Price at $10.30 \"without interest thereon.\" § 2.7(c) provides that withdrawn Dissenting Company Shares are \"treated as if they had been converted into, at the Effective Time, the right to receive the Per Share Price.\" The Information Statement told stockholders that withdrawn shares would be paid \"without interest thereon.\"",
+          "The Funds demanded appraisal for 6,981,827 shares. Their February 5, 2026 letter withdrew 6,205,127 shares but requested $62,345,863.00, which corresponds to 6,052,996.4078 shares, about $1.56 million less than the correct amount.",
+          "On February 9 the Company emailed to raise the discrepancy (a step the Court called reasonable). On February 10 the Funds served a corrected demand for $63,912,808.10.",
+          "The Company explained that its principal sponsor was \"calling capital\" to fund the roughly $64 million payment and targeted payment on February 20 or, at the latest, February 23.",
+          "The Funds filed this action on February 17, before the targeted payment date. Count I seeks appraisal of 776,700 shares. Count II seeks a declaratory judgment that the Company violated Section 262 by failing to pay merger consideration and \"statutory interest\" from February 5 until payment.",
+          "The Company wired the merger consideration on February 20, eight business days after the corrected notice, without interest. After first saying they expected $71,912,818.10, the Funds confirmed they had received the correct amount for 6,205,127 shares.",
+          "The Company did not condition payment on a release or settlement."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Petitioners can plead an interest claim on withdrawn shares in the appraisal petition itself. Recovering interest, however, requires facts like those in Mehta or Chertok, namely payment conditioned on a release or settlement or an extended, unjustified delay, not a short delay to fund a large payment. Withdrawal notices should state share counts and amounts accurately, since the Court measured reasonableness from the corrected notice. Surviving corporations that promptly seek clarification, explain their funding timeline and pay within days are well positioned to defeat such claims at the pleadings stage.",
+        "standard_of_review": "Ct. Ch. R. 12(c): judgment on the pleadings may be granted only when no material issue of fact exists and the movant is entitled to judgment as a matter of law. Facts are viewed in the light most favorable to the non-moving Funds, and the question is whether a claim for interest is reasonably conceivable."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403500"
+    }
+  ],
+  "ny_date": "2026-11-17"
+}
