@@ -1,4 +1,163 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403630",
+      "court": "supreme",
+      "date": "2026-11-19",
+      "docket": "70, 2026",
+      "judge": "Zurn J.",
+      "name": "CHP III, L.P. v. Benjamin F. Cravatt, et al.",
+      "ny_date": "2026-11-19",
+      "ny_processed_at": "2026-11-19T14:28:55-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Cardinal's argument that its claim is direct under Parnes: rejected. The complaint does not plead that the undervaluation and loss of the '444 Application depressed the merger price. Cardinal's allegations and the merger agreement show consideration was fixed whatever IP was released, Bayer had full diligence, and Vividion did not negotiate price. The fiduciary duty and aiding-and-abetting claims are therefore derivative, and Cardinal lost standing at closing.",
+          "Cardinal's unjust enrichment claim: rejected as derivative because it rests entirely on the alleged fiduciary misconduct and alleges no independent direct harm (fn. 40).",
+          "Cardinal's fraud claim that Cravatt represented the '444 Application as \"immaterial and worthless\" to Vividion's board during negotiations: rejected. Cardinal pleaded no details of the misrepresentations or of reliance, and no facts that Cravatt impeded Bayer's diligence in a way that lowered the merger price."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Parnes v. Bally Entertainment Corp., 722 A.2d 1243 (Del. 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Governs whether a target stockholder retains direct standing after closing to challenge the merger's fairness or validity, including claims that a side transaction diverted merger consideration.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Blue v. Fireman, 2022 WL 593899 (Del. Ch. Feb. 28, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Parnes test: to be direct, the diversion must come from stockholders rather than the acquirer, must be improper, and must materially affect the merger's process or price. Courts must distinguish direct fairness challenges from derivative wrongs merely associated with a merger.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Morris v. Spectra Energy Partners (DE) GP, LP, 246 A.3d 121 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Primedia's three-part test applies to claims that the merger price failed to reflect the value of derivative claims.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Primedia, Inc. S'holder Litig., 67 A.3d 455 (Del. Ch. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Inapplicable because Cardinal claims diversion of merger consideration through the IP release, not non-payment for a derivative claim. The trial court had applied it and found the materiality prong unmet.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Tooley v. Donaldson, Lufkin & Jenrette, Inc., 845 A.2d 1031 (Del. 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The direct/derivative inquiry examines the nature of the wrong and the relief requested: who suffered the harm and who would receive the recovery.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re P3 Health Grp. Hldgs., 2022 WL 15035833 (Del. Ch. Oct. 26, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Lists the five elements of common-law fraud.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 9(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The circumstances constituting fraud must be stated with particularity; state of mind may be alleged generally.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Brookfield Asset Mgmt., Inc. v. Rosson, 261 A.3d 1251 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited \"see also\" for the Tooley direct/derivative framework.",
+            "role": "background"
+          },
+          {
+            "authority": "Agostino v. Hicks, 2004 WL 443987 (Del. Ch. Mar. 11, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted through Tooley for examining the body of the complaint.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Capital Hldgs. LLC, 27 A.3d 531 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "De novo review; reasonable-conceivability pleading standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Price v. E.I. du Pont de Nemours & Co., 26 A.3d 162 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Courts need not accept conclusory allegations or draw unreasonable inferences.",
+            "role": "background"
+          },
+          {
+            "authority": "City of Fort Myers Gen. Emps. Pension Fund v. Haley, 235 A.3d 702 (Del. 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Dismissal rulings are reviewed de novo.",
+            "role": "background"
+          },
+          {
+            "authority": "Morrison v. Berry, 191 A.3d 268 (Del. 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Dismissal rulings are reviewed de novo.",
+            "role": "background"
+          },
+          {
+            "authority": "Allen v. Encore Energy P'rs, L.P., 72 A.3d 93 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Dismissal rulings are reviewed de novo.",
+            "role": "background"
+          },
+          {
+            "authority": "Goldstein v. Denner, 2022 WL 1797224 (Del. Ch. June 2, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted in the trial court's summary of the Primedia factors.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Cardinal (CHP III, L.P.), a former Vividion stockholder, appealed the Court of Chancery's dismissal of its post-merger claims as derivative (CHP III, L.P. v. Cravatt, 2026 WL 112789 (Del. Ch. Jan. 15, 2026); the order does not name the trial judge). The Court of Chancery had treated the claim as post-signing conduct and found it failed Primedia's materiality prong. Sitting en banc, the Supreme Court read the complaint more broadly and held Parnes, not Primedia, governs, but affirmed because the fixed $2 billion consideration, Bayer's full diligence and Vividion's decision not to negotiate price negate any plausible inference that the alleged misconduct depressed the merger price. The fraud claim failed for lack of particularized misrepresentations and reliance.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 15
+        },
+        "core_legal_issue": "Whether a former Vividion stockholder (Cardinal) stated a direct claim that survived the Bayer merger, under Parnes v. Bally Entertainment rather than Primedia, by alleging that founder-director Cravatt undervalued and concealed the value of the '444 Application, which was released to Scripps before closing and later licensed to Cravatt's startup Belharra, where the merger consideration was fixed at $2 billion regardless of what IP was released. A second issue was whether Cardinal pleaded fraud with Rule 9(b) particularity.",
+        "coverage_note": "",
+        "disposition": "affirmed",
+        "fact_check": {
+          "checked": 14,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Affirmed. The Supreme Court disagreed with the Court of Chancery's reading of the complaint, holding that it alleges misconduct during merger negotiations and not only after signing. It also held that Parnes, not Primedia, governs, because Cardinal challenges diversion of merger consideration through the undervaluation and release of the '444 Application, not non-payment for a derivative claim. Even so, Cardinal failed Parnes because it did not plead that the alleged misconduct depressed the merger price. Its own allegations and the merger agreement show the $2 billion consideration was fixed regardless of what IP was released, Bayer had full diligence, Vividion did not negotiate price, and the agreement required only commercially reasonable efforts to amend the Scripps license. The fiduciary duty and aiding-and-abetting claims are therefore derivative and were extinguished by the merger. The unjust enrichment claim is derivative because it rests on the same misconduct. The fraud claim fails because Cardinal pleaded no details of the misrepresentations or reliance, and did not allege that Cravatt impeded Bayer's diligence so as to lower the price.",
+        "key_facts_and_concessions": [
+          "The merger consideration was fixed at $2 billion regardless of whether or to what extent Vividion released IP. The merger agreement had no provision increasing consideration if Vividion failed to release IP rights (fn. 12).",
+          "Bayer conducted full, unrestricted due diligence into Vividion and all its IP rights, including the Scripps licenses and the '444 Application.",
+          "Following its financial advisor's advice, Vividion neither negotiated Bayer's offer nor ran independent market checks on the value of its IP.",
+          "Section 5.20 of the merger agreement required Vividion only to use \"commercially reasonable efforts to amend\" the Scripps License Agreement to relinquish immaterial IP. Under § 5.1(j), Vividion would retain its material IP.",
+          "Before closing (August 19, 2021), Vividion and Scripps agreed to release the '444 Application license. Scripps then licensed it to Belharra, which Cravatt had formed shortly before Bayer's offer without telling anyone at Vividion. In January 2023 Belharra emerged with a platform consistent with the '444 Application and $130 million in financing.",
+          "Read by the Supreme Court, the complaint alleges pre-signing misconduct: Cravatt misrepresented the IP's value to Vividion's other directors, concealed Belharra from June 23 to July 9, 2021, and approved merger-agreement representations he knew were false.",
+          "Cardinal only speculates that Bayer \"might have paid more\" had it known the '444 Application's true value or of Belharra. It alleged no details of the misrepresentations or reliance, and no impediment to Bayer's diligence.",
+          "Cardinal's unjust enrichment claim is \"entirely premised\" on the misconduct underlying its fiduciary duty claim (fn. 40)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A post-closing direct claim under Parnes alleging that an asset was improperly stripped out before a merger must plead facts showing the misconduct actually affected the merger price or process. Pleading that stockholders received less is not enough where the plaintiff's own allegations and the merger agreement show consideration was fixed regardless of the asset's release and the buyer had full diligence. A related fraud theory needs particularized misrepresentations, reliance, and facts showing the buyer was impeded from valuing the asset.",
+        "standard_of_review": "De novo review of a grant of a motion to dismiss. Under Rule 12(b)(6), the Court accepts well-pleaded allegations and draws reasonable inferences for the plaintiff, but not conclusory allegations or unreasonable inferences. Ct. Ch. R. 9(b) particularity applies to the fraud claim."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403630"
+    }
+  ],
+  "ny_date": "2026-11-19"
 }

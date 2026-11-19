@@ -1356,6 +1356,13 @@
       "processed_at": "2026-11-17T21:53:48-05:00",
       "status": "out_of_scope"
     },
+    "de-403560": {
+      "court": "supreme",
+      "docket": "193, 2026",
+      "name": "Richard Brunson Jr. vs. Katherine Enoch",
+      "processed_at": "2026-11-19T14:28:55-05:00",
+      "status": "out_of_scope"
+    },
     "de-403570": {
       "court": "chancery",
       "docket": "C.A. No. 2024-0648-NAC",
@@ -1383,13 +1390,27 @@
       "name": "Frieberg v. Xonar Technology Inc.",
       "processed_at": "2026-11-18T21:33:12-05:00",
       "status": "ok"
+    },
+    "de-403630": {
+      "court": "supreme",
+      "docket": "70, 2026",
+      "name": "CHP III, L.P. v. Benjamin F. Cravatt, et al.",
+      "processed_at": "2026-11-19T14:28:55-05:00",
+      "status": "ok"
+    },
+    "de-403640": {
+      "court": "superior",
+      "docket": "N24J-01079 SPL",
+      "name": "WSFS, F.S.B. v. Wahl, III, et al.",
+      "processed_at": "2026-11-19T14:28:55-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-18T21:33:12-05:00",
+  "last_checked_ny": "2026-11-19T14:28:55-05:00",
   "page_hashes": {
     "chancery": "ed67a1debe7c348e1b5819957227c36b28c1097d2e19b8109f22b69f3d6bbb4f",
-    "superior": "388bb9c3f71e15a0503c4f7217b25ec1904039329568ae8eda1de88fd58f77ed",
-    "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
+    "superior": "1895904d494beac009847d13b3fc8615ae8b23be20fd9c2872f35611aca47879",
+    "supreme": "f59aaab6b49852dec5783417be41b159c73437a388de170fc4fd9bda0bb47275"
   }
 }
