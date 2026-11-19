@@ -1355,12 +1355,40 @@
       "name": "Chappell v. Association of Owners for Ocean View Condominium, et al.",
       "processed_at": "2026-11-17T21:53:48-05:00",
       "status": "out_of_scope"
+    },
+    "de-403570": {
+      "court": "chancery",
+      "docket": "C.A. No. 2024-0648-NAC",
+      "name": "PPG Industries, Inc. v. Westlake Corporation, et al.",
+      "processed_at": "2026-11-18T21:33:12-05:00",
+      "status": "ok"
+    },
+    "de-403580": {
+      "court": "chancery",
+      "docket": "C.A. No. 2022-0065-PAF",
+      "name": "Golden Rule Fin. Corp. v. S'holder Representative Servs., LLC",
+      "processed_at": "2026-11-18T21:33:12-05:00",
+      "status": "ok"
+    },
+    "de-403590": {
+      "court": "chancery",
+      "docket": "C.A. No. 2022-0673-JTL",
+      "name": "Fairstead Capital Management LLC, et al. v. Blodgett",
+      "processed_at": "2026-11-18T21:33:12-05:00",
+      "status": "ok"
+    },
+    "de-403600": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0093-KSJM",
+      "name": "Frieberg v. Xonar Technology Inc.",
+      "processed_at": "2026-11-18T21:33:12-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-17T21:53:48-05:00",
+  "last_checked_ny": "2026-11-18T21:33:12-05:00",
   "page_hashes": {
-    "chancery": "b2ef7da1f6bb2f3d74e84fa1d16baae1f939a8c5716b57cd41f5d9100de4ff4a",
+    "chancery": "ed67a1debe7c348e1b5819957227c36b28c1097d2e19b8109f22b69f3d6bbb4f",
     "superior": "388bb9c3f71e15a0503c4f7217b25ec1904039329568ae8eda1de88fd58f77ed",
     "supreme": "1b198606260e27edece28f9a78eab68312fad8b39066db35c6bc5fd0a534acbe"
   }
