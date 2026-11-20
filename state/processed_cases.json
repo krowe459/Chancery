@@ -1391,6 +1391,20 @@
       "processed_at": "2026-11-18T21:33:12-05:00",
       "status": "ok"
     },
+    "de-403610": {
+      "court": "supreme",
+      "docket": "452, 2026",
+      "name": "Kostyshyn v. State",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403620": {
+      "court": "supreme",
+      "docket": "399, 2026",
+      "name": "Kostyshyn, Patricia, et al., vs. New Castle County, a political subdivision of the State of Delaware",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "out_of_scope"
+    },
     "de-403630": {
       "court": "supreme",
       "docket": "70, 2026",
@@ -1405,6 +1419,20 @@
       "processed_at": "2026-11-19T14:28:55-05:00",
       "status": "out_of_scope"
     },
+    "de-403650": {
+      "court": "supreme",
+      "docket": "341,2026",
+      "name": "Robinson, Jacob Luca Jr. vs. Audrey Robinson",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403660": {
+      "court": "supreme",
+      "docket": "68, 2025",
+      "name": "Payne v. State",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "out_of_scope"
+    },
     "de-403680": {
       "court": "supreme",
       "docket": "406, 2025",
@@ -1417,6 +1445,13 @@
       "docket": "101, 2026",
       "name": "Raja Venkatesh vs. Prasad Gundumogula",
       "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403700": {
+      "court": "supreme",
+      "docket": "460, 2026",
+      "name": "Shah v. State",
+      "processed_at": "2026-11-20T14:05:50-05:00",
       "status": "out_of_scope"
     },
     "de-403710": {
@@ -1439,13 +1474,27 @@
       "name": "Rail Engineering Solutions, LLC, et al. v. Romic Group Limited, et al.",
       "processed_at": "2026-11-19T21:18:41-05:00",
       "status": "ok"
+    },
+    "de-403740": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0749-DH",
+      "name": "Bradley K. Heppner v. Beneficient Company Holdings, L.P., Beneficient Company Group, L.L.C., and Beneficient f/k/a The Beneficient Company Group, L.P.",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "ok"
+    },
+    "de-403760": {
+      "court": "superior",
+      "docket": "2305013446",
+      "name": "State v. Clark",
+      "processed_at": "2026-11-20T14:05:50-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-19T21:18:41-05:00",
+  "last_checked_ny": "2026-11-20T14:05:50-05:00",
   "page_hashes": {
-    "chancery": "4fac67199381521bdac34e4b2b05ab8b594c099735d240d5ba2ee6e01e654b97",
-    "superior": "da8565706c300ace059de12c3d621983d4cfce3be192fc37a4748c2c1f85dea9",
-    "supreme": "20e7eb4cdffdb93e04c400da38625a7e5fee681ef5f1364996cfeb6f525c7304"
+    "chancery": "a096d40fe399c0c5e28fdfa18cd1f1193b5629b2addb7f441d7430894c3ee7a2",
+    "superior": "31ce6543495b31d313083250243e972023ebf16591fc3c1b22496a2845561bee",
+    "supreme": "01b863d021037fc05990574122f32824d1d0c16ce7da972c19d680e602822b2e"
   }
 }
