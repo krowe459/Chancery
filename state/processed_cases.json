@@ -1404,13 +1404,48 @@
       "name": "WSFS, F.S.B. v. Wahl, III, et al.",
       "processed_at": "2026-11-19T14:28:55-05:00",
       "status": "out_of_scope"
+    },
+    "de-403680": {
+      "court": "supreme",
+      "docket": "406, 2025",
+      "name": "Dredden v. State",
+      "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403690": {
+      "court": "supreme",
+      "docket": "101, 2026",
+      "name": "Raja Venkatesh vs. Prasad Gundumogula",
+      "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403710": {
+      "court": "superior",
+      "docket": "1912028616, 1912028560, 1912029331",
+      "name": "State v. Edelin",
+      "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403720": {
+      "court": "superior",
+      "docket": "N24C-12-311 DJB",
+      "name": "Romic Group Limited v. Rail Engineering Solutions, LLC v. Coleman",
+      "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403730": {
+      "court": "chancery",
+      "docket": "C.A. No. 2025-0782 DJB",
+      "name": "Rail Engineering Solutions, LLC, et al. v. Romic Group Limited, et al.",
+      "processed_at": "2026-11-19T21:18:41-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-19T14:28:55-05:00",
+  "last_checked_ny": "2026-11-19T21:18:41-05:00",
   "page_hashes": {
-    "chancery": "ed67a1debe7c348e1b5819957227c36b28c1097d2e19b8109f22b69f3d6bbb4f",
-    "superior": "1895904d494beac009847d13b3fc8615ae8b23be20fd9c2872f35611aca47879",
-    "supreme": "f59aaab6b49852dec5783417be41b159c73437a388de170fc4fd9bda0bb47275"
+    "chancery": "4fac67199381521bdac34e4b2b05ab8b594c099735d240d5ba2ee6e01e654b97",
+    "superior": "da8565706c300ace059de12c3d621983d4cfce3be192fc37a4748c2c1f85dea9",
+    "supreme": "20e7eb4cdffdb93e04c400da38625a7e5fee681ef5f1364996cfeb6f525c7304"
   }
 }

@@ -157,6 +157,171 @@
         "standard_of_review": "De novo review of a grant of a motion to dismiss. Under Rule 12(b)(6), the Court accepts well-pleaded allegations and draws reasonable inferences for the plaintiff, but not conclusory allegations or unreasonable inferences. Ct. Ch. R. 9(b) particularity applies to the fraud claim."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403630"
+    },
+    {
+      "case_id": "de-403730",
+      "court": "chancery",
+      "date": "2026-11-19",
+      "docket": "C.A. No. 2025-0782 DJB",
+      "judge": "Brennan J.",
+      "name": "Rail Engineering Solutions, LLC, et al. v. Romic Group Limited, et al.",
+      "ny_date": "2026-11-19",
+      "ny_processed_at": "2026-11-19T21:18:41-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "RES's argument that ROMIC waived the delegation argument by raising it first at oral argument: rejected. Because a contractual delegation divests the court's jurisdiction, the issue is jurisdictional and \"cannot be waived.\" RES's supplemental submission made any prejudice minimal, and the issue is a gatekeeping question that must be decided first. The Court said it \"shares in RES's frustration\" at the belated timing.",
+          "RES's argument that the Court should decide substantive arbitrability by reading the arbitration clause narrowly: rejected. Read as a whole, the Agreement shows clear and unmistakable intent to delegate arbitrability to the arbitrator.",
+          "ROMIC's argument that the all-caps AAA notice alone satisfies the clear-and-unmistakable standard: not adopted as framed. The Court held that intent \"is not found solely from incorporating the AAA rules,\" and rested instead on the AAA incorporation together with § 9.1's broad language and the absence of court carve-outs."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "James & Jackson, LLC v. Willie Garey, LLC, 906 A.2d 76 (Del. 2006)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Clear and unmistakable intent to delegate arbitrability exists where the clause generally provides for arbitration of all disputes and incorporates rules empowering arbitrators to decide arbitrability; arbitrability is a gatekeeping issue to be decided first.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "SBC Interactive, Inc. v. Corp. Media Partners, 714 A.2d 758 (Del. 1998)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "By default, the court, not the arbitrator, decides substantive arbitrability.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "GTSI Corp. v. Eyak Technology, LLC, 10 A.3d 1116 (Del. Ch. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Mandatory \"shall\" and \"any dispute\" language evidenced clear and unmistakable intent to send substantive arbitrability to the arbitrator.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "360 Campaign Consulting, LLC v. Diversity Communication, LLC, 2020 WL 1320909 (Del. Ch. Mar. 20, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "No clear and unmistakable intent where the LLC agreement had separate sections contemplating that other disputes, such as those not between Members, would go to court; also cited for the gatekeeping order of decision and for staying the litigation pending the arbitrator's decision.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Donofrio v. Peninsula Healthcare, LLC, 2022 WL 1054966 (Del. Super. Apr. 8, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A jurisdictional argument based on arbitrability cannot be waived.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Claims the arbitrator determines fall under the LLC Agreement will be dismissed for lack of subject matter jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Super. Ct. Civ. R. 12(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Same, for the Superior Court action.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "W. IP Commc'ns, Inc. v. Xactly Corp., 2014 WL 3032270 (Del. Super. Ct. June 25, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A court lacks subject matter jurisdiction over claims properly committed to arbitration (quoting Aquila of Del., Inc. v. Wilm. Trust Co.).",
+            "role": "background"
+          },
+          {
+            "authority": "Jones v. 810 Broom St. Operations LLC, 2014 WL 1347746 (Del. Super. Apr. 7, 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court asks whether a valid arbitration agreement exists and whether its scope covers the claims.",
+            "role": "background"
+          },
+          {
+            "authority": "Skinner v. Peninsula Healthcare Servs., LLC, 2021 WL 778324 (Del. Super. Mar. 1, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(1) pleading-stage inferences and the reasonable-certainty standard.",
+            "role": "background"
+          },
+          {
+            "authority": "Partners & Simons, Inc. v. Sandbox Acquisitions, LLC, 2021 WL 3161651 (Del. Ch. July 26, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(2) burden and prima facie showing absent an evidentiary hearing.",
+            "role": "background"
+          },
+          {
+            "authority": "Ryan v. Gifford, 935 A.2d 258 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Plaintiff bears the burden on a Rule 12(b)(2) motion; the record is construed in plaintiff's favor.",
+            "role": "background"
+          },
+          {
+            "authority": "AeroGlobal Cap. Mgmt., LLC v. Cirrus Indus., Inc., 871 A.2d 428 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Plaintiff's burden once personal jurisdiction is challenged.",
+            "role": "background"
+          },
+          {
+            "authority": "VT Shareholder Representative, LLC v. Edwards Lifesciences Corp., 2023 WL 8597956 (Del. Ch. Dec. 12, 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The non-movant bears the burden of pleading facts establishing Chancery subject matter jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "AffiniPay, LLC v. West, 2021 WL 4262225 (Del. Ch. Sept. 17, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The court examines the nature of the wrong and the remedy sought to assess equitable jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "Del. Const. art. IV, § 13(2)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Basis for Judge Brennan's designation to sit as a Vice Chancellor.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In cross-designated actions arising from the breakdown of RES, a Delaware LLC whose members were Wilkerson, Olvera and ROMIC (the UK entity controlled by Coleman), ROMIC and Coleman moved in both the Court of Chancery and the Superior Court to dismiss the RES parties' claims for lack of subject matter and personal jurisdiction. Judge Brennan, sitting as a Vice Chancellor by designation, addressed both motions in one opinion. The Court held that ROMIC's oral-argument contention that an arbitrator must decide arbitrability was jurisdictional and not waived. It then found clear and unmistakable delegation from the AAA incorporation, the broad mandatory § 9.1 clause, and the absence of court carve-outs other than § 9.2's provisional-relief provision. The motions were denied without prejudice and both actions stayed for the arbitrator's arbitrability determination.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 15
+        },
+        "core_legal_issue": "Whether the RES LLC Agreement clearly and unmistakably delegates substantive arbitrability to an arbitrator, so that the court should stay the cross-designated Chancery and Superior Court actions instead of deciding ROMIC and Coleman's jurisdictional motions to dismiss. The Agreement incorporates the AAA Commercial Arbitration Rules (including in an all-caps notice), § 9.1 sends \"any action\" to enforce, interpret or resolve disputes under it to arbitration, and the only court carve-out (§ 9.2) is for provisional relief pending resolution of a dispute. A threshold question was whether ROMIC waived the delegation argument by first raising it at oral argument.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 14,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "The motions to dismiss are denied without prejudice, and both the Chancery and Superior Court actions are stayed. The opinion's text says the cases are \"STAYED following the arbitrator's decision,\" while its heading and introduction say \"pending\" that decision. The Court first held that ROMIC's belated delegation argument was not waived because it goes to jurisdiction, RES had an opportunity to respond, and it is a gatekeeping issue. On the merits, the Court rejected the idea that AAA incorporation alone suffices. It found clear and unmistakable intent to delegate substantive arbitrability to the arbitrator from the Agreement as a whole: (1) the AAA incorporation, (2) § 9.1's broad mandatory \"any action\" language, and (3) the absence of any provision sending other disputes to court. Section 9.2's carve-out for provisional relief does not undercut that intent because it applies only \"pending the resolution of a dispute,\" i.e., pending arbitration. If the arbitrator finds claims outside the LLC Agreement, they remain active and motions may be re-filed, including any remaining jurisdictional challenges. Claims the arbitrator finds within the Agreement will be dismissed under each court's Rule 12(b)(1). The Court did not reach Coleman's personal jurisdiction challenge under the consent statute or ROMIC's other dismissal arguments.",
+        "key_facts_and_concessions": [
+          "The LLC Agreement opens with an all-caps, bolded and underlined notice: \"THIS AGREEMENT IS SUBJECT TO ARBITRATION IN ACCORDANCE WITH THE COMMERCIAL ARBITRATION RULES OF THE AMERICAN ARBITRATION ASSOCIATION.\"",
+          "Section 9.1 provides that \"[a]ny action to enforce or interpret this Agreement, or to resolve disputes with respect to this Agreement as between the Company and a Member, or between or among the Members, shall be settled by arbitration\" under the AAA Commercial Rules, and that \"Arbitration shall be the exclusive dispute resolution process.\"",
+          "The Agreement contains no other language permitting disputes to go to the courts.",
+          "Section 9.2 lets a party apply to a court for injunctive or other provisional relief to prevent irreparable harm or \"to preserve the status quo pending resolution of a dispute.\"",
+          "ROMIC first raised the who-decides-arbitrability issue at the June 10, 2026 oral argument; the parties then filed supplemental submissions, with RES responding on July 1, 2026.",
+          "The litigation was split between courts. ROMIC sued RES on a $913,950 promissory note in Superior Court, and RES withdrew its declaratory judgment, trade secret and fiduciary duty counterclaims there for jurisdictional reasons and refiled them in Chancery. The matters were cross-designated, and identical motions to dismiss were filed in each court.",
+          "The parties dispute whether ROMIC remained a member of RES: Coleman's Answer alleges that only Coleman personally resigned and that ROMIC's interest remained.",
+          "Fn. 19: an alleged oral amendment of the Agreement making Coleman and Wilkerson continuing co-managers appears disputed by ROMIC but was \"not determinative\" at this stage."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "A party that wants a court to decide arbitrability under an LLC agreement should draft express provisions sending specified disputes to court. Under this opinion, AAA-rule incorporation plus a broad \"any action\" clause, with only a provisional-relief carve-out pending resolution, delegated arbitrability to the arbitrator. Opponents should not count on waiver to defeat a late-raised delegation argument, because the Court treated it as jurisdictional and non-waivable where the other side had a chance to respond.",
+        "standard_of_review": "Motions under Ct. Ch. R. 12(b)(1), (2) and (6) and Super. Ct. Civ. R. 12(b)(1) and (2). On the gatekeeping question, the Court applied the default rule that a court decides substantive arbitrability unless the contract shows a \"clear and unmistakable intent\" to submit it to the arbitrator."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403730"
     }
   ],
   "ny_date": "2026-11-19"
