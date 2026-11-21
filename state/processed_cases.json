@@ -1488,12 +1488,19 @@
       "name": "State v. Clark",
       "processed_at": "2026-11-20T14:05:50-05:00",
       "status": "out_of_scope"
+    },
+    "de-403770": {
+      "court": "chancery",
+      "docket": "C.A. No. 2025-1249-KSJM",
+      "name": "Corcept Therapeutics Inc. v. Optime Care, Inc., et al.",
+      "processed_at": "2026-11-20T19:47:44-05:00",
+      "status": "ok"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-20T14:05:50-05:00",
+  "last_checked_ny": "2026-11-20T19:47:44-05:00",
   "page_hashes": {
-    "chancery": "a096d40fe399c0c5e28fdfa18cd1f1193b5629b2addb7f441d7430894c3ee7a2",
+    "chancery": "d52f4bdfd6c5149fd584e7759e5427d56a34152e41a2db5d801f2786ad74e6c2",
     "superior": "31ce6543495b31d313083250243e972023ebf16591fc3c1b22496a2845561bee",
     "supreme": "01b863d021037fc05990574122f32824d1d0c16ce7da972c19d680e602822b2e"
   }

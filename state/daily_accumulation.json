@@ -230,6 +230,173 @@
         "standard_of_review": "Motion to dismiss under Ct. Ch. R. 12(b)(3) (improper venue/forum selection), analyzed like Rule 12(b)(6), with the Court free to consider extrinsic evidence. Cross-motions for summary judgment decided as a stipulation for decision on the merits under Ct. Ch. R. 56(h), because neither side argued that a material fact issue existed."
       },
       "url": "https://courts.delaware.gov/opinions/download.aspx?id=403740"
+    },
+    {
+      "case_id": "de-403770",
+      "court": "chancery",
+      "date": "2026-11-20",
+      "docket": "C.A. No. 2025-1249-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Corcept Therapeutics Inc. v. Optime Care, Inc., et al.",
+      "ny_date": "2026-11-20",
+      "ny_processed_at": "2026-11-20T19:47:44-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Corcept's argument that surviving post-termination obligations (e.g., data security restrictions in Sections 8–11) \"could give rise to a need for specific performance in the lifespan of this case\": rejected. No such claim is pending, nor is there reason to file one, and the possibility of a future specific performance claim does not warrant clean-up jurisdiction.",
+          "Corcept's argument that the Court's involvement, including hearing argument twice before the motion to dismiss (and Corcept's assertion that Optime cooperated only because of that involvement), supports retention: rejected. The parties resolved both issues themselves out of court, and the Court's involvement was not significant enough to warrant retaining solely legal claims or to make retention more efficient.",
+          "Corcept's concerns that transfer would hinder full justice and complete relief: rejected as hypothetical.",
+          "Corcept's reliance on FirstString Rsch., Inc. v. JSS Med. Rsch. Inc.: distinguished. The specific performance claim there was live at the motion to dismiss stage because the defendant had not fulfilled its contractual obligations.",
+          "Corcept's reliance on NEC Fund VI HE Lender, LLC v. Hecate Hldgs. LLC (submitted as supplemental authority): distinguished. The defendant there remained subject to an ongoing stipulated status quo order against transferring the funds at issue, whereas Optime has fully performed both its contractual transition obligations and the stipulated transition plan."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 12(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Dismissal for lack of subject matter jurisdiction; granted in full without prejudice.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "10 Del. C. § 1902",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Authorizes transfer of the action to Superior Court instead of outright dismissal for lack of jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Acierno v. Goldstein, 2004 WL 1488673 (Del. Ch. June 25, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the multi-factor clean-up test: whether retention will resolve a necessary factual issue, avoid multiplicity of suits, promote judicial efficiency, do full justice, avoid great expense, afford complete relief, or overcome insufficient modes of procedure at law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Clark v. Teeven Hldg. Co., 625 A.2d 869 (Del. Ch. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Acierno as the source of the clean-up factors.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "A & H Metals, Inc. v. Del. Dep't of Lab., 2009 WL 1451889 (Del. Ch. May 21, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The decision to retain jurisdiction under the clean-up doctrine is committed to the Court's discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rizzo ex rel. JJ&B, LLC v. Joseph Rizzo & Sons Constr. Co., 2007 WL 1114079 (Del. Ch. Apr. 10, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court is more reluctant to exercise discretionary jurisdiction over legal claims after the equitable claims have been resolved or mooted, especially at an early stage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Red Cat Hldgs., Inc. v. Autonodyne LLC, 2024 WL 1120365 (Del. Ch. Mar. 14, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court has repeatedly declined clean-up jurisdiction where retention would not enhance efficiency or fairness.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rodriguez v. Great Am. Ins. Co., 2021 WL 4892216 (Del. Ch. Oct. 20, 2021) (quoting Kraft v. WisdomTree Invs., Inc., 145 A.3d 969 (Del. Ch. 2016))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Ancillary jurisdiction may extend to purely legal claims that are part of the same controversy to avoid piecemeal litigation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "FirstString Rsch., Inc. v. JSS Med. Rsch. Inc., 2021 WL 2182829 (Del. Ch. May 28, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Clean-up jurisdiction was retained there because the specific performance claim remained live.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "NEC Fund VI HE Lender, LLC v. Hecate Hldgs. LLC, 2026 WL 527007 (Del. Ch. Feb. 25, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An ongoing stipulated status quo order against transferring the funds at issue supplied a continuing basis for equitable jurisdiction.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "El Paso Nat. Gas Co. v. TransAmerican Nat. Gas Corp., 669 A.2d 36 (Del. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery has limited jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "Mock v. Div. of State Police, Dep't of Safety & Homeland Sec., 2022 WL 1744439 (Del. Ch. May 31, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the bases for Chancery subject matter jurisdiction: an equitable claim, equitable relief absent an adequate legal remedy, or statutory grant.",
+            "role": "background"
+          },
+          {
+            "authority": "Hall v. Coupe, 2016 WL 3094406 (Del. Ch. May 25, 2016); Morgan v. Carpenter, 2014 WL 7192476 (Del. Ch. Dec. 18, 2014); Pitts v. City of Wilm., 2009 WL 1204492 (Del. Ch. Apr. 27, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The plaintiff bears the burden of establishing subject matter jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "Organovo Hldgs., Inc. v. Dimitrov, 162 A.3d 102 (Del. Ch. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Once jurisdiction attaches to part of a complaint, the clean-up doctrine may reach the rest.",
+            "role": "background"
+          },
+          {
+            "authority": "Nichols v. Lewis, 2007 WL 1584622 (Del. Ch. May 24, 2007); Midland Food Servs. v. Castle Hills Hldgs., 1999 WL 669324 (Del. Ch. Aug. 10, 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Red Cat for declining clean-up jurisdiction where retention adds no efficiency or fairness.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(2), 12(b)(5), 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Grounds for the remaining motions, which the Court did not reach.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Corcept Therapeutics Inc. sued its former specialty pharmacy Optime Care, Inc., its parent AscellaHealth, LLC and two AscellaHealth executives for breach of contract, specific performance of transition obligations, tortious interference and declaratory judgment, and Defendants moved to dismiss on several grounds. Chancellor McCormick held that the specific performance claim, the only hook for equitable jurisdiction, became moot once Optime completed the transition, as Corcept conceded. Applying the Acierno/Clark factors, the Court declined to retain the remaining legal claims under the clean-up doctrine, distinguishing FirstString (live specific performance claim) and Hecate (ongoing stipulated status quo order). The Court granted the Rule 12(b)(1) motion without prejudice and transferred the action to Superior Court under 10 Del. C. § 1902 without reaching the other motions.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 16
+        },
+        "core_legal_issue": "Whether the Court of Chancery should retain clean-up jurisdiction over Corcept's purely legal claims (breach of contract, tortious interference, declaratory judgment) after its only equitable claim, Count VII for specific performance of Optime's transition obligations under the Distribution Services Agreement, became moot early in the case because Optime completed the transition.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 16,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendants' Rule 12(b)(1) motion granted in full without prejudice. Count VII was the only basis for equitable jurisdiction, and it is \"long moot\": Optime fulfilled both its contractual transition obligations and the stipulated transition plan, and Corcept conceded nothing remains to compel. In its discretion, the Court declined to retain the remaining legal claims under the clean-up doctrine. The equitable claim was mooted at an early stage, before briefing on the motion was complete. The Court's involvement was minimal because the parties resolved both prior disputes themselves. Retention would not promote efficiency. Corcept's full-justice and complete-relief concerns were hypothetical, and Corcept did not claim transfer would cause great expense. The Court did not reach Oldham's and Belazi's Rule 12(b)(2) and 12(b)(5) motions or the Rule 12(b)(6) motion of AscellaHealth, Oldham and Belazi on Counts VIII and IX. Order: (1) the action is transferred to Superior Court under 10 Del. C. § 1902; (2) to press its claims, Corcept must file a complaint and a certified copy of the docket in Superior Court within 60 days; and (3) Corcept must discharge all costs incurred in the Court of Chancery and make any deposits for costs in Superior Court.",
+        "key_facts_and_concessions": [
+          "Count VII (specific performance compelling Optime to cooperate in the transition to a successor specialty pharmacy) was Corcept's sole basis for equitable jurisdiction.",
+          "The Agreement terminated on January 8, 2026. On February 5, 2026, Optime sent its last patient prescriptions to Corcept's designated successor pharmacy, and the stipulated transition plan terminated.",
+          "Concession: at oral argument Corcept acknowledged that the transition is complete and identified nothing left for the Court to compel Optime to do (Dkt. 58 at 26:7–13; fn. 15).",
+          "Count VII was mooted even before Defendants fully briefed their motion to dismiss.",
+          "The Court's two prior hearings (on the motion to expedite and on the emergency motion to enforce and modify the stipulated transition plan) were resolved by the parties themselves: first by a stipulated transition plan, then by a meet and confer.",
+          "No claim for specific performance of the Agreement's surviving obligations (e.g., the data security restrictions in Sections 8 through 11) is pending.",
+          "Corcept did not argue that transfer to Superior Court would impose great expense.",
+          "The remaining claims are Counts I–VI (breach of contract against Optime), Count VIII (tortious interference against AscellaHealth, Oldham and Belazi) and Count IX (declaratory judgment). The Court found that they seek primarily money damages and are purely legal."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "When the sole equitable claim is fully performed or mooted early, particularly through the parties' own stipulation, expect Chancery to decline clean-up jurisdiction. Speculation about future specific performance of surviving contract obligations will not keep the legal claims in Chancery absent a pending equitable claim or an ongoing order of the kind present in Hecate. Calendar the 60-day deadline to refile in Superior Court after a § 1902 transfer.",
+        "standard_of_review": "Rule 12(b)(1). The plaintiff bears the burden of establishing subject matter jurisdiction. Whether to retain jurisdiction under the clean-up doctrine is committed to the Court's discretion and turns on a multi-factor test (Acierno/Clark)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403770"
     }
   ],
   "ny_date": "2026-11-20"
