@@ -1,0 +1,403 @@
+{
+  "entries": [
+    {
+      "case_id": "de-403770",
+      "court": "chancery",
+      "date": "2026-11-20",
+      "docket": "C.A. No. 2025-1249-KSJM",
+      "judge": "McCormick, C.",
+      "name": "Corcept Therapeutics Inc. v. Optime Care, Inc., et al.",
+      "ny_date": "2026-11-20",
+      "ny_processed_at": "2026-11-20T19:47:44-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Corcept's argument that surviving post-termination obligations (e.g., data security restrictions in Sections 8–11) \"could give rise to a need for specific performance in the lifespan of this case\": rejected. No such claim is pending, nor is there reason to file one, and the possibility of a future specific performance claim does not warrant clean-up jurisdiction.",
+          "Corcept's argument that the Court's involvement, including hearing argument twice before the motion to dismiss (and Corcept's assertion that Optime cooperated only because of that involvement), supports retention: rejected. The parties resolved both issues themselves out of court, and the Court's involvement was not significant enough to warrant retaining solely legal claims or to make retention more efficient.",
+          "Corcept's concerns that transfer would hinder full justice and complete relief: rejected as hypothetical.",
+          "Corcept's reliance on FirstString Rsch., Inc. v. JSS Med. Rsch. Inc.: distinguished. The specific performance claim there was live at the motion to dismiss stage because the defendant had not fulfilled its contractual obligations.",
+          "Corcept's reliance on NEC Fund VI HE Lender, LLC v. Hecate Hldgs. LLC (submitted as supplemental authority): distinguished. The defendant there remained subject to an ongoing stipulated status quo order against transferring the funds at issue, whereas Optime has fully performed both its contractual transition obligations and the stipulated transition plan."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 12(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Dismissal for lack of subject matter jurisdiction; granted in full without prejudice.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "10 Del. C. § 1902",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Authorizes transfer of the action to Superior Court instead of outright dismissal for lack of jurisdiction.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Acierno v. Goldstein, 2004 WL 1488673 (Del. Ch. June 25, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the multi-factor clean-up test: whether retention will resolve a necessary factual issue, avoid multiplicity of suits, promote judicial efficiency, do full justice, avoid great expense, afford complete relief, or overcome insufficient modes of procedure at law.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Clark v. Teeven Hldg. Co., 625 A.2d 869 (Del. Ch. 1992)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Acierno as the source of the clean-up factors.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "A & H Metals, Inc. v. Del. Dep't of Lab., 2009 WL 1451889 (Del. Ch. May 21, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The decision to retain jurisdiction under the clean-up doctrine is committed to the Court's discretion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rizzo ex rel. JJ&B, LLC v. Joseph Rizzo & Sons Constr. Co., 2007 WL 1114079 (Del. Ch. Apr. 10, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court is more reluctant to exercise discretionary jurisdiction over legal claims after the equitable claims have been resolved or mooted, especially at an early stage.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Red Cat Hldgs., Inc. v. Autonodyne LLC, 2024 WL 1120365 (Del. Ch. Mar. 14, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court has repeatedly declined clean-up jurisdiction where retention would not enhance efficiency or fairness.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rodriguez v. Great Am. Ins. Co., 2021 WL 4892216 (Del. Ch. Oct. 20, 2021) (quoting Kraft v. WisdomTree Invs., Inc., 145 A.3d 969 (Del. Ch. 2016))",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Ancillary jurisdiction may extend to purely legal claims that are part of the same controversy to avoid piecemeal litigation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "FirstString Rsch., Inc. v. JSS Med. Rsch. Inc., 2021 WL 2182829 (Del. Ch. May 28, 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Clean-up jurisdiction was retained there because the specific performance claim remained live.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "NEC Fund VI HE Lender, LLC v. Hecate Hldgs. LLC, 2026 WL 527007 (Del. Ch. Feb. 25, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An ongoing stipulated status quo order against transferring the funds at issue supplied a continuing basis for equitable jurisdiction.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "El Paso Nat. Gas Co. v. TransAmerican Nat. Gas Corp., 669 A.2d 36 (Del. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The Court of Chancery has limited jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "Mock v. Div. of State Police, Dep't of Safety & Homeland Sec., 2022 WL 1744439 (Del. Ch. May 31, 2022)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Sets out the bases for Chancery subject matter jurisdiction: an equitable claim, equitable relief absent an adequate legal remedy, or statutory grant.",
+            "role": "background"
+          },
+          {
+            "authority": "Hall v. Coupe, 2016 WL 3094406 (Del. Ch. May 25, 2016); Morgan v. Carpenter, 2014 WL 7192476 (Del. Ch. Dec. 18, 2014); Pitts v. City of Wilm., 2009 WL 1204492 (Del. Ch. Apr. 27, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The plaintiff bears the burden of establishing subject matter jurisdiction.",
+            "role": "background"
+          },
+          {
+            "authority": "Organovo Hldgs., Inc. v. Dimitrov, 162 A.3d 102 (Del. Ch. 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Once jurisdiction attaches to part of a complaint, the clean-up doctrine may reach the rest.",
+            "role": "background"
+          },
+          {
+            "authority": "Nichols v. Lewis, 2007 WL 1584622 (Del. Ch. May 24, 2007); Midland Food Servs. v. Castle Hills Hldgs., 1999 WL 669324 (Del. Ch. Aug. 10, 1999)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited through Red Cat for declining clean-up jurisdiction where retention adds no efficiency or fairness.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 12(b)(2), 12(b)(5), 12(b)(6)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Grounds for the remaining motions, which the Court did not reach.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Corcept Therapeutics Inc. sued its former specialty pharmacy Optime Care, Inc., its parent AscellaHealth, LLC and two AscellaHealth executives for breach of contract, specific performance of transition obligations, tortious interference and declaratory judgment, and Defendants moved to dismiss on several grounds. Chancellor McCormick held that the specific performance claim, the only hook for equitable jurisdiction, became moot once Optime completed the transition, as Corcept conceded. Applying the Acierno/Clark factors, the Court declined to retain the remaining legal claims under the clean-up doctrine, distinguishing FirstString (live specific performance claim) and Hecate (ongoing stipulated status quo order). The Court granted the Rule 12(b)(1) motion without prejudice and transferred the action to Superior Court under 10 Del. C. § 1902 without reaching the other motions.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 16
+        },
+        "core_legal_issue": "Whether the Court of Chancery should retain clean-up jurisdiction over Corcept's purely legal claims (breach of contract, tortious interference, declaratory judgment) after its only equitable claim, Count VII for specific performance of Optime's transition obligations under the Distribution Services Agreement, became moot early in the case because Optime completed the transition.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 16,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Defendants' Rule 12(b)(1) motion granted in full without prejudice. Count VII was the only basis for equitable jurisdiction, and it is \"long moot\": Optime fulfilled both its contractual transition obligations and the stipulated transition plan, and Corcept conceded nothing remains to compel. In its discretion, the Court declined to retain the remaining legal claims under the clean-up doctrine. The equitable claim was mooted at an early stage, before briefing on the motion was complete. The Court's involvement was minimal because the parties resolved both prior disputes themselves. Retention would not promote efficiency. Corcept's full-justice and complete-relief concerns were hypothetical, and Corcept did not claim transfer would cause great expense. The Court did not reach Oldham's and Belazi's Rule 12(b)(2) and 12(b)(5) motions or the Rule 12(b)(6) motion of AscellaHealth, Oldham and Belazi on Counts VIII and IX. Order: (1) the action is transferred to Superior Court under 10 Del. C. § 1902; (2) to press its claims, Corcept must file a complaint and a certified copy of the docket in Superior Court within 60 days; and (3) Corcept must discharge all costs incurred in the Court of Chancery and make any deposits for costs in Superior Court.",
+        "key_facts_and_concessions": [
+          "Count VII (specific performance compelling Optime to cooperate in the transition to a successor specialty pharmacy) was Corcept's sole basis for equitable jurisdiction.",
+          "The Agreement terminated on January 8, 2026. On February 5, 2026, Optime sent its last patient prescriptions to Corcept's designated successor pharmacy, and the stipulated transition plan terminated.",
+          "Concession: at oral argument Corcept acknowledged that the transition is complete and identified nothing left for the Court to compel Optime to do (Dkt. 58 at 26:7–13; fn. 15).",
+          "Count VII was mooted even before Defendants fully briefed their motion to dismiss.",
+          "The Court's two prior hearings (on the motion to expedite and on the emergency motion to enforce and modify the stipulated transition plan) were resolved by the parties themselves: first by a stipulated transition plan, then by a meet and confer.",
+          "No claim for specific performance of the Agreement's surviving obligations (e.g., the data security restrictions in Sections 8 through 11) is pending.",
+          "Corcept did not argue that transfer to Superior Court would impose great expense.",
+          "The remaining claims are Counts I–VI (breach of contract against Optime), Count VIII (tortious interference against AscellaHealth, Oldham and Belazi) and Count IX (declaratory judgment). The Court found that they seek primarily money damages and are purely legal."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "When the sole equitable claim is fully performed or mooted early, particularly through the parties' own stipulation, expect Chancery to decline clean-up jurisdiction. Speculation about future specific performance of surviving contract obligations will not keep the legal claims in Chancery absent a pending equitable claim or an ongoing order of the kind present in Hecate. Calendar the 60-day deadline to refile in Superior Court after a § 1902 transfer.",
+        "standard_of_review": "Rule 12(b)(1). The plaintiff bears the burden of establishing subject matter jurisdiction. Whether to retain jurisdiction under the clean-up doctrine is committed to the Court's discretion and turns on a multi-factor test (Acierno/Clark)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403770"
+    },
+    {
+      "case_id": "de-403740",
+      "court": "chancery",
+      "date": "2026-11-20",
+      "docket": "C.A. No. 2026-0749-DH",
+      "judge": "Hume, IV M.",
+      "name": "Bradley K. Heppner v. Beneficient Company Holdings, L.P., Beneficient Company Group, L.L.C., and Beneficient f/k/a The Beneficient Company Group, L.P.",
+      "ny_date": "2026-11-20",
+      "ny_processed_at": "2026-11-20T14:05:50-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendants' argument that Heppner's charged conduct was taken in his GWG and HCLP roles rather than his Beneficient roles: rejected. The Indictment shows he used his Beneficient corporate powers to commit the alleged misconduct, which establishes the required nexus (fn. 143 notes the same argument in the motion to dismiss focused on the dismissed BEN and Services Agreement counts).",
+          "Defendants' argument that Second Services Agreement § 6.3(c) is an \"ordering provision\" subordinating BCH's and BCG's obligations, warranting a stay: rejected. Subsection (c) speaks only of indemnification, not advancement. Even if it applied, it addresses duplicative payments rather than obligations and expressly preserves subsidiary liability. The BCG and BCH non-exclusivity clauses make each source concurrent.",
+          "Defendants' request to stay the BCG and BCH claims pending the Nevada action: rejected. A stay conflicts with Delaware's policy favoring advancement, and delay can render advancement rights illusory.",
+          "Defendants' position that the Second Services Agreement's Nevada clause reaches the BCH advancement claim (the Nevada court relied on BCH's party status): rejected. BCH was a party only for the limited aircraft indemnity, and the ordering provision does not alter the BCH LP Agreement's forum.",
+          "Defendants' McWane argument: rejected. The Delaware forum-selection clauses in the BCH and BCG agreements displace the McWane presumptions.",
+          "Plaintiff's argument that 6 Del. C. § 17-219(g) and Bernstein v. TractManager preserve the BEN LP Agreement's Delaware forum for pre-conversion conduct: rejected. Conversion preserves obligations, but forum selection is not an obligation and is not a vested right, and Heppner was on notice that the forum could change.",
+          "Plaintiff's argument that the Certificate of Conversion's Delaware service-of-process appointment under 6 Del. C. § 17-219(e)(6) makes Delaware the forum: rejected as conflating service with forum selection, and unsupported by any cited authority.",
+          "Plaintiff's argument that 8 Del. C. § 145(f) vested his advancement rights, including the forum: rejected. Section 145 does not apply to a former Delaware LP that is now a Nevada corporation. Even if it applied, his advancement right is preserved, not impaired, and forum is not vested. Household Int'l was distinguished as not involving a forum-selection clause.",
+          "Plaintiff's argument that solvency defenses may be litigated only at the indemnification stage: rejected. Deferring the question that long could render BCG and BCH insolvent before the clauses could ever operate.",
+          "Defendants' contention that Quinn Emanuel has a conflict because it withdrew from the criminal case over sentencing disagreements: rejected. DLRPC 1.7, 1.9 and 1.10 address conflicts between clients. Sentencing and advancement are distinct matters, Heppner consented in writing, and Defendants did not argue prejudice to the fairness of the proceedings (and filed no disqualification motion, fn. 159)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Homestore, Inc. v. Tafeen, 888 A.2d 205 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Proceedings are \"by reason of\" corporate status if there is a nexus or causal connection to official capacity, regardless of motive.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Bernstein v. TractManager, Inc., 953 A.2d 1003 (Del. Ch. 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A nexus exists if corporate powers were used or necessary for the alleged misconduct (at 1011). Plaintiff's reliance on it (at 1005) for preserving the old agreement's forum was held inapposite.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Marino v. Patriot Rail Co., 131 A.3d 325 (Del. Ch. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The scope of advancement turns on the underlying pleadings. Fees on fees are proportional to the plaintiff's success.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Danenberg v. Fitracks, Inc., 58 A.3d 991 (Del. Ch. 2012)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Supplies the post-entitlement procedure in which the solvency dispute will be resolved.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 17-219(g)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Conversion out of Delaware does not affect pre-conversion obligations. Forum selection is not such an obligation.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "City of Providence v. First Citizens BancShares, Inc., 99 A.3d 229 (Del. Ch. 2014)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Forum-selection provisions regulate where suit is filed, not its viability or remedy.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Kidsco Inc. v. Dinsmore, 674 A.2d 483 (Del. Ch. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Where bylaws may be amended at any time, no vested rights arise that bar an amendment.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Mack v. Rev. Worldwide, Inc., 2020 WL 7774604 (Del. Ch. Dec. 30, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A party avoiding a forum clause as unreasonable bears a heavy burden. Plaintiff made no such argument.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Soleimani v. Hakkak, 2024 WL 1593923 (Del. Ch. Apr. 12, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Different language in different contract sections signals an intentional distinction (indemnification vs. advancement).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "ASDC Hldgs., LLC v. Richard J. Malouf 2008 All Smiles Grantor Retained Annuity Trust, 2011 WL 4552508 (Del. Ch. Sept. 14, 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Under Ingres, a presumptively valid forum-selection clause displaces the McWane presumptions.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dollar Tree, Inc. v. Dollar Express, LLC, 2017 WL 5624298 (Del. Ch. Nov. 21, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A trial court may not enforce the DLRPC absent prejudice to the fairness of the proceedings.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Centrella v. Avantor, Inc., 2024 WL 3249274 (Del. Ch. July 1, 2024), aff'd, 341 A.3d 505 (Del. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees on fees must be expressly precluded to be avoided, and are apportioned by the actual success achieved.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "8 Del. C. § 145(f)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Its bar on post-occurrence impairment of advancement does not apply to a non-Delaware corporation, and would not help Plaintiff even if it did.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "Household Int'l, Inc. v. Eljer Indus., Inc., 1994 WL 469169 (Del. Ch. Aug. 12, 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Did not involve a forum-selection clause, so it does not make forum a vested right.",
+            "role": "distinguished"
+          },
+          {
+            "authority": "McWane Cast Iron Corp. v. McDowell-Wellman Eng'g Co., 263 A.2d 281 (Del. 1970)",
+            "check": "verified",
+            "kind": "doctrine",
+            "proposition": "First-filed doctrine that Defendants invoked, displaced here by the forum clauses.",
+            "role": "background"
+          },
+          {
+            "authority": "Perryman v. Stimwave Techs. Inc., 2020 WL 2465720 (Del. Ch. May 13, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Delay can render advancement rights illusory.",
+            "role": "background"
+          },
+          {
+            "authority": "Weaver v. ZeniMax Media, Inc., 2004 WL 243163 (Del. Ch. Jan. 30, 2004)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Fees on fees are inherent for a party materially successful on advancement.",
+            "role": "background"
+          },
+          {
+            "authority": "Sterling Prop. Hldgs. Inc. v. New Castle County, 2013 WL 1821594 (Del. Ch. Jan. 28, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Objective theory of contract interpretation.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 56(h)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Cross-motions without an asserted fact dispute are deemed a stipulation for decision on the record.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Bay Hills Emerging P'rs I, L.P., 2018 WL 3217650 (Del. Ch. July 2, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Forum-clause dismissals proceed under Rule 12(b)(3), and extrinsic evidence may be considered.",
+            "role": "background"
+          },
+          {
+            "authority": "Savor, Inc. v. FMR Corp., 812 A.2d 894 (Del. 2002)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(6) standard.",
+            "role": "background"
+          },
+          {
+            "authority": "DLRPC Rules 1.7, 1.9, 1.10",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Conflict rules address conflicts between clients and imputation, and do not apply to the same client across different matters.",
+            "role": "background"
+          },
+          {
+            "authority": "Ct. Ch. R. 144",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "The report issues as a Final Report under this rule.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Bradley Heppner, Beneficient's founder and former CEO, was convicted on four counts relating to fraud on GWG. He sued BEN, BCH and BCG for advancement under four sources; Defendants moved to dismiss or stay, and the parties cross-moved for summary judgment before Magistrate in Chancery Hume. The Court held that BEN's conversion to a Nevada corporation and the Second Services Agreement validly moved those claims to Nevada, because forum selection is not a vested right. It held that the BCH and BCG agreements keep their Delaware forum, that Heppner used his Beneficient corporate powers in the charged conduct, and that he is entitled to advancement from both entities. Whether their solvency conditions excuse payment, in whole or in part, is reserved for the Fitracks stage.",
+        "citation_check": {
+          "not_checked": 0,
+          "not_found": 0,
+          "verified": 23
+        },
+        "core_legal_issue": "Whether a convicted founder's advancement claims against Beneficient entities belong in Delaware or Nevada, given that BEN's 2023 conversion to a Nevada corporation and the Second Services Agreement replaced Delaware forum clauses with Nevada ones, while the BCH LP Agreement and BCG LLC Agreement kept Delaware clauses. For the claims retained in Delaware, the further questions were whether the criminal indictment was brought \"by reason of\" his Beneficient roles, and whether solvency conditions on advancement are decided at the entitlement stage or later.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "Defendants' position that the Second Services Agreement's Nevada clause reaches the BCH advancement claim",
+              "evidence": "The Nevada court did not provide additional details. A closer look at the Second Services Agreement shows that BCH was a party, but not for the purposes of the indemnification or advancement here.",
+              "field": "arguments_rejected_or_waived",
+              "index": 3,
+              "opinion_says": "The Court itself reasons that the Nevada court's reliance on BCH's party status does not move the forum, but it does not say Defendants argued that the Nevada clause reaches the BCH claim.",
+              "problem": "The opinion does not attribute this argument to Defendants in this court; it is the Court's own analysis of the Nevada ruling recast as a rejected party position.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Counts III, IV, V, VIII and IX (BEN LP Agreement/BEN Bylaws and the Services Agreements) were dismissed. Nevada is the proper forum because the BEN Charter/Bylaws and the Second Services Agreement superseded the Delaware forum clauses. Pre-conversion advancement rights are preserved, but forum selection is neither an obligation preserved by 6 Del. C. § 17-219(g) nor a vested right. The motion to dismiss Counts I, II, VI and VII (BCG LLC Agreement and BCH LP Agreement) was denied: their Delaware forum clauses control and displace McWane, the Nevada ruling and § 6.3(c) do not alter that forum, and a stay was refused. On those counts, Plaintiff's motion for summary judgment was granted. The Indictment shows the charged conduct was \"by reason of\" his Beneficient roles, because he used his corporate powers there, and no final, non-appealable judgment triggers the carve-outs. The solvency clauses separate the obligation (entitlement) from its satisfaction (payment), and their \"to the extent\" language allows partial payment. The Court described this as an apparent issue of first impression and held that solvency will be resolved in the Fitracks process before BCG or BCH must pay, where the obligation could terminate. Defendants' conflict objection to Quinn Emanuel was rejected. Plaintiff was awarded fees on fees proportional to his success, undiminished by the possibility that BCG or BCH proves insolvent. The report does not expressly rule on Defendants' mootness and insurance-stay requests (D.I. 40). It states: \"This is a Final Report pursuant to Court of Chancery Rule 144.\"",
+        "key_facts_and_concessions": [
+          "On June 6, 2023, BEN converted from a Delaware limited partnership to a Nevada corporation. Heppner signed the Certificate of Conversion and is listed on BEN's charter. BEN Charter Art. XIII designates the Eighth Judicial District Court of Clark County, Nevada.",
+          "The Second Services Agreement (effective June 6, 2023) replaced the First Services Agreement. It changed the governing law from Delaware to Nevada and the forum from New Castle County courts to the courts of Clark County, Nevada.",
+          "The BCG LLC Agreement (§ 15.9) and the BCH LP Agreement (§ 11.10(b)-(c), alongside arbitration in Wilmington) designate the Court of Chancery. Both include non-exclusivity clauses.",
+          "BCG LLC Agreement § 7.6(l) and BCH LP Agreement § 10.02(f) provide that advancement obligations \"shall only be satisfied to the extent that\" the entity \"will remain solvent\" after payment, \"and thereafter any such obligation shall terminate.\" Solvency is determined by BCG's Managing Member, or by BCH's General Partner \"in its reasonable discretion\" (fn. 142).",
+          "The Indictment alleges that Heppner induced GWG's Special Committee to invest in Beneficient, directed Beneficient employees to send false materials to the auditor, and falsified Beneficient Board minutes. The jury convicted him on four of five counts. He awaits sentencing, so no final, non-appealable judgment exists to trigger the bad-faith/fraud carve-outs.",
+          "BCH is a party to the Second Services Agreement, but its only indemnity role there (§ 6.3(a)(ii)) is to indemnify the Provider for aircraft-related claims.",
+          "Defendants conceded that Second Services Agreement § 6.3(c) is not a jurisdictional bar and does not relieve BCG and BCH of their obligations. They sought only a stay on the theory that BCG and BCH are secondarily liable.",
+          "The Nevada court denied Heppner's motion to dismiss Beneficient's declaratory action as to BEN and BCH, but its order granted dismissal as to BCG in light of BCG's forum provision (fn. 134)."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "In advancement disputes after a conversion out of Delaware, expect the Court of Chancery to enforce amended forum clauses against pre-conversion claims; the better route to Chancery is often a separate subsidiary-level agreement whose Delaware forum clause was never amended. Companies relying on clauses that make advancement \"satisfied to the extent\" the entity remains solvent should be prepared to prove insolvency at the Fitracks stage, not to defeat entitlement, and should not expect the clause to avoid fees-on-fees exposure.",
+        "standard_of_review": "Motion to dismiss under Ct. Ch. R. 12(b)(3) (improper venue/forum selection), analyzed like Rule 12(b)(6), with the Court free to consider extrinsic evidence. Cross-motions for summary judgment decided as a stipulation for decision on the merits under Ct. Ch. R. 56(h), because neither side argued that a material fact issue existed."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403740"
+    }
+  ],
+  "ny_date": "2026-11-20"
+}
