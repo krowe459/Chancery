@@ -1482,6 +1482,13 @@
       "processed_at": "2026-11-20T14:05:50-05:00",
       "status": "ok"
     },
+    "de-403750": {
+      "court": "supreme",
+      "docket": "347, 2026",
+      "name": "Mumford v. State",
+      "processed_at": "2026-11-23T17:38:40-05:00",
+      "status": "out_of_scope"
+    },
     "de-403760": {
       "court": "superior",
       "docket": "2305013446",
@@ -1495,13 +1502,41 @@
       "name": "Corcept Therapeutics Inc. v. Optime Care, Inc., et al.",
       "processed_at": "2026-11-20T19:47:44-05:00",
       "status": "ok"
+    },
+    "de-403790": {
+      "court": "superior",
+      "docket": "K26C-08-009 JJC",
+      "name": "Motley v. Bayhealth Medical Center, Inc., et al.",
+      "processed_at": "2026-11-23T17:38:40-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403800": {
+      "court": "superior",
+      "docket": "N23C-11-106 EMD CCLD",
+      "name": "C3.AI Inc. v. Cummins, Inc.",
+      "processed_at": "2026-11-23T17:38:40-05:00",
+      "status": "ok"
+    },
+    "de-403810": {
+      "court": "chancery",
+      "docket": "C.A. No. 2026-0786-BWD",
+      "name": "Swan Practice Holdings, P.C. v. Young-Jik Lee",
+      "processed_at": "2026-11-23T17:38:40-05:00",
+      "status": "ok"
+    },
+    "de-403820": {
+      "court": "superior",
+      "docket": "S26C-06-015 RHR",
+      "name": "Christian Grace LLC v. Jennings, et al.",
+      "processed_at": "2026-11-23T17:38:40-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-20T19:47:44-05:00",
+  "last_checked_ny": "2026-11-23T17:38:40-05:00",
   "page_hashes": {
-    "chancery": "d52f4bdfd6c5149fd584e7759e5427d56a34152e41a2db5d801f2786ad74e6c2",
-    "superior": "31ce6543495b31d313083250243e972023ebf16591fc3c1b22496a2845561bee",
-    "supreme": "01b863d021037fc05990574122f32824d1d0c16ce7da972c19d680e602822b2e"
+    "chancery": "ea65e15e342faf7a67ffb6ef7dfcd5ee21e211555e310fc50e5e80de86a180ef",
+    "superior": "9b259f6a76f5d5ebe5aba93e29dcb54a87efd44b8b8b23fb8c6751eb0349d0b6",
+    "supreme": "d2f3074986c0332a747342bb1c4b6f276c34a6dc06ee195a0e0d1d0bcd77ea70"
   }
 }

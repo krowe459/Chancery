@@ -1,4 +1,321 @@
 {
-  "entries": [],
-  "ny_date": null
+  "entries": [
+    {
+      "case_id": "de-403810",
+      "court": "chancery",
+      "date": "2026-11-23",
+      "docket": "C.A. No. 2026-0786-BWD",
+      "judge": "David, Bonnie W. V.C.",
+      "name": "Swan Practice Holdings, P.C. v. Young-Jik Lee",
+      "ny_date": "2026-11-23",
+      "ny_processed_at": "2026-11-23T17:38:40-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Defendant's argument that the RBE structure presents a novel issue (\"[n]o Delaware decision holds that the buyer of one business may restrain a separate and different business the seller owned\"): rejected. The Ruling rested on well-settled restrictive-covenant principles, and the argument misdescribes the Ruling, which held the RCA restrains contracting with a competing RBE, not the practice of medicine.",
+          "Defendant's argument that interlocutory review may terminate the litigation: the factor supports review but alone is insufficient to warrant certification.",
+          "Defendant's argument that considerations of justice favor review because his inability to accept new Medicare Advantage patients through another RBE threatens his practice: a \"closer call,\" but insufficient alone given the absence of other supporting factors and Rule 42's guidance that interlocutory appeals should be exceptional.",
+          "Defendant's merits arguments that the Ruling was incorrectly decided: not relevant to the certification question, though the Court clarified three inaccuracies.",
+          "Defendant's assertion that the Court held § 3(c) pertains to patients: incorrect. The Court enjoined solicitation of business relations under § 3(c) and of Enrollees under § 4(c), and the preliminary record supports enforcing both.",
+          "Defendant's assertion that the Ruling identified no interest protected by § 4(c): incorrect. The Ruling identified Plaintiff's legitimate interest in safeguarding its investment in SMG by preventing diversion of business to a competitor.",
+          "Defendant's assertion that the Ruling reached \"final conclusion[s]\" on breach and damages: wrong. The Ruling found only likelihood of success on a preliminary record and noted that Plaintiff could still seek damages where equity declined enforcement."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Supr. Ct. R. 42(b)(i)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "First step: the order must decide a substantial issue of material importance meriting appellate review before final judgment.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(ii)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Interlocutory appeals should be exceptional, not routine; substantial benefits must outweigh the certain costs.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Supr. Ct. R. 42(b)(iii)(A)–(H)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Eight factors for balancing the costs and benefits of interlocutory appeal.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Robino-Bay Ct. Plaza, LLC v. W. Willow-Bay Ct., LLC, 941 A.2d 1019 (Del. 2007) (TABLE)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Interlocutory review is discretionary and accepted only in extraordinary circumstances; fn. 1 notes trial courts exercise the same discretion in recommending certification.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Sprint Nextel Corp. v. iPCS, Inc., 2008 WL 2861717 (Del. Ch. July 22, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A substantial issue is a main question of law relating to the merits, not collateral matters.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Danaher Corp. v. Stumpe, 2026 WL 1847226 (Del. Ch. June 26, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Enforceability of a restrictive covenant raises a substantial issue.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hub Gp., Inc. v. Knoll, 2024 WL 3950683 (Del. Ch. Aug. 27, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Enforceability of a restrictive covenant raises a substantial issue.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Fitbit, Inc. S'holder Deriv. Litig., 2019 WL 190933 (Del. Ch. Jan. 14, 2019) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "That interlocutory review may terminate the litigation is alone insufficient to warrant certification.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Hough Assocs., Inc. v. Hill, 2007 WL 148751 (Del. Ch. Jan. 17, 2007)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Quoted in the Ruling: a buyer has a legitimate interest in safeguarding its investment by preventing the seller from diverting business and \"cut[ting] out\" the buyer.",
+            "role": "background"
+          },
+          {
+            "authority": "RCA §§ 3(c), 4(a), 4(c)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "The Customer Non-Solicitation, Noncompete and Enrollee Non-Solicitation provisions enforced by the Order.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Defendant Young-Jik Lee, a selling physician-stockholder of Seoul Medical Group, sought certification of an interlocutory appeal from Vice Chancellor David's preliminary injunction order, which enforced the RCA's noncompete and non-solicitation covenants in targeted form in favor of buyer Swan Practice Holdings, P.C. The Court found the substantial-issue prong satisfied because restrictive-covenant enforceability goes to the merits. It held, however, that the Rule 42(b)(iii) balance weighed against certification: the novelty argument misdescribed a ruling grounded in settled law, and the termination and considerations-of-justice factors were each insufficient alone. The Court also rejected as irrelevant, and corrected, Defendant's characterizations of the Ruling's merits holdings.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 9
+        },
+        "core_legal_issue": "Whether, under Supreme Court Rule 42(b), the Court should certify an interlocutory appeal of a preliminary injunction order enforcing (in targeted form) the noncompete and non-solicitation covenants of a sale-of-business restrictive covenant agreement against a selling physician-stockholder, where the order decided a substantial issue but the defendant addressed only three of the eight Rule 42(b)(iii) factors.",
+        "coverage_note": "",
+        "disposition": "denied",
+        "fact_check": {
+          "checked": 17,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Application denied. The Court agreed with Defendant that the Ruling decided a substantial issue, because enforceability of the RCA's restrictive covenants goes to the merits and is not collateral. The Court nonetheless held that the costs outweigh the benefits. The novelty factor fails because the Ruling applied well-settled restrictive-covenant law, and Defendant's framing misdescribes it: the RCA bars contracting with a competing RBE, not practicing medicine. The termination factor supports review but is insufficient alone. The considerations-of-justice factor, based on harm to Defendant's practice from being unable to accept new Medicare Advantage patients through another RBE, is a closer call but insufficient alone given Rule 42's admonition that interlocutory appeals be exceptional. Defendant's remaining arguments went to the merits and were irrelevant to certification. The Court nonetheless corrected three mischaracterizations: the Ruling did not hold § 3(c) covers patients, it did identify a legitimate interest protected by § 4(c), and it made only likelihood-of-success findings, not final conclusions on breach or damages.",
+        "key_facts_and_concessions": [
+          "The October 30, 2026 Order memorialized a September 23 oral Ruling that preliminarily enjoined Defendant from contracting with Center IPA or another RBE to provide Covered Services to new patients in the Service Area (RCA § 4(a)) and from solicitation in breach of §§ 3(c) and 4(c). The Ruling declined to enforce the RCA as to Defendant's patients at the time the PPA was terminated.",
+          "The Ruling held the Noncompete does not restrain Defendant's ability to practice medicine or provide medical services; it prevents Defendant from contracting with a competing RBE.",
+          "The Ruling found Plaintiff likely to succeed on enforceability of the RCA, executed in connection with the sale of SMG, stressing that Defendant was represented by sophisticated counsel, served on SMG's board, and received tens of millions of dollars in Merger consideration.",
+          "Per the Ruling, Defendant \"does not seriously dispute\" that his conduct breached the Noncompete, the Customer Non-Solicitation Provision and the Enrollee Non-Solicitation Provision.",
+          "Defendant's Application addressed only three of the eight Rule 42(b)(iii) factors.",
+          "The Ruling found only a \"modicum\" of irreparable harm because SMG's capitation structure makes lost revenue largely calculable, so the PI turned on a balance of the equities, which supported only a targeted injunction.",
+          "After SMG purported to terminate the PPA for cause on May 29, 2026, Defendant contracted with Center IPA and directed clinic staff to advise patients to consult an insurance broker to change plans. After the TRO, Defendant's business partner Dr. Lisa Kim also contracted with Center IPA."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "An applicant seeking interlocutory review of a restrictive-covenant injunction should not rely on a showing that the order decides a substantial issue. The Court treated termination of the litigation and harm to the applicant as each insufficient alone, and noted the Application addressed only three of the eight Rule 42(b)(iii) factors. Frame any novelty argument around the order's actual holding rather than a recharacterization of it, since merits disagreements are irrelevant to certification.",
+        "standard_of_review": "Supreme Court Rule 42(b) two-step test: (i) whether the order decides a substantial issue of material importance meriting appellate review before final judgment; (ii) whether, under the eight Rule 42(b)(iii) factors, substantial benefits outweigh the certain costs of interlocutory appeal. Applications are addressed to sound discretion and granted only in extraordinary circumstances; interlocutory appeals \"should be exceptional, not routine.\""
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403810"
+    },
+    {
+      "case_id": "de-403800",
+      "court": "superior",
+      "date": "2026-11-23",
+      "docket": "N23C-11-106 EMD CCLD",
+      "judge": "Davis P.J.",
+      "name": "C3.AI Inc. v. Cummins, Inc.",
+      "ny_date": "2026-11-23",
+      "ny_processed_at": "2026-11-23T17:38:40-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Cummins' argument that the trade secrets were not identified with particularity (TS9 as \"the entire [FEOA] code,\" with the same flaw for TS1-4): rejected. Mr. Li and Dr. Madisetti walked the jury through each secret with reference to technical documents and key source-code portions.",
+          "Cummins' argument that C3 offered legally insufficient evidence that the secrets were not generally known or readily ascertainable: rejected. The testimony showed open-source components were customized, such as K-means implemented to handle \"thousands of variables\" and \"billions of rows\" and a per-cluster regression approach, that TS3-4 were built almost entirely from scratch, and that Cummins had difficulty \"replicating\" the FEOA even after reviewing the source code.",
+          "Cummins' argument that C3 proved no acquisition by improper means or code copying: rejected. C3's theory at trial was improper \"use,\" which federal courts read expansively, and the emails and Sahu testimony sufficed.",
+          "Cummins' argument that no reasonable jury could find C3 \"designed and developed solely\" the FEOA under MSSA § IV.A, given its subject-matter experts' contributions, the Trial Agreement's call for Cummins' \"proprietary know-how,\" and C3's merely writing the code: rejected. Testimony was that explaining data, providing feedback and validating results is not joint development and that C3 engineers developed each module. The Court expressed skepticism of the late-raised joint-development defense in light of Cummins' patent application.",
+          "C3's argument that no double counting occurred because the verdict form, as proposed by Cummins, required a separate amount for each trade secret: rejected. Under Bergman's 100% allocation to TS9, any additional award for TS1-4 double-counts the same injury.",
+          "C3's argument that it proved diminution in value because licensing revenue from Cummins ceased due to the misappropriation: rejected. Nothing showed any secret's value was destroyed, and lost reinvestment capacity concerns C3's business, not the secrets. Even read as lost enterprise value, the evidence did not show permanent impairment of C3's business.",
+          "C3's argument that the lost-profits evidence was sufficient because Cummins kept pursuing an AI fuel economy application after non-renewal and had one \"on hold\": rejected as to post-2023 lost profits, which rested on speculative assumptions (an undelivered working FEOA, undiscounted rates, unrelated services, renewal after the project was killed)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "18 U.S.C. § 1839(3)(B)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "A trade secret must derive value from not being generally known or readily ascertainable.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Olaplex, Inc. v. L'Oreal USA, Inc., 855 F. App'x 701 (Fed. Cir. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Trade secrets must be identified at trial with sufficient particularity.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "18 U.S.C. § 1839(5)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "Misappropriation under the DTSA includes use or disclosure without authorization.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Oakwood Labs. LLC v. Thanoo, 999 F.3d 892 (3d Cir. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Federal courts interpret DTSA \"use\" expansively.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "MSSA § IV.A (JX-1)",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "C3 owned the FEOA if it was \"designed and developed solely\" by C3.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Comet Techs. USA, Inc. v. XP Power, LLC, 181 F.4th 988 (9th Cir. 2026) (Hamilton, J., concurring)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Damages may overlap or duplicate where an individual trade secret is encompassed within a larger one.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Trinseo Europe GmbH v. Kellogg Brown & Root, L.L.C., 165 F.4th 399 (5th Cir. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Apportionment is required where a trade secret is encapsulated within a larger one.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Motorola Sols., Inc. v. Hytera Commc'ns Corp., 108 F.4th 458 (7th Cir. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Double recovery, meaning double counting of damages for the same injury, is impermissible.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "University Computing Co. v. Lykes-Youngstown Corp., 504 F.2d 518 (5th Cir. 1974)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Diminution in value is a proper measure only when the defendant has in some way destroyed the secret's value.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "US Dominion, Inc. v. Newsmax Media, Inc., 2025 WL 1092289 (Del. Super. Apr. 9, 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Lost enterprise value damages are available only when the plaintiff's business is permanently impaired.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Great Am. Opportunities, Inc. v. Cherrydale Fundraising, LLC, 2010 WL 338219 (Del. Ch. Jan. 29, 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Lost profits need not be proven with absolute precision, but mere speculation is insufficient.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Riegel v. Asstad, 272 A.2d 715 (Del. 1970)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "On remittitur the plaintiff must be given the option to remit or submit to a new trial.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Super. Ct. Civ. R. 50(b)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Renewed JMOL procedure; the Court may let the judgment stand, order a new trial or direct entry of judgment.",
+            "role": "background"
+          },
+          {
+            "authority": "LCT Capital, LLC v. NGL Energy Partners LP, 249 A.3d 77 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 50(b) standard and the movant's burden.",
+            "role": "background"
+          },
+          {
+            "authority": "Agilent Techs., Inc. v. Kirkland, 2010 WL 610725 (Del. Ch. Feb. 18, 2010); Savor, Inc. v. FMR Corp., 2004 WL 1965869 (Del. Ch. July 15, 2004); Religious Tech. Ctr. v. Netcom On-Line Commc'n Servs., Inc., 923 F. Supp. 1231 (N.D. Cal. 1995)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Elements of a trade secret: independent economic value and reasonable secrecy measures.",
+            "role": "background"
+          },
+          {
+            "authority": "BioPoint, Inc. v. Dickhaut, 110 F.4th 337 (1st Cir. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Lost profits are the plaintiff's actual loss, i.e., revenue it would have earned but for the misappropriation.",
+            "role": "background"
+          },
+          {
+            "authority": "Leonard v. Stemtech Int'l Inc, 834 F.3d 376 (3d Cir. 2016)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A court reducing an award inconsistent with the evidence must offer a new trial as a conditional alternative to protect the Seventh Amendment jury right.",
+            "role": "background"
+          },
+          {
+            "authority": "Burns v. Delaware Coca-Cola Bottling Co., 224 A.2d 255 (Del. Super. Ct. 1966)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited in support of remittitur.",
+            "role": "background"
+          },
+          {
+            "authority": "Moffitt v. Carroll, 640 A.2d 169 (Del. 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Cited with Riegel on the remit-or-new-trial option.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "After a jury in the CCLD found that Cummins misappropriated five C3.ai trade secrets under the DTSA and awarded $23,300,000, President Judge Davis decided Cummins' Rule 50(b) renewed motion for judgment as a matter of law. The Court upheld the liability findings on trade secret validity, misappropriation-by-use and FEOA ownership as supported by sufficient evidence. It found the damages award legally unsupported: separate awards for TS1-4 double-counted value that C3's own expert placed entirely in TS9, the diminution-in-value theory was really an unproven lost enterprise value theory, and post-2023 lost profits were speculative. The Court remitted the award to $1,493,032 and gave C3 30 days to say whether it elects a new trial instead.",
+        "citation_check": {
+          "not_checked": 1,
+          "not_found": 0,
+          "verified": 18
+        },
+        "core_legal_issue": "Whether, on Cummins' Civil Rule 50(b) renewed motion after a jury verdict for C3 on its DTSA misappropriation claim, (a) the record supported the jury's liability findings on trade secret validity, misappropriation and FEOA ownership under the MSSA, and (b) a legally sufficient evidentiary basis supported the $23,300,000 damages award, given separate awards for TS1-4 and for the all-encompassing TS9, a diminution-in-value theory built on lost enterprise value, and lost profits projected beyond 2023.",
+        "coverage_note": "",
+        "disposition": "granted in part and denied in part",
+        "fact_check": {
+          "checked": 18,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion denied as to DTSA liability and granted as to damages. Viewing the record in C3's favor, the testimony of Li and Madisetti and the documentary evidence sufficed for the jury's findings on particularity, not-generally-known and not-readily-ascertainable status, misappropriation by improper \"use,\" and C3's sole design and development of the FEOA under the MSSA. On damages, the Court found no legally sufficient basis for three reasons. (1) Because C3's expert allocated 100% of value to TS9 as containing all the secrets, the additional $2,000,000 awards for each of TS1-4 were an impermissible double recovery. (2) C3's diminution-in-value damages were lost enterprise value damages \"cloaked\" as diminution in value. No evidence showed any secret's value was destroyed (no public disclosure; the secrets \"still have value\"), and no evidence showed C3's business was permanently impaired. (3) Lost profits after 2023 were speculative because they assumed an FEOA C3 never delivered, ignored the $800,000 annual discount, included unrelated services such as Ex Machina, and assumed renewal after Cummins killed the project in late 2023. The Court held no reasonable jury could award more than Bergman's 2023 figure and remitted the $23,300,000 award to $1,493,032. C3 may accept the remittitur or elect a new trial, and must notify the Court within 30 days whether it wants a new trial.",
+        "key_facts_and_concessions": [
+          "The jury found Cummins misappropriated TS1 (engine clustering), TS2 (regression models), TS3 (performance simulation), TS4 (optimization) and TS9 (trial code modules), awarding $2,000,000 each for TS1-TS4 and $15,300,000 for TS9 ($23,300,000 total). It found Cummins breached the MSSA but awarded no damages.",
+          "C3's damages expert, Jim Bergman, assigned \"a hundred percent value to [TS9] because it contains all the trade secrets.\" In fn. 84 the Court states that only it and counsel are to blame for the confusing apportionment presentation and that, in hindsight, it should not have permitted the opinion.",
+          "C3 witnesses conceded Cummins never publicly disclosed any trade secret, and Bergman acknowledged the trade secrets \"still have value to C3 today.\"",
+          "Bergman's diminution-in-value figure was a calculation of lost \"enterprise value\" based on C3's inability to \"reinvest\" lost profits in its business.",
+          "Bergman's lost-profits calculation relied on Cummins' revenue projections for a working FEOA, which the record reflects C3 never delivered. It used the original MSSA Order Form rates despite an $800,000-per-year discount beginning in 2022, and included services such as Ex Machina unrelated to the FEOA.",
+          "Bergman assumed renewal of the MSSA beyond its initial four-year term, although Cummins \"kill[ed]\" the FEOA project in late 2023 after customers responded negatively. Bergman calculated $1,493,032 for 2023.",
+          "On misappropriation, C3's theory shifted from code copying (as pleaded) to improper \"use\" to accelerate Cummins' own Databricks platform. Evidence included emails describing a \"replicating\" project \"to develop a solution similar to C3.AI solution,\" an instruction to Cummins' India team to \"use most of the current code,\" and Dr. Sahu's testimony that the team used \"C3 code\" to understand functionality.",
+          "Cummins first claimed joint development after suit was filed, and its patent application for the FEOA named no C3 employee as an inventor."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Where an asserted umbrella trade secret (here, the entire application code) encompasses component secrets, a damages expert who allocates 100% of value to the umbrella secret invites remittitur of any separate component awards. Diminution-in-value requires proof the secret itself was destroyed or impaired rather than lost reinvestment capacity, and lost-profits projections must track the actual contract terms, amendments and project history rather than assuming renewal.",
+        "standard_of_review": "Super. Ct. Civ. R. 50(b): judgment as a matter of law is appropriate only if there is no legally sufficient evidentiary basis for a reasonable jury to find for the non-moving party; the Court views the evidence and draws all reasonable inferences in the non-movant's favor, and the movant bears the burden (LCT Capital, LLC v. NGL Energy Partners LP)."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403800"
+    }
+  ],
+  "ny_date": "2026-11-23"
 }
