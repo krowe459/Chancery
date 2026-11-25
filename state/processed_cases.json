@@ -1593,13 +1593,20 @@
       "name": "IBG, LLC v. Ace Software Solutions, Inc.",
       "processed_at": "2026-11-24T16:10:37-05:00",
       "status": "out_of_scope"
+    },
+    "de-403920": {
+      "court": "superior",
+      "docket": "K25A-05-001 RLG",
+      "name": "Bradford v. American Finance, LLC",
+      "processed_at": "2026-11-24T23:10:58-05:00",
+      "status": "out_of_scope"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-24T16:10:37-05:00",
+  "last_checked_ny": "2026-11-24T23:10:58-05:00",
   "page_hashes": {
     "chancery": "eef37379d0632b1c2096a16c6e630bc941d55bdeb0f148db4ec1411691f6be97",
-    "superior": "feac74e423426551dc08ffbbb421d373ef0eeb0b58b812c76498c72d6c01324e",
+    "superior": "a1212b8c3e7b194c86cf64d29e060288cb8a95a8dc5b49b268c7a8f8a4df4195",
     "supreme": "990352073cb0c73486e8af73a58ba39fb24b29510dca0d66c185fcf359d4ac5e"
   }
 }
