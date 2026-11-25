@@ -1587,6 +1587,13 @@
       "processed_at": "2026-11-24T16:10:37-05:00",
       "status": "ok"
     },
+    "de-403900": {
+      "court": "supreme",
+      "docket": "364, 2026",
+      "name": "Townsend v. State",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "out_of_scope"
+    },
     "de-403910": {
       "court": "superior",
       "docket": "N26C-04-090 CLS",
@@ -1600,13 +1607,48 @@
       "name": "Bradford v. American Finance, LLC",
       "processed_at": "2026-11-24T23:10:58-05:00",
       "status": "out_of_scope"
+    },
+    "de-403930": {
+      "court": "chancery",
+      "docket": "2025-1383-KHL",
+      "name": "Fabian Schmahl v. LFM Capital Partners III-A, L.P., et. al.",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "ok"
+    },
+    "de-403940": {
+      "court": "superior",
+      "docket": "N25C-10-238 DJB",
+      "name": "Global Tradings, LLC v. Lofton Enterprise Group, LLC, et al.",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403950": {
+      "court": "superior",
+      "docket": "2005002325A",
+      "name": "State v. Harris",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "out_of_scope"
+    },
+    "de-403960": {
+      "court": "chancery",
+      "docket": "C.A. No. 2023-0465-DG",
+      "name": "Dan Pei v. Morris Puma",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "ok"
+    },
+    "de-403970": {
+      "date": "2026-11-17",
+      "docket": "C.A. No. 2026-0615-LM",
+      "name": "Public School Teachers' Pension and Retirement Fund of Chicago v. Super Micro Computer, Inc.",
+      "processed_at": "2026-11-25T15:28:18-05:00",
+      "status": "skipped_old"
     }
   },
   "failures": {},
-  "last_checked_ny": "2026-11-24T23:10:58-05:00",
+  "last_checked_ny": "2026-11-25T15:28:18-05:00",
   "page_hashes": {
-    "chancery": "eef37379d0632b1c2096a16c6e630bc941d55bdeb0f148db4ec1411691f6be97",
-    "superior": "a1212b8c3e7b194c86cf64d29e060288cb8a95a8dc5b49b268c7a8f8a4df4195",
-    "supreme": "990352073cb0c73486e8af73a58ba39fb24b29510dca0d66c185fcf359d4ac5e"
+    "chancery": "40cdfd74bebad266198debdedf17d5b1ee5a4f629e784d0f13a3df9a124ee77d",
+    "superior": "b3393cb577b3081513520879590241d0402aa783a45fc11847b5468974cb0c1f",
+    "supreme": "a5ef8904b0b359c4c90b4a413c924b07f09841781d6f36d8842fc27484744eaf"
   }
 }
