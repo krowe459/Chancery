@@ -1,0 +1,364 @@
+{
+  "entries": [
+    {
+      "case_id": "de-403930",
+      "court": "chancery",
+      "date": "2026-11-25",
+      "docket": "2025-1383-KHL",
+      "judge": "Lachmund V.C.",
+      "name": "Fabian Schmahl v. LFM Capital Partners III-A, L.P., et. al.",
+      "ny_date": "2026-11-25",
+      "ny_processed_at": "2026-11-25T15:28:18-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Schmahl's argument that § 5.7(c) is unenforceable because he became bound by the Holding Operating Agreement under duress: rejected. By joining Accelevation subject to the Drag-Along Provision, he consented to being compelled to sell and to possibly receiving equity in a differently governed entity, and he does not allege he was forced to roll over.",
+          "Schmahl's argument that the § 5.7(a) proviso (preserving liability for gross negligence, willful misconduct or knowing violation of law) preserves fiduciary liability: rejected. The Court read § 5.7(a) as preserving only non-fiduciary personal liability, with fiduciary liability separately waived by the more specific § 5.7(c).",
+          "Schmahl's motive theory that the defendants conspired to increase their relative ownership of Holding: rejected. His stake was small, Holding paid fair market value funded by the remaining members, those members took on equity risk while he received a guaranteed payout, and the later value is not alleged to have been known or knowable.",
+          "Schmahl's theory of a multi-month scheme (direct holding instead of through YFP, the drag-along, the repurchase right and fiduciary limits, termination, and the repurchase): rejected as conclusory. Each step is an ordinary-course commercial action.",
+          "Schmahl's fiduciary claim against Rubiera and Lin as Holding officers, for whom § 5.7(c) preserves duties: fails (fn. 35). Willful misconduct is not pled, and nearly all allegations concern conduct before they became officers.",
+          "Schmahl's allegation that Rubiera and FTT were part of a control group with the LFM Members: inadequately pled, for the reasons in defendants' briefing (fn. 21), so they would owe no fiduciary duties as minority members.",
+          "Schmahl's proposed implied term barring involuntary redemption solely to increase other members' percentages: rejected. The Rollover Agreement expressly grants an unqualified repurchase right, the term is not so obvious as to go without saying, and repurchase on termination was entirely foreseeable.",
+          "Defendants' laches defense: not reached because all claims fail on other grounds (fn. 49)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Nemec v. Shrader, 991 A.2d 1120 (Del. 2010)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Disputes over obligations addressed by contract sound in contract, so fiduciary duties in exercising a contractual redemption right are defined by the contract. The implied covenant cannot contradict an express right, and a company may exercise an absolute redemption right at its most advantageous time.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Rollover Agreement §§ 4(a), 18",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Holding may repurchase rollover equity at Fair Market Value on termination other than for Cause, and employment is terminable at any time with or without cause.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Holding Operating Agreement §§ 5.7(a), 5.7(c) and Art. I (\"Related Persons\")",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "§ 5.7(c) waives fiduciary claims against Managers and their designators and affiliates; the § 5.7(a) exculpation proviso preserves only non-fiduciary personal liability for culpable conduct.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Thompson St. Cap. P'rs IV, L.P. v. Sonova U.S. Hearing Instruments, LLC, 340 A.3d 1151 (Del. 2025)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "General contract terms yield to more specific terms.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "6 Del. C. § 18-1101(c)",
+            "check": "verified",
+            "kind": "statute",
+            "proposition": "An LLC agreement's waiver cannot eliminate liability for breach of the implied covenant.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nemec v. Shrader, 2009 WL 1204346 (Del. Ch. Apr. 30, 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Negotiated put and call rights are meant to be exercised when most advantageous to the party invoking them.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Johnson & Johnson v. Fortis Advisors LLC, 352 A.3d 229 (Del. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant is a limited gap-filler for unforeseen circumstances and cannot rewrite or contradict express terms.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Dunlap v. State Farm Fire & Cas. Co., 878 A.2d 434 (Del. 2005)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An implied covenant claim cannot rest on conduct the agreement authorizes.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "BV Advisory P'rs, LLC v. Quantum Computing Inc., 2024 WL 2723119 (Del. Ch. May 28, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Conclusory allegations of conspiracy are regularly rejected, even under notice pleading.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Arnold v. Soc'y for Savings Bancorp, Inc., 650 A.2d 1270 (Del. 1994)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A fiduciary claim against an officer fails where no specific actions taken as an officer are identified.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "In re Hennessy Cap. Acq. Corp. IV S'holder Litig., 318 A.3d 306 (Del. Ch. 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Aiding and abetting cannot survive without an underlying fiduciary breach.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Kuroda v. SPJS Hldgs., L.L.C., 971 A.2d 872 (Del. Ch. 2009)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Civil conspiracy is not independent and requires an underlying wrong.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Nelson v. JAED Corp., 2013 WL 1092200 (Del. Super. Jan. 23, 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A fiduciary claim over an employer's contractual repurchase of a terminated employee's shares was dismissed because the duties were contractual.",
+            "role": "background"
+          },
+          {
+            "authority": "New Enter. Assocs. 14, L.P. v. Rich, 295 A.3d 520 (Del. Ch. 2023)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "A breach of contract claim occupies the field and preempts overlapping fiduciary claims; cited also as an example of a drag-along exercise.",
+            "role": "background"
+          },
+          {
+            "authority": "Glaxo Gp. Ltd. v. DRIT LP, 248 A.3d 911 (Del. 2021)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant cannot be invoked when the contract addresses the conduct.",
+            "role": "background"
+          },
+          {
+            "authority": "Fisk Ventures, LLC v. Segal, 2008 WL 1961156 (Del. Ch. May 7, 2008)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant cannot be invoked where the contract expressly covers the subject.",
+            "role": "background"
+          },
+          {
+            "authority": "Moscowitz v. Theory Entm't LLC, 2020 WL 6304899 (Del. Ch. Oct. 28, 2020)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An implied covenant challenge to a repurchase of a former manager's equity was dismissed.",
+            "role": "background"
+          },
+          {
+            "authority": "MERA USA, LLC v. MCS Burbank, LLC, 2026 WL 2547077 (Del. Ch. Aug. 28, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant cannot vary an unqualified right to terminate and trigger a repurchase.",
+            "role": "background"
+          },
+          {
+            "authority": "Facilities Hldgs., LLC v. ASM Glob. Parent, LLC, 2026 WL 1815842 (Del. Ch. June 24, 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An implied term must be so obvious as to go without saying or be necessary for business efficacy.",
+            "role": "background"
+          },
+          {
+            "authority": "Miller v. HCP & Co., 2018 WL 656378 (Del. Ch. Feb. 1, 2018)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The question is whether the parties would have agreed to proscribe the challenged act had they negotiated it.",
+            "role": "background"
+          },
+          {
+            "authority": "Guilbeau v. Footprint Int'l Holdco, Inc., 358 A.3d 248 (Del. Ch. 2026)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "An implied covenant breach requires malicious exercise of rights without justification rationally related to the contract's purpose.",
+            "role": "background"
+          },
+          {
+            "authority": "In re Alloy, Inc., 2011 WL 4863716 (Del. Ch. Oct. 13, 2011); Kahn v. Stern, 2017 WL 3701611 (Del. Ch. Aug. 28, 2017)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Management rollovers have legitimate, non-bad-faith explanations.",
+            "role": "background"
+          },
+          {
+            "authority": "Manti Hldgs., LLC v. Authentix Acq. Co., 261 A.3d 1199 (Del. 2021); Mudrick Cap. Mgmt. L.P. v. QuarterNorth Energy Inc., 2024 WL 807137 (Del. Ch. Feb. 26, 2024)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Drag-along provisions are common and routinely exercised.",
+            "role": "background"
+          },
+          {
+            "authority": "Metro Storage Int'l LLC v. Harron, 275 A.3d 810 (Del. Ch. 2022); MERA USA, LLC v. MCS Burbank, LLC, 2026 WL 1894905 (Del. Ch. June 15, 2026) (ORDER)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Examples of repurchases of equity following termination.",
+            "role": "background"
+          },
+          {
+            "authority": "Gerber v. Enter. Prods. Hldgs., LLC, 67 A.3d 400 (Del. 2013)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "The implied covenant does not apply to non-parties to a contract.",
+            "role": "background"
+          },
+          {
+            "authority": "Cent. Mortg. Co. v. Morgan Stanley Mortg. Cap. Hldgs. LLC, 27 A.3d 531 (Del. 2011); Price v. E.I. du Pont de Nemours & Co., 26 A.3d 162 (Del. 2011)",
+            "check": "verified",
+            "kind": "case",
+            "proposition": "Rule 12(b)(6) pleading standard.",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "Fabian Schmahl, a former Accelevation COO who was dragged into LFM's acquisition, rolled over equity into Holding and had those units repurchased at fair market value after his termination, sued LFM entities, Holding's managers, Rubiera, McKenrick and FTT after Accelevation's later $450 million-plus sale; defendants moved to dismiss under Rule 12(b)(6). Vice Chancellor Lachmund held that, because Schmahl concedes contractual compliance, Nemec makes the contracts control, and the Holding Operating Agreement's fiduciary waiver independently bars the fiduciary claim. In any event, the alleged scheme is a conclusory relabeling of ordinary-course drag-along, rollover and repurchase steps. The implied covenant claim fails because the express repurchase right leaves no gap, and the derivative aiding-and-abetting and conspiracy claims fall with the underlying claims.",
+        "citation_check": {
+          "not_checked": 2,
+          "not_found": 0,
+          "verified": 24
+        },
+        "core_legal_issue": "Whether a minority member who concedes that the drag-along sale of his Accelevation units and Holding's later repurchase of his rollover units at fair market value after his termination complied with the Drag-Along Provision and the Rollover Agreement can state claims for breach of fiduciary duty, aiding and abetting, breach of the implied covenant, or civil conspiracy by recasting those contractual steps as a bad-faith scheme to strip him of his equity.",
+        "coverage_note": "",
+        "disposition": "granted",
+        "fact_check": {
+          "checked": 19,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Motion to dismiss granted; the amended complaint is dismissed with prejudice. Count I (fiduciary duty) fails on three independent grounds. First, under Nemec the Rollover Agreement defines Holding's redemption right and preempts fiduciary claims based on its exercise. Second, § 5.7(c) of the Holding Operating Agreement waives fiduciary claims against the managers' Related Persons, which reach the LFM Members, FTT and Rubiera. Schmahl's duress challenge fails because he joined Accelevation subject to the Drag-Along Provision, and the § 5.7(a) proviso preserves only non-fiduciary liability. Third, even if fiduciary liability survived, no culpable misconduct is reasonably conceivable: the alleged conspiracy is conclusory, lacks plausible motive given his small stake and the fair-value price, and consists of ordinary-course steps. Any officer-capacity claim against Rubiera and Lin fails for the same reasons and because no officer-capacity acts are pled. Count II (aiding and abetting) falls with Count I. Count III (implied covenant) fails because the Rollover Agreement's unqualified repurchase right leaves no gap, and the proposed term was neither obvious nor something Holding would have agreed to. Fn. 37 notes the claim lies only against Holding and its members as counterparties, an issue the Court did not dwell on. Count IV (civil conspiracy) fails for lack of an underlying wrong. Laches was not reached.",
+        "key_facts_and_concessions": [
+          "Schmahl concedes the drag-along sale of his Accelevation units and the repurchase of his Holding units complied with the Drag-Along Provision and the Rollover Agreement, respectively.",
+          "Rollover Agreement § 4(a) gave Holding \"the right, but not the obligation\" to repurchase the Rollover Equity at Fair Market Value if Schmahl's employment was terminated \"for any reason other than for Cause\"; § 18 provided that his employment could be terminated at any time, with or without cause.",
+          "Holding Operating Agreement § 5.7(c) waives members' fiduciary claims against each Manager and its \"Related Persons,\" defined to include the Person that designated the Manager and its Affiliates. The LFM Members designated four managers, Rubiera and FTT (with other non-LFM members) designated McKenrick, and Rubiera was himself a manager. Schmahl's answering brief did not dispute that the waiver reaches the Count I defendants.",
+          "Schmahl does not allege that Holding failed to pay fair market value as of the repurchase date; the Court states that he concedes Holding paid fair market value.",
+          "Schmahl bought 136.5 Accelevation units (5.61%) on July 16, 2022. Fn. 23 notes that he knew of the anticipated LFM sale when he invested, so the only reasonable inference is that he understood he would be dragged. Rubiera and FTT gave drag-along notice the next day.",
+          "Schmahl was terminated about three weeks after the August 9, 2022 closing, and Holding repurchased his units on November 30, 2022; the amended complaint does not allege that he contested the repurchase at the time.",
+          "The LFM Members, Rubiera and FTT collectively owned more than 85% of Holding; Schmahl's small stake meant a buyout would only slightly raise the other members' relative ownership.",
+          "Accelevation was sold in late 2024 for more than $450 million, when Schmahl's interest would have been worth about $15 million. Schmahl sued on November 26, 2025, and does not allege that the later value was known or knowable at the time of the repurchase."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "An investor joining an LLC with drag-along rights should negotiate any limits on post-termination repurchase rights or fiduciary waivers before signing, because the Court enforced an unqualified fair-market-value repurchase right and will not supply such limits through fiduciary or implied-covenant theories. Plaintiffs attacking such a repurchase need particularized facts of a plausible motive, below-fair-value pricing, or value known or knowable at the time, not a recharacterization of routine contractual steps as a conspiracy.",
+        "standard_of_review": "Ct. Ch. R. 12(b)(6): well-pled allegations accepted as true and reasonable inferences drawn for plaintiff, but not conclusory allegations or unreasonable inferences; dismissal only if plaintiff could not recover under any reasonably conceivable set of circumstances."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403930"
+    },
+    {
+      "case_id": "de-403960",
+      "court": "chancery",
+      "date": "2026-11-25",
+      "docket": "C.A. No. 2023-0465-DG",
+      "judge": "Gibbs M.",
+      "name": "Dan Pei v. Morris Puma",
+      "ny_date": "2026-11-25",
+      "ny_processed_at": "2026-11-25T15:28:18-05:00",
+      "opinion_type": "Civil",
+      "summary": {
+        "arguments_rejected_or_waived": [
+          "Petitioner's argument at oral argument that there was no express prohibition on soliciting investors, so the Vertex conduct could not support a breach of contract or fiduciary duty claim: waived because not raised in her briefs (fn. 2).",
+          "Respondent's argument that Petitioner's responses to Requests 10, 14 and 20 were evasive: rejected. Words like \"refuse,\" \"prevented\" and \"never\" carry connotations Petitioner may reject, Petitioner need not accept the motivation Respondent attributed to her, and \"[t]he problem is with the Request.\"",
+          "Respondent's argument that the response to Request 15 was unclear and contradictory: rejected. The Court read the request as Petitioner did, and the request itself was ambiguous.",
+          "Respondent's argument that Petitioner's supplemental response to Request 18 was evasive, nonsensical and contradictory: rejected. It gives more information than the first response, and the parties may draw different conclusions from the admitted facts for the Court to resolve.",
+          "Respondent's argument that Petitioner's original and revised responses to Request 26 were evasive and should not stand: rejected. The original response was consistent with a hazy memory, and the revised response, though materially different, is not evasive; Respondent appeared not to have sought supplementation in any event.",
+          "Petitioner's objection to the premise of Interrogatory 17: rejected. An interrogatory may properly ask a party to identify produced documents by Bates number.",
+          "Petitioner's position that Respondent already has some of the records sought by Interrogatory 45: rejected as not removing her obligation to identify her produced documents by Bates number.",
+          "Respondent's argument that the Vertex documents were relevant to his counterclaims: rejected as to the requests as framed, which seek \"all\" documents and are overbroad.",
+          "Respondent's arguments that there must be more documents, or that Petitioner had not certified that \"all\" documents were produced (RFP 1, 5, 6, 11, 12, 14, 33, 34, 35): rejected. Petitioner's representations were sufficient, phone communications generate no records, and Respondent did not show withholding.",
+          "Respondent's arguments that the subscription agreements were \"required to be maintained\" (RFP 10) and that Petitioner's current address was discoverable (RFP 43): rejected. The first does not rebut a representation of full production, and the second was not shown to be relevant under Rule 26(b)(1)."
+        ],
+        "authorities_cited": [
+          {
+            "authority": "Ct. Ch. R. 26(b)(1)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Discovery extends to non-privileged matter relevant to any party's claim or defense and proportional to the needs of the case; applied to find the Vertex requests overbroad and the current-address request irrelevant.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 33(d)",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Supports requiring Petitioner to answer Interrogatory 22(a) by identifying produced documents by Bates number.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Ct. Ch. R. 88",
+            "check": "verified",
+            "kind": "rule",
+            "proposition": "Respondent may submit an affidavit of fees and costs so the Court can consider a partial award on the motion.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Waiver of arguments not raised in briefing",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "An argument first raised at oral argument and not in the briefs is waived (fn. 2).",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Unjust enrichment (benefit element)",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "Used to illustrate that Respondent may seek records tied to a claim element such as \"benefit,\" but a request for \"all fund documents\" is overbroad.",
+            "role": "relied_on"
+          },
+          {
+            "authority": "Operating Agreement § 6.2",
+            "check": "not_checked",
+            "kind": "other",
+            "proposition": "Subject of Request 28 on unpaid salaries; the parties dispute its interpretation.",
+            "role": "background"
+          },
+          {
+            "authority": "Spoliation / negative inference",
+            "check": "not_checked",
+            "kind": "doctrine",
+            "proposition": "Noted as avenues Respondent may consider instead of pressing for documents Petitioner has not found (RFP 6, 10).",
+            "role": "background"
+          }
+        ],
+        "brief_summary": "In Petitioner Dan Pei's action for declaratory judgment, specific performance and an accounting, in which Respondent Morris Puma has asserted counterclaims, Respondent moved to compel fuller responses to requests for admission and interrogatories and further document production. The Magistrate in Chancery denied all requested RFA supplementation as targeting argumentative or ambiguous requests, but required that any revised responses Petitioner proffered at argument be formally served, and barred Respondent from moving to compel different responses if they are. The Court ordered Bates-number identification for several interrogatories, precluded reliance on later-found documents because the discovery cutoff has passed, required overbroad \"all documents\" requests to be narrowed, and accepted Petitioner's representations of full production elsewhere. The Court invited a Rule 88 fee affidavit for a possible partial fee award; the order is not a final report, and exceptions are stayed.",
+        "citation_check": {
+          "not_checked": 4,
+          "not_found": 0,
+          "verified": 3
+        },
+        "core_legal_issue": "Whether Respondent's motion to compel should require Petitioner to supplement disputed responses to requests for admission, supplement interrogatory responses (including identifying produced documents by Bates number), and produce more documents, where Petitioner represented she had produced all non-privileged responsive documents and Respondent's admission requests used characterizations Petitioner rejected.",
+        "coverage_note": "",
+        "disposition": "recommended: granted in part and denied in part",
+        "fact_check": {
+          "checked": 21,
+          "coverage": "full",
+          "dropped_unconfirmed": 0,
+          "dropped_vague": 0,
+          "flags": [
+            {
+              "assertion": "the Court found them materially different from her earlier responses",
+              "evidence": "Request 20: \"This response differs in a material way.\" Request 26: \"The new response is materially different.\" Request 28: \"The new response relies on an interpretation of the Operating Agreement that Respondent disputes.\"",
+              "field": "key_facts_and_concessions",
+              "index": 1,
+              "opinion_says": "The Court called the new responses to Requests 20 and 26 materially different, but for Request 28 it only noted the new response relies on a disputed interpretation and a change in position.",
+              "problem": "The Court made no finding that the new Request 28 response was materially different from the earlier one.",
+              "verdict": "unsupported"
+            }
+          ],
+          "model": "claude-sonnet-5-5",
+          "unchecked": 0
+        },
+        "holding": "Respondent's motion recommended granted in part and denied in part; the order states \"This is not a final report. Exceptions are stayed.\" Requests for admission: supplementation denied for all disputed requests because they were argumentative or ambiguous. As to Requests 20, 26 and 28, if Petitioner wishes to stand on the new responses she proffered at argument, she must formally serve them as supplemental responses. If she does, Respondent may not move to compel different responses but may explore the changes at her deposition and oppose her positions at trial. Interrogatories: Petitioner must supplement 9(a), because it seeks information rather than documents, and 17. She must identify produced documents by Bates number for 22(a), 40 and 45(a)-(d), (f), (h), and for 40 must identify persons with knowledge or state she knows of none. Because the discovery cutoff has passed, she may not rely on any additional responsive documents she later uncovers on the subjects of 22(a), 40 and 45. Supplementation is denied for 19(a), (b), (d), which are improper document requests framed as interrogatories, and for 22(b)-(d). Documents: the Vertex requests (RFP 25, 30, 31, 39-41) are overbroad, and Respondent must narrow them (e.g., to records that \"constitute\" or are \"sufficient to show\" a claim element) if he still seeks them. No further production is ordered on the remaining RFPs, given Petitioner's representations of full production and Respondent's failure to show withholding. As to RFP 16, Petitioner must confirm within 7 days whether written communications with Bryson Dawson about the Performance Report exist and, if so, whether they were produced or the grounds for withholding them. Fees: finding that Petitioner's actions were at times inconsistent or unreliable, though not all inefficiency is attributable to her, the Court will consider awarding reasonable fees and costs. Respondent may submit a Rule 88 affidavit, and the Court will compare its rulings with Respondent's time entries to decide whether Petitioner's actions or positions caused otherwise unnecessary fees.",
+        "key_facts_and_concessions": [
+          "The six disputed requests for admission used characterizations (e.g., \"refused,\" \"prevented,\" \"never\") or ambiguous phrasing; the Court found them \"inappropriately argumentative,\" and Request 15 ambiguous.",
+          "At oral argument Petitioner proffered new responses to Requests 20, 26 and 28 on a demonstrative exhibit; the Court found them materially different from her earlier responses.",
+          "The discovery cutoff has passed, which the Court relied on to bar Petitioner from relying on later-found documents responsive to Interrogatories 22(a), 40 and 45.",
+          "Petitioner refused on relevance grounds to produce any Vertex documents sought by RFP 25, 30, 31 and 39-41; Respondent's counterclaims rest on theories of misappropriation and starting competing hedge funds.",
+          "For most disputed RFPs, Petitioner represented she had produced all non-privileged responsive documents in her possession, custody or control and knew of no others, and explained that many communications (e.g., with E*TRADE, Ms. Hou and Spicer Jeffries) took place by phone.",
+          "For RFP 6, Respondent represented at argument that he had restored Petitioner's emails and that they exist.",
+          "Respondent conceded he does not know whether the single \"brief conversation or reference to this lawsuit\" with Yanjun Yang that Petitioner identified was in writing (RFP 24).",
+          "The parties agreed to defer their dispute over RFP 46 and 47 (law firm retention documents) (fn. 1), and appear to have resolved RFP 32 after Petitioner gave the Bates number of a bank statement."
+        ],
+        "model": "claude-opus-5-5",
+        "practical_takeaway": "Draft requests for admission as neutral factual statements rather than loaded characterizations such as \"refused,\" \"prevented\" or \"never,\" and narrow \"all documents\" requests to records \"sufficient to show\" a specific claim element, or expect no compelled relief. Responding parties should identify produced documents by Bates number in interrogatory answers and brief every argument, since post-cutoff documents may be precluded and points first raised at oral argument are waived.",
+        "standard_of_review": "Ct. Ch. R. 26(b)(1): discovery of any non-privileged matter relevant to any party's claim or defense and proportional to the needs of the case. For requests for admission, the Court applied the principle that a litigant must admit facts that are true, not an opponent's characterization of facts or arguments."
+      },
+      "url": "https://courts.delaware.gov/opinions/download.aspx?id=403960"
+    }
+  ],
+  "ny_date": "2026-11-25"
+}
